@@ -1,0 +1,8 @@
+.sitemap-block ul,
+.sitemap-block ul li ul { display:block !important; position:static !important; clear:both !important; float: none !important; }
+.sitemap-block ul li,.sitemap-block ul li ul li { display:block !important; position:static !important; clear:both !important; float:none !important;}
+.sitemap-block ul  { border: none; box-shadow: none; position: static;}
+.sitemap-block a {color:black;}
+.sitemap-block a:hover {color:grey!important; background-color: transparent!important;}
+.sitemap-block li li {margin-left: 1em;}
+.sitemap-block .caret {display: none;} 

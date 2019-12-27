@@ -1,0 +1,59 @@
+@media screen and (max-width: 1049px){
+    .view-about-us-block { padding: 3%; }
+    .view-about-us-block h2 a { color: white; text-align: center; display: block; margin-bottom: 1%; }
+    .view-about-us-block h2 a:hover { color: grey; }
+    .view-about-us-block article { color: white; text-align: center;}
+}
+
+@media screen and (min-width: 1050px){
+    .view-about-us-block { padding: 1em; }
+    .view-about-us-block h2 a { color: white; text-align: center; display: block; margin-bottom: 1%; }
+    .view-about-us-block h2 a:hover { color: grey; }
+    .view-about-us-block article { color: white; text-align: center; max-width: 1500px; margin: auto; padding-left: 5%; padding-right: 5%; }
+}
+
+@media screen and (max-width:1199px){
+	.about-us-column-2 {display:none;}
+}
+.view-about-us .view-header{ padding: 3em 0em 3em 0em}
+.view-about-us .view-header h2 a{color:#707070; font-size:1.5em; text-decoration: underline;}
+.view-about-us .view-header h2 a:hover{color:black;}
+
+.view-about-us .view-content .views-field-title h2 a{color:#707070;}
+
+.path-frontpage .view-about-us .az-section.az-element,
+.path-frontpage .view-about-us .az-section.az-element .az-element.az-row,
+.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(2),
+.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(2) .az-image{
+  position: static !important;
+}
+
+.path-frontpage .view-about-us .az-section.az-element .az-element.az-row{
+	margin:0;
+}
+
+.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(2){
+  position: absolute !important;
+  right:0;
+  width:50%;
+}
+
+.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(1){
+  width:95%;
+}
+
+.path-frontpage .view-about-us{
+	background:#fff;
+	width:80%;
+}
+
+.path-frontpage .view-about-us .views-row{
+  background: #fff;
+  width:75%;
+}
+
+.path-frontpage .view-about-us .views-field-uid a{
+  color:#83775b;
+}
+.path-frontpage .view-about-us .views-field-uid a:before{
+} 
