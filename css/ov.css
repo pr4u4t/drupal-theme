@@ -662,7 +662,7 @@ article .view-content {
   border: none;
   background-color: #403b33;
   text-align: center;
-  color: white !important;
+  color: #fff !important;
 }
 
 .view-contact-block .webform-wrapper-text-field {
@@ -676,7 +676,7 @@ article .view-content {
 
 .view-contact-block .webform-element-text-field {
   border: none !important;
-  color: white !important;
+  color: #fff !important;
 }
 
 .view-contact-block .webform-submit-button {
@@ -695,7 +695,7 @@ article .view-content {
 .view-contact-block .webform-submit-button:hover {
   background-color: grey;
   border-color: #b19562;
-  color: black;
+  color: #000;
 }
 
 footer {
@@ -1138,7 +1138,6 @@ footer .company-details-view .field--name-body p:nth-child(3):before {
   box-shadow: none !important;
 }
 
-/*.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul { position: absolute; top: 80px; padding:3em; }*/
 .body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li ul {
   display: flex !important;
   padding: initial;

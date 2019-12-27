@@ -1,10 +1,43 @@
-.view-contact-block h2 {margin: 3em 0em 2em 0em}
-.view-contact-block .webform-element-text-area{border: none;background-color:#403b33;text-align: center;color:white!important;}
+.view-contact-block h2 {margin: 3em 0em 2em 0em; }
+.view-contact-block .webform-element-text-area{
+    border: none;
+    background-color: #403b33;
+    text-align: center;
+    color: #fff !important;
+}
+
 .view-contact-block .webform-wrapper-text-area{}
 
-.view-contact-block .webform-wrapper-text-field{border-bottom:#968159;border-bottom-style:none;border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-style:solid;margin-bottom:2em;}
-.view-contact-block .webform-element-text-field{border:none!important;color:white!important;}
+.view-contact-block .webform-wrapper-text-field{
+    border-bottom: #968159;
+    border-bottom-style: none;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-style: solid;
+    margin-bottom:2em;
+}
 
-.view-contact-block .webform-submit-button{margin:2em 0em 2em 2em!important;padding:1em;width:15%;float:right;border-width:1px;border:groove;color:#cdcdcd;border-color:#b19562;background-color:#333333;border-radius:0;}
-.view-contact-block .webform-submit-button:hover{background-color: grey;border-color:#b19562;color:black;}
+.view-contact-block .webform-element-text-field{
+    border: none !important;
+    color: #fff !important;
+}
+
+.view-contact-block .webform-submit-button{
+    margin:2em 0em 2em 2em !important;
+    padding:1em;
+    width:15%;
+    float: right;
+    border-width:1px;
+    border: groove;
+    color: #cdcdcd;
+    border-color: #b19562;
+    background-color: #333333;
+    border-radius:0;
+}
+
+.view-contact-block .webform-submit-button:hover{
+    background-color: grey;
+    border-color: #b19562;
+    color: #000;
+}
  
