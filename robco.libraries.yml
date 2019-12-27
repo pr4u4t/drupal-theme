@@ -1,0 +1,14 @@
+global-styling:
+  css:
+    theme:
+      css/glazed_subtheme.css: { minified: true }
+      css/glazed.css: { minified: true }
+      css/ov.css: { minified: true }
+      css/fontawesome.css: { minified:true }
+global-scripts:
+  js:
+    js/ov.js: { }
+  
+  dependencies:
+    - core/jquery
+    - core/jquery.once
