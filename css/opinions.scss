@@ -1,6 +1,6 @@
  /*-------------------------------------- opinions responsive -------------------------------------------------------------*/
 
-.opinions-block .view-header {
+ .opinions-block .view-header {
 	font-size:2em;
 	margin:2em 40% 3em 40%;
 	text-align:center; 
@@ -23,10 +23,14 @@
 .opinions-block .opinions h2 { display: none; }
 
 .opinions-block .opinions .img-responsive{
-	margin-top:-6.2em;
+  margin-left:33%;
+  margin-right:33%;
+  margin-top:-6.2em;
 	margin-bottom:3.1em;
 	border-radius: 100%;
+  
 }
+
 
 @media screen and (max-width:768px){
   .opinions-block .views-col{ width: 100%!important; }  
@@ -66,10 +70,6 @@
   margin-top:20%;
 }
 
-.path-frontpage .opinions-block .jcarousel-wrapper article img{
-  margin-left:33%;
-}
-
 @media screen and (max-width:360px){
   .path-frontpage .opinions-block .jcarousel-wrapper{
     height:60em;
@@ -81,25 +81,25 @@
 
 @media screen and (min-width:361px) and (max-width:480px){
   .path-frontpage .opinions-block .jcarousel-wrapper{
-    height:60em;
+    height:45em;
   }
   .path-frontpage .opinions-block .jcarousel-wrapper li article{
-    width:62vw;
+    width:74vw;
   }
 }
 
 @media screen and (min-width:481px) and (max-width:640px){
   .path-frontpage .opinions-block .jcarousel-wrapper{
-    height:35em;
+    height:32em;
   }
   .path-frontpage .opinions-block .jcarousel-wrapper li article{
-    width:63vw;
+    width:80vw;
   }
 }
 
 @media screen and (min-width:641px) and (max-width:1024px){
   .path-frontpage .opinions-block .jcarousel-wrapper{
-    height:48em;
+    height:47em;
     width:87vw;
     position: relative;
     left:-1vw;
@@ -120,11 +120,11 @@
 @media screen and (min-width:1025px) and (max-width:1151px){
   .path-frontpage .opinions-block .jcarousel-wrapper{
     width:87vw;
-    height:48em;
+    height:36em;
   }
 
   .path-frontpage .opinions-block .jcarousel-wrapper li article{
-    width:25.2vw;
+    width:40vw;
     margin-right: 0.3vw;
     position: relative;
     left:-1vw;
@@ -204,4 +204,17 @@
     max-width:23em;
   }
 }
+@media screen and (min-width:1921px){
+    .path-frontpage .opinions-block .jcarousel-wrapper{
+    width:77vw;
+    height:48em;
+  }
 
+  .path-frontpage .opinions-block .jcarousel-wrapper li article{
+    width:22.5vw;
+    margin-right: 0.8vw;
+    position: relative;
+    left:-0.8vw;
+    max-width:23em;
+  }
+}
