@@ -2470,8 +2470,12 @@ article .view-content {
   width: 30%;
 }
 
-.company-details-view {
+footer .company-details-view {
   float: right;
+  width: 18em;
+}
+
+.company-details-view {
   width: 18em;
 }
 
