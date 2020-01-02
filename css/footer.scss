@@ -34,20 +34,7 @@ footer{margin-top:1em;}
     .footer-menu a:hover { color: grey !important; background: transparent !important; }
 }
 
-@media screen and (min-width:769px) and (max-width:960px){
-  .footer-social-links-column { width:64% !important; margin-top:2em; }
-  .footer-links-column,.footer-company-details-column {
-    width:50%;
-  }
+.footer-social-links-column { margin:0em 0em 4em 2em; }  
 
-  .footer-links-column{
-    text-align:right;
-  }
-
-  .footer .footer-social-links {
-  	width: 25%;
-	margin: auto;
-  }
-}
 .icons-column .az-icon {margin-left:3em;margin-bottom:1em}
 .icons-column {margin-top:0.8em;}
