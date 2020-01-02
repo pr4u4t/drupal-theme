@@ -68,10 +68,7 @@ html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .region.regio
     padding-right: initial !important;
   }
 
-  [role=main].main-container p:first-letter {
-    margin-left: 2em;
-  }
-
+  /*[role=main].main-container p:first-letter { margin-left: 2em; }*/
   body.path-frontpage [role=main].main-container p:first-letter {
     margin-left: initial !important;
   }
