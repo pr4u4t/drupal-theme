@@ -14,9 +14,9 @@ footer{margin-top:1em;}
 .glazed-footer article h2 { display: none; }
 #block-footer-2 li { display:block; }
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:transparent !important; color: #cccccc; } 
-.footer-social-links-column { margin:0em 0em 4em 2em; }  
+.footer-social-links-column { padding:0em 0em 4em 4em; }  
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .footer-container { background: #21252a; margin-bottom: 0px !important; padding-bottom: 30px !important; display: flex; justify-content: center; }
     .footer-robco > div > div > div:nth-child(1) { width:100%; margin:auto; margin-bottom: 0px; padding: 5px 0px; display: flex; 
         justify-content: center !important;
