@@ -885,7 +885,7 @@ article .view-content {
   }
 }
 .view-contact-block h2 {
-  margin: 3em 0em 2em 0em;
+  margin: 2em 0em 2em 0em;
 }
 
 .view-contact-block .webform-element-text-area {
@@ -912,6 +912,7 @@ article .view-content {
 .view-contact-block .webform-submit-button {
   margin: 2em 0em 2em 2em !important;
   padding: 1em;
+  min-width: 6em;
   width: 15%;
   float: right;
   border-width: 1px;
@@ -2515,4 +2516,12 @@ article .view-content {
   position: relative;
   float: left;
   padding: 0.8em 0em 0em 0.1em;
+}
+
+.drag-and-drop-page .company-details-view .legal-requirements h2:nth-child(1) {
+  margin: 2em 0em 2em 0em;
+}
+
+.drag-and-drop-page .view-contact-block article {
+  margin-left: 1em;
 }

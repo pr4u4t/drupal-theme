@@ -1,4 +1,4 @@
-.view-contact-block h2 {margin: 3em 0em 2em 0em; }
+.view-contact-block h2 {margin: 2em 0em 2em 0em; }
 .view-contact-block .webform-element-text-area{
     border: none;
     background-color: #403b33;
@@ -25,6 +25,7 @@
 .view-contact-block .webform-submit-button{
     margin:2em 0em 2em 2em !important;
     padding:1em;
+    min-width: 6em;
     width:15%;
     float: right;
     border-width:1px;
