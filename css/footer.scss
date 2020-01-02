@@ -14,7 +14,7 @@ footer{margin-top:1em;}
 .glazed-footer article h2 { display: none; }
 #block-footer-2 li { display:block; }
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:transparent !important; color: #cccccc; } 
-.footer-social-links-column { padding:0em 0em 4em 4em; }  
+.footer-social-links-column { padding:0em 0em 2em 4em!important; }  
 
 @media screen and (max-width: 992px){
     .footer-container { background: #21252a; margin-bottom: 0px !important; padding-bottom: 30px !important; display: flex; justify-content: center; }
@@ -27,7 +27,7 @@ footer{margin-top:1em;}
     }
     .stbe-social-links { display: flex; justify-content: center; }
     .footer-styl .menu--footer-menu { text-align: center !important; margin: auto !important; }
-    .footer-container .field--item { text-align: center !important; margin: auto !important; }
+    .footer-container .field--item { text-align: justify !important; margin: auto !important; }
 }
 
 @media screen and ( max-width: 1200px ){

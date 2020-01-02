@@ -1004,7 +1004,7 @@ footer {
 }
 
 .footer-social-links-column {
-  padding: 0em 0em 4em 4em;
+  padding: 0em 0em 2em 4em !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -1045,7 +1045,7 @@ footer {
   }
 
   .footer-container .field--item {
-    text-align: center !important;
+    text-align: justify !important;
     margin: auto !important;
   }
 }
