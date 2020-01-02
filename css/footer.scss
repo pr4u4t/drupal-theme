@@ -14,6 +14,7 @@ footer{margin-top:1em;}
 .glazed-footer article h2 { display: none; }
 #block-footer-2 li { display:block; }
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:transparent !important; color: #cccccc; } 
+.footer-social-links-column { margin:0em 0em 4em 2em; }  
 
 @media screen and (max-width: 768px){
     .footer-container { background: #21252a; margin-bottom: 0px !important; padding-bottom: 30px !important; display: flex; justify-content: center; }
@@ -33,8 +34,6 @@ footer{margin-top:1em;}
     .footer-menu a, #footer-menu a:link, #footer-menu a:active, #footer-menu a:visited { color:#fff !important; background: transparent !important; }
     .footer-menu a:hover { color: grey !important; background: transparent !important; }
 }
-
-.footer-social-links-column { margin:0em 0em 4em 2em; }  
 
 .icons-column .az-icon {margin-left:3em;margin-bottom:1em}
 .icons-column {margin-top:0.8em;}

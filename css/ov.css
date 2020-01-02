@@ -1003,6 +1003,10 @@ footer {
   color: #cccccc;
 }
 
+.footer-social-links-column {
+  margin: 0em 0em 4em 2em;
+}
+
 @media screen and (max-width: 768px) {
   .footer-container {
     background: #21252a;
@@ -1056,10 +1060,6 @@ footer {
     background: transparent !important;
   }
 }
-.footer-social-links-column {
-  margin: 0em 0em 4em 2em;
-}
-
 .icons-column .az-icon {
   margin-left: 3em;
   margin-bottom: 1em;
