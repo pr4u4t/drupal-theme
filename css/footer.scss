@@ -51,39 +51,3 @@ footer{margin-top:1em;}
 }
 .icons-column .az-icon {margin-left:3em;margin-bottom:1em}
 .icons-column {margin-top:0.8em;}
-
-footer .company-details-view {float:right;}
-
-footer .company-details-view .field--name-body div:before{
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f3c5";
-  color:#ccac6e;
-  white-space: pre;
-  width:2em;
-  height:2em;
-  display: inline-block;
-  position: relative;
-  float: left;
-  padding:0.8em 0em 0em 0.1em;
-}
-footer .company-details-view .field--name-body p:nth-child(2):before{
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f095";
-  color:#ccac6e;
-  white-space: pre;
-  width:2em;
-  height:2em;
-  display: inline-block;
-}
-footer .company-details-view .field--name-body p:nth-child(3):before{
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f0e0";
-  color:#ccac6e;
-  white-space: pre;
-  width:2em;
-  height:2em;
-  display: inline-block;
-}
