@@ -25,13 +25,17 @@
     {% for item in items %}
       {%
         set item_classes = item.url.getOption('container_attributes').class | split(" ")
-      %}
+      %}      
       {%
         set item_classes = [
           item.is_expanded and item.below ? 'expanded dropdown',
           item.in_active_trail ? 'active active-trail',
           loop.first ? 'first',
-          loop.last ? 'last',
+          loop.last ? 'last',          
+          'menu-item',          
+          item.is_expanded ? 'menu-item--expanded',
+          item.is_collapsed ? 'menu-item--collapsed',
+          item.in_active_trail ? 'menu-item--active-trail',
         ]
       %}
       <li{{ item.attributes.addClass(item_classes) }}>
