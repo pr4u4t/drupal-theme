@@ -278,12 +278,13 @@ article .view-content {
   width: 95%;
 }
 
-.path-frontpage .view-about-us {
-  background: #fff;
-  width: 80%;
-  margin-top: 2em;
+/*
+.path-frontpage .view-about-us{
+	background:#fff;
+  width:80%;
+  margin-top:2em;
 }
-
+*/
 .path-frontpage .view-about-us .views-row {
   background: #fff;
   width: 75%;
@@ -2631,7 +2632,7 @@ footer .company-details-view {
 }
 
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame::after {
-  content: ".";
+  content: "";
   clear: both;
   float: none;
   display: table;
