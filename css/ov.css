@@ -512,21 +512,19 @@ article .view-content {
 @media screen and (min-width: 769px) {
   .path-frontpage .view-blog-block .view-content {
     display: flex;
-    height: 70em;
-    flex-direction: row;
+    height: 32em;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
   .path-frontpage .view-blog-block .view-content .views-row {
-    width: 90em;
-    height: 20%;
-    margin: 1.5em;
+    width: 50%;
+    height: 50%;
   }
 
   .path-frontpage .view-blog-block .view-content .views-row:first-child {
-    margin: 1.5em;
-    width: 80em;
-    height: 40%;
+    width: 50%;
+    height: 100%;
   }
 
   .path-frontpage .view-blog-block .views-field-field-image {
@@ -535,6 +533,7 @@ article .view-content {
     float: left;
     margin-right: 1em;
     overflow: hidden;
+    background-position: center;
   }
 
   .path-frontpage .view-blog-block .views-row:first-child .views-field-field-image {
