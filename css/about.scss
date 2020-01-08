@@ -60,7 +60,7 @@
 }
 
 /* TEAM ATTACHMENT */
-
+/*
 .path-frontpage .view-about-us .view-content .views-field .field-content figure { margin:2em 2em 2em 2em;}
 .path-frontpage .view-about-us .view-content .views-field .field-content .img-frame::after {
   content: "";
@@ -81,6 +81,18 @@
 .path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption {display: contents!important; margin: 0.1em; }
 .path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div { color:grey;}
 .path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div a { font-size: 1.4em; color:white}
+*/
+
+.path-frontpage .view-about-us .view-content .views-field .field-content .img-frame{
+  width: 220px;
+  height: 220px;
+  border: solid #9c8457 2px;
+  margin: 0.5em 0em 0em 1.5em;
+}
+.path-frontpage .view-about-us .view-content .views-field .field-content figure img { margin: -0.5em 0em 0em -0.5em}
+.path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption { margin: 0.1em; }
+.path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div { color:grey; text-align: center;}
+.path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div a { font-size: 1.2em; color:white}
 
 
 
