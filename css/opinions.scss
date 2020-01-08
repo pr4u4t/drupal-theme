@@ -2,7 +2,7 @@
 
  .opinions-block .view-header {
 	font-size:2em;
-	margin:2em 40% 3em 40%;
+	margin:0em 40% 2em 40%;
 	text-align:center; 
 	color:white;
 	padding:1em;
@@ -34,12 +34,12 @@
 
 @media screen and (max-width:768px){
   .opinions-block .views-col{ width: 100%!important; }  
-  .opinions-block .view-header{ margin:2em 25% 3em 25%; }
+  .opinions-block .view-header{ margin:0em 25% 2em 25%; }
 }
 
 @media screen and (min-width:769px) and (max-width:1200px){
   .opinions-block .views-col{ width: 100% !important; }
-  .opinions-block .view-header{ margin:2em 35% 3em 35%; }
+  .opinions-block .view-header{ margin:0em 35% 2em 35%; }
 }
 
 .path-frontpage .opinions-block .jcarousel-wrapper{
