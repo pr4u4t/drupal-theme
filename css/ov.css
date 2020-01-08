@@ -224,19 +224,38 @@ article .view-content {
     padding-right: 5%;
   }
 }
+.path-frontpage .view-about-us-block .views-row {
+  background: #fff;
+  width: 90%;
+  margin-top: 2em;
+}
+
 @media screen and (max-width: 1199px) {
   .path-frontpage .about-us-column-2 {
     display: none;
   }
 
-  .path-frontpage .view-about-us {
+  .path-frontpage .view-about-us-block {
     width: 100%;
     text-align: center;
   }
 
-  .path-frontpage .view-about-us .view-content {
-    margin-left: 10%;
-    margin-right: -20%;
+  .path-frontpage .view-about-us-block .view-content {
+    margin-left: 2%;
+    margin-right: -10%;
+  }
+
+  .path-frontpage .view-about-us-block {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .path-frontpage .view-about-us-block {
+    width: 80%;
+  }
+
+  .path-frontpage .view-about-us-block .views-row {
+    width: 75%;
   }
 }
 .view-about-us .view-header {
@@ -257,45 +276,30 @@ article .view-content {
   color: #707070;
 }
 
-.path-frontpage .view-about-us .az-section.az-element,
-.path-frontpage .view-about-us .az-section.az-element .az-element.az-row,
-.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(2),
-.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(2) .az-image {
+.path-frontpage .view-about-us-block .az-section.az-element,
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row,
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2),
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2) .az-image {
   position: static !important;
 }
 
-.path-frontpage .view-about-us .az-section.az-element .az-element.az-row {
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row {
   margin: 0;
 }
 
-.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(2) {
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2) {
   position: absolute !important;
   right: 0;
   width: 50%;
 }
 
-.path-frontpage .view-about-us .az-section.az-element .az-element.az-row .az-column:nth-child(1) {
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(1) {
   width: 95%;
-}
-
-.path-frontpage .view-about-us-block {
-  background: #fff;
-  width: 80%;
-  margin-top: 2em;
-}
-
-.path-frontpage .view-about-us-block .views-row {
-  background: #fff;
-  width: 75%;
-}
-
-.path-frontpage .view-about-us-block .views-field-uid a {
-  color: #83775b;
 }
 
 /* TEAM ATTACHMENT */
 .path-frontpage .view-about-us .view-content .views-field .field-content {
-  margin: 4em;
+  margin: 1em;
 }
 
 @media screen and (max-width: 480px) {
