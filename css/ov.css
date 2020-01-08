@@ -178,14 +178,14 @@ article .view-content {
   padding: 0.5em;
 }
 
-@media screen and (max-width: 1049px) {
+@media screen and (max-width: 1199px) {
   .view-about-us-block {
     padding: 3%;
   }
 
   .view-about-us-block h2 a {
     color: white;
-    text-align: center;
+    text-align: left;
     display: block;
     margin-bottom: 1%;
   }
@@ -198,15 +198,19 @@ article .view-content {
     color: white;
     text-align: center;
   }
+
+  .path-frontpage .view-about-us-block .view-content .views-field .field-content {
+    margin: 1em;
+  }
 }
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1200px) {
   .view-about-us-block {
     padding: 1em;
   }
 
   .view-about-us-block h2 a {
     color: white;
-    text-align: center;
+    text-align: left;
     display: block;
     margin-bottom: 1%;
   }
@@ -223,13 +227,22 @@ article .view-content {
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .path-frontpage .view-about-us-block .view-content .views-field .field-content {
+    margin: 2em;
+  }
 }
-.path-frontpage .view-about-us-block .views-row {
+.path-frontpage .view-about-us-block {
   background: #fff;
   width: 90%;
   margin-top: 2em;
 }
 
+@media screen and (max-width: 480px) {
+  .path-frontpage .view-about-us-block .view-content .views-col {
+    width: 100% !important;
+  }
+}
 @media screen and (max-width: 1199px) {
   .path-frontpage .about-us-column-2 {
     display: none;
@@ -241,7 +254,7 @@ article .view-content {
   }
 
   .path-frontpage .view-about-us-block .view-content {
-    margin-left: 2%;
+    margin-left: 4%;
     margin-right: -10%;
   }
 
@@ -255,11 +268,11 @@ article .view-content {
   }
 
   .path-frontpage .view-about-us-block .views-row {
-    width: 75%;
+    width: 80%;
   }
 }
 .view-about-us .view-header {
-  padding: 3em 0em 3em 0em;
+  padding: 1em 0em 1em 0em;
 }
 
 .view-about-us .view-header h2 a {
@@ -279,10 +292,6 @@ article .view-content {
 .path-frontpage .view-about-us-block .az-section.az-element,
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row,
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2),
-.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2) .az-image {
-  position: static !important;
-}
-
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row {
   margin: 0;
 }
@@ -340,12 +349,12 @@ article .view-content {
 }
 @media screen and (min-width: 1200px) and (max-width: 1299px) {
   .path-frontpage .view-team-block {
-    margin-top: 12em;
+    margin-top: 6em;
   }
 }
 @media screen and (min-width: 1300px) {
   .path-frontpage .view-team-block {
-    margin-top: 18em;
+    margin-top: 12em;
   }
 }
 .view-blog-block {
