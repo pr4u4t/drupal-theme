@@ -19,7 +19,7 @@
  * Define a custom macro that will render all menu trees.
  */
 #}
-{#
+
 {% macro menu_links(items, attributes, menu_level, classes, dropdown_classes) %}
   {% if items %}
     <ul{{ attributes.addClass(menu_level == 0 ? classes : dropdown_classes) }}>
@@ -52,8 +52,8 @@
     </ul>
   {% endif %}
 {% endmacro %}
-#}
-{# GLAZED #}
+
+{# GLAZED 
 {% import _self as menu %}
 
 {{ menu.menu_links(items, attributes, 0) }}
@@ -79,3 +79,4 @@
   {% endfor %}
   </ul>
 {% endmacro %}
+#}
