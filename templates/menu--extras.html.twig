@@ -22,7 +22,7 @@
 
 {% import "menu-levels.html.twig" as menu %}
 
-{{ menu.menu_links(items, attributes, 0, classes ?: ['menu', 'menu-level-', 'menu-item' 'menu--' ~ menu_name|clean_class, 'nav'], dropdown_classes ?: ['dropdown-menu', 'menu-dropdown']) }}
+{{ menu.menu_links(items, attributes, 0, classes ?: ['menu', 'menu--' ~ menu_name|clean_class, 'nav'], dropdown_classes ?: ['dropdown-menu']) }}
 
 {# GLAZED
 {% import "menu-levels.html.twig" as menu %}
