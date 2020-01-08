@@ -743,7 +743,7 @@ article .view-content {
   opacity: 1;
   box-shadow: none;
   background: none;
-  margin-top: 6%;
+  margin-top: 2em;
 }
 
 .path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-next:after,
@@ -827,6 +827,7 @@ article .view-content {
   .path-frontpage .view-certificates .jcarousel-wrapper {
     width: 70vw;
     height: 22em;
+    padding-left: 2vw;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
@@ -980,7 +981,7 @@ article .view-content {
   .path-frontpage .view-certificates .jcarousel-wrapper {
     width: 80vw;
     height: 14em;
-    padding-left: 1vw;
+    padding-left: 1.2vw;
   }
 }
 @media screen and (min-width: 1921px) {
