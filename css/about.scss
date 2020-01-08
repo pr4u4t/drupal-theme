@@ -13,7 +13,9 @@
 }
 
 @media screen and (max-width:1199px){
-	.about-us-column-2 {display:none;}
+  .path-frontpage .about-us-column-2 {display:none;}
+  .path-frontpage .view-about-us{ width:100%; text-align: center;}
+  .path-frontpage .view-about-us .view-content{margin-left: 10%; margin-right:-20%;}
 }
 .view-about-us .view-header{ padding: 3em 0em 3em 0em}
 .view-about-us .view-header h2 a{color:#707070; font-size:1.5em; text-decoration: underline;}
@@ -56,5 +58,3 @@
 .path-frontpage .view-about-us .views-field-uid a{
   color:#83775b;
 }
-.path-frontpage .view-about-us .views-field-uid a:before{
-} 
