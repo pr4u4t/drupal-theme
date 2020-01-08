@@ -1,16 +1,16 @@
 @media screen and (max-width: 1199px){
-  .view-about-us-block { padding: 3%; }
-  .view-about-us-block h2 a { color: white; text-align: left; display: block; margin-bottom: 1%; }
-  .view-about-us-block h2 a:hover { color: grey; }
-  .view-about-us-block article { color: white; text-align: center;}
-.path-frontpage .view-about-us-block .view-content .views-field .field-content{margin:1em;}
+  .path-frontpage .view-about-us-block { padding: 3%; }
+  .path-frontpage .view-about-us-block h2 a { color: white; text-align: left; display: block; margin-bottom: 1%; }
+  .path-frontpage .view-about-us-block h2 a:hover { color: grey; }
+  .path-frontpage .view-about-us-block article { color: white; text-align: center;}
+ .path-frontpage .view-about-us-block .view-content .views-field .field-content{margin:1em;}
 }
 
 @media screen and (min-width: 1200px){
-  .view-about-us-block { padding: 1em; }
-  .view-about-us-block h2 a { color: white; text-align: left; display: block; margin-bottom: 1%; }
-  .view-about-us-block h2 a:hover { color: grey; }
-  .view-about-us-block article { color: white; text-align: center; max-width: 1500px; margin: auto; padding-left: 5%; padding-right: 5%; }
+  .path-frontpage .view-about-us-block { padding: 1em; }
+  .path-frontpage .view-about-us-block h2 a { color: white; text-align: left; display: block; margin-bottom: 1%; }
+  .path-frontpage .view-about-us-block h2 a:hover { color: grey; }
+  .path-frontpage .view-about-us-block article { color: white; text-align: center; max-width: 1500px; margin: auto; padding-left: 5%; padding-right: 5%; }
   .path-frontpage .view-about-us-block .view-content .views-field .field-content{margin:2em;}
 }
 
@@ -34,18 +34,18 @@ margin-top:2em;
 .path-frontpage .view-about-us-block{width:80%;}
 .path-frontpage .view-about-us-block .views-row{width:80%;}
 }
-.view-about-us .view-header{ padding: 1em 0em 1em 0em}
-.view-about-us .view-header h2 a{color:#707070; font-size:1.5em; text-decoration: underline;}
-.view-about-us .view-header h2 a:hover{color:black;}
+.path-frontpage .view-about-us-block .view-header{ padding: 1em 0em 1em 0em}
+.path-frontpage .view-about-us-block .view-header h2 a{color:#707070; font-size:1.5em; text-decoration: underline;}
+.path-frontpage .view-about-us-block .view-header h2 a:hover{color:black;}
 
-.view-about-us .view-content .views-field-title h2 a{color:#707070;}
+.path-frontpage .view-about-us-block .view-content .views-field-title h2 a{color:#707070;}
 
 .path-frontpage .view-about-us-block .az-section.az-element,
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row,
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2),
-/*.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2) .az-image{
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2) .az-image{
 position: static !important;
-}*/
+}
 
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row{
 	margin:0;

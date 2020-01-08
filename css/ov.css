@@ -179,22 +179,22 @@ article .view-content {
 }
 
 @media screen and (max-width: 1199px) {
-  .view-about-us-block {
+  .path-frontpage .view-about-us-block {
     padding: 3%;
   }
 
-  .view-about-us-block h2 a {
+  .path-frontpage .view-about-us-block h2 a {
     color: white;
     text-align: left;
     display: block;
     margin-bottom: 1%;
   }
 
-  .view-about-us-block h2 a:hover {
+  .path-frontpage .view-about-us-block h2 a:hover {
     color: grey;
   }
 
-  .view-about-us-block article {
+  .path-frontpage .view-about-us-block article {
     color: white;
     text-align: center;
   }
@@ -204,22 +204,22 @@ article .view-content {
   }
 }
 @media screen and (min-width: 1200px) {
-  .view-about-us-block {
+  .path-frontpage .view-about-us-block {
     padding: 1em;
   }
 
-  .view-about-us-block h2 a {
+  .path-frontpage .view-about-us-block h2 a {
     color: white;
     text-align: left;
     display: block;
     margin-bottom: 1%;
   }
 
-  .view-about-us-block h2 a:hover {
+  .path-frontpage .view-about-us-block h2 a:hover {
     color: grey;
   }
 
-  .view-about-us-block article {
+  .path-frontpage .view-about-us-block article {
     color: white;
     text-align: center;
     max-width: 1500px;
@@ -271,27 +271,31 @@ article .view-content {
     width: 80%;
   }
 }
-.view-about-us .view-header {
+.path-frontpage .view-about-us-block .view-header {
   padding: 1em 0em 1em 0em;
 }
 
-.view-about-us .view-header h2 a {
+.path-frontpage .view-about-us-block .view-header h2 a {
   color: #707070;
   font-size: 1.5em;
   text-decoration: underline;
 }
 
-.view-about-us .view-header h2 a:hover {
+.path-frontpage .view-about-us-block .view-header h2 a:hover {
   color: black;
 }
 
-.view-about-us .view-content .views-field-title h2 a {
+.path-frontpage .view-about-us-block .view-content .views-field-title h2 a {
   color: #707070;
 }
 
 .path-frontpage .view-about-us-block .az-section.az-element,
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row,
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2),
+.path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row .az-column:nth-child(2) .az-image {
+  position: static !important;
+}
+
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row {
   margin: 0;
 }
