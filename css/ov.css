@@ -700,17 +700,16 @@ article .view-content {
 
 .certificates-block .view-header {
   font-size: 2em;
-  margin: 2em 35% 3em 35%;
+  margin: 0em 35% 3em 35%;
   text-align: center;
-  color: white;
   padding: 1em;
   border-bottom: solid;
   border-color: #9d865c;
   border-bottom-style: groove;
 }
 
-.trust-block .trust h2 {
-  display: none;
+.certificates-block .view-header h2 {
+  color: white;
 }
 
 @media screen and (max-width: 360px) {
@@ -742,7 +741,7 @@ article .view-content {
 }
 @media screen and (min-width: 821px) and (max-width: 1220px) {
   .certificates-block .view-header {
-    margin: 2em 30% 3em 30%;
+    margin: 0em 30% 3em 30%;
   }
 }
 .path-frontpage .certificates-block .certificates h2 {
@@ -1039,7 +1038,7 @@ article .view-content {
 }
 .view-contact-block h2 {
   font-size: 2em;
-  margin: 2em 35% 3em 35% !important;
+  margin: 0em 35% 1em 35% !important;
   text-align: center;
   color: white;
   padding: 1em;
@@ -1081,7 +1080,7 @@ article .view-content {
 }
 @media screen and (min-width: 821px) and (max-width: 1220px) {
   .view-contact-block h2 {
-    margin: 2em 30% 3em 30% !important;
+    margin: 0em 30% 1em 30% !important;
   }
 }
 @media screen and (max-width: 480px) {
