@@ -31,7 +31,7 @@
       %}
       {%
         set item_classes = [
-          item.is_expanded and ( item.below or item.content ) ? 'expanded dropdown',
+          'expanded dropdown',
           item.in_active_trail ? 'active active-trail',
           loop.first ? 'first',
           loop.last ? 'last',
@@ -39,17 +39,20 @@
       %}
       {% set link_title = item.title %}
       {% set link_attributes = item.link_attributes %}
-
+      {% set rendered_content = item.content|without('') %}
+     
       <li{{ item.attributes.addClass(item_classes) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
         {% elseif  menu_level == 1 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="glazed-megamenu__heading" data-target="#">{{ item.title }}</a>
+	{% elseif "dropdown" in rendered_content %}
+	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
 	{% else %}
           {{ link(link_title, item.url) }}
         {% endif %}
-	{% set rendered_content = item.content|without('') %}
-      	{% if rendered_content|render %}
+	
+      	{% if rendered_content|length %}
         	{{ rendered_content }}
       	{% endif %}
 	{% if item.below %}
