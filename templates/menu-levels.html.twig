@@ -40,7 +40,9 @@
       {% set link_title = item.title %}
       {% set link_attributes = item.link_attributes %}
       {% set rendered_content = item.content|without('') %}
-     
+      {% set ent = rendered_content %}
+      {% set rendered_content = rendered_content|render %}    
+ 
       <li{{ item.attributes.addClass(item_classes) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
