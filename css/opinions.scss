@@ -1,7 +1,7 @@
  /*-------------------------------------- opinions responsive -------------------------------------------------------------*/
 
  .opinions-block .view-header {font-size:2em;margin:2em 35% 3em 35%;text-align:center; color:white;padding:1em;border-bottom:solid;border-color:#9d865c;border-bottom-style:groove;}
-
+ .opinions-block .view-header h2 {color:white;}
  @media screen and (max-width:360px){
    .opinions-block .views-col{width: 100%!important;}
    .opinions-block .view-header{margin:0em 8% 1em 8%;}

@@ -1731,6 +1731,10 @@ article .view-content {
   border-bottom-style: groove;
 }
 
+.opinions-block .view-header h2 {
+  color: white;
+}
+
 @media screen and (max-width: 360px) {
   .opinions-block .views-col {
     width: 100% !important;
@@ -2332,6 +2336,10 @@ article .view-content {
   border-bottom: solid;
   border-color: #9d865c;
   border-bottom-style: groove;
+}
+
+.trust-block .view-header h2 {
+  color: white;
 }
 
 .trust-block .trust h2 {
