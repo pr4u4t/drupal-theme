@@ -1564,6 +1564,10 @@ article .view-content {
   height: 60px;
 }
 
+header .navbar-container .row {
+  margin: 0px !important;
+}
+
 .navbar-container {
   transition: all 1s;
 }
