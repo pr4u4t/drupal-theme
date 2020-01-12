@@ -24,6 +24,7 @@
     {% if menu_level == 0 %}
 	{% set classes = classes|merge(['navbar-nav'])   %}
 	{% set classes = classes|merge(['menu-level-0']) %}
+	{% set listyle = 'position:static;' %}
     {% else %}
 	{% set dropdown_classes = dropdown_classes|merge(['menu-level-' ~ menu_level])  %}
     {% endif %}
@@ -45,7 +46,7 @@
       {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}    
  
-      <li{{ item.attributes.addClass(item_classes) }}> 
+      <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle : ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
         {% elseif  menu_level == 1 and item.is_expanded and item.below %}
