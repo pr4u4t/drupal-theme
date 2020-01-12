@@ -17,18 +17,12 @@
 {{ menu.menu_link_content(attributes, menu_link_content, show_item_link, content, elements) }}
 
 {% macro menu_link_content(attributes, menu_link_content, show_item_link, content, elements) %}
-  {% import _self as menu_link_content %}
-  {% set menu_dropdown_classes = [
-    'menu-dropdown',
-    'dropdown-menu',
-    elements['#menu_level'] is defined ? 'menu-dropdown-' ~ elements['#menu_level'],
-    elements['#view_mode'] ? 'menu-type-' ~ elements['#view_mode'],
-  ] %}
-  
+  {% import _self as menu_link_content %} 
+
   {% set rendered_content = content|render %}
  
   {% if rendered_content|length or show_item_link %}
-      <div{{ attributes.addClass(menu_dropdown_classes) }}>
+      <div>
       {% if show_item_link %}
         {{ link(menu_link_content.getTitle(), menu_link_content.getUrlObject()) }}
       {% endif %}
