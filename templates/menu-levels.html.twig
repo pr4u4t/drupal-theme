@@ -22,7 +22,11 @@
 {% macro menu_links(items, attributes, menu_level, classes, dropdown_classes) %}
   {% if items %}
     {% if menu_level == 0 %}
-	{% set classes = classes|merge(['navbar-nav']) %}
+	{% set classes = classes|merge(['navbar-nav'])   %}
+	{% set classes = classes|merge(['menu-level-0']) %}
+	{% set listyle = 'position:static;' %}
+    {% else %}
+	{% set dropdown_classes = dropdown_classes|merge(['menu-level-' ~ menu_level])  %}
     {% endif %}
     <ul{{ attributes.addClass(menu_level == 0 ? classes : dropdown_classes) }}>
     {% for item in items %}
@@ -39,23 +43,24 @@
       %}
       {% set link_title = item.title %}
       {% set link_attributes = item.link_attributes %}
-      {% set rendered_content = item.content|without('') %}
-      {% set ent = rendered_content %}
+      {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}    
  
-      <li{{ item.attributes.addClass(item_classes) }}> 
+      <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle : ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
         {% elseif  menu_level == 1 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="glazed-megamenu__heading" data-target="#">{{ item.title }}</a>
-	{% elseif "dropdown" in rendered_content %}
+	{% elseif "dropdown-menu" in rendered_content|render %}
 	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
+	  {% set menu_level_child = menu_level + 1 %}
+	  {% set rendered_content = rendered_content|htmlcontent("class","dropdown-menu","menu-level-" ~ menu_level_child) %}
 	{% else %}
           {{ link(link_title, item.url) }}
         {% endif %}
 	
       	{% if rendered_content|length %}
-        	{{ rendered_content }}
+        	{{ rendered_content|raw }}
       	{% endif %}
 	{% if item.below %}
           {{ _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes, dropdown_classes) }}
