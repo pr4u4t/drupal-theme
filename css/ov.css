@@ -1564,10 +1564,11 @@ article .view-content {
   height: 60px;
 }
 
-header .navbar-container .row {
-  margin: 0px !important;
-}
-
+/*header {margin:0px!important;}
+header .form-group{margin:0px!important;}
+header .navbar-form{margin:0px!important;}
+header .navbar-right{margin:0px!important;}
+header .navbar-container .row{margin:0px!important;}*/
 .navbar-container {
   transition: all 1s;
 }
@@ -2731,8 +2732,12 @@ header .navbar-container .row {
   right: 2.5em;
 }
 
+.what-we-do-block .row {
+  margin: 0px;
+}
+
 @media screen and (min-width: 769px) {
-  .whatwedo-block h2 a span {
+  .what-we-do-block h2 a span {
     display: none;
   }
 
@@ -2749,7 +2754,7 @@ header .navbar-container .row {
   }
 }
 @media screen and (max-width: 768px) {
-  .whatwedo-block h2 a span {
+  .what-we-do-block h2 a span {
     display: none;
   }
 
