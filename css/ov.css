@@ -178,6 +178,35 @@ article .view-content {
   padding: 0.5em;
 }
 
+/*-------------------SLIDE-TO-------------------------*/
+#slide-to-blog {
+  height: 2em;
+}
+
+#slide-to-about-us {
+  height: 2em;
+}
+
+#slide-to-what-we-do {
+  height: 3em;
+}
+
+#slide-to-opinions {
+  height: 0em;
+}
+
+#slide-to-certificate {
+  height: 3em;
+}
+
+#slide-to-trust {
+  height: 1em;
+}
+
+#slide-to-contact {
+  height: 3em;
+}
+
 @media screen and (max-width: 1199px) {
   .path-frontpage .view-about-us-block {
     padding: 3%;
