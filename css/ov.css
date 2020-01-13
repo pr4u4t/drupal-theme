@@ -261,6 +261,10 @@ article .view-content {
   .path-frontpage .view-about-us-block {
     width: 100%;
   }
+
+  .path-frontpage .about-us-frontpage-element {
+    margin: 0px -15px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .path-frontpage .view-about-us-block {
