@@ -1724,6 +1724,10 @@ header .navbar-container .row{margin:0px!important;}*/
   color: #646464 !important;
 }
 
+.body--glazed-nav-mobile #navbar a {
+  color: #9f9f9f !important;
+}
+
 /*-------------------------------------- opinions responsive -------------------------------------------------------------*/
 .opinions-block .view-header {
   font-size: 2em;
