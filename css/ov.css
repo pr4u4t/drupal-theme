@@ -1892,7 +1892,7 @@ header .navbar-container .row{margin:0px!important;}*/
   }
 
   .path-frontpage .opinions-block .jcarousel-wrapper li article {
-    width: 64vw;
+    width: 72vw;
   }
 }
 @media screen and (min-width: 361px) and (max-width: 480px) {
@@ -1901,7 +1901,7 @@ header .navbar-container .row{margin:0px!important;}*/
   }
 
   .path-frontpage .opinions-block .jcarousel-wrapper li article {
-    width: 74vw;
+    width: 76vw;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
