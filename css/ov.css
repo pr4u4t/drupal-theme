@@ -2887,7 +2887,7 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .contact-page-view .company-details-view .legal-requirements h2:nth-child(1) {
-  margin: 2em 0em 2em 0em;
+  margin: 2em 0em 0.3em 0em;
 }
 
 .contact-page-view .view-contact-block article {
@@ -2898,6 +2898,24 @@ header .navbar-container .row{margin:0px!important;}*/
   margin-bottom: 2em;
 }
 
+.contact-page-view .view-contact-block {
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-page-view .company-details-view {
+    float: left;
+  }
+
+  .contact-page-view .office-hours-view h2 {
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-page-view .company-details-view {
+    float: none;
+  }
+}
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content figure {
   margin: 2em 0em 6em 0em;
 }
