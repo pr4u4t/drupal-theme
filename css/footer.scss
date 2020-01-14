@@ -1,20 +1,24 @@
+footer section {margin-top:1em;}
+footer .office-hours-view {float:right;margin-top:0em;}
+footer .company-details-view {float:left; width:15em;}
+.menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:transparent !important; color: #cccccc; } 
+.footer-social-links-column { padding:0em 0em 0em 1em!important; }  
 .nav li a {padding: 10px 5px 5px 0px !important;}
 #block-footer-2 li { display: inline-block; }
-.stbe-social-links { display: flex; justify-content: flex-end;float:left; }
+.stbe-social-links { display: flex; justify-content: flex-end;float:left; margin: 0em 1em 1em!important; height:2em;}
 .footer-robco > div > div > div:nth-child(2) { display:none; }
 .footer-robco > div > div > div:nth-child(1) { width:75%; margin-bottom: 0px; padding: 15px 0px; }
 .footer-robco > div > div > div:nth-child(3) { width:25%; margin-bottom: 0px; padding: 15px 0px; display:flex; }
-.stbe-social-links li{ float:none !important; }
 .expanded.dropdown:hover > a { background: #fff; color: #646464 !important; }
-.footer-container .az-element{ max-height: 200px; }
+.footer-container .az-element{ max-height: 230px; }
 .footer-menu a, #footer-menu a:link, #footer-menu a:active, #footer-menu a:visited { color:#fff !important; background: transparent !important; }
 .footer-menu a:hover { color:#fff !important; background: transparent !important; }
 .glazed-footer article h2 { display: none; }
 #block-footer-2 li { display:block; }
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:transparent !important; color: #cccccc; } 
-.footer-social-links-column { padding:0em 0em 2em 4em!important; }  
 
 @media screen and (max-width: 992px){
+  
     .footer-container { background: #21252a; margin-bottom: 0px !important; padding-bottom: 30px !important; display: flex; justify-content: center; }
     .footer-robco > div > div > div:nth-child(1) { width:100%; margin:auto; margin-bottom: 0px; padding: 5px 0px; display: flex; 
         justify-content: center !important;
@@ -23,10 +27,14 @@
     .footer-robco > div > div > div:nth-child(3) { width:100%; margin:auto; margin-bottom: 0px; padding: 15px 0px;
                                                     display: flex; justify-content: center !important;
     }
-    .stbe-social-links { display: flex; justify-content: center; }
+    .stbe-social-links { display: flex; justify-content: center;float:left; margin: 0em 1em 1em!important; height:2em;}
     .footer-styl .menu--footer-menu { text-align: center !important; margin: auto !important; }
     .footer-container .field--item { text-align: justify !important; margin: auto !important; }
+    footer .company-details-view {float:none;}
+    footer .office-hours-view {float:none;}
 }
+
+
 
 @media screen and ( max-width: 1200px ){
     .footer-menu a, #footer-menu a:link, #footer-menu a:active, #footer-menu a:visited { color:#fff !important; background: transparent !important; }
