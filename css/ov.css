@@ -1074,8 +1074,11 @@ article .view-content {
   display: none;
 }
 
-.view-contact-block .view-header h2 a {
+.view-contact-block .view-header h2 {
   display: block;
+}
+
+.view-contact-block .view-header h2 a {
   color: white;
 }
 
