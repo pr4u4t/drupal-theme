@@ -1051,7 +1051,7 @@ article .view-content {
     padding-left: 1.8%;
   }
 }
-.view-contact-block h2 {
+.view-contact-block .view-header {
   font-size: 2em;
   margin: 0em 35% 1em 35% !important;
   text-align: center;
@@ -1062,8 +1062,16 @@ article .view-content {
   border-bottom-style: groove;
 }
 
-.view-contact-block h2 a span {
+.view-contact-block .view-header a span {
   text-decoration: none !important;
+}
+
+.view-contact-block h2 {
+  display: none;
+}
+
+.view-contact-block .view-header h2 {
+  display: block;
 }
 
 @media screen and (max-width: 360px) {
@@ -1071,7 +1079,7 @@ article .view-content {
     width: 100% !important;
   }
 
-  .view-contact-block h2 {
+  .view-contact-block .view-header {
     margin: 0em 8% 1em 8% !important;
   }
 }
@@ -1080,7 +1088,7 @@ article .view-content {
     width: 50% !important;
   }
 
-  .view-contact-block h2 {
+  .view-contact-block .view-header {
     margin: 0em 12% 1em 12% !important;
   }
 }
@@ -1089,12 +1097,12 @@ article .view-content {
     width: 50% !important;
   }
 
-  .view-contact-block h2 {
+  .view-contact-block .view-header {
     margin: 0em 20% 1em 20% !important;
   }
 }
 @media screen and (min-width: 821px) and (max-width: 1220px) {
-  .view-contact-block h2 {
+  .view-contact-block .view-header {
     margin: 0em 30% 1em 30% !important;
   }
 }
@@ -1114,7 +1122,7 @@ article .view-content {
     width: 50% !important;
   }
 }
-.view-contact-block h2 {
+.view-contact-block .view-header h2 {
   margin: 0em 0em 2em 0em;
 }
 
