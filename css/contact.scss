@@ -1,7 +1,8 @@
 .view-contact-block .view-header  {font-size:2em;margin:0em 35% 1em 35%!important;text-align:center; color:white;padding:1em;border-bottom:solid;border-color:#9d865c;border-bottom-style:groove;}
 .view-contact-block .view-header a span {text-decoration: none!important;}
 .view-contact-block h2{display: none;}
-.view-contact-block .view-header h2 {display: block; color:white;}
+.view-contact-block .view-header h2 a{display: block; color:white;}
+.view-contact-block .view-header h2 a:hover{color:grey;}
 @media screen and (max-width:360px){
   .view-contact-block .views-col{width: 100%!important;}
   .view-contact-block .view-header{margin:0em 8% 1em 8%!important;}
