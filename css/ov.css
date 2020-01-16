@@ -88,10 +88,7 @@ html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .region.regio
     padding-right: initial !important;
   }
 
-  [role=main].main-container p:first-letter {
-    margin-left: 2em;
-  }
-
+  /*[role=main].main-container p:first-letter { margin-left: 2em; }*/
   body.path-frontpage [role=main].main-container p:first-letter {
     margin-left: initial !important;
   }
@@ -2931,6 +2928,7 @@ header .navbar-container .row{margin:0px!important;}*/
   height: 220px;
   border: solid #9c8457 2px;
   float: left;
+  margin-right: 1em;
 }
 
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content figure img {
@@ -2939,7 +2937,7 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text {
-  margin: 0em 2em 0em 15em;
+  margin: 0em 2em 0em 0em;
   text-align: justify;
   color: white;
 }
@@ -2955,4 +2953,54 @@ header .navbar-container .row{margin:0px!important;}*/
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption div a {
   font-size: 1.4em;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption {
+    text-align: center;
+  }
+
+  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame {
+    float: none;
+    margin: auto;
+  }
+
+  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text {
+    margin: 0em;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .path-about-us .about-us-column-2 {
+    display: none;
+  }
+
+  .path-about-us .view.about-us .view-content {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .path-about-us .view.about-us {
+    width: 100%;
+  }
+
+  .path-about-us .about-us-frontpage-element {
+    margin: 0px -15px;
+  }
+
+  .path-about-us .view-about-us .view-content .views-col {
+    width: 100% !important;
+  }
+
+  .path-about-us .view-about-us .col-sm-6 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .path-about-us .view.about-us {
+    width: 80%;
+  }
+
+  .path-about-us .view.about-us .views-row {
+    width: 80%;
+  }
 }
