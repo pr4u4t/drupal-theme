@@ -1072,6 +1072,7 @@ article .view-content {
 
 .view-contact-block .view-header h2 {
   display: block;
+  color: white;
 }
 
 @media screen and (max-width: 360px) {
@@ -1122,10 +1123,6 @@ article .view-content {
     width: 50% !important;
   }
 }
-.view-contact-block .view-header h2 {
-  margin: 0em 0em 2em 0em;
-}
-
 .view-contact-block .webform-element-text-area {
   border: none;
   background-color: #403b33;
