@@ -113,7 +113,7 @@ h2 a span:hover {
 }
 
 /*---------------------------TITLE--------------------------------*/
-.path-node .title-page-title {
+.title-page-title {
   margin: 1em 5% 1em 5%;
 }
 
@@ -122,6 +122,14 @@ h2 a span:hover {
 }
 
 .path-node .title-page-title h2 {
+  color: white;
+}
+
+.path-blog .title-page-title {
+  margin-top: 6em;
+}
+
+.path-blog .title-page-title h2 {
   color: white;
 }
 
@@ -690,32 +698,6 @@ article .view-content {
   font-size: 31px;
   color: #bda67a;
   text-decoration: underline;
-}
-
-.blog-page-view .views-row {
-  text-align: center;
-  margin: 1em;
-}
-
-.blog-page-view .views-row article a {
-  text-decoration: none;
-  color: black;
-}
-
-.blog-page-view .views-row article a:hover {
-  color: grey;
-}
-
-.blog-page-view .views-row .img-responsive {
-  margin: auto;
-  width: 35%;
-  float: left;
-  padding-right: 1em;
-}
-
-.blog-page-view .views-row article p {
-  text-align: justify;
-  margin: 1em;
 }
 
 .breadcrumb a {
@@ -3033,5 +3015,37 @@ header .navbar-container .row{margin:0px!important;}*/
 
   .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text {
     margin: 0em;
+  }
+}
+.blog-page-view .views-row article a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-page-view .views-row article a:hover {
+  color: grey;
+}
+
+.blog-page-view .views-row .img-responsive {
+  margin: auto;
+  width: 35%;
+  float: left;
+  padding-right: 1em;
+  margin-right: 1em;
+}
+
+.blog-page-view .views-row article p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption {
+    text-align: center;
+  }
+
+  .path-blog .field--name-field-image img {
+    width: 100% !important;
+    float: none !important;
+    margin: auto;
   }
 }

@@ -1,0 +1,10 @@
+.blog-page-view .views-row article a { text-decoration:none; color: black;}
+.blog-page-view .views-row article a:hover{color:grey;}
+.blog-page-view .views-row .img-responsive {margin:auto; width: 35%; float:left; padding-right:1em;margin-right:1em;}
+.blog-page-view .views-row article p { text-align: justify;}
+
+@media screen and (max-width:480px){
+  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption{text-align: center;}
+  .path-blog .field--name-field-image img{width:100%!important;float: none!important; margin:auto;}
+}
+
