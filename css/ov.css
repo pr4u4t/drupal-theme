@@ -727,10 +727,6 @@ article .view-content {
   color: white;
 }
 
-.certificates-block .view-header h2 {
-  color: white;
-}
-
 .certificates-block .view-header h2 a:hover {
   color: grey;
 }
@@ -1083,10 +1079,6 @@ article .view-content {
 }
 
 .view-contact-block .view-header h2 a {
-  color: white;
-}
-
-.view-contact-block .view-header h2 {
   color: white;
 }
 
@@ -1811,10 +1803,6 @@ header .navbar-container .row{margin:0px!important;}*/
   color: white;
 }
 
-.opinions-block .view-header h2 {
-  color: white;
-}
-
 .opinions-block .view-header h2 a:hover {
   color: grey;
 }
@@ -2423,10 +2411,6 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .trust-block .view-header h2 a {
-  color: white;
-}
-
-.trust-block .view-header h2 {
   color: white;
 }
 
