@@ -25,9 +25,10 @@
 	{% set classes = classes|merge(['navbar-nav'])   %}
 	{% set classes = classes|merge(['menu-level-0']) %}
     {% else %}
-	{% set dropdown_classes = dropdown_classes|merge(['menu-level-' ~ menu_level])  %}
+	{% set local_dropdown_classes = dropdown_classes %}
+	{% set local_dropdown_classes = local_dropdown_classes|merge(['menu-level-' ~ menu_level])  %}
     {% endif %}
-    <ul{{ attributes.addClass(menu_level == 0 ? classes : dropdown_classes) }}>
+    <ul{{ attributes.addClass(menu_level == 0 ? classes : local_dropdown_classes) }}>
     {% for item in items %}
       {% set item_classes = item.url.getOption('container_attributes').class | split(" ") %}
       {%
