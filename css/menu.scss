@@ -66,11 +66,12 @@
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu { 
-    	margin-top: 55px !important;
+    	margin-top: 50px !important;
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu .dropdown-menu { 
-       	position:static;
+       	position: static;
+	flex-direction: column;
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown  > .dropdown-menu {
