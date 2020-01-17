@@ -49,6 +49,9 @@
       	{% if menu_level == 0 and "megamenu__heading" in item_tail %}
                 {% set listyle = 'position:static;' %}
       	{% endif %}
+      {% else %}
+      	{% set listyle = false %}
+	{% set item_tail = false %}
       {% endif %}
 
       <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
