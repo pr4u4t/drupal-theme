@@ -48,7 +48,7 @@
       {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}    
  
-      <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle : ) }}> 
+      <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
         {% elseif  menu_level == 1 and item.is_expanded and item.below %}
