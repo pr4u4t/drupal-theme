@@ -44,7 +44,7 @@
       {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}
       {% if item.below %}    
-      	{% set item_tail = _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes, dropdown_classes) %}
+      	{% set item_tail = _self.menu_links(item.below, attributes.removeClass(classes).removeClass(local_dropdown_classes), menu_level + 1, classes, dropdown_classes) %}
       	{% if menu_level == 0 and "megamenu__heading" in item_tail %}
                 {% set listyle = 'position:static;' %}
       	{% endif %}
