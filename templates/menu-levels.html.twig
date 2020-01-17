@@ -24,7 +24,9 @@
     {% if menu_level == 0 %}
 	{% set classes = classes|merge(['navbar-nav'])   %}
 	{% set classes = classes|merge(['menu-level-0']) %}
-	{% set listyle = 'position:static;' %}
+	{% if item.below %}
+		{% set listyle = 'position:static;' %}
+	{% endif %}
     {% else %}
 	{% set dropdown_classes = dropdown_classes|merge(['menu-level-' ~ menu_level])  %}
     {% endif %}
