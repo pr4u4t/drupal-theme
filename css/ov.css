@@ -1616,6 +1616,7 @@ footer .company-details-view {
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu {
   margin-top: 55px !important;
+  position: static;
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown > .dropdown-menu {
