@@ -47,6 +47,7 @@
       	{% set item_tail = _self.menu_links(item.below, attributes.removeClass(classes).removeClass(local_dropdown_classes), menu_level + 1, classes, dropdown_classes) %}
       	{% if menu_level == 0 and "megamenu__heading" in item_tail %}
                 {% set listyle = 'position:static;' %}
+		{% set item_classes = item_classes|merge(['mega']) %}
       	{% endif %}
       {% else %}
       	{% set listyle = false %}
