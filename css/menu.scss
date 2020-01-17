@@ -66,8 +66,11 @@
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu { 
-    margin-top: 55px !important; 
-    padding:3em; 
+    margin-top: 55px !important;  
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown  > .dropdown-menu {
+	padding:3em;
 }
 
 #navbar .container .container-row .container-col { height:60px; }
