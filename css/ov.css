@@ -2025,6 +2025,10 @@ header .navbar-container .row{margin:0px!important;}*/
     max-width: 23em;
   }
 }
+.sitemap-block h2 {
+  color: white;
+}
+
 .sitemap-block ul,
 .sitemap-block ul li ul {
   display: block !important;
@@ -2047,7 +2051,7 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .sitemap-block a {
-  color: black;
+  color: white;
 }
 
 .sitemap-block a:hover {
