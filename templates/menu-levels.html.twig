@@ -29,9 +29,6 @@
     {% endif %}
     <ul{{ attributes.addClass(menu_level == 0 ? classes : dropdown_classes) }}>
     {% for item in items %}
-      {% if menu_level == 0 and item.below %}
-                {% set listyle = 'position:static;' %}
-      {% endif %}
       {%
         set item_classes = item.url.getOption('container_attributes').class | split(" ")
       %}
@@ -46,8 +43,14 @@
       {% set link_title = item.title %}
       {% set link_attributes = item.link_attributes %}
       {% set rendered_content = item.content %}
-      {% set rendered_content = rendered_content|render %}    
- 
+      {% set rendered_content = rendered_content|render %}
+      {% if item.below %}    
+      	{% set item_tail = _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes, dropdown_classes) %}
+      	{% if menu_level == 0 and "megamenu__heading" in item_tail %}
+                {% set listyle = 'position:static;' %}
+      	{% endif %}
+      {% endif %}
+
       <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
@@ -64,8 +67,8 @@
       	{% if rendered_content|length %}
         	{{ rendered_content|raw }}
       	{% endif %}
-	{% if item.below %}
-          {{ _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes, dropdown_classes) }}
+	{% if item_tail %}
+          {{ item_tail }}
         {% endif %}
       </li>
     {% endfor %}
