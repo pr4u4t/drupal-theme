@@ -25,9 +25,8 @@
 	{% set classes = classes|merge(['navbar-nav'])   %}
 	{% set classes = classes|merge(['menu-level-0']) %}
     {% else %}
-	{% set local_dropdown_classes = [] %}
+	{% set local_dropdown_classes = ['menu-level-' ~ menu_level] %}
 	{% set local_dropdown_classes = local_dropdown_classes|merge(dropdown_classes) %}
-	{% set local_dropdown_classes = local_dropdown_classes|merge(['menu-level-' ~ menu_level])  %}
     {% endif %}
     <ul{{ attributes.addClass(menu_level == 0 ? classes : local_dropdown_classes) }}>
     {% for item in items %}
