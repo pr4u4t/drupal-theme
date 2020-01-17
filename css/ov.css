@@ -1611,7 +1611,7 @@ footer .company-details-view {
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:link,
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:visited {
   color: #0180ef !important;
-  background: #fff !important;
+  background: transparent !important;
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu {
@@ -1629,6 +1629,21 @@ footer .company-details-view {
 
 #navbar .container .container-row .container-col {
   height: 60px;
+}
+
+.body--glazed-nav-desktop .expanded.dropdown:hover > a {
+  background: #181818 !important;
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu a:focus,
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu a:hover {
+  background: #181818 !important;
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a,
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:focus,
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover {
+  background: transparent !important;
 }
 
 /*header {margin:0px!important;}
