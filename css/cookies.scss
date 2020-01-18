@@ -16,11 +16,15 @@
 
 #sliding-popup .eu-cookie-compliance-banner .popup-content h2{ 
   font-size:1.25em;
+  font-weight:normal;
+  color:#afafaf;
 }
 #sliding-popup .eu-cookie-compliance-banner .popup-content p{
   font-size:1em;
   font-weight: normal;    
 }
 
-#sliding-popup .eu-cookie-compliance-banner .popup-content .find-more-button{
+#sliding-popup .eu-cookie-compliance-banner .popup-content .find-more-button:hover{
+  color:#afafaf;
 }
+

@@ -29,4 +29,12 @@
 .body--glazed-nav-desktop .block-dropdown-language,
 .body--glazed-nav-desktop .block-dropdown-language button  { display:block; height:80px; }
 .body--glazed-nav-desktop .block-dropdown-language { -webkit-box-ordinal-group: 3; -moz-box-ordinal-group: 3; box-ordinal-group: 3; float: none !important; }
-.body--glazed-nav-desktop .block-dropdown-language { position:absolute !important; right:-2em; } 
+.body--glazed-nav-desktop .block-dropdown-language { position:absolute !important; right:-2em; }
+
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover{ 
+	background: #181818 !important; 
+}
+
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .dropdown-menu{
+	background: #181818 !important;
+} 

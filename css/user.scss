@@ -20,4 +20,5 @@
 
 .body--glazed-nav-desktop .user-account-menu-block { -webkit-box-ordinal-group: 2; -moz-box-ordinal-group: 2; box-ordinal-group: 2; float:none !important; }
 .body--glazed-nav-desktop .user-account-menu-block .menu.nav.navbar-nav { height: 80px !important; }
-.body--glazed-nav-desktop .user-account-menu-block { position:absolute; right:2.5em; } 
+.body--glazed-nav-desktop .user-account-menu-block { position:absolute; right:2.5em; }
+.body--glazed-nav-desktop .user-account-menu-block .last { padding-right:0; }
