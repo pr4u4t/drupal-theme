@@ -1,0 +1,15 @@
+#sliding-popup { padding:1em; }
+#sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button{
+  border-radius: 0;
+  color:#646464;
+  font-weight:normal;
+  text-shadow: none;
+  background:transparent;
+  box-shadow: none;
+  border: 0;
+}
+#sliding-popup .eu-cookie-compliance-banner .popup-content .agree-button:hover,
+#sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button:hover{
+  text-decoration: underline;
+  color:#afafaf;
+}
