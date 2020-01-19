@@ -1323,6 +1323,10 @@ footer .teaser {
   margin: 0px !important;
 }
 
+footer {
+  margin-top: 2em;
+}
+
 @media screen and (max-width: 768px) {
   .hero-column-1 {
     width: 100%;
