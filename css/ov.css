@@ -2114,7 +2114,7 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .sitemap-block a {
-  color: white;
+  color: white !important;
 }
 
 .sitemap-block a:hover {
@@ -2128,6 +2128,15 @@ header .navbar-container .row{margin:0px!important;}*/
 
 .sitemap-block .caret {
   display: none;
+}
+
+.sitemap-block .dropdown .dropdown-menu {
+  background-color: transparent;
+  color: white !important;
+}
+
+.sitemap-block .dropdown .dropdown-toggle:hover {
+  background-color: transparent !important;
 }
 
 /*------------team-custom-border-and-caption--------*/
