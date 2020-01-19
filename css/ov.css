@@ -1240,7 +1240,7 @@ footer .footer-block .field .az-container .az-section .footer-col-3 {
   }
 
   .footer-container .az-element {
-    max-height: 360px;
+    max-height: 400px;
   }
 
   .stbe-social-links {
@@ -1294,7 +1294,7 @@ footer .footer-block .field .az-container .az-section .footer-col-3 {
   }
 }
 .glazed-footer {
-  background-color: #282828 !important;
+  background-color: #282828;
 }
 
 .path-frontpage .glazed-footer {
