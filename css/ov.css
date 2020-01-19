@@ -1293,7 +1293,11 @@ footer .footer-block .field .az-container .az-section .footer-col-3 {
     flex: 1;
   }
 }
-.footer-container {
+.glazed-footer {
+  background-color: #282828 !important;
+}
+
+.path-frontpage .glazed-footer {
   background-color: #21252a;
 }
 
