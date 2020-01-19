@@ -1,6 +1,6 @@
 footer .footer-block .field .az-container .az-section .az-ctnr .az-row  {display:flex; flex-direction:row;justify-content:space-between;margin:2em 0;}
 footer .footer-block .field .az-container .az-section .footer-col-1{order:1;flex:1;}
-footer .footer-block .field .az-container .az-section .footer-col-2{order:2;flex:1;}
+footer .footer-block .field .az-container .az-section .footer-col-2{display:flex;flex-direction:column;order:2;flex:1;justify-content:flex-end;}
 footer .footer-block .field .az-container .az-section .footer-col-3{order:3;flex:1;}
 @media screen and (min-width:901px){
   footer .footer-block .field .az-container .az-section .footer-col-3{display:flex;align-items: flex-end;flex-direction: column;}

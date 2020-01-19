@@ -1220,8 +1220,11 @@ footer .footer-block .field .az-container .az-section .footer-col-1 {
 }
 
 footer .footer-block .field .az-container .az-section .footer-col-2 {
+  display: flex;
+  flex-direction: column;
   order: 2;
   flex: 1;
+  justify-content: flex-end;
 }
 
 footer .footer-block .field .az-container .az-section .footer-col-3 {
