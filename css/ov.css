@@ -2088,6 +2088,10 @@ header .navbar-container .row{margin:0px!important;}*/
     max-width: 23em;
   }
 }
+.sitemap-block {
+  margin-bottom: 2em;
+}
+
 .sitemap-block h2 {
   color: white;
 }
@@ -2130,13 +2134,12 @@ header .navbar-container .row{margin:0px!important;}*/
   display: none;
 }
 
-.sitemap-block .dropdown .dropdown-menu {
-  background-color: transparent;
-  color: white !important;
+.sitemap-block ul {
+  background: transparent !important;
 }
 
-.sitemap-block .dropdown .dropdown-toggle:hover {
-  background-color: transparent !important;
+.body--glazed-nav-desktop .sitemap-block .expanded.dropdown:hover > a {
+  background: transparent !important;
 }
 
 /*------------team-custom-border-and-caption--------*/

@@ -1,3 +1,4 @@
+.sitemap-block{margin-bottom:2em;}
 .sitemap-block h2{color:white;}
 .sitemap-block ul,
 .sitemap-block ul li ul { display:block !important; position:static !important; clear:both !important; float: none !important; }
@@ -7,5 +8,5 @@
 .sitemap-block a:hover {color:grey!important; background-color: transparent!important;}
 .sitemap-block li li {margin-left: 1em;}
 .sitemap-block .caret {display: none;} 
-.sitemap-block .dropdown .dropdown-menu {background-color: transparent; color:white!important;}
-.sitemap-block .dropdown .dropdown-toggle:hover{background-color: transparent!important;}
+.sitemap-block ul{background: transparent !important;}
+.body--glazed-nav-desktop .sitemap-block .expanded.dropdown:hover > a{background: transparent !important;}
