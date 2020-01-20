@@ -68,10 +68,11 @@ header .navbar-container .row{margin:0px!important;}*/
 
 .body--glazed-nav-mobile #glazed-main-menu { 
     padding-left:0; 
-    padding-right:0; 
+    padding-right:0;
+    overflow-y:hidden; 
 }
     
-.body--glazed-nav-mobile .region.region-navigation-collapsible { margin-top:5em !important; }
+.body--glazed-nav-mobile .region.region-navigation-collapsible { margin-top:2em !important; }
 .body--glazed-nav-mobile .wrap-branding { 
     position: fixed; 
     z-index: 5555; 

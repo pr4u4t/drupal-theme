@@ -15,14 +15,14 @@
 
 @media screen and (max-width:768px){
 	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
-    		top: 20.5em !important;  
+    		top: 14em !important;  
     		left:-2em !important;  
 	}
 }
 
 @media screen and (min-width:769px){
 	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
-                top: 19em !important;
+                top: 14em !important;
                 left:-2em !important;
         }	
 }
@@ -104,4 +104,9 @@
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:focus,
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover{
         background:transparent !important;
+}
+
+.body--glazed-nav-mobile #glazed-main-menu .main-navigation-block{
+  max-height: calc(100vh - 13.5em);
+  overflow: scroll;
 }

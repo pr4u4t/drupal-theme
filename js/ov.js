@@ -3,7 +3,7 @@
     attach: function (context, settings) {
 	$('.main-navigation-block .menu .dropdown', context).once('setupOverlay').each(function () {
         $(this).hover(function(event){
-		console.log("HOVER");
+		
 		var fc = $(this).parent();
 		if($(this).length === 0) return;
 
