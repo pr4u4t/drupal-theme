@@ -1,4 +1,4 @@
-footer .footer-block .field .az-container .az-section .az-ctnr .az-row  {display:flex; flex-direction:row;justify-content:space-between;margin:2em 0;}
+footer .footer-block .field .az-container .az-section .az-ctnr .az-row  {display:flex; flex-direction:row;flex-wrap:wrap;justify-content:space-between;}
 footer .footer-block .field .az-container .az-section .footer-col-1{order:1;flex:1;}
 footer .footer-block .field .az-container .az-section .footer-col-2{display:flex;flex-direction:column;order:2;flex:1;justify-content:flex-end;}
 footer .footer-block .field .az-container .az-section .footer-col-3{order:3;flex:1;}
@@ -7,7 +7,13 @@ footer .footer-block .field .az-container .az-section .footer-col-3{order:3;flex
   .footer-container .az-element{ max-height: 400px; }
   .stbe-social-links { margin: 0em 1em 1em!important;}  
 }
-@media screen and (max-width: 900px){
+@media screen and (min-width:601px) and (max-width: 900px){
+footer .footer-block .field .az-container .az-section .az-ctnr .az-row  {display:flex; flex-direction:row;flex-wrap:wrap;justify-content:space-between;}
+footer .footer-block .field .az-container .az-section .footer-col-1{order:1;flex:1;flex-basis:58%;}
+footer .footer-block .field .az-container .az-section .footer-col-2{display:flex;flex-direction:column;order:3;flex:1;justify-content:flex-end;flex-basis:100%}
+footer .footer-block .field .az-container .az-section .footer-col-3{order:2;flex:1;flex-basis:42%}
+}
+@media screen and (max-width: 600px){
   footer .footer-block .field .az-container .az-section .az-ctnr .az-row{flex-direction: column; align-items:center;}
   .footer-container .az-element{ max-height: 650px; }
   footer .legal-requirements {padding-left:2.5em;}
@@ -18,8 +24,7 @@ footer .footer-block .field .az-container .az-section .footer-col-3{order:3;flex
   footer .footer-block .field .az-container .az-section .footer-col-2{order:3;flex:1;}
   footer .footer-block .field .az-container .az-section .footer-col-3{order:1;flex:1;}
 }
-@media screen and (max-width: px){
-}
+
 .glazed-footer {background-color:#282828;}
 .path-frontpage .glazed-footer {background-color:#21252a; }
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:transparent !important; color: #cccccc; }

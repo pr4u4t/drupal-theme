@@ -1,4 +1,7 @@
-body { background: #21252a !important; }
+.wrap-containers {background-color:#21252a;}
+.path-frontpage .wrap-containers {background-color:#282828;}
+body {background-color:#282828!important;}
+.path-frontpage body { background: #21252a !important; }
 
 html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .glazed-header--top.glazed-header--overlay{ top:37px !important; }
 
