@@ -1264,6 +1264,18 @@ footer .footer-block .field .az-container .az-section .footer-col-3 {
   }
 }
 @media screen and (min-width: 601px) and (max-width: 900px) {
+  .footer-container .az-element {
+    max-height: 650px;
+  }
+
+  footer .legal-requirements {
+    padding-left: 2.5em;
+  }
+
+  .stbe-social-links {
+    margin: 1em 0 !important;
+  }
+
   footer .footer-block .field .az-container .az-section .footer-col-1 {
     order: 2;
     flex-basis: 58%;
