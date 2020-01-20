@@ -12,10 +12,21 @@
 
 .body--glazed-nav-mobile .menu__breadcrumbs a:hover { background: transparent;  }
 
-.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
-    top: 25em !important;  
-    left:-2em !important;  
+
+@media screen and (max-width:768px){
+	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
+    		top: 20.5em !important;  
+    		left:-2em !important;  
+	}
 }
+
+@media screen and (min-width:769px){
+	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
+                top: 19em !important;
+                left:-2em !important;
+        }	
+}
+
 .body--glazed-nav-mobile .main-navigation-block { position: relative; top:1em; }
 
 .body--glazed-nav-desktop .main-navigation-block { 

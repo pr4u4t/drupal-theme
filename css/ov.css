@@ -757,6 +757,10 @@ article .view-content {
   display: none;
 }
 
+.body--glazed-nav-mobile .menu__breadcrumbs {
+  font-size: 0.85em;
+}
+
 .certificates-block .view-header {
   font-size: 2em;
   margin: 0em 35% 3em 35%;
@@ -1557,6 +1561,37 @@ footer {
   background: #181818 !important;
 }
 
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu {
+  width: 30%;
+  min-width: initial;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu button,
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li {
+  clear: none;
+  width: 3em;
+  min-width: 3em;
+  margin-left: 1em;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li:hover {
+  background: transparent;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a:hover {
+  color: #fff !important;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a {
+  display: inline-block;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a:before,
+.body--glazed-nav-mobile .dropdown-language-block button:before {
+  content: "|";
+  margin-right: 0.5em;
+}
+
 #navbar.glazed-header--hover-text .menu a.is-active {
   color: #968159;
 }
@@ -1577,11 +1612,18 @@ footer {
   background: transparent;
 }
 
-.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs {
-  top: 25em !important;
-  left: -2em !important;
+@media screen and (max-width: 768px) {
+  .body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs {
+    top: 20.5em !important;
+    left: -2em !important;
+  }
 }
-
+@media screen and (min-width: 769px) {
+  .body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs {
+    top: 19em !important;
+    left: -2em !important;
+  }
+}
 .body--glazed-nav-mobile .main-navigation-block {
   position: relative;
   top: 1em;
@@ -1711,6 +1753,14 @@ header .navbar-container .row{margin:0px!important;}*/
 
 #navbar .wrap-branding {
   height: 80px;
+}
+
+.body--glazed-nav-mobile.user-logged-in .wrap-branding {
+  margin-top: 2em;
+}
+
+.body--glazed-nav-mobile.user-logged-in.toolbar-tray-open .wrap-branding {
+  margin-top: 4em;
 }
 
 .body--glazed-nav-mobile #navbar {

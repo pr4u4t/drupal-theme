@@ -14,6 +14,13 @@ header .navbar-container .row{margin:0px!important;}*/
 .glazed-main-menu .nav > li > a { padding: 10px 25px !important; }
 .glazed-main-menu .wrap-branding a:hover { background: transparent !important; }
 #navbar .wrap-branding { height:80px; }
+.body--glazed-nav-mobile.user-logged-in .wrap-branding{
+	margin-top:2em;
+}
+
+.body--glazed-nav-mobile.user-logged-in.toolbar-tray-open .wrap-branding{
+	margin-top:4em;
+}
 
 .body--glazed-nav-mobile #navbar { height:60px!important; }
 .body--glazed-nav-mobile .body--glazed-nav-mobile .glazed-header #logo { padding-bottom: 10px; }
