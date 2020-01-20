@@ -223,18 +223,6 @@ article .view-content {
   margin-bottom: 4em;
 }
 
-/*----------------------PAGE-------------------------*/
-.page-node-type-article .main-container .content .img-responsive {
-  float: left;
-  padding: 0em 1em 1em 0em;
-}
-
-.page-node-type-article .main-container .content .field--name-field-second-level-title {
-  text-align: center;
-  font-size: 1.4em;
-  padding: 0.5em;
-}
-
 /*-------------------SLIDE-TO-------------------------*/
 #slide-to-blog {
   height: 2em;
@@ -744,6 +732,13 @@ article .view-content {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 1400px) {
+  .path-frontpage .view-blog-block .view-content .views-row {
+    width: 50%;
+    height: 46%;
+    margin-bottom: 1%;
+  }
+}
 .breadcrumb a {
   color: black;
   text-decoration: none;
@@ -1376,7 +1371,7 @@ footer .teaser {
   margin: 0px !important;
 }
 
-footer {
+.glazed-footer {
   margin-top: 2em;
 }
 
@@ -3406,4 +3401,28 @@ header .navbar-container .row{margin:0px!important;}*/
 
 .path-user .region.region-content .user-login-form .form-actions .btn:hover {
   background-color: #9f885d;
+}
+
+/*----------------------PAGE-------------------------*/
+.page-node-type-blog .main-container .content .img-responsive {
+  float: left;
+  padding: 0em 1em 1em 0em;
+}
+
+.page-node-type-blog .main-container .content .field--name-field-second-level-title {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 0.5em;
+}
+
+.page-node-type-blog .main-container .content .field--name-body {
+  margin-bottom: 2em;
+}
+
+.page-node-type-blog .main-container .submitted {
+  text-align: right;
+}
+
+.page-node-type-blog .main-container .submitted .author span {
+  color: #a38b5f;
 }

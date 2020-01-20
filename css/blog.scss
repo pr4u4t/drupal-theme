@@ -197,3 +197,11 @@
   color:#bda67a;
   text-decoration: underline;
 } 
+
+@media screen and (min-width:1400px){
+  .path-frontpage .view-blog-block .view-content .views-row{
+    width: 50%;
+    height: 46%;
+    margin-bottom:1%;
+  }
+}
