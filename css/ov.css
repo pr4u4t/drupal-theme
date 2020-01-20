@@ -1714,6 +1714,10 @@ header .navbar-container .row{margin:0px!important;}*/
   height: 80px;
 }
 
+.body--glazed-nav-mobile.user-logged-in .wrap-branding {
+  margin-top: 2em;
+}
+
 .body--glazed-nav-mobile #navbar {
   height: 60px !important;
 }
