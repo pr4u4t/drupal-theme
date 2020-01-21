@@ -1741,7 +1741,8 @@ footer .teaser {
 
 .body--glazed-nav-mobile #glazed-main-menu .main-navigation-block {
   max-height: calc(100vh - 13.5em);
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /*header {margin:0px!important;}
