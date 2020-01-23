@@ -3587,3 +3587,16 @@ header .navbar-container .row{margin:0px!important;}*/
 .path-admin .media-library-view .form-item-name {
   width: 45%;
 }
+
+.path-admin table tr:nth-child(2n+1) {
+  background: #fff;
+}
+
+.path-admin table tr:nth-child(2n+2) {
+  background: #ccc;
+}
+
+.path-admin table tr .btn-group .caret,
+.path-admin table tr .btn-group .button {
+  color: #000;
+}
