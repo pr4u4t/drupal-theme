@@ -23,3 +23,11 @@
 .path-admin .views-listing-table tr:nth-child(2n+2){
   background:#ccc;
 }
+
+.path-admin .views-listing-table{
+  width:100%;
+}
+
+.path-admin .views-listing-table .btn .caret{
+  color:#000;
+}
