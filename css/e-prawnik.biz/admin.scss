@@ -51,3 +51,24 @@
 .path-admin .view-id-content .view-filters .form-item-langcode{
   width: 33%;
 }
+
+
+.path-admin #block-admin-display-form .button,
+.path-admin .view-id-content .table .button {
+  color:#000;
+}
+
+.path-admin #block-admin-display-form .btn,
+.path-admin .view-id-content .table .btn .caret{
+  color:#000;
+}
+
+.path-admin #block-admin-display-form tr:nth-child(2n+1),
+.path-admin .view-id-content tr:nth-child(2n+1){
+  background: #fff;
+}
+
+.path-admin #block-admin-display-form tr:nth-child(2n+2),
+.path-admin .view-id-content tr:nth-child(2n+2){
+  background:#ccc;
+}
