@@ -3600,3 +3600,8 @@ header .navbar-container .row{margin:0px!important;}*/
 .path-admin table tr .btn-group .button {
   color: #000;
 }
+
+/*dumb revolution sliders fix*/
+html {
+  background: none !important;
+}
