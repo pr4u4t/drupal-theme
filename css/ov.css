@@ -3605,3 +3605,21 @@ header .navbar-container .row{margin:0px!important;}*/
 html {
   background: none !important;
 }
+
+/**/
+.path-admin #edit-displays {
+  background: #fff;
+  color: #000;
+}
+
+.path-admin #edit-displays .label {
+  color: #000;
+}
+
+.path-admin #views-display-menu-tabs {
+  list-style: none;
+}
+
+.path-admin #edit-displays .dropbutton {
+  list-style: none;
+}
