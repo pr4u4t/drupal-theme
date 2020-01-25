@@ -1,3 +1,8 @@
+$imgFrameColor: #9c8457 !default;
+$teamTextColor: #fff !default;
+$teamFigCapLinkColor: #fff !default; 
+$teamFigCapColor: grey !default;
+
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content figure {
 	margin:2em 0em 6em 0em;
 }
@@ -12,7 +17,7 @@
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame{
   width: 220px;
   height: 220px;
-  border: solid #9c8457 2px;
+  border: solid $imgFrameColor 2px;
   float:left;
   margin-right:1em;
 }
@@ -25,20 +30,23 @@
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text {
 	margin: 0em 2em 0em 0em;
 	text-align: justify; 
-	color: white;
+	color: $teamTextColor;
 }
 
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption { margin: 0.1em; }
-.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption div { color:grey; }
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption div { color: $teamFigCapColor; }
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption div a { 
 	font-size: 1.4em; 
-	color:white;
+	color: $teamFigCapLinkColor;
 }
 
 @media screen and (max-width:480px){
-  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption{text-align: center;}
-  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame {float:none; margin:auto;}
-  .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text {margin: 0em;}
+  	.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption{ text-align: center; }
+  	.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame { 
+		float:none; 
+		margin:auto; 
+	}
+  	.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text { margin: 0em; }
 }
 
 @media screen and (max-width:1199px){
