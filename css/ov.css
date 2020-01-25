@@ -1776,6 +1776,19 @@ footer .teaser {
     width: 50% !important;
   }
 }
+.path-certificates .certificates {
+  padding: 0em 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .path-certificates .views-col {
+    width: 100% !important;
+  }
+
+  .path-certificates .certificates {
+    padding: 0em;
+  }
+}
 .view-blog-block {
   color: #111;
   background-repeat: no-repeat;
@@ -2081,23 +2094,6 @@ footer .teaser {
     margin-bottom: 1%;
   }
 }
-.breadcrumb a {
-  color: #000;
-  text-decoration: none;
-}
-
-.breadcrumb a:hover {
-  color: grey;
-}
-
-.breadcrumb .glazed-breadcrumb-spacer {
-  display: none;
-}
-
-.body--glazed-nav-mobile .menu__breadcrumbs {
-  font-size: 0.85em;
-}
-
 .certificates-block .view-header {
   font-size: 2em;
   margin: 0em 35% 3em 35%;
@@ -3471,19 +3467,6 @@ header .navbar-container .row{margin:0px!important;}*/
   color: #706045;
 }
 
-.path-certificates .certificates {
-  padding: 0em 1em;
-}
-
-@media screen and (max-width: 768px) {
-  .path-certificates .views-col {
-    width: 100% !important;
-  }
-
-  .path-certificates .certificates {
-    padding: 0em;
-  }
-}
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
   padding-right: 10px;
   color: #000;
