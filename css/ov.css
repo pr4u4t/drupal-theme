@@ -1894,6 +1894,40 @@ footer .teaser {
   background: transparent !important;
 }
 
+.contact-page-view .company-details-view .legal-requirements h2:nth-child(1) {
+  margin: 2em 0em 0.3em 0em;
+}
+
+.contact-page-view .view-contact-block article {
+  margin-left: 1em;
+}
+
+.contact-page-view .az-map {
+  margin-bottom: 2em;
+}
+
+.contact-page-view .view-contact-block {
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-page-view .company-details-view {
+    float: left;
+  }
+
+  .contact-page-view .office-hours-view h2 {
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-page-view .company-details-view {
+    float: none;
+  }
+
+  .contact-page-view .office-hours-view h2 {
+    margin-top: 0em;
+  }
+}
 .view-blog-block {
   color: #111;
   background-repeat: no-repeat;
@@ -3282,91 +3316,6 @@ header .navbar-container .row{margin:0px!important;}*/
     width: 80vw;
     height: 14em;
     padding-left: 1.8%;
-  }
-}
-.company-details-view p:first-letter {
-  margin-left: 0em !important;
-}
-
-.company-details-view {
-  width: 20em;
-}
-
-.company-details-view a {
-  color: #646464;
-}
-
-.company-details-view .field--name-body div:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "";
-  color: #ccac6e;
-  white-space: pre;
-  width: 2em;
-  height: 2em;
-  position: relative;
-  float: left;
-  padding: 0.8em 0em 0em 0.1em;
-}
-
-.company-details-view .field--name-body p:nth-child(2):before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "";
-  color: #ccac6e;
-  white-space: pre;
-  width: 2em;
-  height: 2em;
-  position: relative;
-  float: left;
-  padding: 0.8em 0em 0em 0em;
-}
-
-.company-details-view .field--name-body p:nth-child(3):before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "";
-  color: #ccac6e;
-  white-space: pre;
-  width: 2em;
-  height: 2em;
-  position: relative;
-  float: left;
-  padding: 1.6em 0em 0em 0.1em;
-}
-
-.contact-page-view .company-details-view .legal-requirements h2:nth-child(1) {
-  margin: 2em 0em 0.3em 0em;
-}
-
-.contact-page-view .view-contact-block article {
-  margin-left: 1em;
-}
-
-.contact-page-view .az-map {
-  margin-bottom: 2em;
-}
-
-.contact-page-view .view-contact-block {
-  margin-top: 2em;
-}
-
-@media screen and (max-width: 992px) {
-  .contact-page-view .company-details-view {
-    float: left;
-  }
-
-  .contact-page-view .office-hours-view h2 {
-    margin-top: 2em;
-  }
-}
-@media screen and (max-width: 600px) {
-  .contact-page-view .company-details-view {
-    float: none;
-  }
-
-  .contact-page-view .office-hours-view h2 {
-    margin-top: 0em;
   }
 }
 .blog-page-view .views-row {
