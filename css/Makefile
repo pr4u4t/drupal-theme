@@ -2,7 +2,7 @@
 
 css:
 	@echo "Generating CSS"
-	sassc ov.scss ov.css
+	sass --no-source-map ov.scss ov.css
 
 clean:
 	@echo "Cleaning up..."

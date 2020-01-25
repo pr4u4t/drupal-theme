@@ -1,36 +1,43 @@
-@media screen and (max-width:768px){
-	.hero-column-1{width:100%;}
-}	
-.hero-block .content{margin:5em 0em 5em 0em;}
-.hero-block h2 a span{display:none;}
+$herop: #7d6a48 !default;
 
-.hero-attachment{ background: #000; height:11em;}
+@media screen and (max-width:768px){
+	.hero-column-1{ width:100%; }
+}	
+
+.hero-block .content{ margin:5em 0em 5em 0em; }
+.hero-block h2 a span{ display: none; }
+
+.hero-attachment{ 
+    background: #000; 
+    height:11em;
+}
+
 .hero-attachment p{
-  float:left;
-  width:33%;
-  margin-top:3em;
-  margin-bottom:3em; 
+  float: left;
+  width: 33%;
+  margin-top: 3em;
+  margin-bottom: 3em; 
   text-align: center;
-  height:5em;
+  height: 5em;
   overflow: auto;
-  padding-top:2em;
+  padding-top: 2em;
 }
 
 .hero-attachment .field-content:after{
   content:'.';
   white-space: pre;
-  clear:both;
-  float:none;
+  clear: both;
+  float: none;
 }
 
 .hero-attachment .field-content{ 
   width:70%; 
-  margin:auto; 
+  margin: auto; 
 }
 
 .hero-attachment p:nth-child(even) { 
-  border:groove; 
-  border-color:#7d6a48; 
+  border: groove; 
+  border-color: $herop; 
   border-top:0; 
   border-bottom:0; 
 }

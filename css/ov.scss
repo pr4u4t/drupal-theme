@@ -1,13 +1,15 @@
+@use 'e-prawnik.biz/about';
+@use 'e-prawnik.biz/aboutPage';
+@use 'e-prawnik.biz/hero';
+
 @import "e-prawnik.biz/cookies.scss";
 @import "e-prawnik.biz/preambule.scss";
 @import "e-prawnik.biz/main.scss";
-@use "e-prawnik.biz/about.scss";
 @import "e-prawnik.biz/blog.scss";
 @import "e-prawnik.biz/breadcrumbs.scss";
 @import "e-prawnik.biz/certificates.scss";
 @import "e-prawnik.biz/contact.scss";
 @import "e-prawnik.biz/footer.scss";
-@import "e-prawnik.biz/hero.scss";
 @import "e-prawnik.biz/lang.scss";
 @import "e-prawnik.biz/menu.scss";
 @import "e-prawnik.biz/navbar.scss";
@@ -19,7 +21,6 @@
 @import "e-prawnik.biz/wedo.scss";
 @import "e-prawnik.biz/companyDetails.scss";
 @import "e-prawnik.biz/contactPage.scss";
-@use "e-prawnik.biz/aboutPage.scss";
 @import "e-prawnik.biz/teamPage.scss";
 @import "e-prawnik.biz/blogPage.scss";
 @import "e-prawnik.biz/opinionsPage.scss";
