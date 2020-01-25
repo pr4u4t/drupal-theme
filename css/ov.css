@@ -1544,6 +1544,20 @@ footer .teaser {
   padding-right: 0;
 }
 
+.path-trust .wrap-containers {
+  margin: 2em 0em;
+}
+
+@media screen and (max-width: 768px) {
+  .path-trust .views-col {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .path-trust .views-col {
+    width: 50% !important;
+  }
+}
 .view-blog-block {
   color: #111;
   background-repeat: no-repeat;
@@ -3525,20 +3539,6 @@ header .navbar-container .row{margin:0px!important;}*/
 
   .path-certificates .certificates {
     padding: 0em;
-  }
-}
-.path-trust .wrap-containers {
-  margin: 2em 0em;
-}
-
-@media screen and (max-width: 768px) {
-  .path-trust .views-col {
-    width: 100% !important;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-  .path-trust .views-col {
-    width: 50% !important;
   }
 }
 /*----------------------PAGE-------------------------*/
