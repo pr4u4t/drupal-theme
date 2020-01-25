@@ -1558,6 +1558,29 @@ footer .teaser {
     width: 50% !important;
   }
 }
+.page-node-type-blog .main-container .content .img-responsive {
+  float: left;
+  padding: 0em 1em 1em 0em;
+}
+
+.page-node-type-blog .main-container .content .field--name-field-second-level-title {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 0.5em;
+}
+
+.page-node-type-blog .main-container .content .field--name-body {
+  margin-bottom: 2em;
+}
+
+.page-node-type-blog .main-container .submitted {
+  text-align: right;
+}
+
+.page-node-type-blog .main-container .submitted .author span {
+  color: #a38b5f;
+}
+
 .view-blog-block {
   color: #111;
   background-repeat: no-repeat;
@@ -3541,30 +3564,6 @@ header .navbar-container .row{margin:0px!important;}*/
     padding: 0em;
   }
 }
-/*----------------------PAGE-------------------------*/
-.page-node-type-blog .main-container .content .img-responsive {
-  float: left;
-  padding: 0em 1em 1em 0em;
-}
-
-.page-node-type-blog .main-container .content .field--name-field-second-level-title {
-  text-align: center;
-  font-size: 1.4em;
-  padding: 0.5em;
-}
-
-.page-node-type-blog .main-container .content .field--name-body {
-  margin-bottom: 2em;
-}
-
-.page-node-type-blog .main-container .submitted {
-  text-align: right;
-}
-
-.page-node-type-blog .main-container .submitted .author span {
-  color: #a38b5f;
-}
-
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
   padding-right: 10px;
   color: #000;

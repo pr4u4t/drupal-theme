@@ -1,4 +1,4 @@
-/*----------------------PAGE-------------------------*/
+$blogArticleAuthor: #a38b5f !default;
 
 .page-node-type-blog .main-container .content .img-responsive { 
     float: left;
@@ -16,5 +16,5 @@
   text-align: right;
 }
 .page-node-type-blog .main-container .submitted .author span {
-  color:#a38b5f;
+  color: $blogArticleAuthor;
 }
