@@ -8,13 +8,42 @@
 .path-user .region.region-content .user-login-form .form-actions .btn{margin: 1em;background-color: #333333;}
 .path-user .region.region-content .user-login-form .form-actions .btn:hover{background-color:#9f885d}
 */
-.region.region-content .tabs {background-color: transparent!important;}
 
-.region.region-content .tabs ul a {margin: 1em;background-color: #333333;border-radius: 5px;border-bottom: 3px solid rgba(0,0,0,0.12); border-left: 3px solid rgba(0,0,0,0.08);border-right:none;border-top:none;}
-.region.region-content .tabs ul a:hover{background-color:#9f885d;border-bottom-color:rgba(0,0,0,0.4);border-left-color:rgba(0,0,0,0.3);}
-.region.region-content .tabs ul a:focus{border-bottom: 3px solid rgba(0,0,0,0.12);border-left: 3px solid rgba(0,0,0,0.08);}
-.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ color: white; padding:1em!important;}
-.region.region-content .tabs .tabs--secondary li a{ color: white; padding:1em!important;}
+.region.region-content .tabs { background-color: transparent !important; }
 
-.region.region-content .user-login-form .form-actions .btn{margin: 1em;background-color: #333333;}
-.region.region-content .user-login-form .form-actions .btn:hover{background-color:#9f885d}
+.region.region-content .tabs ul a {
+    margin: 1em;
+    background-color: #333333;
+    border-radius: 5px;
+    border-bottom: 3px solid rgba(0,0,0,0.12); 
+    border-left: 3px solid rgba(0,0,0,0.08);
+    border-right: none;
+    border-top: none;
+}
+
+.region.region-content .tabs ul a:hover{ 
+    background-color: #9f885d;
+    border-bottom-color: rgba(0,0,0,0.4);
+    border-left-color: rgba(0,0,0,0.3);
+}
+
+.region.region-content .tabs ul a:focus{
+    border-bottom: 3px solid rgba(0,0,0,0.12);
+    border-left: 3px solid rgba(0,0,0,0.08);
+}
+
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
+    color: white; 
+    padding:1em!important;
+}
+.region.region-content .tabs .tabs--secondary li a{ 
+    color: white; 
+    padding:1em!important;
+}
+
+.region.region-content .user-login-form .form-actions .btn{
+    margin: 1em;
+    background-color: #333333;
+}
+
+.region.region-content .user-login-form .form-actions .btn:hover{ background-color: #9f885d; }
