@@ -1754,6 +1754,28 @@ footer .teaser {
     margin: 0em;
   }
 }
+.path-opinions .main-container {
+  margin-top: 6em;
+}
+
+.path-opinions .opinions h2 {
+  display: none;
+}
+
+.path-opinions .opinions {
+  padding: 0em 1.5em 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .path-opinions .views-col {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .path-opinions .views-col {
+    width: 50% !important;
+  }
+}
 .view-blog-block {
   color: #111;
   background-repeat: no-repeat;
@@ -3449,28 +3471,6 @@ header .navbar-container .row{margin:0px!important;}*/
   color: #706045;
 }
 
-.path-opinions .main-container {
-  margin-top: 6em;
-}
-
-.path-opinions .opinions h2 {
-  display: none;
-}
-
-.path-opinions .opinions {
-  padding: 0em 1.5em 2em;
-}
-
-@media screen and (max-width: 600px) {
-  .path-opinions .views-col {
-    width: 100% !important;
-  }
-}
-@media screen and (min-width: 601px) and (max-width: 1200px) {
-  .path-opinions .views-col {
-    width: 50% !important;
-  }
-}
 .path-certificates .certificates {
   padding: 0em 1em;
 }
