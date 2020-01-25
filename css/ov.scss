@@ -9,6 +9,7 @@
 @use "e-prawnik.biz/main";
 @use "e-prawnik.biz/breadcrumbs";
 @use "e-prawnik.biz/cookies";
+@use "e-prawnik.biz/userPanel";
 
 @import "e-prawnik.biz/blog.scss";
 @import "e-prawnik.biz/breadcrumbs.scss";
@@ -27,6 +28,5 @@
 @import "e-prawnik.biz/opinionsPage.scss";
 @import "e-prawnik.biz/certificatesPage.scss";
 @import "e-prawnik.biz/trustPage.scss";
-@import "e-prawnik.biz/userPanel.scss";
 @import "e-prawnik.biz/blogArticle.scss";
 @import "e-prawnik.biz/admin.scss";
