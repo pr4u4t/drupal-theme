@@ -1,23 +1,29 @@
+$cookiesPopupBack: transparent !default;
+$cookiesPopup: #646464 !default;
+$cookiesAgreeDeclineHov: #afafaf !default;
+$cookiesPopupHeader: #afafaf !default;
+$cookiesFindMore: #afafaf !default;
+
 #sliding-popup { padding:1em; }
 #sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button{
   border-radius: 0;
-  color:#646464;
-  font-weight:normal;
+  color: $cookiesPopup;
+  font-weight: normal;
   text-shadow: none;
-  background:transparent;
+  background: $cookiesPopupBack;
   box-shadow: none;
   border: 0;
 }
 #sliding-popup .eu-cookie-compliance-banner .popup-content .agree-button:hover,
 #sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button:hover{
   text-decoration: underline;
-  color:#afafaf;
+  color: #afafaf;
 }
 
 #sliding-popup .eu-cookie-compliance-banner .popup-content h2{ 
   font-size:1.25em;
-  font-weight:normal;
-  color:#afafaf;
+  font-weight: normal;
+  color: $cookiesPopupHeader;
 }
 #sliding-popup .eu-cookie-compliance-banner .popup-content p{
   font-size:1em;
@@ -25,6 +31,6 @@
 }
 
 #sliding-popup .eu-cookie-compliance-banner .popup-content .find-more-button:hover{
-  color:#afafaf;
+  color: $cookiesFindMore;
 }
 
