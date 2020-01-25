@@ -1,3 +1,4 @@
+@use "e-prawnik.biz/preambule";
 @use "e-prawnik.biz/about";
 @use "e-prawnik.biz/aboutPage";
 @use "e-prawnik.biz/hero";
@@ -5,9 +6,10 @@
 @use "e-prawnik.biz/wedo";
 @use "e-prawnik.biz/lang";
 @use "e-prawnik.biz/contact";
+@use "e-prawnik.biz/main";
+@use "e-prawnik.biz/breadcrumbs";
 
 @import "e-prawnik.biz/cookies.scss";
-@import "e-prawnik.biz/preambule.scss";
 @import "e-prawnik.biz/main.scss";
 @import "e-prawnik.biz/blog.scss";
 @import "e-prawnik.biz/breadcrumbs.scss";
