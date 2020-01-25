@@ -2310,7 +2310,7 @@ header .navbar-container .row{margin:0px!important;}*/
 .path-frontpage .team-block .view-content .views-field .field-content .img-frame {
   width: 220px;
   height: 220px;
-  border: solid #9c8457 2px;
+  border: 2px solid #9c8457;
   margin: 0.5em 0em 0em 1.5em;
 }
 
@@ -2329,7 +2329,7 @@ header .navbar-container .row{margin:0px!important;}*/
 
 .path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption div a {
   font-size: 1.2em;
-  color: white;
+  color: #fff;
 }
 
 /*---------------------------*/
@@ -2394,7 +2394,7 @@ header .navbar-container .row{margin:0px!important;}*/
 .path-frontpage div[data-azb^=az_view-team-block] figure figcaption a {
   display: block;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .path-frontpage .view-team .jcarousel-wrapper {
