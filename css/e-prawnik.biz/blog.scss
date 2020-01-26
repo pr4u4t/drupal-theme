@@ -1,23 +1,77 @@
-.view-blog-block { color:#111; background-repeat: no-repeat; background-size: cover; }
-.view-blog-block .az-ctnr .container-fluid { max-width:1280px !important; }
-.view-blog-block .blog .content { overflow: hidden; height: 36em; }
-.view-blog-block article { padding:14px; margin:14px 14px; border: none; border-radius: 15px; /*background:#fff;*/ text-align: center; /*box-shadow: 2px 5px 5px 5px #0173e4;*/ }
-.view-blog-block h2 a { color:#111; }
-.view-blog-block article img { display:none; }
-.view-blog-block article .content::after { display:inline-block; color:#fff;background: #3299fe !important; padding:10px; border-radius: 10px; text-align: center; margin:15px auto; }
-.view-blog-block h1 { color: #fff; margin: 20px auto; }
-.view-blog-block h2{ font-size: 16px; font-weight: 400; margin-top:3em; }
+$blogViewBlock: #111 !default; 
+$blogViewBlockHeaderLink: #111 !default;
+$blogViewBlockArticleContentAfter: #fff !default;
+$blogViewBlockArticleContentAfterBack: #3299fe !default;
+$blogViewBlockHeader: #fff !default;
+$blogSection: #fff !default;
+$blogViewHeaderLinkHov: grey !default;
+$blogViewContentArticleLinkHov: grey !default;
+$blogViewBlockFieldBody: #fff !default;
+$blogViewBlockFieldTitleLink: #fff !default;
+$blogViewBlockFieldCreated: #fff !default;
+$blogViewBlockFieldCreatedBack: #83775b !default;
+$blogViewBlockFieldUidLink: #83775b !default;
+$blogViewBlockViewHeaderLink: #bda67a !default;
 
-/*.view-blog-block .views-col .teaser .img-responsive { margin: auto;
-: 18em; }*/
-/*article.blog.teaser img { display:block !important; }*/
-.view-blog-block .views-col .teaser .img-responsive { display:block; float: left !important; margin-right: 1em; margin-top:1em; width: 55%;}
-.view-blog-block .views-col .teaser p:first-letter { font-size:2.5em; font-weight:bold; }
+.view-blog-block { 
+    color: $blogViewBlock; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.view-blog-block .az-ctnr .container-fluid { max-width:1280px !important; }
+.view-blog-block .blog .content { 
+    overflow: hidden; 
+    height: 36em; 
+}
+.view-blog-block article { 
+    padding:14px; 
+    margin:14px 14px; 
+    border: none; 
+    border-radius: 15px;
+    text-align: center;  
+}
+
+.view-blog-block h2 a { color: $blogViewBlockHeaderLink; }
+.view-blog-block article img { display: none; }
+.view-blog-block article .content::after { 
+    display: inline-block; 
+    color: $blogViewBlockArticleContentAfter;
+    background: $blogViewBlockArticleContentAfterBack !important; 
+    padding:10px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin:15px auto; 
+}
+.view-blog-block h1 { 
+    color: $blogViewBlockHeader; 
+    margin: 20px auto; 
+}
+.view-blog-block h2{ 
+    font-size: 16px; 
+    font-weight: 400; 
+    margin-top:3em; 
+}
+
+.view-blog-block .views-col .teaser .img-responsive { 
+    display: block; 
+    float: left !important; 
+    margin-right: 1em; 
+    margin-top:1em; 
+    width: 55%;
+}
+.view-blog-block .views-col .teaser p:first-letter { 
+    font-size:2.5em; 
+    font-weight: bold; 
+}
 .view-blog-block .views-col .teaser p { text-align: justify; }
-.blog-section { background-color:#fff !important; background-image: linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)); }
-.view-blog-block .view-header a:hover { color: grey; }
-.view-blog-block .view-content .views-col .article a:hover { color: grey; }
-.view-blog-block .views-col .teaser{height:27em!important;}
+.blog-section { 
+    background-color: $blogSection !important;
+    /* this is probably from robco and should be removed*/
+    background-image: linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)); 
+}
+.view-blog-block .view-header a:hover { color: $blogViewHeaderLinkHov; }
+.view-blog-block .view-content .views-col .article a:hover { color: $blogViewContentArticleLinkHov; }
+.view-blog-block .views-col .teaser{ height:27em !important;}
 
 .view-blog-block .views-col .teaser h2 a {
   font-size:2em;
@@ -25,13 +79,24 @@
 }
 
 @media screen and ( max-width:1199px) {
-        .view-blog-block .views-col{ max-width:100% !important; width:100% !important; }
-        .view-blog-block .views-col article { height: 33em !important; max-height: 40em !important; overflow-y: hidden; }
+        .view-blog-block .views-col{ 
+            max-width:100% !important; 
+            width:100% !important; 
+        }
+        .view-blog-block .views-col article { 
+            height: 33em !important; 
+            max-height: 40em !important; 
+            overflow-y: hidden; 
+        }
 }
 
 @media screen and ( min-width:1200px ) {
   .view-blog-block .views-col { width:50% !important; }
-  .view-blog-block .views-col article { height: 35em !important; max-height: 40em !important; overflow-y: hidden; }
+  .view-blog-block .views-col article { 
+      height: 35em !important; 
+      max-height: 40em !important; 
+      overflow-y: hidden; 
+    }
 }
 
 .view-blog-block .views-col:nth-child(even) .teaser .img-responsive{
@@ -72,18 +137,19 @@
     .path-frontpage .view-blog-block .views-field-field-image{
     width:50%;
     max-height: 100%;
-    float:left;
+    float: left;
     margin-right:1em;
     overflow: hidden;
   }
   .path-frontpage .view-blog-block .views-row:first-child .views-field-field-image{
     width:100%;
     max-height: 80%;
-    float:none;
+    float: none;
     clear: both;
     overflow: hidden;
-  }}
-  @media screen and (min-width:481px) and (max-width: 768px){
+  }
+}
+@media screen and (min-width:481px) and (max-width: 768px){
   .path-frontpage .view-blog-block .view-content .views-field-uid .field-content a {font-size: 0.8em}
   .path-frontpage .view-blog-block .view-content{
     display: flex;
@@ -106,18 +172,19 @@
     .path-frontpage .view-blog-block .views-field-field-image{
     width:50%;
     max-height: 100%;
-    float:left;
+    float: left;
     margin-right:1em;
     overflow: hidden;
   }
   .path-frontpage .view-blog-block .views-row:first-child .views-field-field-image{
     width:100%;
     max-height: 80%;
-    float:none;
+    float: none;
     clear: both;
     overflow: hidden;
-  }}
-  @media screen and (min-width:769px){
+  }
+}
+@media screen and (min-width:769px){
     .path-frontpage .view-blog-block .view-content{
       display: flex;
       height: 32em;
@@ -138,22 +205,23 @@
     .path-frontpage .view-blog-block .views-field-field-image{
       width:50%;
       max-height:100%;
-      float:left;
+      float: left;
       margin-right:1em;
-      overflow:hidden;
+      overflow: hidden;
       background-position: center; 
     }
     .path-frontpage .view-blog-block .views-row:first-child .views-field-field-image{
       width:100%;
       max-height:80%;
-      float:none;
+      float: none;
       clear: both;
-      overflow:hidden;
-    }}
+      overflow: hidden;
+    }
+}
 
 .path-frontpage .view-blog-block .views-field-title,
 .path-frontpage .view-blog-block .views-field-body{
-  color:#fff;
+    color: $blogViewBlockFieldBody;
 }
 
 .path-frontpage .view-blog-block .views-field-title a,
@@ -161,7 +229,7 @@
 .path-frontpage .view-blog-block .views-field-title a:hover,
 .path-frontpage .view-blog-block .views-field-title a:link,
 .path-frontpage .view-blog-block .views-field-title a:visited{
-  color:#fff;
+  color: $blogViewBlockFieldTitleLink;
   font-weight:600;
 }
 
@@ -170,11 +238,11 @@
 }
 
 .path-frontpage .view-blog-block .views-field-created{
-  position:absolute;
-  background: #83775b;
-  color:#fff;
-  padding-top:.5em;
-  padding-bottom:.5em;
+  position: absolute;
+  background: $blogViewBlockFieldCreatedBack;
+  color: $blogViewBlockFieldCreated;
+  padding-top: .5em;
+  padding-bottom: .5em;
   padding-left: 1em;
   padding-right: 2.5em;
   width:3em;
@@ -185,7 +253,7 @@
 .path-frontpage .view-blog-block .views-field-uid a:hover,
 .path-frontpage .view-blog-block .views-field-uid a:visited,
 .path-frontpage .view-blog-block .views-field-uid a:active{
-  color: #83775b;
+    color: $blogViewBlockFieldUidLink;
 }
 
 .path-frontpage .view-blog-block .views-field-uid a:before{
@@ -194,7 +262,7 @@
 
 .path-frontpage .view-blog-block .view-header a{
   font-size:31px;
-  color:#bda67a;
+  color: $blogViewBlockViewHeaderLink;
   text-decoration: underline;
 } 
 
