@@ -17,7 +17,7 @@ $cookiesFindMore: #afafaf !default;
 #sliding-popup .eu-cookie-compliance-banner .popup-content .agree-button:hover,
 #sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button:hover{
   text-decoration: underline;
-  color: #afafaf;
+  color: $cookiesAgreeDeclineHov;
 }
 
 #sliding-popup .eu-cookie-compliance-banner .popup-content h2{ 

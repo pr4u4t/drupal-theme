@@ -5,6 +5,10 @@ $mainFBodyBack: #21252a !default;
 $mainRegionTabsBack: #fff !default; 
 $mainTitleLink: #fff !default;
 $mainTitleLinkHov: grey !default;
+$mainNodePageTitleHeader: #fff !default;
+$mainBlogPageTitleHeader: #fff !default;
+$mainViewsGridLink: #000 !default;
+$mainViewsGridLinkHov: grey !default;
 
 .wrap-containers { background-color: $mainWrapBack; }
 .path-frontpage .wrap-containers { background-color: $mainFWrapBack; }
@@ -99,9 +103,9 @@ h2 a span:hover{ color: $mainTitleLinkHov; }
 
 .title-page-title { margin:1em 5% 1em 5%; }
 .path-node .title-page-title{ margin-top:6em; }
-.path-node .title-page-title h2{ color: white; }
+.path-node .title-page-title h2{ color: $mainNodePageTitleHeader; }
 .path-blog .title-page-title{ margin-top:6em; }
-.path-blog .title-page-title h2{ color: white; }
+.path-blog .title-page-title h2{ color: $mainBlogPageTitleHeader; }
 
 /*-------------------DRAG-AND-DROP-PAGE---------------------------*/
 .drag-and-drop-page  .carousel-reduced {
@@ -116,9 +120,9 @@ h2 a span:hover{ color: $mainTitleLinkHov; }
 }
 .views-view-grid a { 
     text-decoration: none; 
-    color: black;
+    color: $mainViewsGridLink;
 }
-.views-view-grid a:hover { color: grey; }
+.views-view-grid a:hover { color: $mainViewsGridLinkHov; }
 .views-view-grid .img-responsive {
     margin: auto; 
     margin-bottom:1em;

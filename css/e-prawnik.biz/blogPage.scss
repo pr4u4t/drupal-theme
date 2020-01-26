@@ -1,28 +1,94 @@
-.blog-page-view .views-row {margin:2em 0em;}
-.blog-page-view .views-row article a { text-decoration:none; color: black;}
-.blog-page-view .views-row article a:hover{color:grey;}
-.blog-page-view .views-row .img-responsive {margin:auto; width: 35%; float:left; padding-right:1em;margin-right:1em;}
+$blogPageRowArticleLink: #000 !default;
+$blogPageRowArticleLinkHov: grey !default;
+$blogPageView: #111 !default;
+$blogPageViewHeaderLink: #111 !default;
+$blogPageViewArticleAfter: #fff !default;
+$blogPageViewArticleAfterBack: #3299fe !default;
+$blogPageViewHeader: #fff !default;
+$blogPageSection: #fff !default;
+$blogPageViewArticleLink: grey !default;
+$blogPageViewFieldBody: #fff !default;
+$blogPageViewFieldTitleLink: #fff !default;
+$blogPageViewFieldCreate: #fff !default;
+$blogPageViewFieldCreateBack: #83775b !default;
+$blogPageViewFieldUidLink: #83775b !default;
+$blogPageReadMoreLink: #aa9161 !default;
+$blogPageReadMoreLinkHov: #706045 !default;
+$blogPageTitleHeader: #bda67a !default;
 
-@media screen and (max-width:480px){  
-  .path-blog .views-field-field-image img{width:100%!important;float: none!important; margin:auto;}
+.blog-page-view .views-row { margin:2em 0em; }
+.blog-page-view .views-row article a { 
+    text-decoration: none; 
+    color: $blogPageRowArticleLink;
+}
+.blog-page-view .views-row article a:hover { color: $blogPageRowArticleLinkHov; }
+.blog-page-view .views-row .img-responsive {
+    margin: auto; 
+    width: 35%; 
+    float: left; 
+    padding-right: 1em;
+    margin-right:1em;
 }
 
-.blog-page-view { color:#111; background-repeat: no-repeat; background-size: cover; }
-.blog-page-view .az-ctnr .container-fluid { max-width:1280px !important; }
-.blog-page-view .blog .content { overflow: hidden; height: 36em; }
-.blog-page-view article { padding:14px; margin:14px 14px; border: none; border-radius: 15px; /*background:#fff;*/ text-align: center; /*box-shadow: 2px 5px 5px 5px #0173e4;*/ }
-.blog-page-view h2 a { color:#111; }
-.blog-page-view article img { display:none; }
-.blog-page-view article .content::after { display:inline-block; color:#fff;background: #3299fe !important; padding:10px; border-radius: 10px; text-align: center; margin:15px auto; }
-.blog-page-view h1 { color: #fff; margin: 20px auto; }
-.blog-page-view h2{ font-size: 16px; font-weight: 400; margin-top:3em; }
+@media screen and (max-width:480px){  
+  .path-blog .views-field-field-image img{
+      width:100% !important; 
+      float: none !important; 
+      margin: auto;
+    }
+}
 
-.blog-section { background-color:#fff !important; background-image: linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)); }
-.blog-page-view .view-content .views-col .article a:hover { color: grey; }
+.blog-page-view { 
+    color: $blogPageView; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.blog-page-view .az-ctnr .container-fluid { max-width:1280px !important; }
+.blog-page-view .blog .content { 
+    overflow: hidden; 
+    height: 36em; 
+}
+
+.blog-page-view article { 
+    padding:14px; 
+    margin:14px 14px; 
+    border: none; 
+    border-radius: 15px; 
+    text-align: center; 
+}
+
+.blog-page-view h2 a { color: $blogPageViewHeaderLink; }
+.blog-page-view article img { display: none; }
+.blog-page-view article .content::after { 
+    display: inline-block; 
+    color: $blogPageViewArticleAfter;
+    background: $blogPageViewArticleAfterBack !important; 
+    padding:10px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin:15px auto; 
+}
+.blog-page-view h1 { 
+    color: $blogPageViewHeader; 
+    margin: 20px auto; 
+}
+.blog-page-view h2{ 
+    font-size: 16px; 
+    font-weight: 400; 
+    margin-top:3em; 
+}
+
+.blog-section { 
+    background-color: $blogPageSection !important;
+    /*this gradient is probably from robco and should be removed*/
+    background-image: linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)); 
+}
+
+.blog-page-view .view-content .views-col .article a:hover { color: $blogPageViewArticleLink; }
 
 .path-blog .blog-page-view .views-field-title,
 .path-blog .blog-page-view .views-field-body{
-  color:#fff;
+    color: $blogPageViewFieldBody;
 }
 
 .path-blog .blog-page-view .views-field-title a,
@@ -30,7 +96,7 @@
 .path-blog .blog-page-view .views-field-title a:hover,
 .path-blog .blog-page-view .views-field-title a:link,
 .path-blog .blog-page-view .views-field-title a:visited{
-  color:#fff;
+  color: $blogPageViewFieldTitleLink;
   font-weight:500;
   font-size: 1.8em;
 }
@@ -40,14 +106,14 @@
 }
 
 .path-blog .blog-page-view .views-field-created{
-  position:absolute;
-  background: #83775b;
-  color:#fff;
-  padding-top:.5em;
-  padding-bottom:.5em;
+  position: absolute;
+  background: $blogPageViewFieldCreateBack;
+  color: $blogPageViewFieldCreate;
+  padding-top: .5em;
+  padding-bottom: .5em;
   padding-left: 1em;
   padding-right: 2.5em;
-  width:3em;
+  width: 3em;
 }
 
 .path-blog .blog-page-view .views-field-uid a,
@@ -55,7 +121,7 @@
 .path-blog .blog-page-view .views-field-uid a:hover,
 .path-blog .blog-page-view .views-field-uid a:visited,
 .path-blog .blog-page-view .views-field-uid a:active{
-  color: #83775b;
+    color: $blogPageViewFieldUidLink;
 }
 
 .path-blog .blog-page-view .views-field-uid a:before{
@@ -64,10 +130,13 @@
 
 .path-blog .title-page-title h2 {
   font-size:31px;
-  color:#bda67a;
+  color: $blogPageTitleHeader;
   text-decoration: underline;
   text-align: center;
 } 
 
-.blog-page-view .read-more a{color: #aa9161; font-size: 3em;}
-.blog-page-view .read-more a:hover{color:#706045;}
+.blog-page-view .read-more a{
+    color: $blogPageReadMoreLink; 
+    font-size: 3em;
+}
+.blog-page-view .read-more a:hover{ color: $blogPageReadMoreLinkHov; }

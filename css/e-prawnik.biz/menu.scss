@@ -1,4 +1,16 @@
-#navbar.glazed-header--hover-text .menu a.is-active{ color: #968159; }
+$navbarMenuActiveLink: #968159 !default;
+$navMobileBreadBack: transparent !default;
+$navDesktopMenuBack: #181818 !default;
+$navDesktopDropdown: #fff !default;
+$navDimOverlayBack: #000 !default;
+$navDimOverlayOpacity: 0.5 !default;
+$navDesktopMegaHeader: #0180ef !default;
+$navDesktopMegaHeaderBack: transparent !default;
+$navDesktopExpandedLinkBackHov: #181818 !default;
+$navDesktopMenuLinkBackHov: #181818 !default;
+$navDesktopMenuDropdownBackHov: transparent !default;
+
+#navbar.glazed-header--hover-text .menu a.is-active{ color: $navbarMenuActiveLink; }
 .body--glazed-nav-mobile .main-navigation-block { 
     -webkit-box-ordinal-group: 3; 
     -moz-box-ordinal-group: 3;
@@ -10,13 +22,12 @@
     position: static !important; 
 }
 
-.body--glazed-nav-mobile .menu__breadcrumbs a:hover { background: transparent;  }
-
+.body--glazed-nav-mobile .menu__breadcrumbs a:hover { background: $navMobileBreadBack;  }
 
 @media screen and (max-width:768px){
 	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
     		top: 14em !important;  
-    		left:-2em !important;  
+    		left: -2em !important;  
 	}
 
 	.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs {
@@ -27,7 +38,7 @@
 @media screen and (min-width:769px){
 	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
                 top: 14em !important;
-                left:-2em !important;
+                left: -2em !important;
         }
 
 	.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs {
@@ -50,9 +61,9 @@
 
 .body--glazed-nav-desktop .main-navigation-block .menu.nav.navbar-nav { height: 80px !important; }
 .body--glazed-nav-desktop .main-navigation-block { margin-right:20%; }
-.body--glazed-nav-desktop .main-navigation-block .dropdown .dropdown-menu { background: #181818; } 
+.body--glazed-nav-desktop .main-navigation-block .dropdown .dropdown-menu { background: $navDesktopMenuBack; } 
 
-.body--glazed-nav-mobile .block-system-menu-blockmain ul .active a { color: #fff !important; }
+.body--glazed-nav-mobile .block-system-menu-blockmain ul .active a { color: $navDesktopDropdown !important; }
 .body--glazed-nav-desktop #navbar { z-index:4050 !important; }
 .body--glazed-nav-desktop .block-system-menu-blockmain ul { 
     -webkit-box-shadow: none !important; 
@@ -72,9 +83,9 @@
 	  left:-100vh;
 	  width:200vw;
 	  height:200vh;
-	  opacity:0.5;
+      opacity: $navDimOverlayOpacity;
 	  display: none;
-	  background: #000;
+      background: $navDimOverlayBack;
 	  z-index:500;
 	  content:' ';
 }
@@ -83,8 +94,8 @@
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:hover, 
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:link, 
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:visited { 
-    color: #0180ef !important; 
-    background: transparent !important; 
+    color: $navDesktopMegaHeader !important; 
+    background: $navDesktopMegaHeaderBack !important; 
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu { 
@@ -92,7 +103,7 @@
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu .dropdown-menu { 
-       	position: static;
+    position: static;
 	flex-direction: column;
 }
 
@@ -103,18 +114,18 @@
 #navbar .container .container-row .container-col { height:60px; }
 
 .body--glazed-nav-desktop .expanded.dropdown:hover > a {
-   background:#181818 !important;  
+    background: $navDesktopExpandedLinkBackHov !important;  
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu a:focus,
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu a:hover{ 
-        background:#181818 !important;
+    background: $navDesktopMenuLinkBackHov !important;
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a,
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:focus,
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover{
-        background:transparent !important;
+    background: $navDesktopMenuDropdownBackHov !important;
 }
 
 .body--glazed-nav-mobile #glazed-main-menu .main-navigation-block{
