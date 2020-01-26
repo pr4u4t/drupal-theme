@@ -25,7 +25,6 @@
 @use "e-prawnik.biz/blogPage";
 @use "e-prawnik.biz/blog";
 @use "e-prawnik.biz/certificates";
-
-@import "e-prawnik.biz/navbar.scss";
-@import "e-prawnik.biz/opinions.scss";
-@import "e-prawnik.biz/trust.scss";
+@use "e-prawnik.biz/navbar";
+@use "e-prawnik.biz/opinions";
+@use "e-prawnik.biz/trust";

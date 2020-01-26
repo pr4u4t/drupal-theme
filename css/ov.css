@@ -2871,11 +2871,6 @@ html {
     padding-left: 1.8%;
   }
 }
-/*header {margin:0px!important;}
-header .form-group{margin:0px!important;}
-header .navbar-form{margin:0px!important;}
-header .navbar-right{margin:0px!important;}
-header .navbar-container .row{margin:0px!important;}*/
 .navbar-container {
   transition: all 1s;
 }
@@ -2926,7 +2921,6 @@ header .navbar-container .row{margin:0px!important;}*/
 .body--glazed-nav-mobile .glazed-main-menu a:visited,
 .body--glazed-nav-mobile .glazed-main-menu a:link {
   padding-left: 15px !important;
-  /*color:#fff !important;*/
 }
 
 .body--glazed-nav-mobile .glazed-main-menu .dropdown a,
@@ -3020,11 +3014,11 @@ header .navbar-container .row{margin:0px!important;}*/
   box-orient: horizontal;
 }
 
+/* what is that ??? */
 .body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix {
   background: #0180ef !important;
 }
 
-/*#navbar  a, #navbar  a:link, #navbar  a:visited { color:#fff !important; }*/
 .body--glazed-nav-desktop #navbar a:hover {
   color: #646464 !important;
   background: #181818 !important;
@@ -3048,12 +3042,11 @@ header .navbar-container .row{margin:0px!important;}*/
   color: #9f9f9f !important;
 }
 
-/*-------------------------------------- opinions responsive -------------------------------------------------------------*/
 .opinions-block .view-header {
   font-size: 2em;
   margin: 2em 35% 3em 35%;
   text-align: center;
-  color: white;
+  color: #fff;
   padding: 1em;
   border-bottom: solid;
   border-color: #9d865c;
@@ -3061,7 +3054,7 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .opinions-block .view-header h2 a {
-  color: white;
+  color: #fff;
 }
 
 .opinions-block .view-header h2 a:hover {
@@ -3290,7 +3283,7 @@ header .navbar-container .row{margin:0px!important;}*/
   font-size: 2em;
   margin: 2em 35% 3em 35%;
   text-align: center;
-  color: white;
+  color: #fff;
   padding: 1em;
   border-bottom: solid;
   border-color: #9d865c;
@@ -3298,7 +3291,7 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .trust-block .view-header h2 a {
-  color: white;
+  color: #fff;
 }
 
 .trust-block .view-header h2 a:hover {

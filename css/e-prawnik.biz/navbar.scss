@@ -1,8 +1,15 @@
-/*header {margin:0px!important;}
-header .form-group{margin:0px!important;}
-header .navbar-form{margin:0px!important;}
-header .navbar-right{margin:0px!important;}
-header .navbar-container .row{margin:0px!important;}*/
+$navbarGlazedWrapBrandLinkHov: transparent !default;
+$navMobileGlazedMainMenuDropdownLink: #646464 !default;
+$navMobileMenuToggleBack: transparent !default;
+$navMobileMenuToggleSpanBack: #ffffff !default;
+$navMobileMenuListHovBack: #fff !default;
+$navDesktopNavbarLinkHov: #646464 !default;
+$navDesktopNavbarLinkHovBack: #181818 !default;
+$navDesktopNavbarDropdownMenuLink: #afafaf !default;
+$navDesktopNavbarWrapBranding: transparent !default;
+$navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
+$navDesktopNavbarLink: #9f9f9f !default;
+
 .navbar-container{ transition: all 1s; }
 
 #navbar { 
@@ -12,7 +19,7 @@ header .navbar-container .row{margin:0px!important;}*/
 }
 
 .glazed-main-menu .nav > li > a { padding: 10px 25px !important; }
-.glazed-main-menu .wrap-branding a:hover { background: transparent !important; }
+.glazed-main-menu .wrap-branding a:hover { background: $navbarGlazedWrapBrandLinkHov !important; }
 #navbar .wrap-branding { height:80px; }
 .body--glazed-nav-mobile.user-logged-in .wrap-branding{
 	margin-top:2em;
@@ -22,21 +29,21 @@ header .navbar-container .row{margin:0px!important;}*/
 	margin-top:4em;
 }
 
-.body--glazed-nav-mobile #navbar { height:60px!important; }
+.body--glazed-nav-mobile #navbar { height:60px !important; }
 .body--glazed-nav-mobile .body--glazed-nav-mobile .glazed-header #logo { padding-bottom: 10px; }
 .body--glazed-nav-mobile .glazed-header #glazed-menu-toggle { padding: 2px 32px 16px 0px; }
 .body--glazed-nav-mobile .glazed-main-menu a:hover { padding-left:15px !important; }
     
 .body--glazed-nav-mobile .glazed-main-menu a, 
 .body--glazed-nav-mobile .glazed-main-menu a:visited, 
-.body--glazed-nav-mobile .glazed-main-menu a:link { padding-left:15px !important; /*color:#fff !important;*/ }
+.body--glazed-nav-mobile .glazed-main-menu a:link { padding-left:15px !important; }
 
 .body--glazed-nav-mobile .glazed-main-menu  .dropdown a, 
 .body--glazed-nav-mobile .glazed-main-menu  .dropdown a:link, 
-.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:visited { color: #646464 !important; }
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:visited { color: $navMobileGlazedMainMenuDropdownLink !important; }
 
 .body--glazed-nav-mobile #glazed-menu-toggle { 
-    background: transparent !important; 
+    background: $navMobileMenuToggleBack !important; 
     height:80px !important; 
     margin:0 !important; 
 }
@@ -45,7 +52,7 @@ header .navbar-container .row{margin:0px!important;}*/
 .body--glazed-nav-mobile #glazed-menu-toggle span:before,
 .body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
     content:" "; 
-    background: #ffffff !important; 
+    background: $navMobileMenuToggleSpanBack !important; 
     margin-top:75%; 
 }
 	
@@ -69,7 +76,7 @@ header .navbar-container .row{margin:0px!important;}*/
 .body--glazed-nav-mobile #glazed-main-menu { 
     padding-left:0; 
     padding-right:0;
-    overflow-y:hidden; 
+    overflow-y: hidden; 
 }
     
 .body--glazed-nav-mobile .region.region-navigation-collapsible { margin-top:2em !important; }
@@ -81,7 +88,7 @@ header .navbar-container .row{margin:0px!important;}*/
     z-index: 5555; 
     top:0px; 
 }
-.body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: #fff; }
+.body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navMobileMenuListHovBack; }
 .body--glazed-nav-mobile .body--glazed-nav-mobile .glazed-header .nav{ margin-top:1em; }
 .body--glazed-nav-mobile .navbar-nav { margin-top:1.5em !important; }
 .body--glazed-nav-mobile .navbar-nav li .dropdown-menu { margin-top:7.5em !important; }
@@ -96,21 +103,22 @@ header .navbar-container .row{margin:0px!important;}*/
         -moz-box-orient: horizontal; 
         box-orient: horizontal; 
 }
-    
+
+/* what is that ??? */
 .body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: rgba(1,128,239,1) !important; }
-	/*#navbar  a, #navbar  a:link, #navbar  a:visited { color:#fff !important; }*/
+	
 .body--glazed-nav-desktop #navbar  a:hover { 
-    color: #646464 !important; 
-    background: #181818 !important; 
+    color: $navDesktopNavbarLinkHov !important; 
+    background: $navDesktopNavbarLinkHovBack !important; 
 }
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
     height:2em !important; 
-    color: #afafaf !important; 
+    color: $navDesktopNavbarDropdownMenuLink !important; 
 }
-.body--glazed-nav-desktop #navbar .wrap-branding a { background: transparent !important; }
+.body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
-		margin-left:.65em;
-		color: #646464 !important;
+		margin-left: .65em;
+        color: $navDesktopNavbarDropdownMenuLinkNode !important;
 }
 
-.body--glazed-nav-mobile #navbar a {color:#9f9f9f!important;}
+.body--glazed-nav-mobile #navbar a {color: $navDesktopNavbarLink !important;}
