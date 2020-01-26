@@ -1,4 +1,5 @@
 $herop: #7d6a48 !default;
+$heroAttachmentFieldContentAfter: #000 !default;
 
 @media screen and (max-width:768px){
 	.hero-column-1{ width:100%; }
@@ -58,4 +59,8 @@ $herop: #7d6a48 !default;
   position: absolute;
   left: 0;
   width: 100vw;
+}
+
+.path-frontpage .hero-attachment .field-content::after{
+  color: $heroAttachmentFieldContentAfter;
 }

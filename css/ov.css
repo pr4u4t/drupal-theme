@@ -340,6 +340,10 @@
   width: 100vw;
 }
 
+.path-frontpage .hero-attachment .field-content::after {
+  color: #000;
+}
+
 /*------------team-custom-border-and-caption--------*/
 .path-frontpage .team-block .view-content .views-field .field-content .img-frame {
   width: 220px;
@@ -2540,7 +2544,7 @@ html {
 }
 
 .certificates-block .view-header h2 a {
-  color: white;
+  color: #fff;
 }
 
 .certificates-block .view-header h2 a:hover {
@@ -2627,10 +2631,6 @@ html {
 
 .path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-prev:after {
   left: -2em;
-}
-
-.path-frontpage .hero-attachment .field-content::after {
-  color: #000;
 }
 
 @media screen and (max-width: 360px) {
