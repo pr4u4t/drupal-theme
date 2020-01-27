@@ -1115,7 +1115,7 @@ h2 a span:hover {
 }
 
 .path-node .title-page-title {
-  margin-top: 6em;
+  margin-top: 2em;
 }
 
 .path-node .title-page-title h2 {
@@ -1203,6 +1203,10 @@ article .view-content {
 
 #slide-to-contact {
   height: 3em;
+}
+
+.breadcrumb {
+  background-color: transparent;
 }
 
 .breadcrumb a {
@@ -1932,156 +1936,8 @@ footer .teaser {
     margin-top: 0em;
   }
 }
-.path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
-  padding-right: 10px;
-  color: #000;
-}
-
-.path-admin .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button {
-  padding-right: 5px;
-  color: #000;
-}
-
-.path-admin .list-inline.local-actions a {
-  color: #fff;
-}
-
-.path-admin .form-group .views-ui-view-displays a {
-  color: #edc780;
-}
-
-.path-admin .views-listing-table tr:nth-child(2n+1) {
-  background: #fff;
-}
-
-.path-admin .views-listing-table tr:nth-child(2n+2) {
-  background: #ccc;
-}
-
-.path-admin .views-listing-table {
-  width: 100%;
-}
-
-.path-admin .views-listing-table .btn .caret {
-  color: #000;
-}
-
-.path-admin .view-id-content .view-filters .form-item-title {
-  width: 30%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-title input {
-  width: 100%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-type {
-  width: 20%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-status {
-  width: 15%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-langcode {
-  width: 33%;
-}
-
-.path-admin #block-admin-display-form .button,
-.path-admin .view-id-content .table .button {
-  color: #000;
-}
-
-.path-admin #block-admin-display-form .btn,
-.path-admin .view-id-content .table .btn .caret {
-  color: #000;
-}
-
-.path-admin .view-id-files tr:nth-child(2n+1),
-.path-admin #block-admin-display-form tr:nth-child(2n+1),
-.path-admin .view-id-content tr:nth-child(2n+1) {
-  background: #fff;
-}
-
-.path-admin .view-id-files tr:nth-child(2n+2),
-.path-admin #block-admin-display-form tr:nth-child(2n+2),
-.path-admin .view-id-content tr:nth-child(2n+2) {
-  background: #ccc;
-}
-
-.path-admin .view-comment label {
-  display: block;
-}
-
-.path-admin .view-comment label {
-  display: block;
-}
-
-.path-admin .view-comment .form-item-subject input {
-  width: 100%;
-}
-
-.path-admin .view-comment .form-item-author-name input {
-  width: 100%;
-}
-
-.path-admin .view-id-files label {
-  display: block;
-}
-
-.path-admin .media-library-view label {
-  display: block;
-}
-
-.path-admin .media-library-view .form-item-status {
-  width: 12.5%;
-}
-
-.path-admin .media-library-view .form-item-type {
-  width: 14.5%;
-}
-
-.path-admin .media-library-view .form-item-sort-by {
-  width: 14.5%;
-}
-
-.path-admin .media-library-view .form-item-name {
-  width: 45%;
-}
-
-.path-admin table tr:nth-child(2n+1) {
-  background: #fff;
-}
-
-.path-admin table tr:nth-child(2n+2) {
-  background: #ccc;
-}
-
-.path-admin table tr .btn-group .caret,
-.path-admin table tr .btn-group .button {
-  color: #000;
-}
-
-/*dumb revolution sliders fix*/
-html {
-  background: none !important;
-}
-
-/**/
-.path-admin #edit-displays {
-  background: #000;
-  color: #fff;
-}
-
-.path-admin #edit-displays .label {
-  color: #000;
-}
-
-.path-admin #views-display-menu-tabs {
-  list-style: none;
-}
-
-.path-admin #edit-displays .dropbutton {
-  list-style: none;
+.page-node-type-blog .title-page-title h2 {
+  text-align: right;
 }
 
 .blog-page-view .views-row {
@@ -2230,6 +2086,11 @@ html {
 
 .blog-page-view .read-more a:hover {
   color: #706045;
+}
+
+.view-blog .views-field-title,
+.view-blog .views-field-uid {
+  text-align: right;
 }
 
 .view-blog-block {
@@ -3606,4 +3467,160 @@ html {
     height: 14em;
     padding-left: 1.8%;
   }
+}
+.path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
+  padding-right: 10px;
+  color: #000;
+}
+
+.path-admin .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button {
+  padding-right: 5px;
+  color: #000;
+}
+
+.path-admin .list-inline.local-actions a {
+  color: #fff;
+}
+
+.path-admin .form-group .views-ui-view-displays a {
+  color: #edc780;
+}
+
+.path-admin .views-listing-table tr:nth-child(2n+1) {
+  background: #fff;
+}
+
+.path-admin .views-listing-table tr:nth-child(2n+2) {
+  background: #ccc;
+}
+
+.path-admin .views-listing-table {
+  width: 100%;
+}
+
+.path-admin .views-listing-table .btn .caret {
+  color: #000;
+}
+
+.path-admin .view-id-content .view-filters .form-item-title {
+  width: 30%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-title input {
+  width: 100%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-type {
+  width: 20%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-status {
+  width: 15%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-langcode {
+  width: 33%;
+}
+
+.path-admin #block-admin-display-form .button,
+.path-admin .view-id-content .table .button {
+  color: #000;
+}
+
+.path-admin #block-admin-display-form .btn,
+.path-admin .view-id-content .table .btn .caret {
+  color: #000;
+}
+
+.path-admin .view-id-files tr:nth-child(2n+1),
+.path-admin #block-admin-display-form tr:nth-child(2n+1),
+.path-admin .view-id-content tr:nth-child(2n+1) {
+  background: #fff;
+}
+
+.path-admin .view-id-files tr:nth-child(2n+2),
+.path-admin #block-admin-display-form tr:nth-child(2n+2),
+.path-admin .view-id-content tr:nth-child(2n+2) {
+  background: #ccc;
+}
+
+.path-admin .view-comment label {
+  display: block;
+}
+
+.path-admin .view-comment label {
+  display: block;
+}
+
+.path-admin .view-comment .form-item-subject input {
+  width: 100%;
+}
+
+.path-admin .view-comment .form-item-author-name input {
+  width: 100%;
+}
+
+.path-admin .view-id-files label {
+  display: block;
+}
+
+.path-admin .media-library-view label {
+  display: block;
+}
+
+.path-admin .media-library-view .form-item-status {
+  width: 12.5%;
+}
+
+.path-admin .media-library-view .form-item-type {
+  width: 14.5%;
+}
+
+.path-admin .media-library-view .form-item-sort-by {
+  width: 14.5%;
+}
+
+.path-admin .media-library-view .form-item-name {
+  width: 45%;
+}
+
+.path-admin table tr:nth-child(2n+1) {
+  background: #fff;
+}
+
+.path-admin table tr:nth-child(2n+2) {
+  background: #ccc;
+}
+
+.path-admin table tr .btn-group .caret,
+.path-admin table tr .btn-group .button {
+  color: #000;
+}
+
+/*dumb revolution sliders fix*/
+html {
+  background: none !important;
+}
+
+/**/
+.path-admin #edit-displays {
+  background: #000;
+  color: #fff;
+}
+
+.path-admin #edit-displays .label {
+  color: #000;
+}
+
+.path-admin #views-display-menu-tabs {
+  list-style: none;
+}
+
+.path-admin #edit-displays .dropbutton {
+  list-style: none;
+}
+
+.captcha {
+  width: 50%;
+  background-color: transparent;
 }

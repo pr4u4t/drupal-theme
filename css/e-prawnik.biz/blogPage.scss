@@ -16,6 +16,9 @@ $blogPageReadMoreLink: #aa9161 !default;
 $blogPageReadMoreLinkHov: #706045 !default;
 $blogPageTitleHeader: #bda67a !default;
 
+
+.page-node-type-blog .title-page-title h2 {text-align: right;}
+
 .blog-page-view .views-row { margin:2em 0em; }
 .blog-page-view .views-row article a { 
     text-decoration: none; 

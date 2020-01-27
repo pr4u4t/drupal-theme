@@ -13,6 +13,10 @@ $blogViewBlockFieldCreatedBack: #83775b !default;
 $blogViewBlockFieldUidLink: #83775b !default;
 $blogViewBlockViewHeaderLink: #bda67a !default;
 
+.view-blog .views-field-title,
+.view-blog .views-field-uid
+{text-align: right;}
+
 .view-blog-block { 
     color: $blogViewBlock; 
     background-repeat: no-repeat; 
