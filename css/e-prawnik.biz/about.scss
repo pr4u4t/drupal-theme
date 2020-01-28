@@ -9,17 +9,60 @@ $aboutFBFigCap: grey !default;
 $aboutFBFigCapLink: #fff !default;
 
 @media screen and (max-width: 1199px){
+    .path-frontpage .view-about-us-block h2 a { 
+        color: $aboutFBHeadLink;
+    }
+    
+    .path-frontpage .view-about-us-block h2 a:hover { color: $aboutFBHeadLinkHov; }
+    
+    .path-frontpage .view-about-us-block article { 
+        color: $aboutFBArticle;
+    }
+}
+    
+@media screen and (min-width: 1200px){
+    .path-frontpage .view-about-us-block h2 a { 
+        color: $aboutFBHeadLink;
+    }
+        
+    .path-frontpage .view-about-us-block h2 a:hover { color: $aboutFBHeadLinkHov; }
+        
+    .path-frontpage .view-about-us-block article { 
+        color: $aboutFBArticle; 
+    }
+}
+
+.path-frontpage .view-about-us-block{
+    background: $aboutFBBackground;
+}
+
+.path-frontpage .view-about-us-block .view-header h2 a:hover{ color: $aboutFBHeaderHeadLinkHov; }
+
+.path-frontpage .view-about-us-block .view-content .views-field-title h2 a{ color: $aboutFBHeaderHeadLink; }
+
+.path-frontpage .view-about-us .view-content .views-field .field-content .img-frame{
+    border-color: $aboutFBImgFrame;  
+}
+
+.path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div { 
+    color: $aboutFBFigCap; 
+}
+
+.path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div a { 
+    color: $aboutFBFigCapLink;
+}
+
+/* layout */
+
+@media screen and (max-width: 1199px){
   .path-frontpage .view-about-us-block { padding: 3%; }
   .path-frontpage .view-about-us-block h2 a { 
-	color: $aboutFBHeadLink; 
 	text-align: left; 
 	display: block; 
 	margin-bottom: 1%; 
   }
   
-  .path-frontpage .view-about-us-block h2 a:hover { color: $aboutFBHeadLinkHov; }
   .path-frontpage .view-about-us-block article { 
-	color: $aboutFBArticle; 
 	text-align: center;
   }
   .path-frontpage .view-about-us-block .view-content .views-field .field-content{ margin:1em; }
@@ -28,14 +71,12 @@ $aboutFBFigCapLink: #fff !default;
 @media screen and (min-width: 1200px){
   .path-frontpage .view-about-us-block { padding: 1em; }
   .path-frontpage .view-about-us-block h2 a { 
-	color: $aboutFBHeadLink; 
 	text-align: left; 
 	display: block; 
 	margin-bottom: 1%; 
   }
-  .path-frontpage .view-about-us-block h2 a:hover { color: $aboutFBHeadLinkHov; }
+  
   .path-frontpage .view-about-us-block article { 
-	color: $aboutFBArticle; 
 	text-align: center; 
 	max-width: 1500px; 
 	margin: auto; 
@@ -46,7 +87,6 @@ $aboutFBFigCapLink: #fff !default;
 }
 
 .path-frontpage .view-about-us-block{
-	background: $aboutFBBackground;
 	width:90%;
 	margin-top:2em;
 }
@@ -72,13 +112,9 @@ $aboutFBFigCapLink: #fff !default;
 
 .path-frontpage .view-about-us-block .view-header{ padding: 1em 0em 1em 0em; }
 .path-frontpage .view-about-us-block .view-header h2 a{
-	color: $aboutFBHeaderHeadLink; 
 	font-size: 1.5em; 
 	text-decoration: underline;
 }
-.path-frontpage .view-about-us-block .view-header h2 a:hover{ color: $aboutFBHeaderHeadLinkHov; }
-
-.path-frontpage .view-about-us-block .view-content .views-field-title h2 a{ color: $aboutFBHeaderHeadLink; }
 
 .path-frontpage .view-about-us-block .az-section.az-element,
 .path-frontpage .view-about-us-block .az-section.az-element .az-element.az-row,
@@ -112,7 +148,8 @@ $aboutFBFigCapLink: #fff !default;
 .path-frontpage .view-about-us .view-content .views-field .field-content .img-frame{
   	width: 220px;
   	height: 220px;
-  	border: 2px solid $aboutFBImgFrame;  
+  	border-style: solid;
+    border-width: 2px;
   	margin: auto;
 }
 
@@ -122,12 +159,10 @@ $aboutFBFigCapLink: #fff !default;
 }
 .path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption { margin: 0.1em; }
 .path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div { 
-	color: $aboutFBFigCap; 
 	text-align: center;
 }
 .path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div a { 
 	font-size: 1.2em; 
-	color: $aboutFBFigCapLink;
 }
 
 @media screen and (max-width:1199px){
