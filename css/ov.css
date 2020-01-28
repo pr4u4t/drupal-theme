@@ -3152,22 +3152,12 @@ footer .teaser {
   left: -300px !important;
 }
 
-.opinions-block .view-header {
-  color: #fff;
-  border-color: #9d865c;
-}
-
 .opinions-block .view-header h2 a {
   color: #fff;
 }
 
 .opinions-block .view-header h2 a:hover {
   color: grey;
-}
-
-.opinions-block .opinions {
-  border-color: #b89c68;
-  background-color: #403b33;
 }
 
 .path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-prev,
@@ -3183,6 +3173,16 @@ footer .teaser {
   padding: 1em;
   border-bottom: solid;
   border-bottom-style: groove;
+}
+
+.opinions-block .view-header {
+  color: #fff;
+  border-color: #9d865c;
+}
+
+.opinions-block .opinions {
+  border-color: #b89c68;
+  background-color: #403b33;
 }
 
 @media screen and (max-width: 360px) {
