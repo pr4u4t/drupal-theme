@@ -1,0 +1,10 @@
+$footerMenuLink: #cccccc !default;
+$footerOfficeHours: #a38b5f !default;
+
+.menu--menu-stopki a:hover, .menu--footer-menu a:hover { 
+    color: $footerMenuLink; 
+}
+
+footer .office-hours .field--label { 
+    color: $footerOfficeHours; 
+}

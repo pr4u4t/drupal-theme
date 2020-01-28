@@ -1,0 +1,26 @@
+$mainWrapBack: #21252a !default;
+$mainFWrapBack: #282828 !default;
+$mainBodyBack: #282828 !default;
+$mainFBodyBack: #21252a !default;
+$mainRegionTabsBack: #fff !default; 
+$mainTitleLink: #fff !default;
+$mainTitleLinkHov: grey !default;
+$mainNodePageTitleHeader: #fff !default;
+$mainBlogPageTitleHeader: #fff !default;
+$mainViewsGridLink: #000 !default;
+$mainViewsGridLinkHov: grey !default;
+
+.wrap-containers { background-color: $mainWrapBack; }
+.path-frontpage .wrap-containers { background-color: $mainFWrapBack; }
+body {background-color: $mainBodyBack !important; }
+.path-frontpage body { background-color: $mainFBodyBack !important; }
+.views-view-grid a:hover { color: $mainViewsGridLinkHov; }
+.region.region-content .tabs[aria-label=Tabs] { background: $mainRegionTabsBack; }
+.path-node .title-page-title h2{ color: $mainNodePageTitleHeader; }
+.path-blog .title-page-title h2{ color: $mainBlogPageTitleHeader; }
+h2 a span:hover{ color: $mainTitleLinkHov; }
+h2 a span{ color: $mainTitleLink; }
+
+.views-view-grid a {
+    color: $mainViewsGridLink;
+}

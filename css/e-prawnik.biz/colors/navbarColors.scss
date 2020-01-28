@@ -1,0 +1,51 @@
+$navbarGlazedWrapBrandLinkHov: transparent !default;
+$navMobileGlazedMainMenuDropdownLink: #646464 !default;
+$navMobileMenuToggleBack: transparent !default;
+$navMobileMenuToggleSpanBack: #ffffff !default;
+$navMobileMenuListHovBack: #fff !default;
+$navDesktopNavbarLinkHov: #646464 !default;
+$navDesktopNavbarLinkHovBack: #181818 !default;
+$navDesktopNavbarDropdownMenuLink: #afafaf !default;
+$navDesktopNavbarWrapBranding: transparent !default;
+$navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
+$navDesktopNavbarLink: #9f9f9f !default;
+
+.glazed-main-menu .wrap-branding a:hover { 
+    background: $navbarGlazedWrapBrandLinkHov !important; 
+}
+
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a, 
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:link, 
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:visited { 
+    color: $navMobileGlazedMainMenuDropdownLink !important; 
+}
+
+.body--glazed-nav-mobile #glazed-menu-toggle { 
+    background: $navMobileMenuToggleBack !important;
+}
+
+.body--glazed-nav-mobile #glazed-menu-toggle span,
+.body--glazed-nav-mobile #glazed-menu-toggle span:before,
+.body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
+    background: $navMobileMenuToggleSpanBack !important;
+}
+
+.body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navMobileMenuListHovBack; }
+
+.body--glazed-nav-desktop #navbar  a:hover { 
+    color: $navDesktopNavbarLinkHov !important; 
+    background: $navDesktopNavbarLinkHovBack !important; 
+}
+
+.body--glazed-nav-desktop #navbar .dropdown-menu a { 
+    color: $navDesktopNavbarDropdownMenuLink !important; 
+}
+
+.body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
+    margin-left: .65em;
+    color: $navDesktopNavbarDropdownMenuLinkNode !important;
+}
+
+.body--glazed-nav-mobile #navbar a { color: $navDesktopNavbarLink !important; }
+
+.body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }

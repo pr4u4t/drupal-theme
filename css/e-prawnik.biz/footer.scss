@@ -1,16 +1,3 @@
-$footerMenuLink: #cccccc !default;
-$footerOfficeHours: #a38b5f !default;
-
-.menu--menu-stopki a:hover, .menu--footer-menu a:hover { 
-    color: $footerMenuLink; 
-}
-
-footer .office-hours .field--label { 
-    color: $footerOfficeHours; 
-}
-
-/* layout */
-
 footer .footer-block .field .az-container .az-section .az-ctnr .az-row  {
     display: flex; 
     flex-direction: row;

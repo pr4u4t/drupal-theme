@@ -1,11 +1,3 @@
-$breadLink: #000 !default;
-$breadLinkHov: grey !default;
-$breadBackground: transparent !default;
-
-.breadcrumb { background-color: $breadBackground; }
-.breadcrumb a { color: $breadLink; }
-.breadcrumb a:hover{ color: $breadLinkHov; }
-
 .breadcrumb a { 
     text-decoration: none;
 }

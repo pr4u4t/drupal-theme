@@ -1,21 +1,3 @@
-$herop: #7d6a48 !default;
-$heroAttachmentFieldContentAfter: #000 !default;
-$heroAttachmentBack: #000 !default;
-
-.hero-attachment{ 
-    background: $heroAttachmentBack;
-}
-
-.path-frontpage .hero-attachment .field-content::after{
-    color: $heroAttachmentFieldContentAfter;
-}
-
-.hero-attachment p:nth-child(even) {
-    border-color: $herop;
-}
-
-/* layout */
-
 @media screen and (max-width:768px){
 	.hero-column-1{ width:100%; }
 }	

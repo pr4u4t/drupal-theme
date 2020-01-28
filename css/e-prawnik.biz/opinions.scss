@@ -1,25 +1,4 @@
-$opinionsBlockViewHeader: #fff !default;
-$opinionsBlockViewHeaderBorder: #9d865c !default;
-$opinionsBlockViewHeaderHeadLink: #fff !default;
-$opinionsBlockViewHeaderHeadLinkHov: grey !default;
-$opinionsBlockOpinionsBorder: #b89c68 !default;
-$opinionsBlockOpinionsBack: #403b33 !default;
-$opinionsBlockCarouselCtrlBack: transparent !default;
-
-
-.opinions-block .view-header h2 a{ color: $opinionsBlockViewHeaderHeadLink; }
-.opinions-block .view-header h2 a:hover{ color: $opinionsBlockViewHeaderHeadLinkHov; }
-
-
-
-.path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-prev,
-.path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-next{
-    background: $opinionsBlockCarouselCtrlBack;
-}
-
-/* layout */
-
- .opinions-block .view-header {
+.opinions-block .view-header {
     font-size:2em;
     margin:2em 35% 3em 35%;
     text-align: center; 
@@ -27,15 +6,7 @@ $opinionsBlockCarouselCtrlBack: transparent !default;
     border-bottom: solid;
     border-bottom-style: groove;
 }
-.opinions-block .view-header {
-  color: $opinionsBlockViewHeader;
-  border-color: $opinionsBlockViewHeaderBorder;
-}
 
-.opinions-block .opinions{
-  border-color: $opinionsBlockOpinionsBorder;
-  background-color: $opinionsBlockOpinionsBack;
-}
  @media screen and (max-width:360px){
    .opinions-block .views-col{width: 100%!important;}
    .opinions-block .view-header{margin:0em 8% 1em 8%;}

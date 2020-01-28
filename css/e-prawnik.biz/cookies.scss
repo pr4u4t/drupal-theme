@@ -1,28 +1,3 @@
-$cookiesPopupBack: transparent !default;
-$cookiesPopup: #646464 !default;
-$cookiesAgreeDeclineHov: #afafaf !default;
-$cookiesPopupHeader: #afafaf !default;
-$cookiesFindMore: #afafaf !default;
-
-#sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button{
-    color: $cookiesPopup;
-    background: $cookiesPopupBack;
-}
-
-#sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button:hover{
-    color: $cookiesAgreeDeclineHov;
-}
-
-#sliding-popup .eu-cookie-compliance-banner .popup-content h2{ 
-    color: $cookiesPopupHeader;
-}
-
-#sliding-popup .eu-cookie-compliance-banner .popup-content .find-more-button:hover{
-    color: $cookiesFindMore;
-}
-
-/* layout */
-
 #sliding-popup { padding:1em; }
 #sliding-popup .eu-cookie-compliance-banner .popup-content .decline-button{
   border-radius: 0;

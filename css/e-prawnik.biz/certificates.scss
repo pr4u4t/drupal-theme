@@ -1,28 +1,3 @@
-$certBlockViewHeaderBorder: #9d865c !default;
-$certBlockViewHeaderHeaderLink: #fff !default;
-$certBlockViewHeaderHeaderLinkHov: grey !default;
-$certCarouselCtrlBack: none !default;
-$certCarouselCtrlAfter: #fff !default;
-
-.certificates-block .view-header {
-    border-color: $certBlockViewHeaderBorder;
-}
-
-.certificates-block .view-header h2 a{ color: $certBlockViewHeaderHeaderLink; }
-.certificates-block .view-header h2 a:hover{ color: $certBlockViewHeaderHeaderLinkHov; }
-
-.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-next,
-.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-prev{
-    background: $certCarouselCtrlBack;
-}
-
-.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-next:after,
-.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-prev:after{
-    color: $certCarouselCtrlAfter !important;
-}
-
-/* layout */
-
 .certificates-block .view-header {
     font-size: 2em;
     margin: 0em 35% 3em 35%;

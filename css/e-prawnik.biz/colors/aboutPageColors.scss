@@ -1,0 +1,18 @@
+$imgFrameColor: #9c8457 !default;
+$teamTextColor: #fff !default;
+$teamFigCapLinkColor: #fff !default; 
+$teamFigCapColor: grey !default;
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame{
+    border-color: $imgFrameColor;
+}
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text {
+    color: $teamTextColor;
+}
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption div { color: $teamFigCapColor; }
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption div a { 
+    color: $teamFigCapLinkColor;
+}

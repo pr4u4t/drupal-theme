@@ -1,25 +1,3 @@
-$sitemapHeader: #fff !default;
-$sitemapLink: #fff !default;
-$sitemapLinkHov: #fff !default;
-$sitemapLinkBgHov: transparent !default;
-$sitemapBg: transparent !default;
-$sitemapExpandBg: transparent !default;
-
-.sitemap-block a {
-    color: $sitemapLink !important;
-}
-.sitemap-block a:hover { 
-    color: $sitemapLinkHov !important; 
-    background-color: $sitemapLinkBgHov !important;
-}
-
-.sitemap-block ul{ background: $sitemapBg !important; }
-.body--glazed-nav-desktop .sitemap-block .expanded.dropdown:hover > a{ background: $sitemapExpandBg !important; }
-
-.sitemap-block h2{ color: $sitemapHeader; }
-
-/* layout */
-
 .sitemap-block{ margin-bottom:2em; }
 
 .sitemap-block ul,
