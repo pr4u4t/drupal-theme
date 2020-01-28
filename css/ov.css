@@ -3079,15 +3079,12 @@ footer .teaser {
 }
 
 /* what is that ??? 
--to chyba Jareczka cssiarza */
-.body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix {
-  background: #0180ef !important;
-}
+-to chyba Jareczka cssiarza 
+.body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: rgba(1,128,239,1) !important; }
 
-.body--glazed-nav-desktop #navbar .dropdown-menu a {
-  height: 2em !important;
-}
-
+.body--glazed-nav-desktop #navbar .dropdown-menu a { 
+    height:2em !important;  
+}*/
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^=node] {
   margin-left: 0.65em;
 }
@@ -3095,21 +3092,21 @@ footer .teaser {
 /*-----BLOG-----*/
 .body--glazed-nav-desktop .navbar-nav > li > a[href$=blog] + ul > li > a {
   white-space: normal;
-  height: auto !important;
 }
 
 .body--glazed-nav-desktop .navbar-nav > li > a[href$=blog] + ul > li {
-  margin: 0 1em;
-  width: 22em !important;
+  margin: 0.5em 1em;
+  width: 700px !important;
+  height: auto;
 }
 
 .body--glazed-nav-desktop .navbar-nav > li > a[href$=blog] + ul {
-  width: 1100px;
+  width: 800px;
   top: 100%;
   margin-top: 0;
   height: auto;
   min-height: 15em;
-  left: -460px !important;
+  left: -300px !important;
 }
 
 .opinions-block .view-header {
