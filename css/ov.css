@@ -3761,12 +3761,22 @@ footer .office-hours .field--label {
   background: transparent !important;
 }
 
+.opinions-block .view-header {
+  color: #fff;
+  border-color: #9d865c;
+}
+
 .opinions-block .view-header h2 a {
   color: #fff;
 }
 
 .opinions-block .view-header h2 a:hover {
   color: grey;
+}
+
+.opinions-block .opinions {
+  border-color: #b89c68;
+  background-color: #403b33;
 }
 
 .path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-prev,
