@@ -46,11 +46,10 @@
 }
 
 .view-contact-block .webform-element-text-field{
-    border: none !important; 
+    border: none; 
 }
 
-.view-contact-block .webform-wrapper-text-field{
-    border-bottom-style: none;
+.view-contact-block .webform-wrapper-text-field{ 
     border-bottom-left-radius:0;
     border-bottom-right-radius:0;
     border-bottom-style: solid;
