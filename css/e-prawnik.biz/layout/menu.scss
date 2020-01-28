@@ -1,0 +1,92 @@
+.body--glazed-nav-mobile .main-navigation-block { 
+    -webkit-box-ordinal-group: 3; 
+    -moz-box-ordinal-group: 3;
+    box-ordinal-group: 3; 
+    float: none !important;
+}
+.body--glazed-nav-mobile .main-navigation-block .menu.navbar-nav { 
+    height: auto !important; 
+    position: static !important; 
+}
+
+@media screen and (max-width:768px){
+	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
+        top: 14em !important;  
+        left: -2em !important;  
+	}
+
+	.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs {
+  		top: 19.5em !important;
+	}
+}
+
+@media screen and (min-width:769px){
+	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
+        top: 14em !important;
+        left: -2em !important;
+    }
+
+	.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs {
+  		top: 19.5em !important;
+	}	
+}
+
+.body--glazed-nav-mobile .main-navigation-block { 
+    position: relative; 
+    top:1em; 
+}
+
+.body--glazed-nav-desktop .main-navigation-block { 
+    -webkit-box-ordinal-group: 1; 
+    -moz-box-ordinal-group: 1; 
+    box-ordinal-group: 1; 
+    float: none; 
+    margin-left:6em; 
+}
+
+.body--glazed-nav-desktop .main-navigation-block .menu.nav.navbar-nav { height: 80px !important; }
+.body--glazed-nav-desktop .main-navigation-block { margin-right:20%; }
+ 
+.body--glazed-nav-desktop #navbar { z-index:4050 !important; }
+.body--glazed-nav-desktop .block-system-menu-blockmain ul { 
+    -webkit-box-shadow: none !important; 
+    box-shadow: none !important; 
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li ul { 
+    display: flex !important; 
+    padding: initial; 
+}
+.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li ul li ul { display: block !important; }
+.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li  { width:25% !important; }
+.body--glazed-nav-desktop #dim-overlay{
+	  position: fixed !important;
+	  top:-100vh;
+	  left:-100vh;
+	  width:200vw;
+	  height:200vh;
+	  display: none;
+	  z-index:500;
+	  content:' ';
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu { 
+    margin-top: 50px !important;
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu .dropdown-menu { 
+    position: static;
+	flex-direction: column;
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown  > .dropdown-menu {
+	padding:3em;
+}
+
+#navbar .container .container-row .container-col { height:60px; }
+
+.body--glazed-nav-mobile #glazed-main-menu .main-navigation-block{
+  max-height: calc(100vh - 13.5em);
+  overflow-y: auto;
+  overflow-x: hidden;
+}

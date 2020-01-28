@@ -1,0 +1,294 @@
+/*------------team-custom-border-and-caption--------*/
+.path-frontpage .team-block .view-content .views-field .field-content .img-frame{
+  width: 220px;
+  height: 220px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0.5em 0em 0em 1.5em;
+}
+.path-frontpage .team-block .view-content .views-field .field-content figure img { margin: -0.5em 0em 0em -0.5em}
+.path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption { margin: 0.1em; }
+.path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption div { 
+    text-align: center;
+}
+.path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption div a { 
+    font-size: 1.2em; 
+}
+
+/*---------------------------*/
+.team-block .view-header h2{ 
+  text-decoration: underline;
+}
+
+.team-block .view-header a{
+  text-decoration: none;
+}
+
+.team-block .team h2 { display: none; }
+.team-block .team { margin:2em; }
+
+@media screen and (max-width:768px){
+.team-block .views-col{ width: 100% !important; }  
+  .team-block .view-header {
+    width:80%; 
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+  .team-block .views-col{ width: 50%!important; }
+  .team-block .view-header {
+      width:40%;
+      text-align: justify;
+  }
+}
+
+@media screen and (max-width:1199px){
+  .path-frontpage div[data-azb^="az_view-team-block"]{
+      margin-top:2em;
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1299px){
+  .path-frontpage div[data-azb^="az_view-team-block"]{
+      margin-top:12em;
+  }
+}
+
+@media screen and (min-width:1300px){
+  .path-frontpage div[data-azb^="az_view-team-block"]{
+      margin-top:18em;
+  }
+}
+
+/*-- team --*/
+.path-frontpage div[data-azb^="az_view-team-block"] figure{
+    margin: 0em !important;
+}
+
+.path-frontpage div[data-azb^="az_view-team-block"] figure figcaption a{
+  display: block;
+  text-align: center;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper{
+    box-shadow: none;
+    width:100%;
+    height:26em;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper li{
+    width:20vw;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-next,
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-prev{
+    visibility: visible !important;
+    display: block !important;
+    opacity: 1;
+    box-shadow: none;
+    margin-top:5%;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-next:after,
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-prev:after{
+    position: absolute !important;
+    width:2em;
+    opacity:1;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-next:after{
+    right: -2em;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-prev:after{
+    left: -2em;
+}
+
+@media screen and (max-width:360px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:18em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:60vw!important;
+  overflow: hidden;
+  height:18em;    
+  margin-right: 16vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:18em;
+  padding-left: 8vw;
+}
+}
+@media screen and (min-width:361px) and (max-width:480px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:20.5em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:54vw!important;
+  overflow: hidden;
+  height:20.5em;    
+  margin-right: 20vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:20.5em;
+  padding-left: 13vw;
+}
+}
+@media screen and (min-width:481px) and (max-width:640px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:15.5em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:30vw!important;
+  overflow: hidden;
+  height:15.5em;    
+  margin-right: 7vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:15.5em;
+  padding-left: 6vw;
+}  
+}
+@media screen and (min-width:641px) and (max-width:1024px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:17em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:23vw!important;
+  overflow: hidden;
+  height:17em;    
+  margin-right: 3vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:17em;
+  padding-left: 2.5vw;
+}  
+}
+@media screen and (min-width:1025px) and (max-width:1151px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:18em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:23vw!important;
+  overflow: hidden;
+  height:18em;    
+  margin-right: 3vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:18em;
+  padding-left: 2.5vw;
+}  
+}
+@media screen and (min-width:1152px) and (max-width:1200px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:20em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:23vw!important;
+  overflow: hidden;
+  height:20em;    
+  margin-right: 3vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:20em;
+  padding-left: 2.5vw;
+}  
+}
+@media screen and (min-width:1201px) and (max-width:1280px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:16em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:17vw!important;
+  overflow: hidden;
+  height:16em;    
+  margin-right: 1.8vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:16em;
+  padding-left: 1.8vw;
+}  
+}
+@media screen and (min-width:1281px) and (max-width:1439px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:18em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:17vw!important;
+  overflow: hidden;
+  height:18em;    
+  margin-right: 2vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:18em;
+  padding-left: 2vw;
+}  
+}
+@media screen and (min-width:1440px) and (max-width:1600px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:19.5em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:17vw!important;
+  overflow: hidden;
+  height:19.5em;    
+  margin-right: 2.1vw;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:80vw;
+  height:19.5em;
+  padding-left: 2.1vw;
+}  
+}
+@media screen and (min-width:1601px) and (max-width:1920px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:20em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:0.084%!important;
+  overflow: hidden;
+  height:20em;    
+  margin-right: 2em;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:100%;
+  height:20em;
+  padding-left: 2.5%;
+}  
+}
+@media screen and (min-width:1921px){
+.path-frontpage .view-team figure{
+  margin-right:1em;
+  height:20em;    
+}
+.path-frontpage .view-team .jcarousel-wrapper li{
+  width:17em!important;
+  overflow: hidden;
+  height:20em;    
+  margin-right: 2em;
+}
+.path-frontpage .view-team .jcarousel-wrapper{
+  width:100%;
+  height:20em;
+  padding-left: 1.8%;
+}  
+}

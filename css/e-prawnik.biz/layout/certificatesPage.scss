@@ -1,0 +1,5 @@
+.path-certificates .certificates{ padding:0em 1em; }
+@media screen and (max-width:768px){
+  .path-certificates .views-col{ width:100% !important; }  
+  .path-certificates .certificates{ padding:0em; }
+}

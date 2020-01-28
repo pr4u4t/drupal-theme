@@ -1,0 +1,93 @@
+.page-node-type-blog .title-page-title h2 {text-align: right;}
+.blog-page-view .views-row { margin:2em 0em; }
+.blog-page-view .views-row article a { 
+    text-decoration: none; 
+}
+
+.blog-page-view .views-row .img-responsive {
+    margin: auto; 
+    width: 35%; 
+    float: left; 
+    padding-right: 1em;
+    margin-right:1em;
+}
+
+@media screen and (max-width:480px){  
+  .path-blog .views-field-field-image img{
+      width:100% !important; 
+      float: none !important; 
+      margin: auto;
+    }
+}
+
+.blog-page-view { 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.blog-page-view .az-ctnr .container-fluid { max-width:1280px !important; }
+.blog-page-view .blog .content { 
+    overflow: hidden; 
+    height: 36em; 
+}
+
+.blog-page-view article { 
+    padding:14px; 
+    margin:14px 14px; 
+    border: none; 
+    border-radius: 15px; 
+    text-align: center; 
+}
+
+.blog-page-view article img { display: none; }
+.blog-page-view article .content::after { 
+    display: inline-block;  
+    padding:10px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin:15px auto; 
+}
+.blog-page-view h1 {  
+    margin: 20px auto; 
+}
+.blog-page-view h2{ 
+    font-size: 16px; 
+    font-weight: 400; 
+    margin-top:3em; 
+}
+
+.path-blog .blog-page-view .views-field-title a,
+.path-blog .blog-page-view .views-field-title a:active,
+.path-blog .blog-page-view .views-field-title a:hover,
+.path-blog .blog-page-view .views-field-title a:link,
+.path-blog .blog-page-view .views-field-title a:visited{
+  font-weight:500;
+  font-size: 1.8em;
+}
+
+.path-blog .blog-page-view .views-row:first-child{
+  margin-right:3em;
+}
+
+.path-blog .blog-page-view .views-field-created{
+  position: absolute;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1em;
+  padding-right: 2.5em;
+  width: 3em;
+}
+
+.path-blog .blog-page-view .views-field-uid a:before{
+  content:' - ';
+}
+
+.path-blog .title-page-title h2 {
+  font-size:31px;
+  text-decoration: underline;
+  text-align: center;
+} 
+
+.blog-page-view .read-more a{
+    font-size: 3em;
+}
+

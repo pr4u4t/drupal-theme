@@ -1,0 +1,24 @@
+.sitemap-block{ margin-bottom:2em; }
+
+.sitemap-block ul,
+.sitemap-block ul li ul { 
+    display: block !important; 
+    position: static !important; 
+    clear: both !important; 
+    float: none !important; 
+}
+.sitemap-block ul li,.sitemap-block ul li ul li { 
+    display: block !important; 
+    position: static !important; 
+    clear: both !important; 
+    float: none !important;
+}
+.sitemap-block ul  { 
+    border: none; 
+    box-shadow: none; 
+    position: static;
+}
+
+.sitemap-block li li { margin-left: 1em; }
+.sitemap-block .caret { display: none; } 
+

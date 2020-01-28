@@ -1,0 +1,62 @@
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content figure {
+	margin:2em 0em 6em 0em;
+}
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame::after {
+  content: "";
+  clear: both;
+  float: none;
+  display: table;   
+}
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame{
+  width: 220px;
+  height: 220px;
+  border-style: solid;
+  border-width: 2px;
+  float: left;
+  margin-right:1em;
+}
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content figure img {
+	float: left; 
+	margin: -0.5em 0em 0em -0.5em;
+}
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text {
+	margin: 0em 2em 0em 0em;
+	text-align: justify; 
+}
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption { margin: 0.1em; }
+
+.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption div a { 
+	font-size: 1.4em; 
+}
+
+@media screen and (max-width:480px){
+  	.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text figcaption{ text-align: center; }
+  	.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame { 
+		float: none; 
+		margin: auto; 
+	}
+  	.path-about-us .view-about-us .view-footer .view-content .views-field .field-content .team-text { margin: 0em; }
+}
+
+@media screen and (max-width:1199px){
+  	.path-about-us .about-us-column-2 { display:none; }
+  	.path-about-us .view.about-us .view-content{ 
+		margin-left: 0%; 
+		margin-right: 0%;
+	}
+
+  	.path-about-us .view.about-us{ width:100%; }
+  	.path-about-us .about-us-frontpage-element{ margin:0px -15px; }
+  	.path-about-us .view-about-us .view-content .views-col { width: 100%!important; }
+  	.path-about-us .view-about-us .col-sm-6 { width:100%; }
+}
+  
+@media screen and (min-width:1200px){
+	.path-about-us .view.about-us{ width:80%; }
+	.path-about-us .view.about-us .views-row{ width:80%; }
+}
