@@ -2237,11 +2237,6 @@ footer .teaser {
   margin-top: 3em;
 }
 
-.blog-section {
-  /*this gradient is probably from robco and should be removed*/
-  background-image: linear-gradient(to bottom, rgba(239, 239, 239, 0), #efefef, rgba(239, 239, 239, 0));
-}
-
 .path-blog .blog-page-view .views-field-title a,
 .path-blog .blog-page-view .views-field-title a:active,
 .path-blog .blog-page-view .views-field-title a:hover,
@@ -2402,11 +2397,6 @@ footer .teaser {
 
 .view-blog-block .views-col .teaser p {
   text-align: justify;
-}
-
-.blog-section {
-  /* this is probably from robco and should be removed*/
-  background-image: linear-gradient(to bottom, rgba(239, 239, 239, 0), #efefef, rgba(239, 239, 239, 0));
 }
 
 .view-blog-block .views-col .teaser {
@@ -3134,13 +3124,10 @@ footer .teaser {
   box-orient: horizontal;
 }
 
-/* what is that ??? 
--to chyba Jareczka cssiarza 
-.body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: rgba(1,128,239,1) !important; }
+.body--glazed-nav-desktop #navbar .dropdown-language-block .dropdown-menu a {
+  height: 2em !important;
+}
 
-.body--glazed-nav-desktop #navbar .dropdown-menu a { 
-    height:2em !important;  
-}*/
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^=node] {
   margin-left: 0.65em;
 }

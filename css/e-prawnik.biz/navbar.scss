@@ -146,13 +146,9 @@ $navDesktopNavbarLink: #9f9f9f !default;
         box-orient: horizontal; 
 }
 
-/* what is that ??? 
--to chyba Jareczka cssiarza 
-.body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: rgba(1,128,239,1) !important; }
-
-.body--glazed-nav-desktop #navbar .dropdown-menu a { 
+.body--glazed-nav-desktop #navbar .dropdown-language-block .dropdown-menu a { 
     height:2em !important;  
-}*/
+}
 
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
     margin-left: .65em;
