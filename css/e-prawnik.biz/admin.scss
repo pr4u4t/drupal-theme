@@ -18,13 +18,11 @@ $adminEditDisplaysBack: #000 !default;
 $adminEditDisplaysLabel: #000 !default;
 
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
-   padding-right:10px; 
-   color: $adminFormGroupEnabledVOPButton;
+    color: $adminFormGroupEnabledVOPButton;
 }
 
 .path-admin .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button {
-   padding-right:5px;
-   color: $adminFormGroupDisabledVOPButton;
+    color: $adminFormGroupDisabledVOPButton;
 }
 
 .path-admin .list-inline.local-actions a{
@@ -43,32 +41,8 @@ $adminEditDisplaysLabel: #000 !default;
     background: $adminViewsListingTREvenBack;
 }
 
-.path-admin .views-listing-table{
-  width:100%;
-}
-
 .path-admin .views-listing-table .btn .caret{
     color: $adminViewsListingCaret;
-}
-
-.path-admin .view-id-content .view-filters .form-item-title{
-  width: 30%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-title input{
-  width:100%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-type{
-  width: 20%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-status{
-  width: 15%;
-}
-
-.path-admin .view-id-content .view-filters .form-item-langcode{
-  width: 33%;
 }
 
 .path-admin #block-admin-display-form .button,
@@ -91,6 +65,68 @@ $adminEditDisplaysLabel: #000 !default;
 .path-admin #block-admin-display-form tr:nth-child(2n+2),
 .path-admin .view-id-content tr:nth-child(2n+2){
     background: $adminViewContentTREvenBack;
+}
+
+.path-admin table tr:nth-child(2n+1){
+    background: $adminTableTROddBack;
+}
+
+.path-admin table tr:nth-child(2n+2){
+    background: $adminTableTREvenBack;
+}
+
+.path-admin table tr .btn-group .caret,
+.path-admin table tr .btn-group .button{
+    color: $adminTableButton;
+}
+
+/*dumb revolution sliders fix*/
+html{
+    background: $adminHtmlBack !important;
+}
+
+/**/
+.path-admin #edit-displays{
+    background: $adminEditDisplaysBack;
+    color: $adminEditDisplays;
+}
+
+.path-admin #edit-displays .label{
+    color: $adminEditDisplaysLabel;
+}
+
+/* layout */
+
+.path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
+   padding-right:10px; 
+}
+
+.path-admin .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button {
+   padding-right:5px;
+}
+
+.path-admin .views-listing-table{
+  width:100%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-title{
+  width: 30%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-title input{
+  width:100%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-type{
+  width: 20%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-status{
+  width: 15%;
+}
+
+.path-admin .view-id-content .view-filters .form-item-langcode{
+  width: 33%;
 }
 
 .path-admin .view-comment label{
@@ -131,34 +167,6 @@ $adminEditDisplaysLabel: #000 !default;
 
 .path-admin .media-library-view .form-item-name {
   width:45%;
-}
-
-.path-admin table tr:nth-child(2n+1){
-    background: $adminTableTROddBack;
-}
-
-.path-admin table tr:nth-child(2n+2){
-    background: $adminTableTREvenBack;
-}
-
-.path-admin table tr .btn-group .caret,
-.path-admin table tr .btn-group .button{
-    color: $adminTableButton;
-}
-
-/*dumb revolution sliders fix*/
-html{
-    background: $adminHtmlBack !important;
-}
-
-/**/
-.path-admin #edit-displays{
-  background: $adminEditDisplaysBack;
-  color: $adminEditDisplays;
-}
-
-.path-admin #edit-displays .label{
-    color: $adminEditDisplaysLabel;
 }
 
 .path-admin #views-display-menu-tabs{

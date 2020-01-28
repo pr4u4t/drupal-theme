@@ -6,32 +6,63 @@ $teamHeader: #a78e5e !default;
 $teamCaruselCtrl: #fff !default;
 $teamCarouselBackground: none !default;
 
+.path-frontpage .team-block .view-content .views-field .field-content .img-frame{
+    border-color:  $teamImgframe;
+}
+
+.path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption div { 
+    color: $teamFigCap;
+}
+
+.path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption div a { 
+    color: $teamFigCapLink;
+}
+
+.team-block .view-header h2{ 
+    color: $teamHeader;
+}
+
+.team-block .view-header a{
+    color: $teamHeaderLink;
+}
+
+.path-frontpage div[data-azb^="az_view-team-block"] figure figcaption a{
+    color: $teamFigCapLink;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-next,
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-prev{
+    background: $teamCarouselBackground;
+}
+
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-next:after,
+.path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-prev:after{
+    color: $teamCaruselCtrl !important;
+}
+
 /*------------team-custom-border-and-caption--------*/
 .path-frontpage .team-block .view-content .views-field .field-content .img-frame{
   width: 220px;
   height: 220px;
-  border: 2px solid $teamImgframe;
+  border-style: solid;
+  border-width: 2px;
   margin: 0.5em 0em 0em 1.5em;
 }
 .path-frontpage .team-block .view-content .views-field .field-content figure img { margin: -0.5em 0em 0em -0.5em}
 .path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption { margin: 0.1em; }
 .path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption div { 
-    color: $teamFigCap; 
     text-align: center;
 }
 .path-frontpage .team-block .view-content .views-field .field-content .team-text figcaption div a { 
     font-size: 1.2em; 
-    color: $teamFigCapLink;
 }
 
 /*---------------------------*/
 .team-block .view-header h2{ 
-  color: $teamHeader; 
   text-decoration: underline;
 }
 
 .team-block .view-header a{
-  color: $teamHeaderLink; 
   text-decoration: none;
 }
 
@@ -80,7 +111,6 @@ $teamCarouselBackground: none !default;
 .path-frontpage div[data-azb^="az_view-team-block"] figure figcaption a{
   display: block;
   text-align: center;
-  color: $teamFigCapLink;
 }
 
 .path-frontpage .view-team .jcarousel-wrapper{
@@ -99,7 +129,6 @@ $teamCarouselBackground: none !default;
     display: block !important;
     opacity: 1;
     box-shadow: none;
-    background: $teamCarouselBackground;
     margin-top:5%;
 }
 
@@ -107,16 +136,15 @@ $teamCarouselBackground: none !default;
 .path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-prev:after{
     position: absolute !important;
     width:2em;
-    color: $teamCaruselCtrl !important;
     opacity:1;
 }
 
 .path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-next:after{
-    right:-2em;
+    right: -2em;
 }
 
 .path-frontpage .view-team .jcarousel-wrapper .jcarousel-control-prev:after{
-    left:-2em;
+    left: -2em;
 }
 
 @media screen and (max-width:360px){
