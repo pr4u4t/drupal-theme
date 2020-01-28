@@ -13,16 +13,78 @@ $blogViewBlockFieldCreatedBack: #83775b !default;
 $blogViewBlockFieldUidLink: #83775b !default;
 $blogViewBlockViewHeaderLink: #bda67a !default;
 
+.view-blog-block { 
+    color: $blogViewBlock;
+}
+
+.view-blog-block h2 a { 
+    color: $blogViewBlockHeaderLink; 
+}
+
+.view-blog-block article .content::after { 
+    color: $blogViewBlockArticleContentAfter;
+    background: $blogViewBlockArticleContentAfterBack !important; 
+}
+
+.view-blog-block h1 { 
+    color: $blogViewBlockHeader;
+}
+
+.blog-section { 
+    background-color: $blogSection !important;
+}
+
+.view-blog-block .view-header a:hover { 
+    color: $blogViewHeaderLinkHov; 
+}
+.view-blog-block .view-content .views-col .article a:hover { 
+    color: $blogViewContentArticleLinkHov; 
+}
+
+.path-frontpage .view-blog-block .views-field-title,
+.path-frontpage .view-blog-block .views-field-body{
+    color: $blogViewBlockFieldBody;
+}
+
+.path-frontpage .view-blog-block .views-field-title a,
+.path-frontpage .view-blog-block .views-field-title a:active,
+.path-frontpage .view-blog-block .views-field-title a:hover,
+.path-frontpage .view-blog-block .views-field-title a:link,
+.path-frontpage .view-blog-block .views-field-title a:visited{
+    color: $blogViewBlockFieldTitleLink;
+}
+
+.path-frontpage .view-blog-block .views-field-created{
+    background: $blogViewBlockFieldCreatedBack;
+    color: $blogViewBlockFieldCreated;
+}
+
+.path-frontpage .view-blog-block .views-field-uid a,
+.path-frontpage .view-blog-block .views-field-uid a:link,
+.path-frontpage .view-blog-block .views-field-uid a:hover,
+.path-frontpage .view-blog-block .views-field-uid a:visited,
+.path-frontpage .view-blog-block .views-field-uid a:active{
+    color: $blogViewBlockFieldUidLink;
+}
+
+.path-frontpage .view-blog-block .view-header a{
+    color: $blogViewBlockViewHeaderLink;
+}
+
+/* layout */
+
 .view-blog .views-field-title,
-.view-blog .views-field-uid
-{text-align: right;}
+.view-blog .views-field-uid{
+    text-align: right;
+}
 
 .view-blog-block { 
-    color: $blogViewBlock; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-.view-blog-block .az-ctnr .container-fluid { max-width:1280px !important; }
+.view-blog-block .az-ctnr .container-fluid { 
+    max-width:1280px !important; 
+}
 .view-blog-block .blog .content { 
     overflow: hidden; 
     height: 36em; 
@@ -35,19 +97,15 @@ $blogViewBlockViewHeaderLink: #bda67a !default;
     text-align: center;  
 }
 
-.view-blog-block h2 a { color: $blogViewBlockHeaderLink; }
 .view-blog-block article img { display: none; }
 .view-blog-block article .content::after { 
     display: inline-block; 
-    color: $blogViewBlockArticleContentAfter;
-    background: $blogViewBlockArticleContentAfterBack !important; 
     padding:10px; 
     border-radius: 10px; 
     text-align: center; 
     margin:15px auto; 
 }
 .view-blog-block h1 { 
-    color: $blogViewBlockHeader; 
     margin: 20px auto; 
 }
 .view-blog-block h2{ 
@@ -69,12 +127,10 @@ $blogViewBlockViewHeaderLink: #bda67a !default;
 }
 .view-blog-block .views-col .teaser p { text-align: justify; }
 .blog-section { 
-    background-color: $blogSection !important;
     /* this is probably from robco and should be removed*/
     background-image: linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)); 
 }
-.view-blog-block .view-header a:hover { color: $blogViewHeaderLinkHov; }
-.view-blog-block .view-content .views-col .article a:hover { color: $blogViewContentArticleLinkHov; }
+
 .view-blog-block .views-col .teaser{ height:27em !important;}
 
 .view-blog-block .views-col .teaser h2 a {
@@ -223,17 +279,11 @@ $blogViewBlockViewHeaderLink: #bda67a !default;
     }
 }
 
-.path-frontpage .view-blog-block .views-field-title,
-.path-frontpage .view-blog-block .views-field-body{
-    color: $blogViewBlockFieldBody;
-}
-
 .path-frontpage .view-blog-block .views-field-title a,
 .path-frontpage .view-blog-block .views-field-title a:active,
 .path-frontpage .view-blog-block .views-field-title a:hover,
 .path-frontpage .view-blog-block .views-field-title a:link,
 .path-frontpage .view-blog-block .views-field-title a:visited{
-  color: $blogViewBlockFieldTitleLink;
   font-weight:600;
 }
 
@@ -243,21 +293,11 @@ $blogViewBlockViewHeaderLink: #bda67a !default;
 
 .path-frontpage .view-blog-block .views-field-created{
   position: absolute;
-  background: $blogViewBlockFieldCreatedBack;
-  color: $blogViewBlockFieldCreated;
   padding-top: .5em;
   padding-bottom: .5em;
   padding-left: 1em;
   padding-right: 2.5em;
   width:3em;
-}
-
-.path-frontpage .view-blog-block .views-field-uid a,
-.path-frontpage .view-blog-block .views-field-uid a:link,
-.path-frontpage .view-blog-block .views-field-uid a:hover,
-.path-frontpage .view-blog-block .views-field-uid a:visited,
-.path-frontpage .view-blog-block .views-field-uid a:active{
-    color: $blogViewBlockFieldUidLink;
 }
 
 .path-frontpage .view-blog-block .views-field-uid a:before{
@@ -266,7 +306,6 @@ $blogViewBlockViewHeaderLink: #bda67a !default;
 
 .path-frontpage .view-blog-block .view-header a{
   font-size:31px;
-  color: $blogViewBlockViewHeaderLink;
   text-decoration: underline;
 } 
 

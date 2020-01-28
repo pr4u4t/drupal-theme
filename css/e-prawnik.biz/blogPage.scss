@@ -16,15 +16,75 @@ $blogPageReadMoreLink: #aa9161 !default;
 $blogPageReadMoreLinkHov: #706045 !default;
 $blogPageTitleHeader: #bda67a !default;
 
+.blog-page-view .read-more a:hover{ 
+    color: $blogPageReadMoreLinkHov; 
+}
+.blog-page-view .views-row article a { 
+    color: $blogPageRowArticleLink;
+}
+.blog-page-view .views-row article a:hover { 
+    color: $blogPageRowArticleLinkHov; 
+}
+.blog-page-view { 
+    color: $blogPageView; 
+}
+.blog-page-view h2 a { 
+    color: $blogPageViewHeaderLink; 
+}
+.blog-page-view article .content::after { 
+    color: $blogPageViewArticleAfter;
+    background: $blogPageViewArticleAfterBack !important;
+}
+.blog-page-view h1 { 
+    color: $blogPageViewHeader;
+}    
+.blog-section { 
+    background-color: $blogPageSection !important;
+}
+.path-blog .blog-page-view .views-field-title,
+.path-blog .blog-page-view .views-field-body{
+    color: $blogPageViewFieldBody;
+}
+.path-blog .blog-page-view .views-field-title a,
+.path-blog .blog-page-view .views-field-title a:active,
+.path-blog .blog-page-view .views-field-title a:hover,
+.path-blog .blog-page-view .views-field-title a:link,
+.path-blog .blog-page-view .views-field-title a:visited{
+    color: $blogPageViewFieldTitleLink;
+}
+.blog-page-view .view-content .views-col .article a:hover { 
+    color: $blogPageViewArticleLink; 
+}
+.path-blog .blog-page-view .views-field-created{
+    position: absolute;
+    background: $blogPageViewFieldCreateBack;
+    color: $blogPageViewFieldCreate;
+}
+
+.path-blog .blog-page-view .views-field-uid a,
+.path-blog .blog-page-view .views-field-uid a:link,
+.path-blog .blog-page-view .views-field-uid a:hover,
+.path-blog .blog-page-view .views-field-uid a:visited,
+.path-blog .blog-page-view .views-field-uid a:active{
+    color: $blogPageViewFieldUidLink;
+}
+
+.path-blog .title-page-title h2 {
+    color: $blogPageTitleHeader;
+}
+
+.blog-page-view .read-more a{
+    color: $blogPageReadMoreLink;
+}
+
+/* layout */
 
 .page-node-type-blog .title-page-title h2 {text-align: right;}
-
 .blog-page-view .views-row { margin:2em 0em; }
 .blog-page-view .views-row article a { 
     text-decoration: none; 
-    color: $blogPageRowArticleLink;
 }
-.blog-page-view .views-row article a:hover { color: $blogPageRowArticleLinkHov; }
+
 .blog-page-view .views-row .img-responsive {
     margin: auto; 
     width: 35%; 
@@ -42,7 +102,6 @@ $blogPageTitleHeader: #bda67a !default;
 }
 
 .blog-page-view { 
-    color: $blogPageView; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
@@ -60,19 +119,15 @@ $blogPageTitleHeader: #bda67a !default;
     text-align: center; 
 }
 
-.blog-page-view h2 a { color: $blogPageViewHeaderLink; }
 .blog-page-view article img { display: none; }
 .blog-page-view article .content::after { 
-    display: inline-block; 
-    color: $blogPageViewArticleAfter;
-    background: $blogPageViewArticleAfterBack !important; 
+    display: inline-block;  
     padding:10px; 
     border-radius: 10px; 
     text-align: center; 
     margin:15px auto; 
 }
-.blog-page-view h1 { 
-    color: $blogPageViewHeader; 
+.blog-page-view h1 {  
     margin: 20px auto; 
 }
 .blog-page-view h2{ 
@@ -82,16 +137,8 @@ $blogPageTitleHeader: #bda67a !default;
 }
 
 .blog-section { 
-    background-color: $blogPageSection !important;
     /*this gradient is probably from robco and should be removed*/
     background-image: linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)); 
-}
-
-.blog-page-view .view-content .views-col .article a:hover { color: $blogPageViewArticleLink; }
-
-.path-blog .blog-page-view .views-field-title,
-.path-blog .blog-page-view .views-field-body{
-    color: $blogPageViewFieldBody;
 }
 
 .path-blog .blog-page-view .views-field-title a,
@@ -99,7 +146,6 @@ $blogPageTitleHeader: #bda67a !default;
 .path-blog .blog-page-view .views-field-title a:hover,
 .path-blog .blog-page-view .views-field-title a:link,
 .path-blog .blog-page-view .views-field-title a:visited{
-  color: $blogPageViewFieldTitleLink;
   font-weight:500;
   font-size: 1.8em;
 }
@@ -110,21 +156,11 @@ $blogPageTitleHeader: #bda67a !default;
 
 .path-blog .blog-page-view .views-field-created{
   position: absolute;
-  background: $blogPageViewFieldCreateBack;
-  color: $blogPageViewFieldCreate;
   padding-top: .5em;
   padding-bottom: .5em;
   padding-left: 1em;
   padding-right: 2.5em;
   width: 3em;
-}
-
-.path-blog .blog-page-view .views-field-uid a,
-.path-blog .blog-page-view .views-field-uid a:link,
-.path-blog .blog-page-view .views-field-uid a:hover,
-.path-blog .blog-page-view .views-field-uid a:visited,
-.path-blog .blog-page-view .views-field-uid a:active{
-    color: $blogPageViewFieldUidLink;
 }
 
 .path-blog .blog-page-view .views-field-uid a:before{
@@ -133,13 +169,11 @@ $blogPageTitleHeader: #bda67a !default;
 
 .path-blog .title-page-title h2 {
   font-size:31px;
-  color: $blogPageTitleHeader;
   text-decoration: underline;
   text-align: center;
 } 
 
 .blog-page-view .read-more a{
-    color: $blogPageReadMoreLink; 
     font-size: 3em;
 }
-.blog-page-view .read-more a:hover{ color: $blogPageReadMoreLinkHov; }
+

@@ -1,1 +1,6 @@
-.captcha {width:50%; background-color: transparent;}
+$captchaBack: transparent !default;
+
+.captcha {
+    width:50%; 
+    background-color: $captchaBack;
+}

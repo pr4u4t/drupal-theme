@@ -1,5 +1,20 @@
 $herop: #7d6a48 !default;
 $heroAttachmentFieldContentAfter: #000 !default;
+$heroAttachmentBack: #000 !default;
+
+.hero-attachment{ 
+    background: $heroAttachmentBack;
+}
+
+.path-frontpage .hero-attachment .field-content::after{
+    color: $heroAttachmentFieldContentAfter;
+}
+
+.hero-attachment p:nth-child(even) {
+    border-color: $herop;
+}
+
+/* layout */
 
 @media screen and (max-width:768px){
 	.hero-column-1{ width:100%; }
@@ -9,7 +24,6 @@ $heroAttachmentFieldContentAfter: #000 !default;
 .hero-block h2 a span{ display: none; }
 
 .hero-attachment{ 
-    background: #000; 
     height:11em;
 }
 
@@ -38,7 +52,6 @@ $heroAttachmentFieldContentAfter: #000 !default;
 
 .hero-attachment p:nth-child(even) { 
   border: groove; 
-  border-color: $herop; 
   border-top:0; 
   border-bottom:0; 
 }
@@ -59,8 +72,4 @@ $heroAttachmentFieldContentAfter: #000 !default;
   position: absolute;
   left: 0;
   width: 100vw;
-}
-
-.path-frontpage .hero-attachment .field-content::after{
-  color: $heroAttachmentFieldContentAfter;
 }

@@ -14,6 +14,18 @@ $mainViewsGridLinkHov: grey !default;
 .path-frontpage .wrap-containers { background-color: $mainFWrapBack; }
 body {background-color: $mainBodyBack !important; }
 .path-frontpage body { background-color: $mainFBodyBack !important; }
+.views-view-grid a:hover { color: $mainViewsGridLinkHov; }
+.region.region-content .tabs[aria-label=Tabs] { background: $mainRegionTabsBack; }
+.path-node .title-page-title h2{ color: $mainNodePageTitleHeader; }
+.path-blog .title-page-title h2{ color: $mainBlogPageTitleHeader; }
+h2 a span:hover{ color: $mainTitleLinkHov; }
+h2 a span{ color: $mainTitleLink; }
+
+.views-view-grid a {
+    color: $mainViewsGridLink;
+}
+    
+/* layout */
 
 html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .glazed-header--top.glazed-header--overlay{ 
     top:37px !important; 
@@ -25,12 +37,12 @@ html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal.toolbar-tray-
 
 html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .region.region-content { 
     position: relative; 
-    top:-24px; 
+    top: -24px; 
 }
 
-.toolbar-horizontal .dialog-off-canvas-main-canvas .wrap-containers .js-quickedit-main-content{ margin-top: 100px; }
-
-.region.region-content .tabs[aria-label=Tabs] { background: $mainRegionTabsBack; }
+.toolbar-horizontal .dialog-off-canvas-main-canvas .wrap-containers .js-quickedit-main-content{ 
+    margin-top: 100px; 
+}
 
 .content-bottom-container { 
     width: 100% !important; 
@@ -42,7 +54,7 @@ html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .region.regio
 .body--glazed-nav-desktop .glazed-header--top.glazed-header--overlay { top: 0px; }
 .main-background-image{
     background-position: left center; 
-    height:100%!important;
+    height:100% !important;
 }
 
 .glazed-main-block .field .az-section:nth-child(1) { padding-top:0; }
@@ -92,20 +104,16 @@ html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .region.regio
 /*-------------------------------TITLES----------------------------*/
 
 h2 a span{ 
-    color: $mainTitleLink;
     text-decoration: underline;
 }
 
-h2 a span:hover{ color: $mainTitleLinkHov; }
 .az-button{ display: inline-block; }
 
 /*---------------------------TITLE--------------------------------*/
 
 .title-page-title { margin:1em 5% 1em 5%; }
 .path-node .title-page-title{ margin-top:2em; }
-.path-node .title-page-title h2{ color: $mainNodePageTitleHeader; }
 .path-blog .title-page-title{ margin-top:6em; }
-.path-blog .title-page-title h2{ color: $mainBlogPageTitleHeader; }
 
 /*-------------------DRAG-AND-DROP-PAGE---------------------------*/
 .drag-and-drop-page  .carousel-reduced {
@@ -120,9 +128,8 @@ h2 a span:hover{ color: $mainTitleLinkHov; }
 }
 .views-view-grid a { 
     text-decoration: none; 
-    color: $mainViewsGridLink;
 }
-.views-view-grid a:hover { color: $mainViewsGridLinkHov; }
+
 .views-view-grid .img-responsive {
     margin: auto; 
     margin-bottom:1em;
@@ -134,10 +141,14 @@ h2 a span:hover{ color: $mainTitleLinkHov; }
 }
 
 @media screen and (max-width:1215px){
-	.drag-and-drop-page .views-view-grid .views-col { width:100%!important; }
+	.drag-and-drop-page .views-view-grid .views-col { 
+        width:100%!important; 
+    }
 }
 
-body.path-frontpage .wrap-containers .region.region-content article.drag-and-drop-page { display: none; }
+body.path-frontpage .wrap-containers .region.region-content article.drag-and-drop-page { 
+    display: none; 
+}
 
 article .view-header,
 article .view-content{
@@ -145,10 +156,24 @@ article .view-content{
 }
 
 /*-------------------SLIDE-TO-------------------------*/
-#slide-to-blog{height:2em;}
-#slide-to-about-us{height:2em;}
-#slide-to-what-we-do{height: 4em;}
-#slide-to-opinions{height:0em;}
-#slide-to-certificate{height: 3em;}
-#slide-to-trust{height: 1em;}
-#slide-to-contact{height: 3em;}
+#slide-to-blog{ 
+    height:2em;
+}
+#slide-to-about-us{ 
+    height:2em;
+}
+#slide-to-what-we-do{
+    height: 4em;
+}
+#slide-to-opinions{
+    height:0em;
+}
+#slide-to-certificate{
+    height: 3em;
+}
+#slide-to-trust{
+    height: 1em;
+}
+#slide-to-contact{
+    height: 3em;
+}
