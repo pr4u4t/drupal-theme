@@ -868,6 +868,10 @@
   text-align: center;
 }
 
+.view-contact-block .webform-element-text-field {
+  border: none !important;
+}
+
 .view-contact-block .webform-wrapper-text-field {
   border-bottom-style: none;
   border-bottom-left-radius: 0;
