@@ -146,7 +146,8 @@ $navDesktopNavbarLink: #9f9f9f !default;
         box-orient: horizontal; 
 }
 
-/* what is that ??? */
+/* what is that ??? 
+-to chyba Jareczka cssiarza */
 .body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: rgba(1,128,239,1) !important; }
 	
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
@@ -156,3 +157,8 @@ $navDesktopNavbarLink: #9f9f9f !default;
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
     margin-left: .65em;
 }
+
+/*-----BLOG-----*/
+.body--glazed-nav-desktop .navbar-nav > li > a[href$="blog"] + ul > li > a {white-space: normal;height:auto!important;}
+.body--glazed-nav-desktop .navbar-nav > li > a[href$="blog"] + ul > li  {margin: 0 1em;width:22em!important;}
+.body--glazed-nav-desktop .navbar-nav > li > a[href$="blog"] + ul  {width:1100px;top:100%;margin-top:0; height: auto;min-height: 15em; left:-460px!important;}
