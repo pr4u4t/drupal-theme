@@ -5,8 +5,23 @@ $sitemapLinkBgHov: transparent !default;
 $sitemapBg: transparent !default;
 $sitemapExpandBg: transparent !default;
 
-.sitemap-block{ margin-bottom:2em; }
+.sitemap-block a {
+    color: $sitemapLink !important;
+}
+.sitemap-block a:hover { 
+    color: $sitemapLinkHov !important; 
+    background-color: $sitemapLinkBgHov !important;
+}
+
+.sitemap-block ul{ background: $sitemapBg !important; }
+.body--glazed-nav-desktop .sitemap-block .expanded.dropdown:hover > a{ background: $sitemapExpandBg !important; }
+
 .sitemap-block h2{ color: $sitemapHeader; }
+
+/* layout */
+
+.sitemap-block{ margin-bottom:2em; }
+
 .sitemap-block ul,
 .sitemap-block ul li ul { 
     display: block !important; 
@@ -25,14 +40,7 @@ $sitemapExpandBg: transparent !default;
     box-shadow: none; 
     position: static;
 }
-.sitemap-block a {
-    color: $sitemapLink !important;
-}
-.sitemap-block a:hover { 
-    color: $sitemapLinkHov !important; 
-    background-color: $sitemapLinkBgHov !important;
-}
+
 .sitemap-block li li { margin-left: 1em; }
 .sitemap-block .caret { display: none; } 
-.sitemap-block ul{ background: $sitemapBg !important; }
-.body--glazed-nav-desktop .sitemap-block .expanded.dropdown:hover > a{ background: $sitemapExpandBg !important; }
+
