@@ -892,13 +892,50 @@
 }
 
 .view-contact-block .view-header {
+  color: #fff;
+  border-color: #9d865c;
+}
+
+.view-contact-block .view-header h2 a {
+  color: #fff;
+}
+
+.view-contact-block .view-header h2 a:hover {
+  color: grey;
+}
+
+.view-contact-block .webform-element-text-area {
+  background-color: #403b33;
+  color: #fff !important;
+}
+
+.view-contact-block .webform-element-text-field {
+  color: #fff !important;
+}
+
+.view-contact-block .webform-wrapper-text-field {
+  border-bottom: #968159;
+}
+
+.view-contact-block .webform-submit-button {
+  color: #cdcdcd;
+  border-color: #b19562;
+  background-color: #333333;
+}
+
+.view-contact-block .webform-submit-button:hover {
+  background-color: grey;
+  border-color: #b19562;
+  color: #000;
+}
+
+/* layout */
+.view-contact-block .view-header {
   font-size: 2em;
   margin: 0em 35% 1em 35% !important;
   text-align: center;
-  color: white;
   padding: 1em;
   border-bottom: solid;
-  border-color: #9d865c;
   border-bottom-style: groove;
 }
 
@@ -912,14 +949,6 @@
 
 .view-contact-block .view-header h2 {
   display: block;
-}
-
-.view-contact-block .view-header h2 a {
-  color: #fff;
-}
-
-.view-contact-block .view-header h2 a:hover {
-  color: grey;
 }
 
 @media screen and (max-width: 360px) {
@@ -972,13 +1001,10 @@
 }
 .view-contact-block .webform-element-text-area {
   border: none;
-  background-color: #403b33;
   text-align: center;
-  color: #fff !important;
 }
 
 .view-contact-block .webform-wrapper-text-field {
-  border-bottom: #968159;
   border-bottom-style: none;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -999,16 +1025,7 @@
   float: right;
   border-width: 1px;
   border: groove;
-  color: #cdcdcd;
-  border-color: #b19562;
-  background-color: #333333;
   border-radius: 0;
-}
-
-.view-contact-block .webform-submit-button:hover {
-  background-color: grey;
-  border-color: #b19562;
-  color: #000;
 }
 
 .wrap-containers {
@@ -1304,14 +1321,24 @@ article .view-content {
   background-color: transparent !important;
 }
 
+.region.region-content .user-login-form .form-actions .btn:hover {
+  background-color: #9f885d;
+}
+
 .region.region-content .tabs ul a {
-  margin: 1em;
   background-color: #333333;
-  border-radius: 5px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.12);
-  border-left: 3px solid rgba(0, 0, 0, 0.08);
-  border-right: none;
-  border-top: none;
+}
+
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
+  color: #fff;
+}
+
+.region.region-content .tabs .tabs--secondary li a {
+  color: #fff;
+}
+
+.region.region-content .user-login-form .form-actions .btn {
+  background-color: #333333;
 }
 
 .region.region-content .tabs ul a:hover {
@@ -1320,28 +1347,45 @@ article .view-content {
   border-left-color: rgba(0, 0, 0, 0.3);
 }
 
+.region.region-content .tabs ul a {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+  border-left-color: rgba(0, 0, 0, 0.08);
+}
+
 .region.region-content .tabs ul a:focus {
-  border-bottom: 3px solid rgba(0, 0, 0, 0.12);
-  border-left: 3px solid rgba(0, 0, 0, 0.08);
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+  border-left-color: rgba(0, 0, 0, 0.08);
+}
+
+/* layout */
+.region.region-content .tabs ul a {
+  margin: 1em;
+  border-radius: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-right: none;
+  border-top: none;
+}
+
+.region.region-content .tabs ul a:focus {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-style: solid;
+  border-left-width: 3px;
 }
 
 .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
-  color: #fff;
   padding: 1em !important;
 }
 
 .region.region-content .tabs .tabs--secondary li a {
-  color: #fff;
   padding: 1em !important;
 }
 
 .region.region-content .user-login-form .form-actions .btn {
   margin: 1em;
-  background-color: #333333;
-}
-
-.region.region-content .user-login-form .form-actions .btn:hover {
-  background-color: #9f885d;
 }
 
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover {

@@ -11,22 +11,56 @@ $contactWebformSubmitBorder: #b19562 !default;
 $contactWebformSubmitHov: #000 !default;
 $contactWebformSubmitBackHov: grey !default;
 $contactWebformSubmitBorderHov: #b19562 !default;
+$contactBlock: #fff !default;
+
+.view-contact-block .view-header { 
+    color: $contactBlock; 
+    border-color: $contactBorder;
+}
+
+.view-contact-block .view-header h2 a{ color: $contactHeaderLink; }
+
+.view-contact-block .view-header h2 a:hover{ color: $contactHeaderLinkHov; }
+
+.view-contact-block .webform-element-text-area{
+    background-color: $contactTextAreaBack;
+    color: $contactTextArea !important;
+}
+
+.view-contact-block .webform-element-text-field{
+    color: $contactTextField !important;
+}
+
+.view-contact-block .webform-wrapper-text-field{
+    border-bottom: $contactTextFieldBorder;
+}
+
+.view-contact-block .webform-submit-button{
+    color: $contactWebformSubmit;
+    border-color:$contactWebformSubmitBorder;
+    background-color: $contactWebformSubmitBack;
+}
+
+.view-contact-block .webform-submit-button:hover{
+    background-color: $contactWebformSubmitBackHov;
+    border-color: $contactWebformSubmitBorderHov;
+    color: $contactWebformSubmitHov;
+}
+
+/* layout */
 
 .view-contact-block .view-header {
     font-size:2em;
     margin:0em 35% 1em 35%!important;
     text-align: center; 
-    color: white;
     padding:1em;
     border-bottom: solid;
-    border-color: $contactBorder;
     border-bottom-style: groove;
 }
 .view-contact-block .view-header a span { text-decoration: none !important; }
 .view-contact-block h2{ display: none; }
 .view-contact-block .view-header h2{ display: block; }
-.view-contact-block .view-header h2 a{ color: $contactHeaderLink; }
-.view-contact-block .view-header h2 a:hover{ color: $contactHeaderLinkHov; }
+
 @media screen and (max-width:360px){
   .view-contact-block .views-col{ width: 100%!important; }
   .view-contact-block .view-header{ margin:0em 8% 1em 8% !important;}
@@ -59,13 +93,10 @@ $contactWebformSubmitBorderHov: #b19562 !default;
 
 .view-contact-block .webform-element-text-area{
     border: none;
-    background-color: $contactTextAreaBack;
     text-align: center;
-    color: $contactTextArea !important;
 }
 
 .view-contact-block .webform-wrapper-text-field{
-    border-bottom: $contactTextFieldBorder;
     border-bottom-style: none;
     border-bottom-left-radius:0;
     border-bottom-right-radius:0;
@@ -86,14 +117,5 @@ $contactWebformSubmitBorderHov: #b19562 !default;
     float: right;
     border-width:1px;
     border: groove;
-    color: $contactWebformSubmit;
-    border-color:$contactWebformSubmitBorder;
-    background-color: $contactWebformSubmitBack;
     border-radius:0;
-}
-
-.view-contact-block .webform-submit-button:hover{
-    background-color: $contactWebformSubmitBackHov;
-    border-color: $contactWebformSubmitBorderHov;
-    color: $contactWebformSubmitHov;
 }

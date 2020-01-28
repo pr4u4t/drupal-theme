@@ -9,44 +9,71 @@ $userRegiontabsPrimaryLink: #fff !default;
 $userRegionTabsSecondLink: #fff !default;
 $userRegionButtonBack: #333333 !default;
 $userRegionButtonBackHov: #9f885d !default;
+$userRegionTabsBack: transparent !default;
+$userRegionTabsListBack: #9f885d !default;
 
-
-
-.region.region-content .tabs { background-color: transparent !important; }
-
+.region.region-content .tabs { background-color: $userRegionTabsBack !important; }
+.region.region-content .user-login-form .form-actions .btn:hover{ background-color: $userRegionButtonBackHov; }
 .region.region-content .tabs ul a {
-    margin: 1em;
     background-color: $userRegionTabsLink;
-    border-radius: 5px;
-    border-bottom: 3px solid $userRegionTabsLinkBorBottom; 
-    border-left: 3px solid $userRegionTabsLinkBorLeft;
-    border-right: none;
-    border-top: none;
+}
+
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
+    color: $userRegiontabsPrimaryLink;
+}
+
+.region.region-content .tabs .tabs--secondary li a{ 
+    color: $userRegionTabsSecondLink;
+}
+
+.region.region-content .user-login-form .form-actions .btn{
+    background-color: $userRegionButtonBack;
 }
 
 .region.region-content .tabs ul a:hover{ 
-    background-color: #9f885d;
+    background-color: $userRegionTabsListBack;
     border-bottom-color: $userRegionTabsLinkBorBottomHov;
     border-left-color: $userRegionTabsLinkBorLeftHov;
 }
 
+.region.region-content .tabs ul a {
+    border-bottom-color:$userRegionTabsLinkBorBottom;
+    border-left-color: $userRegionTabsLinkBorLeft;
+}
+
 .region.region-content .tabs ul a:focus{
-    border-bottom: 3px solid $userRegionTabsLinkBorBottomFoc;
-    border-left: 3px solid $userRegionTabsLinkBorLeftFoc;
+    border-bottom-color: $userRegionTabsLinkBorBottomFoc;
+    border-left-color: $userRegionTabsLinkBorLeftFoc;
+}
+
+/* layout */
+
+.region.region-content .tabs ul a {
+    margin: 1em;
+    border-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-right: none;
+    border-top: none;
+}
+
+.region.region-content .tabs ul a:focus{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-style: solid;
+    border-left-width:3px;
+    
 }
 
 .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
-    color: $userRegiontabsPrimaryLink; 
     padding:1em!important;
 }
 .region.region-content .tabs .tabs--secondary li a{ 
-    color: $userRegionTabsSecondLink; 
     padding:1em!important;
 }
 
 .region.region-content .user-login-form .form-actions .btn{
     margin: 1em;
-    background-color: $userRegionButtonBack;
 }
-
-.region.region-content .user-login-form .form-actions .btn:hover{ background-color: $userRegionButtonBackHov; }
