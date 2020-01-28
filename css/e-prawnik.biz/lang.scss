@@ -9,15 +9,41 @@ $langDropLangItem: #181818 !default;
 $langDropLangItemHov: #181818 !default;
 $langDropLangItemBack: transparent !default; 
 
+.dropdown-language-item .dropdown-menu a { color: $langDropLink !important; }
+.dropdown-language-item .btn-default, .btn-group > .btn-default { background: $langDropButtonBackground; }
+.body--glazed-nav-mobile .block-dropdown-language a,
+.body--glazed-nav-mobile .block-dropdown-language button { color: $langDropButton !important; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul { background: $langDropItemBackground !important; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover {
+    background: $langDropItemBackgroundHov;
+}
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover > .active-language { color: $langDropItemActiveHov !important; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover{ 
+    background: $langDropLangItem !important; 
+}
+
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .dropdown-menu{
+    background: $langDropLangItem !important;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li:hover{
+    background: $langDropLangItemBack;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a:hover{
+    color: $langDropMenuLink !important;
+}
+
+/* layout */
+
 .dropdown-language-item.dropdown:hover .dropdown-menu { display: block; }
 .dropdown-language-item .dropdown-menu { background: transparent !important; }
-.dropdown-language-item .dropdown-menu a { color: $langDropLink !important; }
+
 .dropdown-language-item.dropdown-menu { 
     border: none !important; 
     box-shadow: none !important; 
 }
 .dropdown-language-item .btn { border: none !important; }
-.dropdown-language-item .btn-default, .btn-group > .btn-default { background: $langDropButtonBackground; }
 
 /*--- mobile nav ---*/
 .body--glazed-nav-mobile .block-dropdown-language { 
@@ -33,8 +59,7 @@ $langDropLangItemBack: transparent !default;
     float: none; 
     position: static;
 }    	
-.body--glazed-nav-mobile .block-dropdown-language a,
-.body--glazed-nav-mobile .block-dropdown-language button { color: $langDropButton !important; }
+
 .body--glazed-nav-mobile .block-dropdown-language .dropdown-menu { position: static; }
 .body--glazed-nav-mobile .block-dropdown-language .dropdown-toggle { display: none; }
 .body--glazed-nav-mobile .block-dropdown-language .active-language { 
@@ -43,16 +68,16 @@ $langDropLangItemBack: transparent !default;
 }
 .body--glazed-nav-mobile .block-dropdown-language ul { float: left !important; }
 /*--- desktop ---*/
-.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul { background: $langDropItemBackground !important; }
+
 .body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul li a { 
     display: block !important; 
     width:100% !important;
 }
+
 .body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover { 
-    border-radius:0; 
-    background: $langDropItemBackgroundHov; 
+    border-radius:0;  
 }
-.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover > .active-language { color: $langDropItemActiveHov !important; }
+
 .body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .language-link { 
     display: table-cell; 
     height:80px; 
@@ -71,16 +96,10 @@ $langDropLangItemBack: transparent !default;
 }
 .body--glazed-nav-desktop .block-dropdown-language { 
     position: absolute !important; 
-    right:-2em; 
+    right: -2em; 
 }
 
-.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover{ 
-    background: $langDropLangItem !important; 
-}
 
-.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .dropdown-menu{
-    background: $langDropLangItem !important;
-}
 
 .body--glazed-nav-mobile .dropdown-language-block .dropdown-menu {
   width:30%;
@@ -93,14 +112,6 @@ $langDropLangItemBack: transparent !default;
   width:3em;
   min-width:3em;
   margin-left:1em;
-}
-
-.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li:hover{
-    background: $langDropLangItemBack;
-}
-
-.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a:hover{
-  color: $langDropMenuLink !important;
 }
 
 .body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a{
