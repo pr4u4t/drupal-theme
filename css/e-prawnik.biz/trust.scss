@@ -5,17 +5,28 @@ $trustBlockViewHeaderHeadLinkHov: grey !default;
 $trustCarouselCtrl: #fff !default;
 
 .trust-block .view-header {
-    font-size:2em;
-    margin:2em 35% 3em 35%;
-    text-align: center; 
     color: $trustBlockViewHeader;
-    padding:1em;
-    border-bottom: solid;
     border-color: $trustBlockViewHeaderBorder;
-    border-bottom-style: groove;
 }
 .trust-block .view-header h2 a{ color: $trustBlockViewHeaderHeadLink; }
 .trust-block .view-header h2 a:hover{ color: $trustBlockViewHeaderHeadLinkHov; }
+
+.path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-next:after,
+.path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-prev:after{
+    color: $trustCarouselCtrl !important;
+}
+
+/* layout */
+
+.trust-block .view-header {
+    font-size:2em;
+    margin:2em 35% 3em 35%;
+    text-align: center; 
+    padding:1em;
+    border-bottom: solid;
+    border-bottom-style: groove;
+}
+
 .trust-block .trust h2{ display: none; }
 
 @media screen and (max-width:360px){
@@ -58,7 +69,6 @@ $trustCarouselCtrl: #fff !default;
 .path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-prev:after{
   position: absolute !important;
   width:2em;
-  color: $trustCarouselCtrl !important;
   opacity:1;
 }
 

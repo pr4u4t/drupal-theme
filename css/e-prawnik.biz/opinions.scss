@@ -6,18 +6,34 @@ $opinionsBlockOpinionsBorder: #b89c68 !default;
 $opinionsBlockOpinionsBack: #403b33 !default;
 $opinionsBlockCarouselCtrlBack: transparent !default;
 
+.opinions-block .view-header {
+    color: $opinionsBlockViewHeader;
+    border-color: $opinionsBlockViewHeaderBorder;
+}
+.opinions-block .view-header h2 a{ color: $opinionsBlockViewHeaderHeadLink; }
+.opinions-block .view-header h2 a:hover{ color: $opinionsBlockViewHeaderHeadLinkHov; }
+
+.opinions-block .opinions{
+    border-color: $opinionsBlockOpinionsBorder;
+    background-color: $opinionsBlockOpinionsBack;
+}
+
+.path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-prev,
+.path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-next{
+    background: $opinionsBlockCarouselCtrlBack;
+}
+
+/* layout */
+
  .opinions-block .view-header {
     font-size:2em;
     margin:2em 35% 3em 35%;
     text-align: center; 
-    color: $opinionsBlockViewHeader;
     padding:1em;
     border-bottom: solid;
-    border-color: $opinionsBlockViewHeaderBorder;
     border-bottom-style: groove;
 }
-.opinions-block .view-header h2 a{ color: $opinionsBlockViewHeaderHeadLink; }
-.opinions-block .view-header h2 a:hover{ color: $opinionsBlockViewHeaderHeadLinkHov; }
+
  @media screen and (max-width:360px){
    .opinions-block .views-col{width: 100%!important;}
    .opinions-block .view-header{margin:0em 8% 1em 8%;}
@@ -39,11 +55,11 @@ $opinionsBlockCarouselCtrlBack: transparent !default;
 	padding:3em;
 	text-align: justify;
 	border: solid;
-    border-color: $opinionsBlockOpinionsBorder;
-    background-color: $opinionsBlockOpinionsBack;
 }
 
-.opinions-block .opinions h2 { display: none; }
+.opinions-block .opinions h2 { 
+    display: none; 
+}
 
 .opinions-block .opinions .img-responsive{
   margin-left: auto;
@@ -66,7 +82,6 @@ $opinionsBlockCarouselCtrlBack: transparent !default;
   opacity: 1;
   display: block;
   right: -1em;
-  background: $opinionsBlockCarouselCtrlBack;
   box-shadow: none;
   margin-top:8em;
 }
@@ -76,7 +91,6 @@ $opinionsBlockCarouselCtrlBack: transparent !default;
   opacity: 1;
   display: block;
   left: -1em;
-  background: $opinionsBlockCarouselCtrlBack;
   box-shadow: none;
   margin-top:8em;
 }

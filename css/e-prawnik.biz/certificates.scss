@@ -5,16 +5,32 @@ $certCarouselCtrlBack: none !default;
 $certCarouselCtrlAfter: #fff !default;
 
 .certificates-block .view-header {
+    border-color: $certBlockViewHeaderBorder;
+}
+
+.certificates-block .view-header h2 a{ color: $certBlockViewHeaderHeaderLink; }
+.certificates-block .view-header h2 a:hover{ color: $certBlockViewHeaderHeaderLinkHov; }
+
+.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-next,
+.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-prev{
+    background: $certCarouselCtrlBack;
+}
+
+.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-next:after,
+.path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-prev:after{
+    color: $certCarouselCtrlAfter !important;
+}
+
+/* layout */
+
+.certificates-block .view-header {
     font-size: 2em;
     margin: 0em 35% 3em 35%;
     text-align: center;  
     padding: 1em;
     border-bottom: solid;
-    border-color: $certBlockViewHeaderBorder;
     border-bottom-style: groove;
 }
-.certificates-block .view-header h2 a{ color: $certBlockViewHeaderHeaderLink; }
-.certificates-block .view-header h2 a:hover{ color: $certBlockViewHeaderHeaderLinkHov; }
 
 @media screen and (max-width:360px){
   .certificates-block .views-col{ width: 100% !important; }
@@ -40,7 +56,6 @@ $certCarouselCtrlAfter: #fff !default;
   .path-frontpage .certificates-block .views-col{width: 50%!important;}
 }
 
-
 .path-frontpage .view-certificates .jcarousel-wrapper{
   box-shadow: none;
   width:100%;
@@ -51,14 +66,12 @@ $certCarouselCtrlAfter: #fff !default;
   width:20vw !important;
 }
 
-
 .path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-next,
 .path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-prev{
   visibility: visible !important;
   display: block !important;
   opacity: 1;
   box-shadow: none;
-  background: $certCarouselCtrlBack;
   margin-top:2em;
 }
 
@@ -66,7 +79,6 @@ $certCarouselCtrlAfter: #fff !default;
 .path-frontpage .view-certificates .jcarousel-wrapper .jcarousel-control-prev:after{
   position: absolute !important;
   width:2em;
-  color: $certCarouselCtrlAfter !important;
   opacity:1;
 }
 

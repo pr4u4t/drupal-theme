@@ -11,6 +11,39 @@ $navDesktopMenuLinkBackHov: #181818 !default;
 $navDesktopMenuDropdownBackHov: transparent !default;
 
 #navbar.glazed-header--hover-text .menu a.is-active{ color: $navbarMenuActiveLink; }
+.body--glazed-nav-mobile .menu__breadcrumbs a:hover { background: $navMobileBreadBack;  }
+.body--glazed-nav-desktop .main-navigation-block .dropdown .dropdown-menu { background: $navDesktopMenuBack; }
+.body--glazed-nav-mobile .block-system-menu-blockmain ul .active a { color: $navDesktopDropdown !important; }
+.body--glazed-nav-desktop #dim-overlay{
+    opacity: $navDimOverlayOpacity;
+    background: $navDimOverlayBack;
+}
+
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading, 
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:hover, 
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:link, 
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:visited { 
+    color: $navDesktopMegaHeader !important; 
+    background: $navDesktopMegaHeaderBack !important; 
+}
+
+.body--glazed-nav-desktop .expanded.dropdown:hover > a {
+    background: $navDesktopExpandedLinkBackHov !important;  
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu a:focus,
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu a:hover{ 
+    background: $navDesktopMenuLinkBackHov !important;
+}
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a,
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:focus,
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover{
+    background: $navDesktopMenuDropdownBackHov !important;
+}
+
+/* layout */
+
 .body--glazed-nav-mobile .main-navigation-block { 
     -webkit-box-ordinal-group: 3; 
     -moz-box-ordinal-group: 3;
@@ -22,12 +55,10 @@ $navDesktopMenuDropdownBackHov: transparent !default;
     position: static !important; 
 }
 
-.body--glazed-nav-mobile .menu__breadcrumbs a:hover { background: $navMobileBreadBack;  }
-
 @media screen and (max-width:768px){
 	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
-    		top: 14em !important;  
-    		left: -2em !important;  
+        top: 14em !important;  
+        left: -2em !important;  
 	}
 
 	.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs {
@@ -37,9 +68,9 @@ $navDesktopMenuDropdownBackHov: transparent !default;
 
 @media screen and (min-width:769px){
 	.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs { 
-                top: 14em !important;
-                left: -2em !important;
-        }
+        top: 14em !important;
+        left: -2em !important;
+    }
 
 	.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs {
   		top: 19.5em !important;
@@ -61,9 +92,7 @@ $navDesktopMenuDropdownBackHov: transparent !default;
 
 .body--glazed-nav-desktop .main-navigation-block .menu.nav.navbar-nav { height: 80px !important; }
 .body--glazed-nav-desktop .main-navigation-block { margin-right:20%; }
-.body--glazed-nav-desktop .main-navigation-block .dropdown .dropdown-menu { background: $navDesktopMenuBack; } 
-
-.body--glazed-nav-mobile .block-system-menu-blockmain ul .active a { color: $navDesktopDropdown !important; }
+ 
 .body--glazed-nav-desktop #navbar { z-index:4050 !important; }
 .body--glazed-nav-desktop .block-system-menu-blockmain ul { 
     -webkit-box-shadow: none !important; 
@@ -83,23 +112,13 @@ $navDesktopMenuDropdownBackHov: transparent !default;
 	  left:-100vh;
 	  width:200vw;
 	  height:200vh;
-      opacity: $navDimOverlayOpacity;
 	  display: none;
-      background: $navDimOverlayBack;
 	  z-index:500;
 	  content:' ';
 }
 
-.body--glazed-nav-desktop #navbar .glazed-megamenu__heading, 
-.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:hover, 
-.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:link, 
-.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:visited { 
-    color: $navDesktopMegaHeader !important; 
-    background: $navDesktopMegaHeaderBack !important; 
-}
-
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu { 
-    	margin-top: 50px !important;
+    margin-top: 50px !important;
 }
 
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .mega > .dropdown-menu .dropdown-menu { 
@@ -112,21 +131,6 @@ $navDesktopMenuDropdownBackHov: transparent !default;
 }
 
 #navbar .container .container-row .container-col { height:60px; }
-
-.body--glazed-nav-desktop .expanded.dropdown:hover > a {
-    background: $navDesktopExpandedLinkBackHov !important;  
-}
-
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu a:focus,
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu a:hover{ 
-    background: $navDesktopMenuLinkBackHov !important;
-}
-
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a,
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:focus,
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover{
-    background: $navDesktopMenuDropdownBackHov !important;
-}
 
 .body--glazed-nav-mobile #glazed-main-menu .main-navigation-block{
   max-height: calc(100vh - 13.5em);

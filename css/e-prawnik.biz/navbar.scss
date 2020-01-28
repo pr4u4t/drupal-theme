@@ -10,7 +10,51 @@ $navDesktopNavbarWrapBranding: transparent !default;
 $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
 $navDesktopNavbarLink: #9f9f9f !default;
 
-.navbar-container{ transition: all 1s; }
+.glazed-main-menu .wrap-branding a:hover { 
+    background: $navbarGlazedWrapBrandLinkHov !important; 
+}
+
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a, 
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:link, 
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:visited { 
+    color: $navMobileGlazedMainMenuDropdownLink !important; 
+}
+
+.body--glazed-nav-mobile #glazed-menu-toggle { 
+    background: $navMobileMenuToggleBack !important;
+}
+
+.body--glazed-nav-mobile #glazed-menu-toggle span,
+.body--glazed-nav-mobile #glazed-menu-toggle span:before,
+.body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
+    background: $navMobileMenuToggleSpanBack !important;
+}
+
+.body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navMobileMenuListHovBack; }
+
+.body--glazed-nav-desktop #navbar  a:hover { 
+    color: $navDesktopNavbarLinkHov !important; 
+    background: $navDesktopNavbarLinkHovBack !important; 
+}
+
+.body--glazed-nav-desktop #navbar .dropdown-menu a { 
+    color: $navDesktopNavbarDropdownMenuLink !important; 
+}
+
+.body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
+    margin-left: .65em;
+    color: $navDesktopNavbarDropdownMenuLinkNode !important;
+}
+
+.body--glazed-nav-mobile #navbar a { color: $navDesktopNavbarLink !important; }
+
+.body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
+
+/* layout */
+
+.navbar-container{ 
+    transition: all 1s; 
+}
 
 #navbar { 
     position: fixed !important; 
@@ -18,9 +62,13 @@ $navDesktopNavbarLink: #9f9f9f !default;
     height:80px !important; 
 }
 
-.glazed-main-menu .nav > li > a { padding: 10px 25px !important; }
-.glazed-main-menu .wrap-branding a:hover { background: $navbarGlazedWrapBrandLinkHov !important; }
-#navbar .wrap-branding { height:80px; }
+.glazed-main-menu .nav > li > a { 
+    padding: 10px 25px !important; 
+}
+
+#navbar .wrap-branding { 
+    height:80px; 
+}
 .body--glazed-nav-mobile.user-logged-in .wrap-branding{
 	margin-top:2em;
 }
@@ -38,12 +86,7 @@ $navDesktopNavbarLink: #9f9f9f !default;
 .body--glazed-nav-mobile .glazed-main-menu a:visited, 
 .body--glazed-nav-mobile .glazed-main-menu a:link { padding-left:15px !important; }
 
-.body--glazed-nav-mobile .glazed-main-menu  .dropdown a, 
-.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:link, 
-.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:visited { color: $navMobileGlazedMainMenuDropdownLink !important; }
-
 .body--glazed-nav-mobile #glazed-menu-toggle { 
-    background: $navMobileMenuToggleBack !important; 
     height:80px !important; 
     margin:0 !important; 
 }
@@ -51,8 +94,7 @@ $navDesktopNavbarLink: #9f9f9f !default;
 .body--glazed-nav-mobile #glazed-menu-toggle span,
 .body--glazed-nav-mobile #glazed-menu-toggle span:before,
 .body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
-    content:" "; 
-    background: $navMobileMenuToggleSpanBack !important; 
+    content:" ";  
     margin-top:75%; 
 }
 	
@@ -88,7 +130,7 @@ $navDesktopNavbarLink: #9f9f9f !default;
     z-index: 5555; 
     top:0px; 
 }
-.body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navMobileMenuListHovBack; }
+
 .body--glazed-nav-mobile .body--glazed-nav-mobile .glazed-header .nav{ margin-top:1em; }
 .body--glazed-nav-mobile .navbar-nav { margin-top:1.5em !important; }
 .body--glazed-nav-mobile .navbar-nav li .dropdown-menu { margin-top:7.5em !important; }
@@ -107,18 +149,10 @@ $navDesktopNavbarLink: #9f9f9f !default;
 /* what is that ??? */
 .body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: rgba(1,128,239,1) !important; }
 	
-.body--glazed-nav-desktop #navbar  a:hover { 
-    color: $navDesktopNavbarLinkHov !important; 
-    background: $navDesktopNavbarLinkHovBack !important; 
-}
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
-    height:2em !important; 
-    color: $navDesktopNavbarDropdownMenuLink !important; 
-}
-.body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
-.body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
-		margin-left: .65em;
-        color: $navDesktopNavbarDropdownMenuLinkNode !important;
+    height:2em !important;  
 }
 
-.body--glazed-nav-mobile #navbar a {color: $navDesktopNavbarLink !important;}
+.body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
+    margin-left: .65em;
+}
