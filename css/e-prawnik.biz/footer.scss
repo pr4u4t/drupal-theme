@@ -1,6 +1,16 @@
 $footerMenuLink: #cccccc !default;
 $footerOfficeHours: #a38b5f !default;
 
+.menu--menu-stopki a:hover, .menu--footer-menu a:hover { 
+    color: $footerMenuLink; 
+}
+
+footer .office-hours .field--label { 
+    color: $footerOfficeHours; 
+}
+
+/* layout */
+
 footer .footer-block .field .az-container .az-section .az-ctnr .az-row  {
     display: flex; 
     flex-direction: row;
@@ -97,13 +107,14 @@ footer .footer-block .field .az-container .az-section .footer-col-3{
 }
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { 
     background: transparent !important; 
-    color: $footerMenuLink; 
 }
+
 .glazed-footer article h2 { display: none; }
+
 footer .office-hours .field--label { 
-    color: $footerOfficeHours; 
     text-decoration: underline;
 }
+
 .nav li a {padding: 2px 0px 2px 0px !important; }
 footer .teaser{ margin: 0px !important;}
 .glazed-footer{ margin-top:2em; }

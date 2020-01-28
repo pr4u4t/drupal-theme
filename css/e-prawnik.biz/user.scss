@@ -1,5 +1,11 @@
 $userAccountLink: #646464 !default;
 
+.body--glazed-nav-mobile .user-account-menu-block a,
+.body--glazed-nav-mobile .user-account-menu-block a:link,
+.body--glazed-nav-mobile .user-account-menu-block a:visited { color: $userAccountLink !important; }
+
+/* layout */
+
 .user-account-menu-block li { visibility: visible; }
 .user-account-menu-block .last{ padding-right: 1.65em; }
 
@@ -30,9 +36,7 @@ $userAccountLink: #646464 !default;
 }
 .body--glazed-nav-mobile .user-account-menu-block .menu.menu--account { position: static !important; }
 .body--glazed-nav-mobile .user-account-menu-block .menu.menu--account { height: auto !important; }
-.body--glazed-nav-mobile .user-account-menu-block a,
-.body--glazed-nav-mobile .user-account-menu-block a:link,
-.body--glazed-nav-mobile .user-account-menu-block a:visited { color: $userAccountLink !important; }
+
 .body--glazed-nav-mobile .user-account-menu-block { 
     position: relative !important;  
     top: -1em; 

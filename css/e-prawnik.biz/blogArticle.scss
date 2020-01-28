@@ -1,5 +1,11 @@
 $blogArticleAuthor: #a38b5f !default;
 
+.page-node-type-blog .main-container .submitted .author span {
+    color: $blogArticleAuthor;
+}
+
+/* layout */
+
 .page-node-type-blog .main-container .content .img-responsive { 
     float: left;
     padding:0em 1em 1em 0em;
@@ -14,7 +20,4 @@ $blogArticleAuthor: #a38b5f !default;
 }
 .page-node-type-blog .main-container .submitted {
   text-align: right;
-}
-.page-node-type-blog .main-container .submitted .author span {
-  color: $blogArticleAuthor;
 }
