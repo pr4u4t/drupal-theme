@@ -3151,7 +3151,7 @@ footer .teaser {
 }
 
 .captcha {
-  width: 70%;
+  width: 60%;
 }
 
 @media screen and (max-width: 1199px) {
@@ -3518,12 +3518,12 @@ footer .office-hours .field--label {
   background: #181818 !important;
 }
 
+/*
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a,
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:focus,
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover {
-  background: transparent !important;
-}
-
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover{
+    background: $navDesktopMenuDropdownBackHov !important;
+}*/
 .company-details-view a {
   color: #646464;
 }
