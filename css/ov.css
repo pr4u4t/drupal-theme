@@ -1783,7 +1783,7 @@ footer .teaser {
 
 .view-blog .views-field-title,
 .view-blog .views-field-uid {
-  text-align: right;
+  text-align: left;
 }
 
 .view-blog-block {
