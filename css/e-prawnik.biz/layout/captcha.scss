@@ -1,3 +1,22 @@
-.captcha {
-    width:60%; 
+@media screen and (max-width:680px){
+    .path-contact .captcha {
+    width: 100%;
+    }
+    .path-user .captcha {
+     width: 100%;
+    }
+    .path-frontpage .captcha {
+     width:100%;   
+    }
+  }
+  @media screen and (min-width:681px){
+    .path-contact .captcha {
+    width: 70%;
+    }
+    .path-user .captcha {
+    width: 100%;
+    }
+   .path-frontpage .captcha {
+    width:50%; 
+  }
 }
