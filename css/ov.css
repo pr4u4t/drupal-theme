@@ -4047,6 +4047,18 @@ html {
   background-color: #999999;
 }
 
+.path-admin .views-edit-view .btn-group > .btn-default {
+  background-color: #999999;
+}
+
+.path-admin .ui-dialog-buttonpane {
+  background-color: #f3f4ee;
+}
+
+.path-admin .ui-dialog .scroll {
+  background-color: #f3f4ee;
+}
+
 .captcha {
   background-color: transparent;
 }

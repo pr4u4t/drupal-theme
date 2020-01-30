@@ -32,6 +32,8 @@ $adminRegionButtonBackHov: #999999 !default;
 $adminRegionTabsBack: transparent !default;
 $adminRegionTabsListBack: #999999 !default;
 
+$adminViewsDialogBack: #f3f4ee !default;
+
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;
 }
@@ -151,3 +153,7 @@ html{
 .path-admin .region.region-content .tabs .active a{ 
     background-color: $adminRegionTabsListBack; 
 }
+
+.path-admin .views-edit-view .btn-group > .btn-default{background-color: $adminRegionTabsListBack;}
+.path-admin .ui-dialog-buttonpane{background-color: $adminViewsDialogBack;}
+.path-admin .ui-dialog .scroll{background-color: $adminViewsDialogBack;}
