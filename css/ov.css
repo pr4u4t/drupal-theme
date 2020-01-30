@@ -3949,7 +3949,7 @@ html {
 }
 
 .path-admin .wrap-containers {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .captcha {
