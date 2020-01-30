@@ -84,3 +84,40 @@
 .path-admin .breadcrumb {margin-top:100px;}
 
 .path-admin .view-content tbody .views-field-operations .dropdown{width:7em;}
+
+.path-admin .region.region-content .tabs ul a {
+  margin: 1em 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-right: none;
+  border-top: none;
+}
+
+
+.path-admin .region.region-content .tabs ul a:focus{
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-style: solid;
+  border-left-width:3px;
+  
+}
+
+.path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
+  padding:1em!important;
+}
+.path-admin .region.region-content .tabs .tabs--secondary li a{ 
+  padding:1em!important;
+}
+
+.path-admin .region.region-content .user-login-form .form-actions .btn{
+  margin: 1em;
+}
+.path-admin .html .glazed-mini-tabs-wrapper .tabs--primary{
+  box-shadow:none;
+}

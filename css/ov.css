@@ -3196,6 +3196,43 @@ footer .teaser {
   width: 7em;
 }
 
+.path-admin .region.region-content .tabs ul a {
+  margin: 1em 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-right: none;
+  border-top: none;
+}
+
+.path-admin .region.region-content .tabs ul a:focus {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-style: solid;
+  border-left-width: 3px;
+}
+
+.path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
+  padding: 1em !important;
+}
+
+.path-admin .region.region-content .tabs .tabs--secondary li a {
+  padding: 1em !important;
+}
+
+.path-admin .region.region-content .user-login-form .form-actions .btn {
+  margin: 1em;
+}
+
+.path-admin .html .glazed-mini-tabs-wrapper .tabs--primary {
+  box-shadow: none;
+}
+
 @media screen and (max-width: 680px) {
   .path-contact .captcha {
     width: 100%;
@@ -3954,6 +3991,51 @@ html {
 
 .path-admin .wrap-containers {
   background-color: #fff !important;
+}
+
+.path-admin .region.region-content .tabs {
+  background-color: transparent !important;
+}
+
+.path-admin .region.region-content .user-login-form .form-actions .btn:hover {
+  background-color: #9f885d;
+}
+
+.path-admin .region.region-content .tabs ul a {
+  background-color: #333333;
+}
+
+.path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
+  color: #000;
+}
+
+.path-admin .region.region-content .tabs .tabs--secondary li a {
+  color: #000;
+}
+
+.path-admin .region.region-content .user-login-form .form-actions .btn {
+  background-color: #cccccc;
+}
+
+.path-admin .region.region-content .tabs ul a:hover {
+  background-color: #9f885d;
+  border-bottom-color: rgba(0, 0, 0, 0.4);
+  border-left-color: rgba(0, 0, 0, 0.3);
+}
+
+.path-admin .region.region-content .tabs ul a {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+  border-left-color: rgba(0, 0, 0, 0.08);
+}
+
+.path-admin .region.region-content .tabs ul a:focus {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+  border-left-color: rgba(0, 0, 0, 0.08);
+  background-color: #9f885d;
+}
+
+.path-admin .region.region-content .tabs .active a {
+  background-color: #9f885d;
 }
 
 .captcha {

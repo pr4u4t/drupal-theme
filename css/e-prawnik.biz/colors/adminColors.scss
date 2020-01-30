@@ -18,6 +18,20 @@ $adminEditDisplaysBack: #fff !default;
 $adminEditDisplaysLabel: #000 !default;
 $adminBackgroundColor: #fff !default;
 
+$adminRegionTabsLink: #333333 !default;
+$adminRegionTabsLinkBorBottom: rgba(0,0,0,0.12) !default;
+$adminRegionTabsLinkBorLeft: rgba(0,0,0,0.08) !default;
+$adminRegionTabsLinkBorBottomHov: rgba(0,0,0,0.4) !default;
+$adminRegionTabsLinkBorLeftHov: rgba(0,0,0,0.3) !default;
+$adminRegionTabsLinkBorBottomFoc: rgba(0,0,0,0.12) !default;
+$adminRegionTabsLinkBorLeftFoc: rgba(0,0,0,0.08) !default;
+$adminRegiontabsPrimaryLink: #000 !default;
+$adminRegionTabsSecondLink: #000 !default;
+$adminRegionButtonBack: #cccccc !default;
+$adminRegionButtonBackHov: #9f885d !default;
+$adminRegionTabsBack: transparent !default;
+$adminRegionTabsListBack: #9f885d !default;
+
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;
 }
@@ -98,4 +112,42 @@ html{
 
 .path-admin .wrap-containers{
     background-color: $adminBackgroundColor!important;
+}
+
+.path-admin .region.region-content .tabs { background-color: $adminRegionTabsBack !important; }
+.path-admin .region.region-content .user-login-form .form-actions .btn:hover{ background-color: $adminRegionButtonBackHov; }
+.path-admin .region.region-content .tabs ul a {
+    background-color: $adminRegionTabsLink;
+}
+
+.path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
+    color: $adminRegiontabsPrimaryLink;
+}
+
+.path-admin .region.region-content .tabs .tabs--secondary li a{ 
+    color: $adminRegionTabsSecondLink;
+}
+
+.path-admin .region.region-content .user-login-form .form-actions .btn{
+    background-color: $adminRegionButtonBack;
+}
+
+.path-admin .region.region-content .tabs ul a:hover{ 
+    background-color: $adminRegionTabsListBack;
+    border-bottom-color: $adminRegionTabsLinkBorBottomHov;
+    border-left-color: $adminRegionTabsLinkBorLeftHov;
+}
+
+.path-admin .region.region-content .tabs ul a {
+    border-bottom-color:$adminRegionTabsLinkBorBottom;
+    border-left-color: $adminRegionTabsLinkBorLeft;
+}
+
+.path-admin .region.region-content .tabs ul a:focus{
+    border-bottom-color: $adminRegionTabsLinkBorBottomFoc;
+    border-left-color: $adminRegionTabsLinkBorLeftFoc;
+    background-color: $adminRegionTabsListBack;
+}
+.path-admin .region.region-content .tabs .active a{ 
+    background-color: $adminRegionTabsListBack; 
 }
