@@ -3192,6 +3192,10 @@ footer .teaser {
   margin-top: 100px;
 }
 
+.path-admin .view-content tbody .views-field-operations .dropdown {
+  width: 7em;
+}
+
 @media screen and (max-width: 680px) {
   .path-contact .captcha {
     width: 100%;
