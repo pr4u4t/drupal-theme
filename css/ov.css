@@ -1131,6 +1131,10 @@ article .view-content {
   font-weight: normal;
 }
 
+.path-user .content-top-container {
+  margin-top: 100px;
+}
+
 .path-user .region.region-content .tabs ul a {
   margin: 1em 0;
   border-top-left-radius: 10px;
@@ -3231,6 +3235,11 @@ footer .teaser {
 
 .path-admin .glazed-mini-tabs-wrapper .tabs--primary {
   box-shadow: none;
+}
+
+.path-admin #menu-overview .checkbox {
+  margin: auto;
+  border-top: none;
 }
 
 @media screen and (max-width: 680px) {
