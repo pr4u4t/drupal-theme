@@ -1132,8 +1132,11 @@ article .view-content {
 }
 
 .region.region-content .tabs ul a {
-  margin: 1em;
-  border-radius: 5px;
+  margin: 1em 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   border-bottom-style: solid;
   border-bottom-width: 3px;
   border-left-style: solid;
@@ -3509,6 +3512,7 @@ h2 a span {
 .region.region-content .tabs ul a:focus {
   border-bottom-color: rgba(0, 0, 0, 0.12);
   border-left-color: rgba(0, 0, 0, 0.08);
+  background-color: #9f885d;
 }
 
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover {

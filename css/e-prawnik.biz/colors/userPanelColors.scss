@@ -44,4 +44,5 @@ $userRegionTabsListBack: #9f885d !default;
 .region.region-content .tabs ul a:focus{
     border-bottom-color: $userRegionTabsLinkBorBottomFoc;
     border-left-color: $userRegionTabsLinkBorLeftFoc;
+    background-color: $userRegionTabsListBack;
 }
