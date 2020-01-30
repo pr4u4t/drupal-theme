@@ -46,3 +46,6 @@ $userRegionTabsListBack: #9f885d !default;
     border-left-color: $userRegionTabsLinkBorLeftFoc;
     background-color: $userRegionTabsListBack;
 }
+.region.region-content .tabs .active a{ 
+    background-color: $userRegionTabsListBack; 
+}

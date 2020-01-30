@@ -16,6 +16,7 @@ $adminHtmlBack: none !default;
 $adminEditDisplays: #fff !default;
 $adminEditDisplaysBack: #000 !default;
 $adminEditDisplaysLabel: #000 !default;
+$adminBackgroundColor: #fff !default;
 
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;
@@ -93,4 +94,8 @@ html{
 
 .path-admin #edit-displays .label{
     color: $adminEditDisplaysLabel;
+}
+
+.path-admin .wrap-containers{
+    background-color: $adminBackgroundColor;
 }
