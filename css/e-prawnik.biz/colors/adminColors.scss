@@ -18,7 +18,7 @@ $adminEditDisplaysBack: #fff !default;
 $adminEditDisplaysLabel: #000 !default;
 $adminBackgroundColor: #fff !default;
 
-$adminRegionTabsLink: #333333 !default;
+$adminRegionTabsLink: #cccccc !default;
 $adminRegionTabsLinkBorBottom: rgba(0,0,0,0.12) !default;
 $adminRegionTabsLinkBorLeft: rgba(0,0,0,0.08) !default;
 $adminRegionTabsLinkBorBottomHov: rgba(0,0,0,0.4) !default;
@@ -28,9 +28,9 @@ $adminRegionTabsLinkBorLeftFoc: rgba(0,0,0,0.08) !default;
 $adminRegiontabsPrimaryLink: #000 !default;
 $adminRegionTabsSecondLink: #000 !default;
 $adminRegionButtonBack: #cccccc !default;
-$adminRegionButtonBackHov: #9f885d !default;
+$adminRegionButtonBackHov: #999999 !default;
 $adminRegionTabsBack: transparent !default;
-$adminRegionTabsListBack: #9f885d !default;
+$adminRegionTabsListBack: #999999 !default;
 
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;
