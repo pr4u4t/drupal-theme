@@ -3653,7 +3653,7 @@ footer .office-hours .field--label {
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:hover,
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:link,
 .body--glazed-nav-desktop #navbar .glazed-megamenu__heading:visited {
-  color: #0180ef !important;
+  color: #fff !important;
   background: transparent !important;
 }
 
