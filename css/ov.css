@@ -2578,6 +2578,16 @@ footer .teaser {
   width: 50% !important;
 }
 
+.user-logged-in .affix {
+  top: initial !important;
+}
+
+.user-logged-in #toolbar-bar {
+  position: fixed;
+  top: 0;
+  z-index: 5050;
+}
+
 .opinions-block .view-header {
   font-size: 2em;
   margin: 2em 35% 3em 35%;

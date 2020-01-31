@@ -114,3 +114,6 @@
 .body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="offer"] + .dropdown-menu .dropdown{
   width:50% !important; 
 }
+
+.user-logged-in .affix { top:initial !important; }
+.user-logged-in #toolbar-bar{ position:fixed; top: 0; z-index: 5050;}
