@@ -2568,6 +2568,11 @@ footer .teaser {
   left: -300px !important;
 }
 
+.body--glazed-nav-desktop #block-robco-main-menu .menu a[href$=oferta] + .dropdown-menu,
+.body--glazed-nav-desktop #block-robco-main-menu .menu a[href$=offer] + .dropdown-menu {
+  left: 0 !important;
+}
+
 .opinions-block .view-header {
   font-size: 2em;
   margin: 2em 35% 3em 35%;
