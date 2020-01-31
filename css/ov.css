@@ -1011,7 +1011,7 @@ h2 a span {
 
 /*---------------------------TITLE--------------------------------*/
 .title-page-title {
-  margin: 1em 5% 1em 5%;
+  margin: 1em 5% 1em 0;
 }
 
 .path-node .title-page-title {
