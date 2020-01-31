@@ -30,12 +30,45 @@
 @use "e-prawnik.biz/layout/trust";
 @use "e-prawnik.biz/layout/admin";
 @use "e-prawnik.biz/layout/captcha";
+
 /*------------COLORS-----------*/
-@use "e-prawnik.biz/colors/aboutColors";
-@use "e-prawnik.biz/colors/aboutPageColors";
-@use "e-prawnik.biz/colors/heroColors";
-@use "e-prawnik.biz/colors/teamColors";
-@use "e-prawnik.biz/colors/langColors";
+
+@use "e-prawnik.biz/colors/aboutColors" with (
+	$aboutFBHeadLink: #333,
+	$aboutFBHeadLinkHov: grey,
+	$aboutFBArticle: #fff,
+	$aboutFBBackground: #fff,
+	$aboutFBHeaderHeadLink: #707070,
+	$aboutFBHeaderHeadLinkHov: #000,
+	$aboutFBImgFrame: #9c8457,
+	$aboutFBFigCap: grey,
+	$aboutFBFigCapLink: #fff
+);
+
+@use "e-prawnik.biz/colors/aboutPageColors" with (
+	$imgFrameColor: #9c8457,
+	$teamTextColor: #fff,
+	$teamFigCapLinkColor: #fff,
+	$teamFigCapColor: grey
+);
+
+@use "e-prawnik.biz/colors/heroColors" with (
+	$herop: #7d6a48,
+	$heroAttachmentFieldContentAfter: #000,
+	$heroAttachmentBack: #000
+);
+@use "e-prawnik.biz/colors/teamColors" with (
+	$teamImgframe: #9c8457,
+	$teamFigCapLink: #fff,
+	$teamFigCap: grey,
+	$teamHeaderLink: #fff,
+	$teamHeader: #a78e5e,
+	$teamCaruselCtrl: #fff,
+	$teamCarouselBackground: none
+);
+@use "e-prawnik.biz/colors/langColors" with (
+	
+);
 @use "e-prawnik.biz/colors/contactColors";
 @use "e-prawnik.biz/colors/mainColors";
 @use "e-prawnik.biz/colors/breadcrumbsColors";

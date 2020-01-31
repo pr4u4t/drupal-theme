@@ -140,7 +140,12 @@
   {% endblock %}
 {% endif %}
 
-<div class="wrap-containers">
+{% set wrapAddClass = '' %}
+{% if url('<current>') matches '/node\/[0-9]+\/edit/' %}
+{% set wrapAddClass = 'path-is-node-edit' %}
+{% endif %}	
+
+<div class="wrap-containers {{ wrapAddClass }}">
 
 {# Highlighted #}
 {% if page.highlighted %}
