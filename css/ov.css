@@ -3242,6 +3242,10 @@ footer .teaser {
   border-top: none;
 }
 
+.path-admin .affix {
+  top: initial !important;
+}
+
 @media screen and (max-width: 680px) {
   .path-contact .captcha {
     width: 100%;
