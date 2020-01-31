@@ -2570,7 +2570,7 @@ footer .teaser {
 
 .body--glazed-nav-desktop #block-robco-main-menu .menu a[href$=oferta] + .dropdown-menu,
 .body--glazed-nav-desktop #block-robco-main-menu .menu a[href$=offer] + .dropdown-menu {
-  left: 0 !important;
+  left: 20% !important;
 }
 
 .opinions-block .view-header {
