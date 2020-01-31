@@ -49,3 +49,7 @@ $navDesktopNavbarLink: #9f9f9f !default;
 .body--glazed-nav-mobile #navbar a { color: $navDesktopNavbarLink !important; }
 
 .body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
+
+.body--glazed-nav-desktop #block-robco-main-menu .menu .dropdown-menu .dropdown *{
+  background:transparent;
+}

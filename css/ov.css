@@ -2573,6 +2573,11 @@ footer .teaser {
   left: 20% !important;
 }
 
+.body--glazed-nav-desktop #block-robco-main-menu .menu a[href$=oferta] + .dropdown-menu .dropdown,
+.body--glazed-nav-desktop #block-robco-main-menu .menu a[href$=offer] + .dropdown-menu .dropdown {
+  width: 50% !important;
+}
+
 .opinions-block .view-header {
   font-size: 2em;
   margin: 2em 35% 3em 35%;
@@ -3886,6 +3891,10 @@ footer .office-hours .field--label {
 
 .body--glazed-nav-desktop #navbar .wrap-branding a {
   background: transparent !important;
+}
+
+.body--glazed-nav-desktop #block-robco-main-menu .menu .dropdown-menu .dropdown * {
+  background: transparent;
 }
 
 .opinions-block .view-header {
