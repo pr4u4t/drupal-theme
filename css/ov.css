@@ -3294,7 +3294,7 @@ footer .teaser {
 }
 @media screen and (max-width: 1199px) {
   .path-frontpage .view-about-us-block h2 a {
-    color: #fff;
+    color: #333;
   }
 
   .path-frontpage .view-about-us-block h2 a:hover {
@@ -3307,7 +3307,7 @@ footer .teaser {
 }
 @media screen and (min-width: 1200px) {
   .path-frontpage .view-about-us-block h2 a {
-    color: #fff;
+    color: #333;
   }
 
   .path-frontpage .view-about-us-block h2 a:hover {
@@ -3323,7 +3323,7 @@ footer .teaser {
 }
 
 .path-frontpage .view-about-us-block .view-header h2 a:hover {
-  color: black;
+  color: #000;
 }
 
 .path-frontpage .view-about-us-block .view-content .views-field-title h2 a {
