@@ -67,24 +67,216 @@
 	$teamCarouselBackground: none
 );
 @use "e-prawnik.biz/colors/langColors" with (
-	
+	$langDropLink: #797979,
+	$langDropButtonBackground: transparent,
+	$langDropButton:  #646464,
+	$langDropItemBackground: #fff,
+	$langDropItemBackgroundHov: #fff,
+	$langDropMenuLink: #fff,
+	$langDropItemActiveHov: #646464,
+	$langDropLangItem: #181818,
+	$langDropLangItemHov: #181818,
+	$langDropLangItemBack: transparent
 );
-@use "e-prawnik.biz/colors/contactColors";
-@use "e-prawnik.biz/colors/mainColors";
-@use "e-prawnik.biz/colors/breadcrumbsColors";
-@use "e-prawnik.biz/colors/cookiesColors";
-@use "e-prawnik.biz/colors/userPanelColors";
-@use "e-prawnik.biz/colors/footerColors";
-@use "e-prawnik.biz/colors/userColors";
-@use "e-prawnik.biz/colors/blogArticleColors";
-@use "e-prawnik.biz/colors/menuColors";
-@use "e-prawnik.biz/colors/companyDetailsColors";
-@use "e-prawnik.biz/colors/sitemapColors";
-@use "e-prawnik.biz/colors/blogPageColors";
-@use "e-prawnik.biz/colors/blogColors";
-@use "e-prawnik.biz/colors/certificatesColors";
-@use "e-prawnik.biz/colors/navbarColors";
-@use "e-prawnik.biz/colors/opinionsColors";
-@use "e-prawnik.biz/colors/trustColors";
-@use "e-prawnik.biz/colors/adminColors";
-@use "e-prawnik.biz/colors/captchaColors";
+@use "e-prawnik.biz/colors/contactColors" with (
+	$contactBorder: #9d865c,
+	$contactHeaderLink: #fff,
+	$contactHeaderLinkHov: grey,
+	$contactTextArea: #fff, 
+	$contactTextAreaBack: #403b33,
+	$contactTextFieldBorder: #968159,
+	$contactTextField: #fff,
+	$contactWebformSubmit: #cdcdcd,
+	$contactWebformSubmitBack: #333333,
+	$contactWebformSubmitBorder: #b19562,
+	$contactWebformSubmitHov: #000,
+	$contactWebformSubmitBackHov: grey,
+	$contactWebformSubmitBorderHov: #b19562,
+	$contactBlock: #fff
+);
+@use "e-prawnik.biz/colors/mainColors" with (
+	$mainWrapBack: #21252a,
+	$mainFWrapBack: #282828,
+	$mainBodyBack: #282828,
+	$mainFBodyBack: #21252a,
+	$mainRegionTabsBack: #fff,
+	$mainTitleLink: #fff,
+	$mainTitleLinkHov: grey,
+	$mainNodePageTitleHeader: #fff,
+	$mainBlogPageTitleHeader: #fff,
+	$mainViewsGridLink: #000,
+	$mainViewsGridLinkHov: grey
+);
+@use "e-prawnik.biz/colors/breadcrumbsColors" with (
+	$breadLink: #000,
+	$breadLinkHov: grey,
+	$breadBackground: transparent
+);
+@use "e-prawnik.biz/colors/cookiesColors" with (
+	$cookiesPopupBack: transparent,
+	$cookiesPopup: #646464,
+	$cookiesAgreeDeclineHov: #afafaf,
+	$cookiesPopupHeader: #afafaf,
+	$cookiesFindMore: #afafaf
+);
+@use "e-prawnik.biz/colors/userPanelColors" with (
+	$userRegionTabsLink: #333333,
+	$userRegionTabsLinkBorBottom: rgba(0,0,0,0.12),
+	$userRegionTabsLinkBorLeft: rgba(0,0,0,0.08),
+	$userRegionTabsLinkBorBottomHov: rgba(0,0,0,0.4),
+	$userRegionTabsLinkBorLeftHov: rgba(0,0,0,0.3),
+	$userRegionTabsLinkBorBottomFoc: rgba(0,0,0,0.12),
+	$userRegionTabsLinkBorLeftFoc: rgba(0,0,0,0.08),
+	$userRegiontabsPrimaryLink: #fff,
+	$userRegionTabsSecondLink: #fff,
+	$userRegionButtonBack: #333333,
+	$userRegionButtonBackHov: #9f885d,
+	$userRegionTabsBack: transparent,
+	$userRegionTabsListBack: #9f885d
+);
+@use "e-prawnik.biz/colors/footerColors" with (
+	$footerMenuLink: #cccccc,
+	$footerOfficeHours: #a38b5f,
+);
+@use "e-prawnik.biz/colors/userColors" with (
+	$userAccountLink: #646464
+);
+@use "e-prawnik.biz/colors/blogArticleColors" with (
+	$blogArticleAuthor: #a38b5f
+);
+@use "e-prawnik.biz/colors/menuColors" with (
+	$navbarMenuActiveLink: #968159,
+	$navMobileBreadBack: transparent,
+	$navDesktopMenuBack: #181818,
+	$navDesktopDropdown: #fff,
+	$navDimOverlayBack: #000,
+	$navDimOverlayOpacity: 0.5,
+	$navDesktopMegaHeader: #0180ef,
+	$navDesktopMegaHeaderBack: transparent,
+	$navDesktopExpandedLinkBackHov: #181818,
+	$navDesktopMenuLinkBackHov: #181818,
+	$navDesktopMenuDropdownBackHov: transparent
+);
+@use "e-prawnik.biz/colors/companyDetailsColors" with (
+	$companyBodyDiv: #ccac6e,
+	$companyBodyPSec: #ccac6e,
+	$companyBodyPTrd: #ccac6e,
+	$companyLink: #646464
+);
+@use "e-prawnik.biz/colors/sitemapColors" with (
+	$sitemapHeader: #fff,
+	$sitemapLink: #fff,
+	$sitemapLinkHov: #fff,
+	$sitemapLinkBgHov: transparent,
+	$sitemapBg: transparent,
+	$sitemapExpandBg: transparent
+);
+@use "e-prawnik.biz/colors/blogPageColors" with (
+	$blogPageRowArticleLink: #000,
+	$blogPageRowArticleLinkHov: grey,
+	$blogPageView: #111,
+	$blogPageViewHeaderLink: #111,
+	$blogPageViewArticleAfter: #fff,
+	$blogPageViewArticleAfterBack: #3299fe,
+	$blogPageViewHeader: #fff,
+	$blogPageSection: #fff,
+	$blogPageViewArticleLink: grey,
+	$blogPageViewFieldBody: #fff,
+	$blogPageViewFieldTitleLink: #fff,
+	$blogPageViewFieldCreate: #fff,
+	$blogPageViewFieldCreateBack: #83775b,
+	$blogPageViewFieldUidLink: #83775b,
+	$blogPageReadMoreLink: #aa9161,
+	$blogPageReadMoreLinkHov: #706045,
+	$blogPageTitleHeader: #bda67a
+);
+@use "e-prawnik.biz/colors/blogColors" with (
+	$blogViewBlock: #111, 
+	$blogViewBlockHeaderLink: #111,
+	$blogViewBlockArticleContentAfter: #fff,
+	$blogViewBlockArticleContentAfterBack: #3299fe,
+	$blogViewBlockHeader: #fff,
+	$blogSection: #fff,
+	$blogViewHeaderLinkHov: grey,
+	$blogViewContentArticleLinkHov: grey,
+	$blogViewBlockFieldBody: #fff,
+	$blogViewBlockFieldTitleLink: #fff,
+	$blogViewBlockFieldCreated: #fff,
+	$blogViewBlockFieldCreatedBack: #83775b,
+	$blogViewBlockFieldUidLink: #83775b,
+	$blogViewBlockViewHeaderLink: #bda67a
+);
+@use "e-prawnik.biz/colors/certificatesColors" with (
+	$certBlockViewHeaderBorder: #9d865c,
+	$certBlockViewHeaderHeaderLink: #fff,
+	$certBlockViewHeaderHeaderLinkHov: grey,
+	$certCarouselCtrlBack: none,
+	$certCarouselCtrlAfter: #fff
+);
+@use "e-prawnik.biz/colors/navbarColors" with (
+	$navbarGlazedWrapBrandLinkHov: transparent,
+	$navMobileGlazedMainMenuDropdownLink: #646464,
+	$navMobileMenuToggleBack: transparent,
+	$navMobileMenuToggleSpanBack: #ffffff,
+	$navMobileMenuListHovBack: #fff,
+	$navDesktopNavbarLinkHov: #646464,
+	$navDesktopNavbarLinkHovBack: #181818,
+	$navDesktopNavbarDropdownMenuLink: #afafaf,
+	$navDesktopNavbarWrapBranding: transparent,
+	$navDesktopNavbarDropdownMenuLinkNode: #646464,
+	$navDesktopNavbarLink: #9f9f9f
+);
+@use "e-prawnik.biz/colors/opinionsColors" with (
+	$opinionsBlockViewHeader: #fff,
+	$opinionsBlockViewHeaderBorder: #9d865c,
+	$opinionsBlockViewHeaderHeadLink: #fff,
+	$opinionsBlockViewHeaderHeadLinkHov: grey,
+	$opinionsBlockOpinionsBorder: #b89c68,
+	$opinionsBlockOpinionsBack: #403b33,
+	$opinionsBlockCarouselCtrlBack: transparent
+);
+@use "e-prawnik.biz/colors/trustColors" with (
+	$trustBlockViewHeader: #fff,
+	$trustBlockViewHeaderBorder: #9d865c,
+	$trustBlockViewHeaderHeadLink: #fff,
+	$trustBlockViewHeaderHeadLinkHov: grey,
+	$trustCarouselCtrl: #fff
+);
+@use "e-prawnik.biz/colors/adminColors" with (
+	$adminFormGroupEnabledVOPButton: #000,
+	$adminFormGroupDisabledVOPButton: #000,
+	$adminInlineActionsLink: #fff,
+	$adminFormGroupLink: #edc780,
+	$adminViewsListingTROddBack: #fff,
+	$adminViewsListingTREvenBack: #ccc,
+	$adminViewsListingCaret: #000,
+	$adminViewTableButton: #000,
+	$adminViewTableButtonCaret: #000,
+	$adminViewContentTROddBack: #fff,
+	$adminViewContentTREvenBack: #ccc,
+	$adminTableButton: #000,
+	$adminTableTROddBack: #fff,
+	$adminTableTREvenBack: #ccc,
+	$adminHtmlBack: none,
+	$adminEditDisplays: #fff,
+	$adminEditDisplaysBack: #fff,
+	$adminEditDisplaysLabel: #000,
+	$adminBackgroundColor: #fff,
+	$adminRegionTabsLink: #cccccc,
+	$adminRegionTabsLinkBorBottom: rgba(0,0,0,0.12),
+	$adminRegionTabsLinkBorLeft: rgba(0,0,0,0.08),
+	$adminRegionTabsLinkBorBottomHov: rgba(0,0,0,0.4),
+	$adminRegionTabsLinkBorLeftHov: rgba(0,0,0,0.3),
+	$adminRegionTabsLinkBorBottomFoc: rgba(0,0,0,0.12),
+	$adminRegionTabsLinkBorLeftFoc: rgba(0,0,0,0.08),
+	$adminRegiontabsPrimaryLink: #000,
+	$adminRegionTabsSecondLink: #000,
+	$adminRegionButtonBack: #cccccc,
+	$adminRegionButtonBackHov: #999999,
+	$adminRegionTabsBack: transparent,
+	$adminRegionTabsListBack: #999999,
+	$adminViewsDialogBack: #f3f4ee
+);
+@use "e-prawnik.biz/colors/captchaColors" with (
+	$captchaBack: transparent
+);
