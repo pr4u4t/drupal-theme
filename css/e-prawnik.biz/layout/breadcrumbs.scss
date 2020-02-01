@@ -1,6 +1,9 @@
 .breadcrumb a { 
     text-decoration: none;
 }
+.breadcrumb {margin-top:7em;}
+.path-node .breadcrumb a{color:white;}
+.path-node .breadcrumb a:hover{color:grey;}
 
 .breadcrumb .glazed-breadcrumb-spacer{ display: none; }
 .body--glazed-nav-mobile .menu__breadcrumbs{
