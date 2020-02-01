@@ -3912,6 +3912,14 @@ footer .office-hours .field--label {
   background: transparent;
 }
 
+.body--glazed-nav-desktop #navbar.glazed-header--top {
+  background-color: #282828;
+}
+
+.body--glazed-nav-desktop #navbar.glazed-header--top.affix {
+  background-color: #282828;
+}
+
 .opinions-block .view-header {
   color: #fff;
   border-color: #9d865c;

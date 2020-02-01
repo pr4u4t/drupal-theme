@@ -226,7 +226,9 @@
 	$navDesktopNavbarDropdownMenuLink: #afafaf,
 	$navDesktopNavbarWrapBranding: transparent,
 	$navDesktopNavbarDropdownMenuLinkNode: #646464,
-	$navDesktopNavbarLink: #9f9f9f
+	$navDesktopNavbarLink: #9f9f9f,
+	$navDesktopBack: rgba(40,40,40,1),
+	$navDesktopBackAffix: rgba(40,40,40,1)
 );
 @use "e-prawnik.biz/colors/opinionsColors" with (
 	$opinionsBlockViewHeader: #fff,

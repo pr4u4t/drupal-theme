@@ -9,6 +9,8 @@ $navDesktopNavbarDropdownMenuLink: #afafaf !default;
 $navDesktopNavbarWrapBranding: transparent !default;
 $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
 $navDesktopNavbarLink: #9f9f9f !default;
+$navDesktopBack: rgba(40,40,40,1) !default;
+$navDesktopBackAffix: rgba(40,40,40,1) !default;
 
 .glazed-main-menu .wrap-branding a:hover { 
     background: $navbarGlazedWrapBrandLinkHov !important; 
@@ -52,4 +54,12 @@ $navDesktopNavbarLink: #9f9f9f !default;
 
 .body--glazed-nav-desktop #block-robco-main-menu .menu .dropdown-menu .dropdown *{
   background:transparent;
+}
+
+.body--glazed-nav-desktop #navbar.glazed-header--top {
+	background-color: $navDesktopBack;
+}
+
+.body--glazed-nav-desktop #navbar.glazed-header--top.affix{
+	background-color: $navDesktopBackAffix;
 }
