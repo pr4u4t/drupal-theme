@@ -33,6 +33,10 @@ $adminRegionTabsBack: transparent !default;
 $adminRegionTabsListBack: #999999 !default;
 
 $adminViewsDialogBack: #f3f4ee !default;
+$adminECMSBrowserImage: #fff !default;
+$adminECMSBrowserImageBor: #ccc !default;
+$adminECMSBrowserImageItemBack: transparent !default; 
+$adminECMSBrowserImagePageItemBor: blue !default;
 
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;
@@ -154,6 +158,18 @@ html{
     background-color: $adminRegionTabsListBack; 
 }
 
-.path-admin .views-edit-view .btn-group > .btn-default{background-color: $adminRegionTabsListBack;}
-.path-admin .ui-dialog-buttonpane{background-color: $adminViewsDialogBack;}
-.path-admin .ui-dialog .scroll{background-color: $adminViewsDialogBack;}
+.path-admin .views-edit-view .btn-group > .btn-default{ background-color: $adminRegionTabsListBack; }
+.path-admin .ui-dialog-buttonpane{ background-color: $adminViewsDialogBack; }
+.path-admin .ui-dialog .scroll{ background-color: $adminViewsDialogBack; }
+
+#entity-browser-cms-image-browser-form { background: $adminECMSBrowserImage; }
+
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content{
+	border-color: $adminECMSBrowserImageBor;
+}
+#entity-browser-cms-image-browser-form .pagination li{ 
+  	border-color: $adminECMSBrowserImagePageItemBor;
+}
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item{
+	background: $adminECMSBrowserImageItemBack;
+}

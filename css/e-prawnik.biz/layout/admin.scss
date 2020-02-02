@@ -123,3 +123,62 @@
 .path-admin #menu-overview .checkbox{margin:auto;border-top:none;}
 
 .path-admin .affix { top: initial !important; }
+
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser label{
+  display:block;
+}
+
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .form-item{
+  max-width:30%;
+  display: inline-block;
+}
+
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content{ 
+  border-width:1px;
+  border-style: solid; 
+  margin:1em;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 10em;
+  max-height:95em;
+  width:98% !important;
+  align-items: flex-start;
+}
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item { 
+  opacity:1;
+  margin:.25em;
+}
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item::after { 
+  content:initial; 
+  display:none; 
+}
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item .views-field-nothing,
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item .views-field-file-browser-preview{
+  position:relative; 
+}
+#entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item .grid-item-info:last-child:after{
+  content:" ";
+  float:none;
+  clear:both;
+  white-space: pre;
+}
+#entity-browser-cms-image-browser-form .pagination {
+  list-style:none;
+  text-align:center;
+}
+
+#entity-browser-cms-image-browser-form .pagination li{
+  display: inline-block;
+  border-width:1px;
+  border-style: solid;
+}
+#entity-browser-cms-image-browser-form .pagination li:nth-child(2n),
+#entity-browser-cms-image-browser-form .pagination li:nth-child(2n+1){
+  border-right-width:0;
+  margin-right:-6px;
+}
+
+#entity-browser-cms-image-browser-form .pagination li:last-child{
+  border-right-width:1px;
+}
