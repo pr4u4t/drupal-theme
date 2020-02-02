@@ -182,3 +182,28 @@
 #entity-browser-cms-image-browser-form .pagination li:last-child{
   border-right-width:1px;
 }
+
+#entity-browser-cms-image-browser-form .grid-item{
+  position:relative;
+}
+
+#entity-browser-cms-image-browser-form .grid-item .views-field-entity-browser-select{
+  position: absolute;
+}
+
+#entity-browser-cms-image-browser-form .grid-item .views-field-entity-browser-select .field-content{
+  position: absolute;
+  top:0;
+  left:0;
+  text-align:initial;
+  z-index:4096;
+}
+
+#entity-browser-cms-image-browser-form .grid-item .views-field-entity-browser-select .field-content .form-item{
+  max-width:initial !important;
+}
+
+.views-field-entity-browser-select { 
+  display: block !important; 
+}
+
