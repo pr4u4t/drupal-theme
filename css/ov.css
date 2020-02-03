@@ -3377,6 +3377,10 @@ footer .teaser {
   z-index: 9970 !important;
 }
 
+#az-editor-tabs .nav-tabs li {
+  margin-right: 1em;
+}
+
 @media screen and (max-width: 680px) {
   .path-contact .captcha {
     width: 100%;
