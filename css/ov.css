@@ -3457,6 +3457,15 @@ footer .teaser {
   color: #fff;
 }
 
+.path-frontpage .view-id-about_us .img-frame .img-responsive {
+  filter: brightness(60%);
+  transition: all 0.5s;
+}
+
+.path-frontpage .view-id-about_us .img-frame .img-responsive:hover {
+  filter: brightness(100%);
+}
+
 .path-about-us .view-about-us .view-footer .view-content .views-field .field-content .img-frame {
   border-color: #9c8457;
 }

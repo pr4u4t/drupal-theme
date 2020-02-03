@@ -51,3 +51,9 @@ $aboutFBFigCapLink: #fff !default;
 .path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div a { 
     color: $aboutFBFigCapLink;
 }
+
+.path-frontpage .view-id-about_us .img-frame .img-responsive { 
+  filter: brightness(60%); 
+  transition: all .5s;
+}
+.path-frontpage .view-id-about_us  .img-frame .img-responsive:hover { filter: brightness(100%); }
