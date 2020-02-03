@@ -3373,6 +3373,10 @@ footer .teaser {
   display: block !important;
 }
 
+.ui-dialog {
+  z-index: 9970 !important;
+}
+
 @media screen and (max-width: 680px) {
   .path-contact .captcha {
     width: 100%;
@@ -4216,6 +4220,10 @@ html {
 
 #entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item {
   background: transparent;
+}
+
+#drupal-modal {
+  background: #fff !important;
 }
 
 .captcha {

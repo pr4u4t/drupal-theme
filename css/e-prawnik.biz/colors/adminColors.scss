@@ -37,6 +37,7 @@ $adminECMSBrowserImage: #fff !default;
 $adminECMSBrowserImageBor: #ccc !default;
 $adminECMSBrowserImageItemBack: transparent !default; 
 $adminECMSBrowserImagePageItemBor: blue !default;
+$adminModalBack: #fff !default;
 
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;
@@ -173,3 +174,8 @@ html{
 #entity-browser-cms-image-browser-form .view-glazed-cms-media-browser .view-content .grid-item{
 	background: $adminECMSBrowserImageItemBack;
 }
+
+#drupal-modal{
+  background: $adminModalBack !important;
+}
+
