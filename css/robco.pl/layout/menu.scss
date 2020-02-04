@@ -1,0 +1,39 @@
+/*	.block-system-menu-blockmain ul li ul { position: absolute; top: 80px; padding:3em; }
+	.block-system-menu-blockmain ul li ul li ul { display:flex !important; padding:initial; }
+        .block-system-menu-blockmain ul li ul li ul li ul { display:block !important; }
+	.block-system-menu-blockmain ul li ul li  { width:25% !important; }
+
+	#drupal-live-announce {
+		position:fixed !important;
+		top:0;
+		left:0;
+		background-color:#000;
+		opacity:0.8;
+		z-index:1000 !important;
+		display: none;
+		width:100vw !important;
+		height:100vh !important;
+		clip:unset !important;
+	}
+}*/
+
+.body--glazed-nav-desktop #navbar { z-index:4050 !important; }
+.body--glazed-nav-desktop .block-system-menu-blockmain ul { -webkit-box-shadow: none !important; box-shadow: none !important; }
+.body--glazed-nav-desktop .block-system-menu-blockmain ul .active a {  }
+/*.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul { position: absolute; top: 80px; padding:3em; }*/
+.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li ul { display:flex !important; padding:initial; }
+.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li ul li ul { display:block !important; }
+.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li  { width:25% !important; }
+.body--glazed-nav-desktop #dim-overlay{
+	  position:fixed !important;
+	  top:-100vh;
+	  left:-100vh;
+	  width:200vw;
+	  height:200vh;
+	  display:none;
+	  z-index:500;
+	  clip:none !important;
+	  content:' ';
+  }
+
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown > .dropdown-menu { margin-top: 55px !important; padding:3em; }

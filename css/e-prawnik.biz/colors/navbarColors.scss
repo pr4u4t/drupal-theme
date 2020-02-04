@@ -44,7 +44,6 @@ $navDesktopBackAffix: rgba(40,40,40,1) !default;
 }
 
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
-    margin-left: .65em;
     color: $navDesktopNavbarDropdownMenuLinkNode !important;
 }
 

@@ -1,0 +1,43 @@
+footer{margin-top:1em;}
+.wrap-containers .region-content { margin-bottom:1em;}
+.nav li a {padding: 10px 5px 5px 0px !important;}
+#block-footer-2 li { display: inline-block; }
+.stbe-social-links { display: flex; justify-content: flex-end; }
+.footer-robco > div > div > div:nth-child(2) { display:none; }
+.footer-robco > div > div > div:nth-child(1) { width:75%; margin-bottom: 0px; padding: 15px 0px; }
+.footer-robco > div > div > div:nth-child(3) { width:25%; margin-bottom: 0px; padding: 15px 0px; display:flex; }
+.stbe-social-links li{ float:none !important; }
+.footer-container .az-element{ max-height: 200px; }
+.glazed-footer article h2 { display: none; }
+#block-footer-2 li { display:block; }
+
+@media screen and (max-width: 768px){
+    .footer-container {  margin-bottom: 0px !important; padding-bottom: 30px !important; display: flex; justify-content: center; }
+    .footer-robco > div > div > div:nth-child(1) { width:100%; margin:auto; margin-bottom: 0px; padding: 5px 0px; display: flex; 
+        justify-content: center !important;
+    }
+
+    .footer-robco > div > div > div:nth-child(3) { width:100%; margin:auto; margin-bottom: 0px; padding: 15px 0px;
+                                                    display: flex; justify-content: center !important;
+    }
+    .stbe-social-links { display: flex; justify-content: center; }
+    .footer-styl .menu--footer-menu { text-align: center !important; margin: auto !important; }
+    .footer-container .field--item { text-align: center !important; margin: auto !important; }
+}
+
+
+@media screen and (min-width:769px) and (max-width:960px){
+  .footer-social-links-column { width:64% !important; margin-top:2em; }
+  .footer-links-column,.footer-company-details-column {
+    width:50%;
+  }
+
+  .footer-links-column{
+    text-align:right;
+  }
+
+  .footer .footer-social-links {
+  	width: 25%;
+	margin: auto;
+  }
+}

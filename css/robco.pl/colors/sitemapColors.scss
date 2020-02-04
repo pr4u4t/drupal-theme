@@ -1,0 +1,6 @@
+$sitemapLink: black !default;
+$sitemapLinkHov: grey !default;
+$sitemapLinkBgHov: transparent !default;
+
+.sitemap-block a {color:$sitemapLink;}
+.sitemap-block a:hover {color:$sitemapLinkHov!important; background-color: $sitemapLinkBgHov!important;}

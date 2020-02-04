@@ -1,0 +1,37 @@
+
+
+html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .glazed-header--top.glazed-header--overlay{ top:37px !important; }
+html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal.toolbar-tray-open.toolbar-horizontal .glazed-header--top.glazed-header--overlay { top:80px !important; }
+html.js .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .region.region-content { position:relative; top:-24px; }
+
+.toolbar-horizontal .dialog-off-canvas-main-canvas .wrap-containers .js-quickedit-main-content{ margin-top: 100px; }
+.content-bottom-container { width: 100% !important; padding: 0 !important; margin: 0 !important; max-width: initial !important; }
+.body--glazed-nav-desktop .glazed-header--top.glazed-header--overlay { top: 0px; }
+
+@media screen and (min-width: 769px){
+    [role=main].main-container { max-width: 1500px; margin: auto; padding-left: 6em; padding-right: 6em; }
+    .page-node-type-drag-and-drop-page [role=main].main-container { max-width: 1500px; margin: auto; padding-left: 0em!important; padding-right: 0em!important; }
+    body.path-frontpage [role=main].main-container { max-width: initial !important; /*margin: initial !important;*/  padding-left: initial !important; padding-right: initial !important; }
+    /*[role=main].main-container p { text-align: justify; }*/
+    [role=main].main-container p:first-letter { margin-left: 2em; }
+    body.path-frontpage [role=main].main-container p:first-letter { margin-left: initial !important; }
+}
+@media screen and (max-width: 768px){
+    [role=main].main-container { max-width: 1500px; /*margin: auto;*/  padding-left: 2em; padding-right: 2em; }
+    body.path-frontpage [role=main].main-container { max-width: initial !important; /*margin: initial !important;*/  padding-left: initial !important; padding-right: initial !important; }
+    /*[role=main].main-container p { text-align: justify; }*/
+    [role=main].main-container p:first-letter { margin-left: 2em; }
+    body.path-frontpage [role=main].main-container p:first-letter { margin-left: initial !important; }
+}
+
+
+/*---------------------- GLAZED MAIN ----------------------------------*/
+/*
+@media screen and ( max-width:767px ){ */
+    .body--glazed-nav-desktop .main-container { margin-top:80px !important;  }
+    .body--glazed-nav-mobile .main-container { margin-top:60px !important;  }
+   /*}
+   */
+   
+   .glazed-main-block .field .az-section { padding-top:3em; }
+   .glazed-main-block .field .az-section:nth-child(1) { padding-top:0; }

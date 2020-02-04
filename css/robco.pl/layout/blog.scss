@@ -1,0 +1,52 @@
+.view-blog-block { background-repeat: no-repeat; background-size: cover; }
+.view-blog-block .az-ctnr .container-fluid { max-width:1280px !important; }
+.view-blog-block .blog .content { overflow: hidden; height: 36em; }
+.view-blog-block article { padding:14px; margin:14px 14px; border: none; border-radius: 15px; text-align: center; /*box-shadow: 2px 5px 5px 5px #0173e4;*/ }
+.view-blog-block article img { display:none; }
+.view-blog-block article .content::after { display:inline-block; padding:10px; border-radius: 10px; text-align: center; margin:15px auto; }
+.view-blog-block h1 {margin: 20px auto; }
+.view-blog-block h2{ font-size: 16px; font-weight: 400;height: 6em; margin-top:-3em; }
+/*.view-blog-block .views-col .teaser .img-responsive { margin: auto;
+: 18em; }*/
+/*article.blog.teaser img { display:block !important; }*/
+.view-blog-block .views-col .teaser .img-responsive { display:block; float: left !important; margin-right: 1em; margin-top:1em; width: 55%;}
+.view-blog-block .views-col .teaser p:first-letter { font-size:2.5em; font-weight:bold; }
+.view-blog-block .views-col .teaser p { text-align: justify; }
+.blog-section { background-image: linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)); }
+.view-blog-block .views-col .teaser{height:27em!important;}
+@media screen and ( max-width:1199px) {
+        .view-blog-block .views-col{ max-width:100% !important; width:100% !important; }
+        .view-blog-block .views-col article { height: 33em !important; max-height: 40em !important; overflow-y: hidden; }
+}
+
+@media screen and ( min-width:1200px ) {
+  .view-blog-block .views-col { width:50% !important; }
+  .view-blog-block .views-col article { height: 35em !important; max-height: 40em !important; overflow-y: hidden; }
+}
+
+.view-blog-block .views-col:nth-child(even) .teaser .img-responsive{
+  float: right !important;
+  margin-left: 1em;
+  margin-right:0;
+}
+.view-blog-block .views-col .teaser p:first-line {
+    line-height:1em !important;
+}
+.view-blog-block .views-col .teaser p:first-letter {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.5em;
+    float: left;
+    margin-top: .10em;
+}
+/*
+.view-blog-block .views-col .teaser p:last-child:after {
+  content:".";
+  position:absolute;
+  bottom:0;
+
+}
+*/
+.view-blog-block .views-col .teaser h2 a {
+  font-size:2em;
+  line-height: 4em;
+}

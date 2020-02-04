@@ -1,0 +1,5 @@
+$offerPageHead: black !default;
+$offerPageHeadHov: grey !default;
+
+.offer-page-view .view-content .views-field-title a {color: $offerPageHead;}
+.offer-page-view .view-content .views-field-title a:hover{color: $offerPageHeadHov;}

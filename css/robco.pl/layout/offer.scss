@@ -1,0 +1,21 @@
+.view-offer-block { margin:2em auto; }
+.view-offer-block .views-col { min-width: 33%; max-width: 47%; float:left; }
+.view-offer-block .views-col  { width: 45%; min-height: 29em; margin: 1em 1em; border: none; padding: 1em; border-radius: 1em; border: 1px solid ;
+                        -moz-transition: all .3s; -o-transition: all .3s; -webkit-transition: all .3s; transition: all .3s;
+                        box-shadow: 2px 5px 5px 5px; text-align: center;
+}
+.view-offer-block .views-col img { margin: 2em auto; }
+.view-offer-block .view-header .views-row { text-align: center;}
+.view-offer-block .view-header .views-row .views-field { margin-bottom: 2em; }
+.view-offer-block .view-header .field-content a { text-align: center !important; font-size: 39px;  text-decoration: none; }
+.view-offer-block .view-header .field-content h5 { font-size: 16px; font-weight: 400; }
+.view-offer-block .views-col .views-field-title .field-content a { font-size:20px; font-weight:800;  text-decoration: none; }
+.view-offer-block .views-col { height: 25em !important; max-height:30em !important; overflow-y:hidden; }
+
+@media screen and ( max-width: 1199px ) {
+    .view-offer-block .views-col { min-width: 95% !important; width:95% !important; float: none; padding: 3%; margin: 4% auto; }
+}
+
+@media screen and (min-width:1200px ) {
+    .view-offer-block .views-col { min-width: 45%!important; width:46%!important; float: left; margin-left:2%;}
+}

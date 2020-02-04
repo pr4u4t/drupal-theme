@@ -1,0 +1,58 @@
+/*---------------- NAVIGATION MENU -----------------------------*/ 
+$navDropBack:#fff !default;
+/* -------- NAVBAR  --------- */
+$navbarGlazedWrapBrandLinkHov: transparent !default;
+$navMobileGlazedMainMenuDropdownLink: #646464 !default;
+$navMobileMenuToggleBack: transparent !default;
+$navMobileMenuToggleSpanBack: #ffffff !default;
+$navMobileMenuToggleSpanBackActive: transparent !default;
+$navDesktopNavbarLinkHov: #646464 !default;
+$navDesktopNavbarLinkHovBack: #fff !default;
+$navDesktopNavbarHeaderAffix: rgba(1,128,239,1) !default;
+$navDesktopNavbarDropdownMenuLink: #0180ef !default;
+$navDesktopNavbarWrapBranding: transparent !default;
+$navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
+$navDesktopNavbarBlockMenuActiveLink: #fff !default;
+
+/*--- mobile nav ---*/
+
+.body--glazed-nav-mobile .block-dropdown-language a,
+.body--glazed-nav-mobile .block-dropdown-language button { color: $langDropButton !important; }
+
+/*--- desktop ---*/
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul { background: $langDropItemBackground !important; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover { background: $langDropItemBackgroundHov; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover > .active-language { color: $langDropItemActiveHov !important; }
+
+/*---------------- NAVIGATION MENU -----------------------------*/ 
+
+.body--glazed-nav-desktop .main-navigation-block .dropdown .dropdown-menu { background: $navDropBack; }
+
+/* -------- NAVBAR  --------- */
+
+.glazed-main-menu .wrap-branding a:hover { background: $navbarGlazedWrapBrandLinkHov !important; }
+
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a, 
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:link, 
+.body--glazed-nav-mobile .glazed-main-menu  .dropdown a:visited { color:$navMobileGlazedMainMenuDropdownLink !important; }
+
+.body--glazed-nav-mobile #glazed-menu-toggle { background: $navMobileMenuToggleBack !important; }
+	
+.body--glazed-nav-mobile #glazed-menu-toggle span,
+.body--glazed-nav-mobile #glazed-menu-toggle span:before,
+.body--glazed-nav-mobile #glazed-menu-toggle span:after{ background: $navMobileMenuToggleSpanBack !important; }
+	
+
+.body--glazed-nav-mobile #navbar .navbar-toggle--active span { background: $navMobileMenuToggleSpanBackActive !important;  }
+	
+.body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navDesktopNavbarLinkHovBack; }
+.body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: $navDesktopNavbarHeaderAffix !important; }
+	/*#navbar  a, #navbar  a:link, #navbar  a:visited { color:#fff !important; }*/
+.body--glazed-nav-desktop #navbar  a:hover { color:$navDesktopNavbarLinkHov !important; background: $navDesktopNavbarLinkHovBack !important; }
+.body--glazed-nav-desktop #navbar .dropdown-menu a { color: $navDesktopNavbarDropdownMenuLink !important; }
+.body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
+.body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
+		color:$navDesktopNavbarDropdownMenuLinkNode !important;
+}
+
+.body--glazed-nav-desktop #navbar .main-navigation-block > .menu li.active a { color:$navDesktopNavbarBlockMenuActiveLink; }

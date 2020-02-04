@@ -1,0 +1,63 @@
+.jcarousel-view .jcarousel-control-next,
+.jcarousel-view .jcarousel-control-prev{ width: 10%; box-shadow: none !important; }
+.jcarousel-view .jcarousel-control-prev:after,
+.jcarousel-view .jcarousel-control-next:after { position: relative; top:35%; font-size: 5em; opacity: 0.6; }
+.jcarousel-view .jcarousel-skin-tango  { float: none; padding-left: 1.5em; height: 39em !important; width: 45em !important; overflow: hidden; border: 1px solid; list-style: none; text-align: justify; }
+.jcarousel-view .jcarousel-skin-tango li { padding: 2em; padding-left:3em;padding-right:5em; width: 41em !important; }
+.jcarousel-view .input-group-addon .form-no-label {border:none!important;}
+.jcarousel-view .input-group-addon .form-number {border:none;}
+.jcarousel-view label {width:100%;}
+.jcarousel-view .input-group {width:107%;}
+.jcarousel-view h2{text-align: center; margin-bottom:1em;}
+.jcarousel-view .form-actions{text-align: center;}
+.jcarousel-view .input-group .input-group-addon {border:none; }
+.jcarousel-view .input-group input {border:none!important; }
+.jcarousel-view .form-group {margin-bottom: 0px !important;}
+.jcarousel-view .form-select {margin-bottom: 1em;}
+.jcarousel-view .form-type-textfield {padding-bottom:1em;}
+.jcarousel-view .form-group .form-type-number {position: absolute; margin-left:-3em; font-size:1.2em;}
+.jcarousel-view .form-control{width:110%;}
+.jcarousel-view .jcarousel .submit-price {margin-top:-7.5em;margin-left:50%;width:50%;}
+.jcarousel-view .jcarousel .js-form-item-price {width:4em!important;}
+.jcarousel-view .jcarousel .js-form-item-price .form-control {text-align:center;padding: 1em 0em 0.8em 0em;}
+.jcarousel-view .jcarousel .js-form-item-price span {padding: 0.6em 1em 1em 0em;font-size:1.5em;}
+.jcarousel-view .jcarousel .js-form-item-price .control-label {text-align: center;}
+.jcarousel-view .input-group .form-range{width:100%;}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0; }
+[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+@media screen and (min-width:1200px){
+	[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em}
+	input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+	.jcarousel-view .view-content {margin-left: -33em;}
+/*	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: right; margin-bottom: -1em;}
+	.jcarousel-view .jcarousel .js-form-item-price {padding-left: 20%; margin-left: 70%; }
+	.jcarousel-view .jcarousel .js-form-item-price .control-label {padding-bottom:20%!important;}
+	.jcarousel-view .jcarousel .js-form-item-price span {padding-bottom: 17%; font-size: 1.7em;}
+	.jcarousel-view .jcarousel .js-form-item-price .form-control {border: none; text-align:right; background-color:tranparent;}
+*/
+}
+@media screen and (min-width:769px) and (max-width: 1199px){
+	[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+	input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+/*	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: center; margin-bottom: -1em;}
+	.jcarousel-view .jcarousel .js-form-item-price {padding-left: 20%; margin-left: 70%; }
+        .jcarousel-view .jcarousel .js-form-item-price span {font-size: 1.7em;}
+        .jcarousel-view .jcarousel .js-form-item-price .form-control {border: none; text-align:right; background-color:tranparent;}
+*/
+}
+@media screen and (max-width: 768px){
+	[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+	input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+/*	.jcarousel-view .jcarousel-skin-tango li { padding: 1em; padding-right: 4em; width:21em !important;}
+	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: center; margin-bottom: -1em;}
+	.jcarousel-view .jcarousel .js-form-item-price {margin-left: 70%; }
+	.jcarousel-view .jcarousel .js-form-item-price .control-label {padding-bottom:20%!important;}
+	.jcarousel-view .jcarousel .js-form-item-price span {padding-bottom: 17%; font-size: 1.7em;}
+	.jcarousel-view .jcarousel .js-form-item-price .form-control {border: none; text-align:right; background-color:tranparent;}
+*/
+}
+
+.main-background-image{background-position: left center; height:100%!important;}

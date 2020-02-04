@@ -1,0 +1,5 @@
+$gridLink:black !default;
+$gridLinkHov:grey !default;
+
+.views-view-grid a { color: $gridLink;}
+.views-view-grid a:hover{color: $gridLinkHov;}

@@ -1,0 +1,17 @@
+$navDesktopDropdown: #fff !default;
+$navDimOverlayBack: #000 !default;
+$navDimOverlayOpacity: 0.5 !default;
+$navDesktopMegaHeader: #0180ef !default;
+$navDesktopMegaHeaderBack: #fff !default;
+
+.body--glazed-nav-mobile .block-system-menu-blockmain ul .active a { color:$navDesktopDropdown !important; }
+
+.body--glazed-nav-desktop #dim-overlay{
+    opacity: $navDimOverlayOpacity;
+    background: $navDimOverlayBack;
+}
+
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading, 
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:hover, 
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:link, 
+.body--glazed-nav-desktop #navbar .glazed-megamenu__heading:visited { color: $navDesktopMegaHeader !important; background: $navDesktopMegaHeaderBack !important; }

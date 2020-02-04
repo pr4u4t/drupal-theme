@@ -1,0 +1,28 @@
+$jcarouselSwitch:black !default;
+$jcarouselSwitchBack:transparent !default;
+$jcarouselSwitchBorder: transparent !default;
+$jcarouselSwitchBorderOpacity: 0.6 !default;
+$jcarouselSkinBorder: #CCC !default;
+$jcarouselSkinBack:whitesmoke !default;
+$jcarouselInputGroupBack:transparent !default;
+$jcarouselInputBack:transparent !default;
+
+.jcarousel-view .jcarousel-control-next,
+.jcarousel-view .jcarousel-control-prev{ color: $jcarouselSwitch; background-color: $jcarouselSwitchBack; border-color: $jcarouselSwitchBorder; }
+.jcarousel-view .jcarousel-control-prev:after,
+.jcarousel-view .jcarousel-control-next:after { opacity: $jcarouselSwitchBorderOpacity; }
+.jcarousel-view .jcarousel-skin-tango  { border-color:$jcarouselSkinBorder; background: $jcarouselSkinBack; }
+.jcarousel-view .input-group .input-group-addon {background-color: $jcarouselInputGroupBack;}
+.jcarousel-view .input-group input { background-color: $jcarouselInputBack!important;}
+
+/*
+@media screen and (min-width:1200px){
+ background-color:tranparent;}
+}
+@media screen and (min-width:769px) and (max-width: 1199px){}
+        .jcarousel-view .jcarousel .js-form-item-price .form-control { background-color:tranparent;}
+
+}
+@media screen and (max-width: 768px){
+	.jcarousel-view .jcarousel .js-form-item-price .form-control { background-color:tranparent;}
+}*/

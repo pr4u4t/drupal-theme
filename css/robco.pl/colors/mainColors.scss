@@ -1,0 +1,7 @@
+$mainBodyBack:#21252a !default;
+$mainWrapContainersBack:#fff !default;
+$mainTabsBack:#fff !default;
+
+body { background: $mainBodyBack!important; }
+.wrap-containers { background:$mainWrapContainersBack; }
+.region.region-content .tabs[aria-label=Tabs] { background:$mainTabsBack; }

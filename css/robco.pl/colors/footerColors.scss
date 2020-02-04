@@ -1,0 +1,23 @@
+$footerDropdownHov:#646464 !default;
+$footerDropdownHBack:#fff !default;
+$footerMenuLinkActive:#fff !default;
+$footerMenuLinkActiveBack: transparent !default;
+$footerMenuLinkHov:#fff !default;
+$footerMenuLinkHovBack:transparent !default;
+$footerMenuLinkHov2:#cccccc !default;
+$footerMenuLinkHovBack2:transparent !default;
+$footerContainerBackLowRes:#21252a !default;
+
+.expanded.dropdown:hover > a { background: $footerDropdownHBack; color: $footerDropdownHov !important; }
+.footer-menu a, #footer-menu a:link, #footer-menu a:active, #footer-menu a:visited { color:$footerMenuLinkActive !important; background: $footerMenuLinkActiveBack !important; }
+.footer-menu a:hover { color:$footerMenuLinkHov !important; background: $footerMenuLinkHovBack !important; }
+.menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:$footerMenuLinkHovBack2 !important; color: $footerMenuLinkHov2; } 
+
+@media screen and (max-width: 768px){
+    .footer-container { background: $footerContainerBack; }
+}
+/*
+@media screen and ( max-width: 1200px ){
+    .footer-menu a, #footer-menu a:link, #footer-menu a:active, #footer-menu a:visited { color:#fff !important; background: transparent !important; }
+    .footer-menu a:hover { color: grey !important; background: transparent !important; }
+}*/

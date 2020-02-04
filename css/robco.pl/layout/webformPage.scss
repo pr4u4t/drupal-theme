@@ -1,0 +1,101 @@
+.webform-page-view .img-responsive {float:left;padding:0em 1em 1em 0em;}
+/*.webform-page-view .views-field-body {padding-left:12em;}
+.webform-page-view {padding-bottom: 4em;}*/
+.webform-page-view .views-field-title {text-align: center; font-size: 1.5em;padding:0.5em; text-decoration: none;}
+
+.page-node-type-webform .webform-css {padding-left:10%;margin-right:-60%!important;}
+.page-node-type-webform .webform-css label {width:50%;}
+.page-node-type-webform .webform-css .input-group {width:50%;}
+.page-node-type-webform .webform-css .form-actions{width:50%;text-align: center;}
+.page-node-type-webform .webform-css .input-group .input-group-addon {border:none; }
+.page-node-type-webform .webform-css .input-group input {border:none!important; }
+.page-node-type-webform .webform-css .form-group .form-type-number {position: absolute; margin-left:-3em; font-size:1.2em;}
+.page-node-type-webform .webform-css .js-form-item-price {width:9em;}
+.page-node-type-webform .webform-css .webform-readonly .control-label {text-align: center;}
+.page-node-type-webform .webform-css .js-form-item-price span { font-size: 1.7em;text-align: right;padding-bottom: 0.45em;}
+.page-node-type-webform .webform-css .js-form-item-price .form-control {text-align:right;}
+.page-node-type-webform .webform-css .submit-price {margin-top:-7.5em;margin-left:50%;width:50%;}
+.page-node-type-webform .webform-css .form-control{width:100%;}
+.page-node-type-webform .webform-css .form-range{width:100%;}
+.page-node-type-webform .webform-css .form-type-select {width: 50%;}
+.page-node-type-webform .webform-css .form-type-textfield {width:50%}
+
+
+/*.page-node-type-drag-and-drop-page .webform-page-view .webform-css .js-form-item-price {width:13%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .webform-readonly .control-label {text-align: right;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .js-form-item-price span { font-size: 1.7em;text-align: right;padding-bottom: 0.45em;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .js-form-item-price .form-control {text-align:right;}
+.webform-page-view .webform-css .webform-button--submit {margin-left:23%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group .input-group-addon {border:none; background-color: transparent;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group input {border:none!important; background-color: transparent!important;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-required  {width:100%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-control {width:100%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-range {width:100%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group {width:100%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group-addon {width:26%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .submit-price {margin-top:-16vh;margin-left:50%;width:50%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group-addon .form-number {padding-top:15%;}
+*/
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .js-form-item-price {width:4.5em; text-align: right;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .js-form-item-price span { font-size: 1.7em;text-align: right;padding-bottom: 0.45em;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .js-form-item-price .form-control {text-align:right;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group input {border:none!important; }
+/*.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-required  {width:100%;}
+  .page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-control {width:100%;}*/
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-range {width:100%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-group .form-type-number {position: absolute; margin-left:-3em; font-size:1.2em;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group .input-group-addon {border:none; }
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .submit-price {margin-top:-7.5em;margin-left:50%;width:50%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group-addon .form-number {padding-top:15%;}
+
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-actions{text-align: center;}
+.page-node-type-drag-and-drop-page .webform-page-view .views-field-title a{font-size: 1.4em; text-decoration: none; font-weight: 200;}
+.page-node-type-drag-and-drop-page .webform-page-view h2{padding:0.6em 0.6em 0.2em 0.6em; text-align: center;}
+.page-node-type-drag-and-drop-page .webform-page-view h2 a{font-size: 1.1em; text-decoration: none;}
+@media screen and (min-width:1216px){
+.page-node-type-drag-and-drop-page .webform-page-view .view-header {float:left;width:50%; margin: 0em 1em 1em 0em; text-align: justify;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css{margin-left: 55%;margin-right: -30%;width: 45%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group {width:100%;}
+/*.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-actions {text-align: center}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-actions{text-align: center;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .submit-price {margin-top:-8em; margin-left:-45%}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .webform-readonly {width:10%; margin-left:46%;}*/
+}
+@media screen and (min-width:768px) and (max-width:1215px){
+	.page-node-type-drag-and-drop-page .webform-page-view .view-header { text-align: justify;}
+	.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group {width:100%;}
+/*.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group {width: 110%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .webform-readonly {width:10%; margin-left:70%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .submit-price {margin-top:-7em; margin-left:20%}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group .input-group-addon {border:none; background-color: transparent; width:30%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group input {border:none!important; background-color: transparent!important;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .form-required  {width:60%;}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .webform-readonly .input-group {margin-left:}
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .webform-readonly .input-group span {font-size: 1.7em; padding: 0% 10% 10% 0%}
+.page-node-type-drag-and-drop-page .webform-page-view .form-group {margin-bottom:15px;}
+.page-node-type-drag-and-drop-page .webform-page-view .form-inline {margin-bottom: 0px!important;}
+.page-node-type-drag-and-drop-page .domains-page-view .webform-css .required {width:60%;}
+.page-node-type-drag-and-drop-page .domains-page-view .webform-css .form-submit { margin-left:-40%;}*/
+}
+@media screen and (max-width:767px){
+	.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group {width:90%;}
+	.page-node-type-drag-and-drop-page .webform-page-view .view-header { text-align: justify;}
+}
+@media screen and (min-width:768px){
+  .offer-page-view .flex-wrap{
+    display: flex;
+    align-items: center;
+  }
+  .offer-page-view .flex-wrap .field-icon{
+    width:100%;
+    margin-right: 1em;
+  }
+  .offer-page-view .flex-wrap .field-body{
+    width:200%;
+  }
+}
+
+article .view-header,
+article .view-content{
+  margin-bottom:4em;
+}

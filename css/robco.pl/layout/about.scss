@@ -1,0 +1,11 @@
+@media screen and (max-width: 1049px){
+    .view-about-us-block { padding: 3%; }
+    .view-about-us-block h2 a { text-align: center; display: block; margin-bottom: 1%; }
+    .view-about-us-block article { text-align: center;}
+}
+
+@media screen and (min-width: 1050px){
+    .view-about-us-block { padding: 1em; }
+    .view-about-us-block h2 a { text-align: center; display: block; margin-bottom: 1%; }
+    .view-about-us-block article { text-align: center; max-width: 1500px; margin: auto; padding-left: 5%; padding-right: 5%; }
+}

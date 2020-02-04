@@ -1,0 +1,23 @@
+$webformPageHead: black !default;
+$webformInputGroupBack: transparent !default;
+$webformInputBack: transparent !default;
+$webformPageHeadLink: black !default;
+$webformPageHeadLinkHov: grey !default;
+$webformPageLink: black !default;
+$webformPagelinkHov: grey !default;
+
+
+.webform-page-view .views-field-title { color:$webformPageHead; }
+
+.page-node-type-webform .webform-css .input-group .input-group-addon {background-color: $webformInputGroupBack;}
+.page-node-type-webform .webform-css .input-group input { background-color: $webformInputBack!important;}
+
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group input { background-color: $webformInputBack!important;}
+
+.page-node-type-drag-and-drop-page .webform-page-view .webform-css .input-group .input-group-addon { background-color: $webformInputGroupBack;}
+
+.page-node-type-drag-and-drop-page .webform-page-view .views-field-title a{color: $webformPageHeadLink; }
+.page-node-type-drag-and-drop-page .webform-page-view .views-field-title a:hover{color:$webformPageHeadLinkHov;}
+
+.page-node-type-drag-and-drop-page .webform-page-view h2 a{ color: $webformPageLink;}
+.page-node-type-drag-and-drop-page .webform-page-view h2 a:hover{color:$webformPagelinkHov;}

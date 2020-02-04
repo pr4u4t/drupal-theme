@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px){
+    .content-bottom-container .carousel-block { width: 100%; overflow: hidden; margin-left: auto; margin-right: auto; }
+}
+
+@media screen and (min-width: 769px){
+    .content-bottom-container .carousel-block { width: 70%; overflow: hidden; margin-left: auto; margin-right: auto; }
+}

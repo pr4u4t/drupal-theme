@@ -1,0 +1,13 @@
+$offerBlockBack:#fff !default;
+$offerBlockColBorder:#ddd !default;
+$offerBlockColShadow:#ddd !default;
+$offerBlockHead: #333333 !default;
+$offerBlockHeadHov: grey !default;
+$offerBlockLink: #333333 !default;
+$offerBlockLinkHov: grey !default;
+.view-offer-block { background: $offerBlockBack !important; }
+.view-offer-block .views-col  {  border-color: $offerBlockColBorder; box-shadow: 2px 5px 5px 5px $offerBlockColShadow; }
+.view-offer-block .view-header .field-content a { color: $offerBlockHead; }
+.view-offer-block .view-header .field-content a:hover { color: $offerBlockHeadHovy}
+.view-offer-block .views-col .views-field-title .field-content a { color: $offerBlockLink; }
+.view-offer-block .views-col .views-field-title .field-content a:hover{ color: $offerBlockLinkHov; }

@@ -1,0 +1,14 @@
+$hostingTabsBorder:lightgrey !default;
+$hostingTabsHovBack: rgba(0,0,0,0.05) !default;
+$hostingTabsLink: grey !default;
+$hostingTabsLinkHov: black !default;
+$hostingTabsActiveBack:rgba(0,0,0,0.2) !default;
+$hostingTabsActive:black !default;
+
+.drag-and-drop-page .hosting-tabs .nav-tabs li { border-color: $hostingTabsBorder; }
+.drag-and-drop-page .hosting-tabs .nav-tabs li:hover{background-color: $hostingTabsHovBack;}
+.drag-and-drop-page .hosting-tabs .nav-tabs li a{color:$hostingTabsLink;}
+.drag-and-drop-page .hosting-tabs .nav-tabs li a:hover {color: $hostingTabsLinkHov;}
+.drag-and-drop-page .hosting-tabs .nav-tabs .active {background-color: $hostingTabsActiveBack!important;}
+.drag-and-drop-page .hosting-tabs .nav-tabs .active a {color: $hostingTabsActive!important;}
+.drag-and-drop-page .hosting-tabs .nav-tabs{border-color: $hostingTabsBorder;}

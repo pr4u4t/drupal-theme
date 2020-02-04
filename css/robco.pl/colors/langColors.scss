@@ -1,0 +1,11 @@
+$langDropBack:transparent !default;
+$langDropLink:#fff !default;
+$langDropButtonBack:transparent !default;
+$langDropButton:#646464 !default;
+$langDropItemBackground: #fff !default;
+$langDropItemBackgroundHov: #fff !default;
+$langDropItemActiveHov: #646464 !default;
+
+.dropdown-language-item .dropdown-menu { background: $langDropBack !important; }
+.dropdown-language-item .dropdown-menu a { color: $langDropLink !important; }
+.dropdown-language-item .btn-default, .btn-group > .btn-default { background: $langDropButtonBack; }

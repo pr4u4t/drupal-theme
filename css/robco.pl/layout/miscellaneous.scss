@@ -1,0 +1,20 @@
+/*---------------------------TITLE--------------------------------*/
+
+.title-page-title {margin:1em 5% 1em 5%;}
+
+/*-------------------DRAG-AND-DROP-PAGE---------------------------*/
+.drag-and-drop-page  .carousel-reduced {width: 80%;margin:auto;}
+/*--------------------------GRID----------------------------------*/
+
+.views-view-grid h2 {text-align: center; margin:1em;}
+.views-view-grid a { text-decoration:none; }
+.views-view-grid .img-responsive {margin:auto; margin-bottom:1em;}
+.views-view-grid .offer .content {display: block;text-align: justify; margin: 1em;}
+@media screen and (max-width:1215px){
+.drag-and-drop-page .views-view-grid .views-col {width:100%!important;}
+.offer-page-view .views-view-grid .views-col {width:100%!important;}
+}
+
+/* --- TAJEMNICZY BIALY PASEK --- DOSTOSOWAC GO DO ROZNYCH ROZDZIELCZOSCI !!!! --- */
+body.path-frontpage .wrap-containers .region.region-content article.drag-and-drop-page { display:none; }
+#navbar .container .container-row .container-col { height:60px; }
