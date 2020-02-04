@@ -14,16 +14,6 @@ $navDesktopNavbarWrapBranding: transparent !default;
 $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
 $navDesktopNavbarBlockMenuActiveLink: #fff !default;
 
-/*--- mobile nav ---*/
-
-.body--glazed-nav-mobile .block-dropdown-language a,
-.body--glazed-nav-mobile .block-dropdown-language button { color: $langDropButton !important; }
-
-/*--- desktop ---*/
-.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul { background: $langDropItemBackground !important; }
-.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover { background: $langDropItemBackgroundHov; }
-.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover > .active-language { color: $langDropItemActiveHov !important; }
-
 /*---------------- NAVIGATION MENU -----------------------------*/ 
 
 .body--glazed-nav-desktop .main-navigation-block .dropdown .dropdown-menu { background: $navDropBack; }
