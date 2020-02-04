@@ -14,7 +14,7 @@ $footerContainerBackLowRes:#21252a !default;
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { background:$footerMenuLinkHovBack2 !important; color: $footerMenuLinkHov2; } 
 
 @media screen and (max-width: 768px){
-    .footer-container { background: $footerContainerBack; }
+    .footer-container { background: $footerContainerBackLowRes; }
 }
 /*
 @media screen and ( max-width: 1200px ){

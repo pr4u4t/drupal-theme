@@ -9,3 +9,13 @@ $langDropItemActiveHov: #646464 !default;
 .dropdown-language-item .dropdown-menu { background: $langDropBack !important; }
 .dropdown-language-item .dropdown-menu a { color: $langDropLink !important; }
 .dropdown-language-item .btn-default, .btn-group > .btn-default { background: $langDropButtonBack; }
+
+/*--- mobile nav ---*/
+
+.body--glazed-nav-mobile .block-dropdown-language a,
+.body--glazed-nav-mobile .block-dropdown-language button { color: $langDropButton !important; }
+
+/*--- desktop ---*/
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul { background: $langDropItemBackground !important; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover { background: $langDropItemBackgroundHov; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover > .active-language { color: $langDropItemActiveHov !important; }
