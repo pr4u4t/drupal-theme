@@ -141,9 +141,10 @@
 {% endif %}
 
 {% set wrapAddClass = '' %}
-{% if node matches '/node\/[0-9]+\/edit/' %}
+{% set curUrl = url('<current>')|render %}
+{% if curUrl  matches '/node\\/[0-9]+\\/edit/' %}
 {% set wrapAddClass = 'path-is-node-edit' %}
-{% endif %}	
+{% endif %}
 
 <div class="wrap-containers {{ wrapAddClass }}">
 
