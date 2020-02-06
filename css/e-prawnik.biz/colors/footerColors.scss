@@ -1,5 +1,8 @@
 $footerMenuLink: #cccccc !default;
 $footerOfficeHours: #a38b5f !default;
+$footerBack: #282828 !default;
+
+footer.glazed-footer { background: $footerBack; }
 
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover { 
     color: $footerMenuLink; 

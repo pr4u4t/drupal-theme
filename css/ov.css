@@ -3729,6 +3729,10 @@ h2 a span {
   background-color: #9f885d;
 }
 
+footer.glazed-footer {
+  background: #282828;
+}
+
 .menu--menu-stopki a:hover, .menu--footer-menu a:hover {
   color: #cccccc;
 }
@@ -4015,7 +4019,6 @@ footer .office-hours .field--label {
 }
 
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^=node] {
-  margin-left: 0.65em;
   color: #646464 !important;
 }
 
