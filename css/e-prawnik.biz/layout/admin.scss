@@ -84,6 +84,7 @@
 
 .path-admin .view-content tbody .views-field-operations .dropdown{width:8em;}
 
+.path-is-node-edit .region.region-content .tabs ul a,
 .path-admin .region.region-content .tabs ul a {
   margin: 1em 0;
   border-top-left-radius: 10px;
@@ -98,7 +99,7 @@
   border-top: none;
 }
 
-
+.path-is-node-edit .region.region-content .tabs ul a:focus,
 .path-admin .region.region-content .tabs ul a:focus{
   border-bottom-style: solid;
   border-bottom-width: 3px;
@@ -106,17 +107,19 @@
   border-left-width:3px;
   
 }
-
+.path-is-node-edit .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
 .path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
   padding:1em!important;
 }
+.path-is-node-edit .region.region-content .tabs .tabs--secondary li a,
 .path-admin .region.region-content .tabs .tabs--secondary li a{ 
   padding:1em!important;
 }
-
+.path-is-node-edit .region.region-content .user-login-form .form-actions .btn,
 .path-admin .region.region-content .user-login-form .form-actions .btn{
   margin: 1em;
 }
+.path-is-node-edit .glazed-mini-tabs-wrapper .tabs--primary,
 .path-admin .glazed-mini-tabs-wrapper .tabs--primary{
   box-shadow:none;
 }

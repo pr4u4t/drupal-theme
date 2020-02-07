@@ -39,64 +39,72 @@ $adminECMSBrowserImageItemBack: transparent !default;
 $adminECMSBrowserImagePageItemBor: blue !default;
 $adminModalBack: #fff !default;
 
+.path-is-node-edit .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;
 }
-
+.path-is-node-edit .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupDisabledVOPButton;
 }
-
+.path-is-node-edit .list-inline.local-actions a,
 .path-admin .list-inline.local-actions a{
     color: $adminInlineActionsLink;
 }
-
+.path-is-node-edit .form-group .views-ui-view-displays a
 .path-admin .form-group .views-ui-view-displays a{
     color: $adminFormGroupLink;  
 }
-
+.path-is-node-edit .views-listing-table tr:nth-child(2n+1),
 .path-admin .views-listing-table tr:nth-child(2n+1){
     background: $adminViewsListingTROddBack;
 }
-
+.path-is-node-edit .views-listing-table tr:nth-child(2n+2),
 .path-admin .views-listing-table tr:nth-child(2n+2){
     background: $adminViewsListingTREvenBack;
 }
-
+.path-is-node-edit .views-listing-table .btn .caret,
 .path-admin .views-listing-table .btn .caret{
     color: $adminViewsListingCaret;
 }
-
+.path-is-node-edit #block-admin-display-form .button,
+.path-is-node-edit .view-id-content .table .button,
 .path-admin #block-admin-display-form .button,
 .path-admin .view-id-content .table .button {
     color: $adminViewTableButton;
 }
-
+.path-is-node-edit #block-admin-display-form .btn,
+.path-is-node-edit .view-id-content .table .btn .caret,
 .path-admin #block-admin-display-form .btn,
 .path-admin .view-id-content .table .btn .caret{
     color: $adminViewTableButtonCaret;
 }
-
+.path-is-node-edit .view-id-files tr:nth-child(2n+1),
+.path-is-node-edit #block-admin-display-form tr:nth-child(2n+1)
+.path-is-node-edit .view-id-content tr:nth-child(2n+1),
 .path-admin .view-id-files tr:nth-child(2n+1),
 .path-admin #block-admin-display-form tr:nth-child(2n+1),
 .path-admin .view-id-content tr:nth-child(2n+1){
     background: $adminViewContentTROddBack;
 }
-
+.path-is-node-edit .view-id-files tr:nth-child(2n+2),
+.path-is-node-edit #block-admin-display-form tr:nth-child(2n+2),
+.path-is-node-edit .view-id-content tr:nth-child(2n+2),
 .path-admin .view-id-files tr:nth-child(2n+2),
 .path-admin #block-admin-display-form tr:nth-child(2n+2),
 .path-admin .view-id-content tr:nth-child(2n+2){
     background: $adminViewContentTREvenBack;
 }
-
+.path-is-node-edit table tr:nth-child(2n+1),
 .path-admin table tr:nth-child(2n+1){
     background: $adminTableTROddBack;
 }
-
+.path-is-node-edit table tr:nth-child(2n+2),
 .path-admin table tr:nth-child(2n+2){
     background: $adminTableTREvenBack;
 }
-
+.path-is-node-edit table tr .btn-group .caret,
+.path-is-node-edit table tr .btn-group .button,
 .path-admin table tr .btn-group .caret,
 .path-admin table tr .btn-group .button{
     color: $adminTableButton;
@@ -108,59 +116,65 @@ html{
 }
 
 /**/
+.path-is-node-edit #edit-displays,
 .path-admin #edit-displays{
     background: $adminEditDisplaysBack;
     color: $adminEditDisplays;
 }
-
+.path-is-node-edit #edit-displays .label,
 .path-admin #edit-displays .label{
     color: $adminEditDisplaysLabel;
 }
-
+.path-is-node-edit .wrap-containers,
 .path-admin .wrap-containers{
     background-color: $adminBackgroundColor!important;
 }
-
+.path-is-node-edit .region.region-content .tabs,
 .path-admin .region.region-content .tabs { background-color: $adminRegionTabsBack !important; }
+.path-is-node-edit .region.region-content .user-login-form .form-actions .btn:hover,
 .path-admin .region.region-content .user-login-form .form-actions .btn:hover{ background-color: $adminRegionButtonBackHov; }
+.path-is-node-edit .region.region-content .tabs ul a,
 .path-admin .region.region-content .tabs ul a {
     background-color: $adminRegionTabsLink;
 }
-
+.path-is-node-edit .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
 .path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
     color: $adminRegiontabsPrimaryLink;
 }
-
+.path-is-node-edit .region.region-content .tabs .tabs--secondary li a,
 .path-admin .region.region-content .tabs .tabs--secondary li a{ 
     color: $adminRegionTabsSecondLink;
 }
-
+.path-is-node-edit .region.region-content .user-login-form .form-actions .btn,
 .path-admin .region.region-content .user-login-form .form-actions .btn{
     background-color: $adminRegionButtonBack;
 }
-
+.path-is-node-edit .region.region-content .tabs ul a:hover,
 .path-admin .region.region-content .tabs ul a:hover{ 
     background-color: $adminRegionTabsListBack;
     border-bottom-color: $adminRegionTabsLinkBorBottomHov;
     border-left-color: $adminRegionTabsLinkBorLeftHov;
 }
-
+.path-is-node-edit .region.region-content .tabs ul a,
 .path-admin .region.region-content .tabs ul a {
     border-bottom-color:$adminRegionTabsLinkBorBottom;
     border-left-color: $adminRegionTabsLinkBorLeft;
 }
-
+.path-is-node-edit .region.region-content .tabs ul a:focus,
 .path-admin .region.region-content .tabs ul a:focus{
     border-bottom-color: $adminRegionTabsLinkBorBottomFoc;
     border-left-color: $adminRegionTabsLinkBorLeftFoc;
     background-color: $adminRegionTabsListBack;
 }
+.path-is-node-edit .region.region-content .tabs .active a,
 .path-admin .region.region-content .tabs .active a{ 
     background-color: $adminRegionTabsListBack; 
 }
-
+.path-is-node-edit .views-edit-view .btn-group > .btn-default,
 .path-admin .views-edit-view .btn-group > .btn-default{ background-color: $adminRegionTabsListBack; }
+.path-is-node-edit .ui-dialog-buttonpane,
 .path-admin .ui-dialog-buttonpane{ background-color: $adminViewsDialogBack; }
+.path-is-node-edit .ui-dialog .scroll,
 .path-admin .ui-dialog .scroll{ background-color: $adminViewsDialogBack; }
 
 #entity-browser-cms-image-browser-form { background: $adminECMSBrowserImage; }
