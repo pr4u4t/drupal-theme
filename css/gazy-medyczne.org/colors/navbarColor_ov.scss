@@ -2,4 +2,4 @@ $navDesktopLevel0Link: #fff !default;
 $navDesktopLevel0LinkHov: red !default;
 
 .body--glazed-nav-desktop .menu-level-0 > li > a:after{ color:$navDesktopLevel0Link; }
-.body--glazed-nav-desktop .menu-level-0 > li:hover > a:after{ color:; }
+.body--glazed-nav-desktop .menu-level-0 > li:hover > a:after{ color:$navDesktopLevel0LinkHov; }
