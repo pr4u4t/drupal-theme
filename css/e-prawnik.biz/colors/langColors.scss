@@ -6,7 +6,7 @@ $langDropItemBackgroundHov: #fff !default;
 $langDropMenuLink: #fff !default;
 $langDropItemActiveHov: #646464 !default;
 $langDropLangItem: #181818 !default;
-$langDropLangItemHov: #181818 !default;
+$langDropLangItemHov: #646464 !default;
 $langDropLangItemBack: transparent !default; 
 
 .dropdown-language-item .dropdown-menu a { color: $langDropLink !important; }
@@ -24,6 +24,10 @@ $langDropLangItemBack: transparent !default;
 
 .body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .dropdown-menu{
     background: $langDropLangItem !important;
+}
+
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .dropdown-menu:hover{
+    background-color: $langDropLangItemHovite!important;
 }
 
 .body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li:hover{
