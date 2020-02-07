@@ -125,7 +125,7 @@ html{
 .path-admin #edit-displays .label{
     color: $adminEditDisplaysLabel;
 }
-.path-is-node-edit .wrap-containers,
+.path-is-node-edit.wrap-containers,
 .path-admin .wrap-containers{
     background-color: $adminBackgroundColor!important;
 }
