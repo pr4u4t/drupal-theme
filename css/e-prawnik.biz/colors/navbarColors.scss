@@ -11,6 +11,21 @@ $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
 $navDesktopNavbarLink: #9f9f9f !default;
 $navDesktopBack: rgba(40,40,40,1) !default;
 $navDesktopBackAffix: rgba(40,40,40,1) !default;
+$navMobileBack: #282828 !default;
+$navMobileMainMenuBack: #20252a !default;
+$navMobileMenuLevelBack: #20252a !default;
+
+.body--glazed-nav-mobile #navbar{
+  background: $navMobileBack;
+}
+
+.body--glazed-nav-mobile .glazed-main-menu {
+  background: $navMobileMainMenuBack;
+}
+
+.body--glazed-nav-mobile .menu__level{
+  background: $navMobileMenuLevelBack;
+}
 
 .glazed-main-menu .wrap-branding a:hover { 
     background: $navbarGlazedWrapBrandLinkHov !important; 
