@@ -1,0 +1,16 @@
+.body--glazed-nav-desktop .menu-level-0 > li > a{ 
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.body--glazed-nav-desktop .menu-level-0 > li > a:after{
+  content:'<';
+  font-weight:bold;
+  margin-left:1em;
+  transition:all 500ms;
+}
+
+.body--glazed-nav-desktop .menu-level-0 > li:hover > :after{
+  transform: rotate(-90deg);
+  display: inline-block;
+}
