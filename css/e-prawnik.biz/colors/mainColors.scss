@@ -9,7 +9,7 @@ $mainNodePageTitleHeader: #fff !default;
 $mainBlogPageTitleHeader: #fff !default;
 $mainViewsGridLink: #000 !default;
 $mainViewsGridLinkHov: grey !default;
-
+$titlePageTitle: grey !default;
 .wrap-containers { background-color: $mainWrapBack; }
 .path-frontpage .wrap-containers { background-color: $mainFWrapBack; }
 body {background-color: $mainBodyBack !important; }
@@ -24,3 +24,4 @@ h2 a span{ color: $mainTitleLink; }
 .views-view-grid a {
     color: $mainViewsGridLink;
 }
+.title-page-title h2 {color:$titlePageTitle;}

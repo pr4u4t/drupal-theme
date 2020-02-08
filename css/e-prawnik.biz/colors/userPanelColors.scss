@@ -11,6 +11,7 @@ $userRegionButtonBack: #333333 !default;
 $userRegionButtonBackHov: #9f885d !default;
 $userRegionTabsBack: transparent !default;
 $userRegionTabsListBack: #9f885d !default;
+$userInput: #fff !default;
 
 .path-user .region.region-content .tabs { background-color: $userRegionTabsBack !important; }
 .path-user .region.region-content .user-login-form .form-actions .btn:hover{ background-color: $userRegionButtonBackHov; }
@@ -49,3 +50,4 @@ $userRegionTabsListBack: #9f885d !default;
 .path-user .region.region-content .tabs .active a{ 
     background-color: $userRegionTabsListBack; 
 }
+.user-login-form input {color:$userInput;}
