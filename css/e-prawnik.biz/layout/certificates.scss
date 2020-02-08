@@ -227,41 +227,77 @@
     padding-left: 1vw;
   }  
 }
-@media screen and (min-width:1601px) and (max-width:1720px){
+@media screen and (min-width:1601px) and (max-width:1680px){
+    .path-frontpage .view-certificates figure{
+    margin:0 !important;
+    height:14em;
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper li{
+    width:16.5vw !important;
+    overflow: hidden;
+    height:17.8em;
+    margin-right:2vw;
+    height:14em;    
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper{
+    width:80vw;
+    height:14em;
+    padding-left:1vw;
+  } 
+}
+@media screen and (min-width:1681px) and (max-width:1720px){
+    .path-frontpage .view-certificates figure{
+    margin:0 !important;
+    height:14em;
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper li{
+    width:16.4vw !important;
+    overflow: hidden;
+    height:17.8em;
+    margin-right:2vw;
+    height:14em;    
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper{
+    width:80vw;
+    height:14em;
+    padding-left:0;
+  } 
+}
+@media screen and (min-width:1721px) and (max-width:1820px){
   .path-frontpage .view-certificates figure{
   margin:0 !important;
   height:14em;
-}
-.path-frontpage .view-certificates .jcarousel-wrapper li{
-  width:17vw !important;
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper li{
+  width:15vw !important;
   overflow: hidden;
   height:17.8em;
-  margin-right:1vw;
-  height:14em;    
-}
-.path-frontpage .view-certificates .jcarousel-wrapper{
-  width:80vw;
+  margin-right:2vw;
   height:14em;
-  padding-left:1.2vw
-} 
-}
-@media screen and (min-width:1721px) and (max-width:1920px){
-.path-frontpage .view-certificates figure{
-  margin:0 !important;
-  height:14em;
-}
-.path-frontpage .view-certificates .jcarousel-wrapper li{
-  width:15.1vw !important;
-  overflow: hidden;
-  height:17.8em;
-  margin-right:1vw;
-  height:14em;
-}
-.path-frontpage .view-certificates .jcarousel-wrapper{
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper{
   width:80vw;
   height:14em;
   padding-left:1vw
-}  
+  }  
+}
+@media screen and (min-width:1821px) and (max-width:1920px){
+  .path-frontpage .view-certificates figure{
+  margin:0 !important;
+  height:14em;
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper li{
+  width:14vw !important;
+  overflow: hidden;
+  height:17.8em;
+  margin-right:2vw;
+  height:14em;
+  }
+  .path-frontpage .view-certificates .jcarousel-wrapper{
+  width:80vw;
+  height:14em;
+  padding-left:1vw
+  }  
 }
 @media screen and (min-width:1921px){
     .path-frontpage .view-certificates figure{
