@@ -1,0 +1,6 @@
+$aboutFSectionBack: #eee !default;
+
+.body--glazed-nav-desktop .about-us-section:after,
+.body--glazed-nav-desktop .about-us-section:before{
+  background: $aboutFSectionBack;
+}
