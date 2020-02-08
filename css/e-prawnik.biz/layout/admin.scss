@@ -1,3 +1,7 @@
+.path-admin .wrap-messages {
+  position: static;
+}
+
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
    padding-right:10px; 
 }
@@ -83,6 +87,7 @@
 }
 
 .path-admin .view-content tbody .views-field-operations .dropdown{width:8em;}
+.path-admin .view-content tbody .views-field-changed {width:10em;}
 
 .path-is-node-edit .region.region-content .tabs ul a,
 .path-admin .region.region-content .tabs ul a {
@@ -124,6 +129,7 @@
   box-shadow:none;
 }
 .path-admin #menu-overview .checkbox{margin:auto;border-top:none;}
+.path-admin .checkbox{margin:auto!important;}
 
 .path-admin .affix { top: initial !important; }
 
