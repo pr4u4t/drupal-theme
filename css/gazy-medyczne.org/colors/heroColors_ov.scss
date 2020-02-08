@@ -1,3 +1,13 @@
+$heroDeskBeforeBack: #dd0c39 !default;
+$heroDeskAfterBack: #fff !default;
+
 .hero-section { 
   background-position: 50% !important;
 }
+.body--glazed-nav-desktop .hero-section:before{
+  background: $heroDeskBeforeBack;
+}
+.body--glazed-nav-desktop .hero-section:after{
+  background: $heroDeskAfterBack;
+}
+

@@ -7,3 +7,24 @@
     padding-top:3em;
   }
 }
+
+.body--glazed-nav-desktop .hero-section:before{
+  content: " ";
+  white-space: pre;
+  display: block;
+  position:relative;
+  top:2.25em;
+  left:-0.1em;
+  transform: rotate(-1.75deg);
+  height:4.5em;
+  z-index:4000;
+}
+.body--glazed-nav-desktop .hero-section:after{
+  content: " ";
+  white-space: pre;
+  display:block;
+  height:4.5em;
+  transform: rotate(1.65deg);
+  position: relative;
+  top:1.75em;
+}
