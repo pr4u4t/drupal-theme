@@ -1,0 +1,23 @@
+$menuMobileBack: #fff !default;
+$menuMobileAcccountBackHov: transparent !default;
+$menuMobileLangActiveBefore: #9f9f9f !default;
+$menuMobileLangActive: #dd0c39 !default; 
+$menuMobileLevelBack: #fff !default;
+
+.body--glazed-nav-mobile #glazed-main-menu .region-navigation-collapsible .menu,
+.body--glazed-nav-mobile #glazed-main-menu .region-navigation-collapsible { 
+  background: $menuMobileBack; 
+}
+.body--glazed-nav-mobile .menu--account li:hover{
+  background: $menuMobileAcccountBackHov !important;
+}
+.body--glazed-nav-mobile .block-dropdown-language .active-language:before{
+  color: #9f9f9f;
+}
+.body--glazed-nav-mobile .block-dropdown-language .active-language {
+  color: $menuMobileLangActive !important;
+}
+
+.body--glazed-nav-mobile .menu__level{
+	background: $menuMobileLevelBack;
+}
