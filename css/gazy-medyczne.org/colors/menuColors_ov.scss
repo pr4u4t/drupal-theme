@@ -2,6 +2,7 @@ $menuMobileBack: #fff !default;
 $menuMobileAcccountBackHov: transparent !default;
 $menuMobileLangActiveBefore: #9f9f9f !default;
 $menuMobileLangActive: #dd0c39 !default; 
+$menuMobileLevelBack: #fff !default;
 
 .body--glazed-nav-mobile #glazed-main-menu .region-navigation-collapsible .menu,
 .body--glazed-nav-mobile #glazed-main-menu .region-navigation-collapsible { 
@@ -17,3 +18,6 @@ $menuMobileLangActive: #dd0c39 !default;
   color: $menuMobileLangActive !important;
 }
 
+.body--glazed-nav-mobile .menu__level{
+	background: $menuMobileLevelBack;
+}
