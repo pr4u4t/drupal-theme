@@ -1,2 +1,9 @@
-.breadcrumb a {text-decoration:none;}
-.breadcrumb .glazed-breadcrumb-spacer{display:none;}
+.breadcrumb a { 
+    text-decoration: none;
+}
+.breadcrumb {margin-top:7em;}
+
+.breadcrumb .glazed-breadcrumb-spacer{ display: none; }
+.body--glazed-nav-mobile .menu__breadcrumbs{
+  font-size:0.85em;
+} 
