@@ -1,5 +1,6 @@
 $adminFormGroupEnabledVOPButton: #fff !default;
 $adminFormGroupDisabledVOPButton: #000 !default;
+$adminFormGroupCaret: #fff !default;
 $adminInlineActionsLink: #fff !default;
 $adminFormGroupLink: #edc780 !default;
 $adminViewsListingTROddBack: #fff !default;
@@ -41,7 +42,10 @@ $adminModalBack: #fff !default;
 
 .path-is-node-edit .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
-    color: $adminFormGroupEnabledVOPButton;
+    color: $adminFormGroupEnabledVOPButton;    
+}
+.path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .btn .caret {
+    color: $adminFormGroupCaret;
 }
 .path-is-node-edit .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button {
