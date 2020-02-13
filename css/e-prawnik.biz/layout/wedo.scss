@@ -1,4 +1,23 @@
 .what-we-do-block .row { margin:0px; }
+.what-we-do-block .view-content .views-row{
+  filter: brightness(70%);
+}
+.what-we-do-block .view-content .views-row .views-field-field-image .field-content{
+  position:relative;
+}
+.what-we-do-block .view-content .views-row .views-field-field-image .field-content a{
+  display: block !important;
+  transition: all .1s ease-in-out;
+}
+.what-we-do-block .view-content .views-row:hover{
+  filter: brightness(100%);
+}
+.what-we-do-block .view-content .views-row:hover .views-field-field-image .field-content a{
+  transform: scale(1.2);
+}
+.what-we-do-block .view-content .views-row:hover .views-field-title .field-content a{
+  text-decoration: underline;
+}
 
 @media screen and (min-width:769px){
     .what-we-do-block h2 a span{ display: none; }
