@@ -221,4 +221,8 @@
 }
 
 #az-editor-tabs .nav-tabs li { margin-right:1em; }
-.html .path-is-node-edit .form-actions .form-submit:nth-child(1){margin-right:0;}
+.html .path-is-node-edit .form-actions .form-submit:nth-child(1){ margin-right:0; }
+
+.path-admin .views-preview-wrapper.views-admin #preview-submit .glyphicon{
+	background-image:none !important;
+}
