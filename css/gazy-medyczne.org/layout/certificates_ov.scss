@@ -24,4 +24,17 @@
   padding:.5em;
 }
 
+/* test */
+.certificates-section article{
+  transform: skew(40deg);
+}
 
+.certificates-section article .content{
+  transform: skew(-40deg);
+  filter: brightness(85%);
+  transition: all ease-in-out .2s;
+}
+
+.certificates-section article .content:hover{
+  filter: brightness(105%);
+}
