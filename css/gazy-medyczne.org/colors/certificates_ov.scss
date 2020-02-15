@@ -1,0 +1,17 @@
+$certificatesBeforeBack: #dd0c39 !default;
+$certificatesAfterBack: #dd0c39 !default;
+$certificatesBack: #dd0c39 !default;
+$certificatesCertBack: #fff !default;
+
+.certificates-section{
+  background: $certificatesBack;
+}
+.body--glazed-nav-desktop .certificates-section:before{
+  background: $certificatesBeforeBack;
+}
+.body--glazed-nav-desktop .certificates-section:after{
+  background: $certificatesAfterBack;
+}
+.body--glazed-nav-desktop .certificates-section article{
+  background: $certificatesCertBack;
+}
