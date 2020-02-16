@@ -136,45 +136,45 @@ html{
 .path-admin .wrap-containers{
     background-color: $adminBackgroundColor!important;
 }
-.path-is-node-edit .region.region-content .tabs,
-.path-admin .region.region-content .tabs { background-color: $adminRegionTabsBack !important; }
-.path-is-node-edit .region.region-content .user-login-form .form-actions .btn:hover,
-.path-admin .region.region-content .user-login-form .form-actions .btn:hover{ background-color: $adminRegionButtonBackHov; }
-.path-is-node-edit .region.region-content .tabs ul a,
-.path-admin .region.region-content .tabs ul a {
+.region.region-content .tabs,
+.region.region-content .tabs { background-color: $adminRegionTabsBack !important; }
+.region.region-content .user-login-form .form-actions .btn:hover,
+.region.region-content .user-login-form .form-actions .btn:hover{ background-color: $adminRegionButtonBackHov; }
+.region.region-content .tabs ul a,
+.region.region-content .tabs ul a {
     background-color: $adminRegionTabsLink;
 }
-.path-is-node-edit .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
-.path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a{ 
     color: $adminRegiontabsPrimaryLink;
 }
-.path-is-node-edit .region.region-content .tabs .tabs--secondary li a,
-.path-admin .region.region-content .tabs .tabs--secondary li a{ 
+.region.region-content .tabs .tabs--secondary li a,
+.region.region-content .tabs .tabs--secondary li a{ 
     color: $adminRegionTabsSecondLink;
 }
-.path-is-node-edit .region.region-content .user-login-form .form-actions .btn,
-.path-admin .region.region-content .user-login-form .form-actions .btn{
+.region.region-content .user-login-form .form-actions .btn,
+.region.region-content .user-login-form .form-actions .btn{
     background-color: $adminRegionButtonBack;
 }
-.path-is-node-edit .region.region-content .tabs ul a:hover,
-.path-admin .region.region-content .tabs ul a:hover{ 
+.region.region-content .tabs ul a:hover,
+.region.region-content .tabs ul a:hover{ 
     background-color: $adminRegionTabsListBack;
     border-bottom-color: $adminRegionTabsLinkBorBottomHov;
     border-left-color: $adminRegionTabsLinkBorLeftHov;
 }
-.path-is-node-edit .region.region-content .tabs ul a,
-.path-admin .region.region-content .tabs ul a {
+.region.region-content .tabs ul a,
+.region.region-content .tabs ul a {
     border-bottom-color:$adminRegionTabsLinkBorBottom;
     border-left-color: $adminRegionTabsLinkBorLeft;
 }
-.path-is-node-edit .region.region-content .tabs ul a:focus,
-.path-admin .region.region-content .tabs ul a:focus{
+.region.region-content .tabs ul a:focus,
+.region.region-content .tabs ul a:focus{
     border-bottom-color: $adminRegionTabsLinkBorBottomFoc;
     border-left-color: $adminRegionTabsLinkBorLeftFoc;
     background-color: $adminRegionTabsListBack;
 }
-.path-is-node-edit .region.region-content .tabs .active a,
-.path-admin .region.region-content .tabs .active a{ 
+.region.region-content .tabs .active a,
+.region.region-content .tabs .active a{ 
     background-color: $adminRegionTabsListBack; 
 }
 .path-is-node-edit .views-edit-view .btn-group > .btn-default,
