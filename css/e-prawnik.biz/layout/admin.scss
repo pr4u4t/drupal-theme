@@ -223,6 +223,20 @@
 #az-editor-tabs .nav-tabs li { margin-right:1em; }
 .html .path-is-node-edit .form-actions .form-submit:nth-child(1){ margin-right:0; }
 
-.path-admin .views-preview-wrapper.views-admin #preview-submit .glyphicon{
-	background-image:none !important;
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton{
+  width:20em;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton li{
+  display:none;
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton li:nth-child(1){
+ display: block; 
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton:hover li{
+  display:block;
 }

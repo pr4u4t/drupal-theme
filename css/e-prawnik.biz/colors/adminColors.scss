@@ -39,6 +39,9 @@ $adminECMSBrowserImageBor: #ccc !default;
 $adminECMSBrowserImageItemBack: transparent !default; 
 $adminECMSBrowserImagePageItemBor: blue !default;
 $adminModalBack: #fff !default;
+$adminViewsPreviewSubmitGlyph: none !default;
+$adminViewsEditTopDropButtonBorder: #ccc !default;
+$adminViewsEditTopDropButtonBack: #fff !default;
 
 .path-is-node-edit .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
@@ -195,5 +198,14 @@ html{
 
 #drupal-modal{
   background: $adminModalBack !important;
+}
+
+.path-admin .views-preview-wrapper.views-admin #preview-submit .glyphicon{
+        background-image:$adminViewsPreviewSubmitGlyph !important;
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton{
+  background: $adminViewsEditTopDropButtonBack;
+  border-color: $adminViewsEditTopDropButtonBorder;
 }
 
