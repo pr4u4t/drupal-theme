@@ -240,3 +240,11 @@
 .path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton:hover li{
   display:block;
 }
+
+.path-admin .views-admin #edit-display-settings-top {
+  height:3.1em;
+}
+
+.path-admin #edit-displays-settings-settings-content-tab-content-details-columns-first .views-ui-display-tab-bucket .dropdown [data-dropdown-target="#views-add-filter"]{
+  height:100%;
+}

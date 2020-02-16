@@ -142,7 +142,7 @@
 
 {% set wrapAddClass = '' %}
 {% set curUrl = url('<current>')|render %}
-{% if curUrl  matches '/node\\/[0-9]+\\/edit/' %}
+{% if curUrl  matches '/(node\\/[0-9]+\\/edit)|(node\\/add)/' %}
 {% set wrapAddClass = 'path-is-node-edit' %}
 {% endif %}
 
