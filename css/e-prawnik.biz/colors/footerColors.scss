@@ -1,6 +1,7 @@
 $footerMenuLink: #cccccc !default;
 $footerOfficeHours: #a38b5f !default;
 $footerBack: #282828 !default;
+$footerHovBack: transparent!default;
 
 footer.glazed-footer { background: $footerBack; }
 
@@ -11,3 +12,8 @@ footer.glazed-footer { background: $footerBack; }
 footer .office-hours .field--label { 
     color: $footerOfficeHours; 
 }
+footer .menu--footer-menu li a:visited,
+footer .menu--footer-menu li a:hover,
+footer .menu--footer-menu li a:link,
+footer .menu--footer-menu li a:active{background-color: $footerHovBack!important;}
+footer .menu--footer-menu li a:hover {color:$footerMenuLink;}
