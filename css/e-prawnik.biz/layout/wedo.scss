@@ -9,6 +9,9 @@
   display: block !important;
   transition: all .1s ease-in-out;
 }
+.what-we-do-block .view-header .view-content .views-row{
+  filter: brightness(100%);
+}
 .what-we-do-block .view-content .views-row:hover{
   filter: brightness(100%);
 }
