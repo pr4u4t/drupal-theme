@@ -209,3 +209,8 @@ html{
   border-color: $adminViewsEditTopDropButtonBorder;
 }
 
+.path-admin #views-display-extra-actions span,
+.path-admin #edit-actions #edit-actions-submit span,
+.path-admin #edit-actions #edit-actions-cancel span{
+  background-image: none !important;
+}
