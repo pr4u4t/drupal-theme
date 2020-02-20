@@ -8,7 +8,7 @@ $jcarouselInputGroupBack:transparent !default;
 $jcarouselInputBack:transparent !default;
 
 .jcarousel-view .jcarousel-control-next,
-.jcarousel-view .jcarousel-control-prev{ color: $jcarouselSwitch; background-color: $jcarouselSwitchBack; border-color: $jcarouselSwitchBorder; }
+.jcarousel-view .jcarousel-control-prev{ color: $jcarouselSwitch!important; background-color: $jcarouselSwitchBack!important; border-color: $jcarouselSwitchBorder!important; }
 .jcarousel-view .jcarousel-control-prev:after,
 .jcarousel-view .jcarousel-control-next:after { opacity: $jcarouselSwitchBorderOpacity; }
 .jcarousel-view .jcarousel-skin-tango  { border-color:$jcarouselSkinBorder; background: $jcarouselSkinBack; }
