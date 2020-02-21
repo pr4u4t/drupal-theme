@@ -8,6 +8,8 @@ $blogViewBlockSectionBack:#fff !default;
 $blogViewBlockSectionBackImg:linear-gradient(to bottom, rgba(239,239,239,0), rgba(239,239,239,1),rgba(239,239,239,0)) !default;
 $blogViewBlockHeaderHov: grey !default;
 $blogViewBlockColArtivleHov: grey !default;
+$blogViewBlockFieldCreated: #fff !default;
+$blogViewBlockFieldCreatedBack: #0180ef !default;
 
 .view-blog-block { color:$blogViewBlock; }
 .view-blog-block h2 a { color:$blogViewBlockHeaderLink; }
@@ -17,3 +19,8 @@ $blogViewBlockColArtivleHov: grey !default;
 .blog-section { background-color:$blogViewBlockSectionBack !important; background-image: $blogViewBlockSectionBackImg; }
 .view-blog-block .view-header a:hover { color: $blogViewBlockHeaderHov; }
 .view-blog-block .view-content .views-col .article a:hover { color: $blogViewBlockColArtivleHov; }
+
+.path-frontpage .view-blog-block .views-field-created{
+    background: $blogViewBlockFieldCreatedBack;
+    color: $blogViewBlockFieldCreated;
+}
