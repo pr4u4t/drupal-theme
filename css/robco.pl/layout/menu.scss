@@ -18,7 +18,8 @@
 }*/
 
 .body--glazed-nav-desktop #navbar { z-index:4050 !important; }
-.body--glazed-nav-desktop .block-system-menu-blockmain ul { -webkit-box-shadow: none !important; box-shadow: none !important; }
+.body--glazed-nav-desktop .block-system-menu-blockmain ul,
+.dropdown-language-item .dropdown-menu { -webkit-box-shadow: none !important; box-shadow: none !important; }
 .body--glazed-nav-desktop .block-system-menu-blockmain ul .active a {  }
 /*.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul { position: absolute; top: 80px; padding:3em; }*/
 .body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li ul { display:flex !important; padding:initial; }
