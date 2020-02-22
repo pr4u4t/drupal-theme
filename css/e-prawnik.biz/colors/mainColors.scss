@@ -1,4 +1,5 @@
 $mainWrapBack: #21252a !default;
+$mainGlazedBack: #181818 !default;
 $mainFWrapBack: #282828 !default;
 $mainBodyBack: #282828 !default;
 $mainFBodyBack: #21252a !default;
@@ -10,6 +11,8 @@ $mainBlogPageTitleHeader: #fff !default;
 $mainViewsGridLink: #000 !default;
 $mainViewsGridLinkHov: grey !default;
 $titlePageTitle: grey !default;
+
+#block-glazedmain { background-color: $mainGlazedBack; }   
 .wrap-containers { background-color: $mainWrapBack; }
 .path-frontpage .wrap-containers { background-color: $mainFWrapBack; }
 body {background-color: $mainBodyBack !important; }
