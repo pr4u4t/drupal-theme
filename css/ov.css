@@ -145,17 +145,17 @@
 }
 
 @media screen and (max-width: 1199px) {
-  .path-frontpage .view-team-block {
+  .path-frontpage .view-about-us-frontpage-attachement {
     margin-top: 2em;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1299px) {
-  .path-frontpage .view-team-block {
+  .path-frontpage .view-about-us-frontpage-attachement {
     margin-top: 6em;
   }
 }
 @media screen and (min-width: 1300px) {
-  .path-frontpage .view-team-block {
+  .path-frontpage .view-about-us-frontpage-attachement {
     margin-top: 12em;
   }
 }
@@ -655,6 +655,10 @@
 .what-we-do-block .view-content .views-row .views-field-field-image .field-content a {
   display: block !important;
   transition: all 0.1s ease-in-out;
+}
+
+.what-we-do-block .view-header .view-content .views-row {
+  filter: brightness(100%);
 }
 
 .what-we-do-block .view-content .views-row:hover {
@@ -1316,6 +1320,10 @@ article .view-content {
   box-shadow: none;
 }
 
+footer .menu--footer-menu li a {
+  display: inline-block;
+}
+
 footer .footer-block .field .az-container .az-section .az-ctnr .az-row {
   display: flex;
   flex-direction: row;
@@ -1795,6 +1803,10 @@ footer .footer-block .field .az-container .az-section .footer-col-1 .footer-comp
   position: relative;
   float: left;
   padding: 1.6em 0em 0em 0.1em;
+}
+
+#block-sitemap .menu--main-menu li a {
+  display: inline-block;
 }
 
 .sitemap-block {
@@ -3422,8 +3434,8 @@ footer .footer-block .field .az-container .az-section .footer-col-1 .footer-comp
   width: 10em;
 }
 
-.path-is-node-edit .region.region-content .tabs ul a,
-.path-admin .region.region-content .tabs ul a {
+.region.region-content .tabs ul a,
+.region.region-content .tabs ul a {
   margin: 1em 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -3437,32 +3449,36 @@ footer .footer-block .field .az-container .az-section .footer-col-1 .footer-comp
   border-top: none;
 }
 
-.path-is-node-edit .region.region-content .tabs ul a:focus,
-.path-admin .region.region-content .tabs ul a:focus {
+.region.region-content .tabs ul a:focus,
+.region.region-content .tabs ul a:focus {
   border-bottom-style: solid;
   border-bottom-width: 3px;
   border-left-style: solid;
   border-left-width: 3px;
 }
 
-.path-is-node-edit .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
-.path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
+.path-frontpage .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary {
+  margin-top: 6em;
+}
+
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
   padding: 1em !important;
 }
 
-.path-is-node-edit .region.region-content .tabs .tabs--secondary li a,
-.path-admin .region.region-content .tabs .tabs--secondary li a {
+.region.region-content .tabs .tabs--secondary li a,
+.region.region-content .tabs .tabs--secondary li a {
   padding: 1em !important;
 }
 
-.path-is-node-edit .region.region-content .user-login-form .form-actions .btn,
-.path-admin .region.region-content .user-login-form .form-actions .btn {
+.region.region-content .user-login-form .form-actions .btn,
+.region.region-content .user-login-form .form-actions .btn {
   margin: 1em;
 }
 
-.path-is-node-edit .glazed-mini-tabs-wrapper .tabs--primary,
-.path-admin .glazed-mini-tabs-wrapper .tabs--primary {
-  box-shadow: none;
+.glazed-mini-tabs-wrapper .tabs--primary,
+.glazed-mini-tabs-wrapper .tabs--primary {
+  box-shadow: none !important;
 }
 
 .path-admin #menu-overview .checkbox {
@@ -3579,6 +3595,32 @@ footer .footer-block .field .az-container .az-section .footer-col-1 .footer-comp
   margin-right: 0;
 }
 
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton {
+  width: 20em;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton li {
+  display: none;
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton li:nth-child(1) {
+  display: block;
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton:hover li {
+  display: block;
+}
+
+.path-admin .views-admin #edit-display-settings-top {
+  height: 3.1em;
+}
+
+.path-admin #edit-displays-settings-settings-content-tab-content-details-columns-first .views-ui-display-tab-bucket .dropdown [data-dropdown-target="#views-add-filter"] {
+  height: 100%;
+}
+
 @media screen and (max-width: 680px) {
   .path-contact .captcha {
     width: 100%;
@@ -3605,6 +3647,30 @@ footer .footer-block .field .az-container .az-section .footer-col-1 .footer-comp
     width: 50%;
   }
 }
+.path-frontpage .view-certificates .jcarousel-wrapper .contextual ul {
+  width: initial !important;
+  overflow: initial !important;
+  height: initial !important;
+  position: static !important;
+  right: initial !important;
+  margin-right: initial !important;
+  height: initial !important;
+  float: none !important;
+  clear: both !important;
+}
+
+.path-frontpage .view-certificates .jcarousel-wrapper .contextual ul li {
+  width: initial !important;
+  overflow: initial !important;
+  height: initial !important;
+  position: static !important;
+  right: initial !important;
+  margin-right: initial !important;
+  height: initial !important;
+  float: none !important;
+  clear: both !important;
+}
+
 @media screen and (max-width: 1199px) {
   .path-frontpage .view-about-us-block h2 a {
     color: #333;
@@ -3769,6 +3835,11 @@ footer .footer-block .field .az-container .az-section .footer-col-1 .footer-comp
 
 .body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a:hover {
   color: #fff !important;
+}
+
+#block-dropdownlanguage .dropdown-menu {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 .view-contact-block .view-header {
@@ -3951,6 +4022,17 @@ footer .office-hours .field--label {
   color: #a38b5f;
 }
 
+footer .menu--footer-menu li a:visited,
+footer .menu--footer-menu li a:hover,
+footer .menu--footer-menu li a:link,
+footer .menu--footer-menu li a:active {
+  background-color: transparent !important;
+}
+
+footer .menu--footer-menu li a:hover {
+  color: #cccccc;
+}
+
 .body--glazed-nav-mobile .user-account-menu-block a,
 .body--glazed-nav-mobile .user-account-menu-block a:link,
 .body--glazed-nav-mobile .user-account-menu-block a:visited {
@@ -4025,11 +4107,6 @@ footer .office-hours .field--label {
   color: #fff !important;
 }
 
-.sitemap-block a:hover {
-  color: #fff !important;
-  background-color: transparent !important;
-}
-
 .sitemap-block ul {
   background: transparent !important;
 }
@@ -4040,6 +4117,17 @@ footer .office-hours .field--label {
 
 .sitemap-block h2 {
   color: #fff;
+}
+
+#block-sitemap .menu--main-menu li a:visited,
+#block-sitemap .menu--main-menu li a:hover,
+#block-sitemap .menu--main-menu li a:link,
+#block-sitemap .menu--main-menu li a:active {
+  background-color: transparent;
+}
+
+#block-sitemap .menu--main-menu li a:hover {
+  color: #fff !important;
 }
 
 .blog-page-view .read-more a:hover {
@@ -4413,58 +4501,58 @@ html {
   background-color: #fff !important;
 }
 
-.path-is-node-edit .region.region-content .tabs,
-.path-admin .region.region-content .tabs {
+.region.region-content .tabs,
+.region.region-content .tabs {
   background-color: transparent !important;
 }
 
-.path-is-node-edit .region.region-content .user-login-form .form-actions .btn:hover,
-.path-admin .region.region-content .user-login-form .form-actions .btn:hover {
+.region.region-content .user-login-form .form-actions .btn:hover,
+.region.region-content .user-login-form .form-actions .btn:hover {
   background-color: #999999;
 }
 
-.path-is-node-edit .region.region-content .tabs ul a,
-.path-admin .region.region-content .tabs ul a {
+.region.region-content .tabs ul a,
+.region.region-content .tabs ul a {
   background-color: #cccccc;
 }
 
-.path-is-node-edit .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
-.path-admin .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a,
+.region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary li a {
   color: #000;
 }
 
-.path-is-node-edit .region.region-content .tabs .tabs--secondary li a,
-.path-admin .region.region-content .tabs .tabs--secondary li a {
+.region.region-content .tabs .tabs--secondary li a,
+.region.region-content .tabs .tabs--secondary li a {
   color: #000;
 }
 
-.path-is-node-edit .region.region-content .user-login-form .form-actions .btn,
-.path-admin .region.region-content .user-login-form .form-actions .btn {
+.region.region-content .user-login-form .form-actions .btn,
+.region.region-content .user-login-form .form-actions .btn {
   background-color: #cccccc;
 }
 
-.path-is-node-edit .region.region-content .tabs ul a:hover,
-.path-admin .region.region-content .tabs ul a:hover {
+.region.region-content .tabs ul a:hover,
+.region.region-content .tabs ul a:hover {
   background-color: #999999;
   border-bottom-color: rgba(0, 0, 0, 0.4);
   border-left-color: rgba(0, 0, 0, 0.3);
 }
 
-.path-is-node-edit .region.region-content .tabs ul a,
-.path-admin .region.region-content .tabs ul a {
+.region.region-content .tabs ul a,
+.region.region-content .tabs ul a {
   border-bottom-color: rgba(0, 0, 0, 0.12);
   border-left-color: rgba(0, 0, 0, 0.08);
 }
 
-.path-is-node-edit .region.region-content .tabs ul a:focus,
-.path-admin .region.region-content .tabs ul a:focus {
+.region.region-content .tabs ul a:focus,
+.region.region-content .tabs ul a:focus {
   border-bottom-color: rgba(0, 0, 0, 0.12);
   border-left-color: rgba(0, 0, 0, 0.08);
   background-color: #999999;
 }
 
-.path-is-node-edit .region.region-content .tabs .active a,
-.path-admin .region.region-content .tabs .active a {
+.region.region-content .tabs .active a,
+.region.region-content .tabs .active a {
   background-color: #999999;
 }
 
@@ -4501,6 +4589,21 @@ html {
 
 #drupal-modal {
   background: #fff !important;
+}
+
+.path-admin .views-preview-wrapper.views-admin #preview-submit .glyphicon {
+  background-image: none !important;
+}
+
+.path-admin .views-admin #edit-display-settings-top .dropbutton-wrapper .dropbutton {
+  background: #fff;
+  border-color: #ccc;
+}
+
+.path-admin #views-display-extra-actions span,
+.path-admin #edit-actions #edit-actions-submit span,
+.path-admin #edit-actions #edit-actions-cancel span {
+  background-image: none !important;
 }
 
 .captcha {
