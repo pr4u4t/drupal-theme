@@ -2,6 +2,7 @@ $aboutFBHeadLink: #333 !default;
 $aboutFBHeadLinkHov: grey !default;
 $aboutFBArticle: #fff !default;
 $aboutFBBackground: #fff !default;
+$aboutFBBackgroundIMG: url("/sites/default/files/glazed-cms-media/marmur.jpg") !default;
 $aboutFBHeaderHeadLink: #707070 !default;
 $aboutFBHeaderHeadLinkHov: black !default;
 $aboutFBImgFrame: #9c8457 !default;
@@ -33,7 +34,7 @@ $aboutFBFigCapLink: #fff !default;
 }
 
 .path-frontpage .view-about-us-block{
-    background: $aboutFBBackground;
+    background-image: $aboutFBBackgroundIMG; 
 }
 
 .path-frontpage .view-about-us-block .view-header h2 a:hover{ color: $aboutFBHeaderHeadLinkHov; }
