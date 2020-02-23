@@ -1,0 +1,50 @@
+$langDropLink: #797979 !default;
+$langDropButtonBackground: transparent !default;
+$langDropButton:  #646464 !default;
+$langDropItemBackground: #fff !default;
+$langDropItemBackgroundHov: #fff !default;
+$langDropMenuLink: #fff !default;
+$langDropItemActiveHov: #646464 !default;
+$langDropLangItem: #181818 !default;
+$langDropLangItemHov: #646464 !default;
+$langDropLangItemBack: transparent !default; 
+
+.dropdown-language-item .dropdown-menu a { 
+	color: $langDropLink !important; 
+}
+.dropdown-language-item .btn-default/*, .btn-group > .btn-default*/ { background: $langDropButtonBackground; }
+.body--glazed-nav-mobile .block-dropdown-language a,
+.body--glazed-nav-mobile .block-dropdown-language button { color: $langDropButton !important; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul { background: $langDropItemBackground !important; }
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover {
+    background: $langDropItemBackgroundHov;
+}
+
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover > .active-language { 
+color: $langDropItemActiveHov !important; 
+}
+
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item:hover{ 
+    background: $langDropLangItem !important; 
+}
+
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .dropdown-menu{
+    background: $langDropLangItem !important;
+}
+/* lang hover doesn't work, probably is overidden
+.body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item .dropdown-menu:hover{
+    background-color: $langDropLangItemHov!important;
+}*/
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li:hover{
+    background: $langDropLangItemBack;
+}
+
+.body--glazed-nav-mobile .dropdown-language-block .dropdown-menu li a:hover{
+    color: $langDropMenuLink !important;
+}
+
+#block-dropdownlanguage .dropdown-menu {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}

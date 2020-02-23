@@ -1,0 +1,79 @@
+$blogPageRowArticleLink: #000 !default;
+$blogPageRowArticleLinkHov: grey !default;
+$blogPageView: #111 !default;
+$blogPageViewHeaderLink: #111 !default;
+$blogPageViewArticleAfter: #fff !default;
+$blogPageViewArticleAfterBack: #3299fe !default;
+$blogPageViewHeader: #fff !default;
+$blogPageSection: #fff !default;
+$blogPageViewArticleLink: grey !default;
+$blogPageViewFieldBody: #fff !default;
+$blogPageViewFieldTitleLink: #fff !default;
+$blogPageViewFieldCreate: #fff !default;
+$blogPageViewFieldCreateBack: #83775b !default;
+$blogPageViewFieldUidLink: #83775b !default;
+$blogPageReadMoreLink: #aa9161 !default;
+$blogPageReadMoreLinkHov: #706045 !default;
+$blogPageTitleHeader: #bda67a !default;
+
+.blog-page-view .read-more a:hover{ 
+    color: $blogPageReadMoreLinkHov; 
+}
+.blog-page-view .views-row article a { 
+    color: $blogPageRowArticleLink;
+}
+.blog-page-view .views-row article a:hover { 
+    color: $blogPageRowArticleLinkHov; 
+}
+.blog-page-view { 
+    color: $blogPageView; 
+}
+.blog-page-view h2 a { 
+    color: $blogPageViewHeaderLink; 
+}
+.blog-page-view article .content::after { 
+    color: $blogPageViewArticleAfter;
+    background: $blogPageViewArticleAfterBack !important;
+}
+.blog-page-view h1 { 
+    color: $blogPageViewHeader;
+}    
+.blog-section { 
+    background-color: $blogPageSection !important;
+}
+.path-blog .blog-page-view .views-field-title,
+.path-blog .blog-page-view .views-field-body{
+    color: $blogPageViewFieldBody;
+}
+.path-blog .blog-page-view .views-field-title a,
+.path-blog .blog-page-view .views-field-title a:active,
+.path-blog .blog-page-view .views-field-title a:hover,
+.path-blog .blog-page-view .views-field-title a:link,
+.path-blog .blog-page-view .views-field-title a:visited{
+    color: $blogPageViewFieldTitleLink;
+}
+.blog-page-view .view-content .views-col .article a:hover { 
+    color: $blogPageViewArticleLink; 
+}
+.path-blog .blog-page-view .views-field-created{
+    position: absolute;
+    background: $blogPageViewFieldCreateBack;
+    color: $blogPageViewFieldCreate;
+}
+
+.path-blog .blog-page-view .views-field-uid a,
+.path-blog .blog-page-view .views-field-uid a:link,
+.path-blog .blog-page-view .views-field-uid a:hover,
+.path-blog .blog-page-view .views-field-uid a:visited,
+.path-blog .blog-page-view .views-field-uid a:active{
+    color: $blogPageViewFieldUidLink;
+}
+
+.path-blog .title-page-title h2 {
+    color: $blogPageTitleHeader;
+}
+
+.blog-page-view .read-more a{
+    color: $blogPageReadMoreLink;
+}
+

@@ -1,0 +1,60 @@
+$aboutFBHeadLink: #333 !default;
+$aboutFBHeadLinkHov: grey !default;
+$aboutFBArticle: #fff !default;
+$aboutFBBackground: #fff !default;
+$aboutFBBackgroundIMG: url("/sites/default/files/glazed-cms-media/marmur.jpg") !default;
+$aboutFBHeaderHeadLink: #707070 !default;
+$aboutFBHeaderHeadLinkHov: black !default;
+$aboutFBImgFrame: #9c8457 !default;
+$aboutFBFigCap: grey !default;
+$aboutFBFigCapLink: #fff !default;
+
+@media screen and (max-width: 1199px){
+    .path-frontpage .view-about-us-block h2 a { 
+        color: $aboutFBHeadLink;
+    }
+    
+    .path-frontpage .view-about-us-block h2 a:hover { color: $aboutFBHeadLinkHov; }
+    
+    .path-frontpage .view-about-us-block article { 
+        color: $aboutFBArticle;
+    }
+}
+    
+@media screen and (min-width: 1200px){
+    .path-frontpage .view-about-us-block h2 a { 
+        color: $aboutFBHeadLink;
+    }
+        
+    .path-frontpage .view-about-us-block h2 a:hover { color: $aboutFBHeadLinkHov; }
+        
+    .path-frontpage .view-about-us-block article { 
+        color: $aboutFBArticle; 
+    }
+}
+
+.path-frontpage .view-about-us-block{
+    background-image: $aboutFBBackgroundIMG; 
+}
+
+.path-frontpage .view-about-us-block .view-header h2 a:hover{ color: $aboutFBHeaderHeadLinkHov; }
+
+.path-frontpage .view-about-us-block .view-content .views-field-title h2 a{ color: $aboutFBHeaderHeadLink; }
+
+.path-frontpage .view-about-us .view-content .views-field .field-content .img-frame{
+    border-color: $aboutFBImgFrame;  
+}
+
+.path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div { 
+    color: $aboutFBFigCap; 
+}
+
+.path-frontpage .view-about-us .view-content .views-field .field-content .team-text figcaption div a { 
+    color: $aboutFBFigCapLink;
+}
+
+.path-frontpage .view-id-about_us .img-frame .img-responsive { 
+  filter: brightness(60%); 
+  transition: all .5s;
+}
+.path-frontpage .view-id-about_us  .img-frame .img-responsive:hover { filter: brightness(100%); }

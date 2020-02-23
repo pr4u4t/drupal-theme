@@ -1,0 +1,24 @@
+$opinionsBlockViewHeader: #fff !default;
+$opinionsBlockViewHeaderBorder: #9d865c !default;
+$opinionsBlockViewHeaderHeadLink: #fff !default;
+$opinionsBlockViewHeaderHeadLinkHov: grey !default;
+$opinionsBlockOpinionsBorder: #b89c68 !default;
+$opinionsBlockOpinionsBack: #403b33 !default;
+$opinionsBlockCarouselCtrlBack: transparent !default;
+
+.opinions-block .view-header {
+    color: $opinionsBlockViewHeader;
+    border-color: $opinionsBlockViewHeaderBorder;
+}
+.opinions-block .view-header h2 a{ color: $opinionsBlockViewHeaderHeadLink; }
+.opinions-block .view-header h2 a:hover{ color: $opinionsBlockViewHeaderHeadLinkHov; }
+
+.opinions-block .opinions{
+    border-color: $opinionsBlockOpinionsBorder;
+    background-color: $opinionsBlockOpinionsBack;
+}
+
+.path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-prev,
+.path-frontpage .opinions-block .jcarousel-wrapper .jcarousel-control-next{
+    background: $opinionsBlockCarouselCtrlBack;
+}

@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width:480px){  
-  .path-blog .views-field-field-image img{
+  .path-offer .views-field-field-image img{
       width:100% !important; 
       float: none !important; 
       margin: auto;
@@ -55,20 +55,20 @@
     margin-top:3em; 
 }
 
-.path-blog .view-offer-page .views-field-title a,
-.path-blog .view-offer-page .views-field-title a:active,
-.path-blog .view-offer-page .views-field-title a:hover,
-.path-blog .view-offer-page .views-field-title a:link,
-.path-blog .view-offer-page .views-field-title a:visited{
+.path-offer .view-offer-page .views-field-title a,
+.path-offer .view-offer-page .views-field-title a:active,
+.path-offer .view-offer-page .views-field-title a:hover,
+.path-offer .view-offer-page .views-field-title a:link,
+.path-offer .view-offer-page .views-field-title a:visited{
   font-weight:500;
   font-size: 1.8em;
 }
 
-.path-blog .view-offer-page .views-row:first-child{
+.path-offer .view-offer-page .views-row:first-child{
   margin-right:3em;
 }
 
-.path-blog .view-offer-page .views-field-created{
+.path-offer .view-offer-page .views-field-created{
   position: absolute;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -77,11 +77,11 @@
   width: 3em;
 }
 
-.path-blog .view-offer-page .views-field-uid a:before{
+.path-offer .view-offer-page .views-field-uid a:before{
   content:' - ';
 }
 
-.path-blog .title-page-title h2 {
+.path-offer .title-page-title h2 {
   font-size:31px;
   text-decoration: underline;
   text-align: center;
