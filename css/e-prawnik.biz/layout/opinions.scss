@@ -29,14 +29,6 @@
 	text-align: justify;
 	border: solid;  
 }
-.opinions-block .opinions p + p {text-align: right; font-weight:900;}
-
-.opinions-block .opinions h2 { 
-    display: none; 
-}
-.path-frontpage .opinions-block .jcarousel-wrapper ul li article {height:100%!important;}
-.path-frontpage .opinions-block .jcarousel-wrapper ul li {height:100%!important;}
-.path-frontpage .opinions-block .jcarousel-wrapper ul {height:80%!important;}
 
 .opinions-block .opinions .img-responsive{
   margin-left: auto;
@@ -220,3 +212,11 @@
     max-width:23em;
   }
 }
+.opinions-block .opinions p + p {text-align: right; font-weight:900;}
+
+.opinions-block .opinions h2 { 
+    display: none; 
+}
+.path-frontpage .opinions-block .jcarousel-wrapper ul li article {height:100%!important;}
+.path-frontpage .opinions-block .jcarousel-wrapper ul li {height:100%!important;}
+.path-frontpage .opinions-block .jcarousel-wrapper ul {height:80%!important;}
