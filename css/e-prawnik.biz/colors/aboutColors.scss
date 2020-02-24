@@ -34,7 +34,7 @@ $aboutFBFigCapLink: #fff !default;
 }
 
 .path-frontpage .view-about-us-block{
-    background-image: $aboutFBBackgroundIMG; 
+    background: $aboutFBBackgroundIMG; 
 }
 
 .path-frontpage .view-about-us-block .view-header h2 a:hover{ color: $aboutFBHeaderHeadLinkHov; }
