@@ -54,13 +54,13 @@
 
 .path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-next:after{
   right: -2em;
+  top:15%;
 }
 
 .path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-prev:after{
   left: -2em;
+  top:15%;
 }
-
- 
 @media screen and (max-width:360px){
   .path-frontpage .view-trust figure{
     margin:0 !important;
@@ -68,16 +68,16 @@
   }
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:66.5vw !important;
-    overflow: hidden;
-    height:17.8em;
+    overflow: hidden;    
     position: relative;
     right:5.5vw;
     margin-right:16vw;
-    height:24em;
+    height:18em;
   }
   .path-frontpage .view-trust .jcarousel-wrapper{
     width:70vw;
-    height:14em;
+    height:18em;
+    padding-left: 9vw;
   }
 }
 @media screen and (min-width:361px) and (max-width:480px){
@@ -88,7 +88,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:66.5vw !important;
     overflow: hidden;
-    height:17.8em;
     position: relative;
     right:5.5vw;
     margin-right:16vw;
@@ -97,6 +96,7 @@
   .path-frontpage .view-trust .jcarousel-wrapper{
     width:70vw;
     height:16em;
+    padding-left: 6vw;
   }
 }
 @media screen and (min-width:481px) and (max-width:640px){
@@ -107,7 +107,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:63.5vw !important;
     overflow: hidden;
-    height:17.8em;
     position: relative;
     right:5.5vw;
     margin-right:20vw;
@@ -116,7 +115,7 @@
   .path-frontpage .view-trust .jcarousel-wrapper{
     width:70vw;
     height:22em;
-    padding-left: 2vw;
+    padding-left: 5vw;
   }  
 }
 @media screen and (min-width:641px) and (max-width:1024px){
@@ -127,7 +126,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:37vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:6vw;
     height:18em;
   }
@@ -145,7 +143,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:25vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:1.75vw;
     height:14em;
   }
@@ -162,7 +159,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:25vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:1.75vw;
     height:16em;
   }
@@ -179,7 +175,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:25vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:1.75vw;
     height:16em;
   }
@@ -196,7 +191,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:25vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:1.75vw;
     height:18em;
   }
@@ -213,7 +207,6 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:23.5vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:3vw;
     height:18em;
   }
@@ -229,16 +222,15 @@
     height:14em;
   }
   .path-frontpage .view-trust .jcarousel-wrapper li{
-    width:16.5vw !important;
+    width:17vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:2vw;
     height:14em;    
   }
   .path-frontpage .view-trust .jcarousel-wrapper{
     width:80vw;
     height:14em;
-    padding-left:1vw;
+    padding-left:2vw;
   } 
 }
 @media screen and (min-width:1681px) and (max-width:1720px){
@@ -249,14 +241,13 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:16.4vw !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:2vw;
     height:14em;    
   }
   .path-frontpage .view-trust .jcarousel-wrapper{
     width:80vw;
     height:14em;
-    padding-left:0;
+    padding-left:2vw;
   } 
 }
 @media screen and (min-width:1721px) and (max-width:1820px){
@@ -265,9 +256,8 @@
   height:14em;
   }
   .path-frontpage .view-trust .jcarousel-wrapper li{
-  width:15vw !important;
+  width:16vw !important;
   overflow: hidden;
-  height:17.8em;
   margin-right:2vw;
   height:14em;
   }
@@ -283,16 +273,15 @@
   height:14em;
   }
   .path-frontpage .view-trust .jcarousel-wrapper li{
-  width:14vw !important;
+  width:15vw !important;
   overflow: hidden;
-  height:17.8em;
   margin-right:2vw;
   height:14em;
   }
   .path-frontpage .view-trust .jcarousel-wrapper{
   width:80vw;
   height:14em;
-  padding-left:1vw
+  padding-left:0vw;
   }  
 }
 @media screen and (min-width:1921px){
@@ -303,17 +292,15 @@
   .path-frontpage .view-trust .jcarousel-wrapper li{
     width:17em !important;
     overflow: hidden;
-    height:17.8em;
     margin-right:2em;
     height:14em;
   }
   .path-frontpage .view-trust .jcarousel-wrapper{
     width:80vw;
     height:14em;
-    padding-left: 1.8%;
+    padding-left: 2vw;
   }  
 }
-
 
 .path-frontpage .view-trust article{
   height:100%;
