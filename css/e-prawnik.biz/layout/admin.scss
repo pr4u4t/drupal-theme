@@ -250,3 +250,23 @@
 .path-admin #edit-displays-settings-settings-content-tab-content-details-columns-first .views-ui-display-tab-bucket .dropdown [data-dropdown-target="#views-add-filter"]{
   height:100%;
 }
+#edit-display-settings-details .btn-group [type="submit"]{
+  height:100%;
+  background-position: .7em 1em;
+}
+
+#edit-display-settings-details .btn-group .dropdown-menu li a{
+  display: inline-block;
+  text-indent: 0;
+  width:100%;
+  height:initial;
+  border-radius: 0;
+  box-shadow: none;
+  border-left:0;
+  border-right:0;
+  border-top:0;
+}
+
+#edit-display-settings-details .btn-group .dropdown-menu li a:last-child{
+  border-bottom: 0;
+}
