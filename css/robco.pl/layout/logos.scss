@@ -1,8 +1,9 @@
-
-.logos-block .teaser{margin:0;}
+.no-container .container{margin:auto;max-width:1920px;}
+.logos-block .teaser{margin:1em;}
 .logos-block .logos{
   height: 150px;
 }
+.path-frontpage .logos-block .jcarousel-wrapper.jcarousel-skin-tango{margin:0;max-width:100%;}
 
 .logos-block .logos .img-responsive{
 margin-left: auto;
@@ -42,7 +43,7 @@ margin-top:12%;
   flex-direction: row;
   align-items: stretch;
 }
-.path-frontpage .logos-block {padding:0;}
+
 .path-frontpage .logos-block .jcarousel-wrapper.jcarousel-skin-tango{width:100%;}
 @media screen and (min-width:1480px){
 .path-frontpage .logos-block .jcarousel-wrapper ul li { width:25.4em!important; }
