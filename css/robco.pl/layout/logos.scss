@@ -1,4 +1,4 @@
-.no-container .container{margin:auto;max-width:1920px;}
+.no-container .container{margin:auto;max-width:1500px;}
 .logos-block .teaser{margin:1em;}
 .logos-block .logos{
   height: 220px;
@@ -46,19 +46,19 @@ margin-top:12%;
 
 .path-frontpage .logos-block .jcarousel-wrapper.jcarousel-skin-tango{width:100%;}
 @media screen and (min-width:1480px){
-.path-frontpage .logos-block .jcarousel-wrapper ul li { width:25.4em!important; }
+.path-frontpage .logos-block .jcarousel-wrapper ul li { width:23.5em!important; }
 }
 @media screen and (min-width:1321px) and (max-width:1479px){
-.path-frontpage .logos-block .jcarousel-wrapper ul li { width:26.9vw!important; }
+.path-frontpage .logos-block .jcarousel-wrapper ul li { width:24vw!important; }
 }
-@media screen and (min-width:1201px) and (max-width:1320px){
-.path-frontpage .logos-block .jcarousel-wrapper ul li { width:39.6vw!important; }
+@media screen and (min-width:1001px) and (max-width:1320px){
+.path-frontpage .logos-block .jcarousel-wrapper ul li { width:32vw!important; }
 }
-@media screen and (min-width:681px) and (max-width:1200px){
-.path-frontpage .logos-block .jcarousel-wrapper ul li { width:46vw!important; }
+@media screen and (min-width:681px) and (max-width:1000px){
+.path-frontpage .logos-block .jcarousel-wrapper ul li { width:48vw!important; }
 }
 @media screen and (max-width:680px){
-.path-frontpage .logos-block .jcarousel-wrapper ul li { width:87.5vw!important; }
+.path-frontpage .logos-block .jcarousel-wrapper ul li { width:94vw!important; }
 }
 
 .path-frontpage .logos-block article .content{
