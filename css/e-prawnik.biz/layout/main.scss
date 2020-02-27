@@ -85,8 +85,9 @@ h2 a span{
 /*---------------------------TITLE--------------------------------*/
 
 .title-page-title { margin:1em 5% 1em 0; }
-.path-node .title-page-title{ margin-top:6em; }
-.path-blog .title-page-title{ margin-top:6em; }
+.path-node .title-page-title,
+.path-blog .title-page-title,
+.path-about-us .title-page-title{ margin-top:6em; }
 
 /*-------------------DRAG-AND-DROP-PAGE---------------------------*/
 .drag-and-drop-page  .carousel-reduced {
