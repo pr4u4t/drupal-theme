@@ -3,6 +3,7 @@ $trustBlockViewHeaderBorder: #9d865c !default;
 $trustBlockViewHeaderHeadLink: #fff !default;
 $trustBlockViewHeaderHeadLinkHov: grey !default;
 $trustCarouselCtrl: #fff !default;
+$trustCarouselCtrlBack: none !default;
 
 .trust-block .view-header {
     color: $trustBlockViewHeader;
@@ -10,6 +11,11 @@ $trustCarouselCtrl: #fff !default;
 }
 .trust-block .view-header h2 a{ color: $trustBlockViewHeaderHeadLink; }
 .trust-block .view-header h2 a:hover{ color: $trustBlockViewHeaderHeadLinkHov; }
+
+.path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-next,
+.path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-prev{
+    background: $trustCarouselCtrlBack;
+}
 
 .path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-next:after,
 .path-frontpage .view-trust .jcarousel-wrapper .jcarousel-control-prev:after{
