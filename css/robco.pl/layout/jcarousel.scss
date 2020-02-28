@@ -24,13 +24,13 @@
 .jcarousel-view .jcarousel .js-form-item-price .control-label {text-align: center;}
 .jcarousel-view .input-group .form-range{width:100%;}
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0; }
-[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
-input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+.jcarousel-view.view-configure-services .jcarousel input[type=number]::-webkit-inner-spin-button,
+.jcarousel-view.view-configure-services .jcarousel input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0; }
+.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+.jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 @media screen and (min-width:1200px){
-	[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em}
-	input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em}
+	.jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 	.jcarousel-view .view-content {margin-left: -33em;}
 /*	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: right; margin-bottom: -1em;}
 	.jcarousel-view .jcarousel .js-form-item-price {padding-left: 20%; margin-left: 70%; }
@@ -40,8 +40,8 @@ input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 */
 }
 @media screen and (min-width:769px) and (max-width: 1199px){
-	[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
-	input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+	.jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 /*	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: center; margin-bottom: -1em;}
 	.jcarousel-view .jcarousel .js-form-item-price {padding-left: 20%; margin-left: 70%; }
         .jcarousel-view .jcarousel .js-form-item-price span {font-size: 1.7em;}
@@ -49,8 +49,8 @@ input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 */
 }
 @media screen and (max-width: 768px){
-	[type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
-	input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
+	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+	.jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 /*	.jcarousel-view .jcarousel-skin-tango li { padding: 1em; padding-right: 4em; width:21em !important;}
 	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: center; margin-bottom: -1em;}
 	.jcarousel-view .jcarousel .js-form-item-price {margin-left: 70%; }
