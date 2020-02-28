@@ -72,6 +72,11 @@ margin-top:12%;
 .path-frontpage .opinions-block .jcarousel-wrapper ul li { height: 90%; }
 .path-frontpage .opinions-block .jcarousel-wrapper{height:auto;}
 
+.path-frontpage .opinions-block .jcarousel-wrapper .jcarousel {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
 
 .path-frontpage .opinions-block .jcarousel-wrapper .jcarousel .jcarousel-container-horizontal {
   display: flex;
