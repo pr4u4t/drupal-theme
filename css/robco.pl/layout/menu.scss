@@ -87,8 +87,6 @@
 	padding:3em;
 }
 
-#navbar .container .container-row .container-col { height:60px; }
-
 .body--glazed-nav-mobile #glazed-main-menu .main-navigation-block{
   max-height: calc(100vh - 13.5em);
   overflow-y: auto;
@@ -195,3 +193,8 @@
 
 .user-logged-in .affix { top:initial !important; }
 .user-logged-in #toolbar-bar{ position:fixed; top: 0; z-index: 5050;}
+
+.html--glazed-sticky-footer .body--glazed-nav-desktop .glazed-header--top{height: 80px!important;}
+.html--glazed-sticky-footer .body--glazed-nav-mobile .glazed-header--top{height: 60px!important;}
+.body--glazed-nav-desktop #navbar .container .container-row .container-col { height:80px!important; }
+.body--glazed-nav-mobile #navbar .container .container-row .container-col { height:60px!important; }
