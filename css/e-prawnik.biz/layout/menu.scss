@@ -1,5 +1,19 @@
 .body--glazed-nav-desktop #navbar .container .container-row .navbar-header { width: 205px;}
 
+.body--glazed-nav-desktop .navbar-nav > li > a[href$="blog"] + ul > li > a {white-space: normal;}
+.body--glazed-nav-desktop .navbar-nav > li > a[href$="blog"] + ul > li  {margin: .5em 1em;width:700px!important;height: auto;}
+.body--glazed-nav-desktop .navbar-nav > li > a[href$="blog"] + ul  {width:800px;top:100%;margin-top:0; height: auto;min-height: 15em; left:-300px!important;}
+
+.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="oferta"] + .dropdown-menu,
+.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="offer"] + .dropdown-menu{
+  left:20% !important; 
+}
+
+.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="oferta"] + .dropdown-menu .dropdown,
+.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="offer"] + .dropdown-menu .dropdown{
+  width:50% !important; 
+}
+
 /*.body--glazed-nav-mobile .main-navigation-block { 
     -webkit-box-ordinal-group: 3; 
     -moz-box-ordinal-group: 3;
