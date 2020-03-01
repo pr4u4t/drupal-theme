@@ -40,8 +40,9 @@
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #glazed-main-menu.menu--open .menu__breadcrumbs{margin-left:240px}
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-horizontal #glazed-main-menu.menu--open .menu__breadcrumbs{top:220px!important;}
 
-.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs{top:250px!important;left:-1.5em!important;}
-.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs{top:170px!important;left:-1.5em!important;}
+.body--glazed-nav-mobile .glazed-main-menu.menu--open .menu__breadcrumbs{top:250px!important;left:-1em!important;}
+.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs{top:170px!important;left:-1em!important;}
+.body--glazed-nav-mobile.user-logged-in .glazed-main-menu.menu--open .menu__breadcrumbs { margin-top: 120px !important;}
 
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-horizontal .glazed-header--side #glazed-main-menu {padding-top:160px!important;}
 
