@@ -193,16 +193,21 @@
 .user-logged-in .affix { top:initial !important; }
 .user-logged-in #toolbar-bar{ position:fixed; top: 0; z-index: 5050;}
 
+
+.html--glazed-sticky-footer .body--glazed-nav-mobile .glazed-header--top,
+.body--glazed-nav-mobile #navbar .container .container-row .container-col,
+.body--glazed-nav-mobile .glazed-header--top .glazed-main-men,
+.body--glazed-nav-mobile #navbar .container .container-row .navbar-header,
+.body--glazed-nav-mobile #navbar .container .container-row .navbar-header .wrap-branding{ height:60px!important;} 
+
+.body--glazed-nav-desktop #navbar .container .container-row .navbar-header .wrap-branding,
+.body--glazed-nav-desktop #navbar .container .container-row .navbar-header,
+.body--glazed-nav-desktop .glazed-header--top .glazed-main-menu,
+.body--glazed-nav-desktop #navbar .container .container-row .container-col,
 .html--glazed-sticky-footer .body--glazed-nav-desktop .glazed-header--top{height: 80px!important;}
-.html--glazed-sticky-footer .body--glazed-nav-mobile .glazed-header--top{height: 60px!important;}
-.body--glazed-nav-desktop #navbar .container .container-row .container-col { height:80px!important; }
-.body--glazed-nav-mobile #navbar .container .container-row .container-col { height:60px!important; }
-.body--glazed-nav-desktop .glazed-header--top .glazed-main-menu{height:80px!important;}
-.body--glazed-nav-mobile .glazed-header--top .glazed-main-men{height:60px!important;}
-.body--glazed-nav-desktop #navbar .container .container-row .navbar-header { height:80px!important;}
-.body--glazed-nav-mobile #navbar .container .container-row .navbar-header { height:60px!important; }
-.body--glazed-nav-desktop #navbar .container .container-row .navbar-header .wrap-branding{ height:80px!important; position:absolute;}
-.body--glazed-nav-mobile #navbar .container .container-row .navbar-header .wrap-branding{ height:60px!important; position:absolute;}
+
+.body--glazed-nav-desktop #navbar .container .container-row .navbar-header .wrap-branding,
+.body--glazed-nav-mobile #navbar .container .container-row .navbar-header .wrap-branding{ position:absolute; }
 
 #navbar .navbar-container .container-row .navbar-header .region-navigation .wrap-branding {display: table;}
 #navbar .navbar-container .container-row .navbar-header .region-navigation .wrap-branding #logo {display: table-cell; vertical-align: middle;}
