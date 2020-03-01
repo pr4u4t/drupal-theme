@@ -152,5 +152,7 @@ article .view-content{
     height: 3em;
 }
 
-.body--glazed-nav-desktop .main-container { margin-top:80px !important;  }
-.body--glazed-nav-mobile .main-container { margin-top:60px !important;  }
+.body--glazed-nav-desktop .wrap-containers .content-top-container {margin-top:80px;}
+.body--glazed-nav-mobile .wrap-containers .content-top-container {margin-top:60px;}
+.path-frontpage .body--glazed-nav-desktop .main-container { margin-top:80px !important;  }
+.path-frontpage .body--glazed-nav-mobile .main-container { margin-top:60px !important;  }
