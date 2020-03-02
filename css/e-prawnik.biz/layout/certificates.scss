@@ -6,6 +6,9 @@
   border-bottom: solid;
   border-bottom-style: groove;
 }
+.path-frontpage .view-certificates .jcarousel-wrapper li{
+  overflow: hidden;
+}
 
 @media screen and (max-width:360px){
 .certificates-block .views-col{ width: 100% !important; }
