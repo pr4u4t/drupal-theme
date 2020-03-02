@@ -280,3 +280,8 @@
 #views-exposed-form-user-admin-people-page-1 .form-item-user .control-label { display:block; }
 
 #views-exposed-form-block-content-page-1 .form-item-info .control-label { display:block; }
+
+#editor-settings-wrapper .ckeditor-toolbar-available #ckeditor-available-buttons .ckeditor-button a{
+  width:2em !important;
+  height:2em !important;
+}
