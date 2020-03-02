@@ -1,0 +1,34 @@
+<?php
+
+function robco_form_view_edit_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id = NULL) {
+        if(isset($form['displays']) && isset($form['displays']['top']) && isset($form['displays']['top']['add_display'])){
+                $tmp = $form['displays']['top']['add_display'];
+                $form['displays']['top']['add_display'] = [
+                        '#type'         => 'dropbutton',
+                        '#attributes'   => [],
+                        '#links'        => $tmp
+                ];      
+        }
+
+        /* TODO: if(isset($form['displays']) && isset($form['displays']['top']) && isset($form['displays']['top']['extra_actions']) 
+                && isset($form['displays']['top']['extra_actions']['#links'])){
+                foreach($form['displays']['top']['extra_actions']['#links'] as &$link){
+                        if(isset($link['title'])){
+                                $link['#value'] = $link['title'];
+                                unset($link['title']);
+                        }
+
+                        $link['#type'] = 'submit';
+                        
+                        if(isset($link['url'])){
+                                unset($link['url']);
+                        }
+
+                        if(isset($link['attributes'])){
+                                $link['#attributes'] = $link['attributes'];
+                                unset($link['attributes']);
+                        }
+                }
+        }
+        */
+}

@@ -271,7 +271,12 @@
   border-bottom: 0;
 }
 #edit-page-style .panel-body .form-item:nth-child(3) {margin-top: 2em}
+#edit-displays #views-display-top #views-display-menu-tabs .add { display:none; }
 
 .body--glazed-nav-desktop.toolbar-fixed.toolbar-horizontal .region.region-content{top:0!important}
 .path-frontpage .region.region-content .tabs .glazed-mini-tabs-wrapper .tabs--primary{margin:0!important;}
 .path-frontpage .region.region-content .tabs .glazed-mini-tabs-wrapper {margin:0!important;}
+
+#views-exposed-form-user-admin-people-page-1 .form-item-user .control-label { display:block; }
+
+#views-exposed-form-block-content-page-1 .form-item-info .control-label { display:block; }
