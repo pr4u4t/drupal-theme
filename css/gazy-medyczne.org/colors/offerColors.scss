@@ -1,0 +1,5 @@
+$offerLinkAfter: #dd0c39 !default;
+$offerLinkHov: #dd0c39 !default;
+
+.view-offer-block .view-header+.view-content .views-row .views-field-field-link{color:$offerLinkAfter;}
+.view-offer-block .view-header+.view-content .views-row .views-field-field-link .field-content a:hover{color:$offerLinkHov;}
