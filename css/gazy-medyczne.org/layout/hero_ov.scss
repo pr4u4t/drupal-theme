@@ -1,4 +1,3 @@
-.hero-section .hero-block .hero-column-1{ padding:0 3em; }
 @media screen and (max-width:768px){
 	.hero-section .hero-block .hero-column-1{ width:100%; }  
 }	
@@ -44,19 +43,11 @@
   position: static !important;
 }
 
-.path-frontpage .hero-block .view-footer{
-  position: absolute;
-  left: 0;
-  width: 100vw;
-}
 
 @media screen and (min-width:1280px) {
-  .hero-section {
-    min-height:26.5em;
-  }
-  
-  .hero-section{top:-2.25em}
-  .hero-block{margin-top:-1.6em;}  
+  .hero-section {min-height:26.5em;}
+  .hero-section{top:-2.25em;}
+  .hero-block{margin-top:-1.9em;}  
 }
 
 .body--glazed-nav-desktop .hero-section:before{
@@ -77,17 +68,14 @@
   position: relative;
   left:-0.1em;
 }
-.hero-section .container{padding:0;margin:0;max-width: none}
-.hero-block{width:100vw;}
-.hero-block .view-content{width:100vw;}
+.hero-section{max-width:1920px;margin:auto;}
+.hero-section .container{padding:0;margin:0;max-width:1920px;}
+.hero-section .container .az-row{max-width:1500px!important;margin:auto;padding: 0 3em;}
+.hero-block{width:100vw;max-width:1920px;}
+.hero-block .view-content{width:100vw;max-width:1920px;}
 .hero-block .jcarousel-wrapper.jcarousel-skin-tango.jcarousel-visible-1 li .article > h2{display:none;}
-.hero-block .jcarousel-wrapper.jcarousel-skin-tango.jcarousel-visible-1{max-width:none;width:100vw;height:auto;margin:0;}
-.hero-block .jcarousel-wrapper.jcarousel-skin-tango.jcarousel-visible-1 li{height:auto;width:100vw;}
+.hero-block .jcarousel-wrapper.jcarousel-skin-tango.jcarousel-visible-1{max-width:1920px;width:100vw;height:auto;margin:0;}
+.hero-block .jcarousel-wrapper.jcarousel-skin-tango.jcarousel-visible-1 li{height:auto;width:100vw;max-width: 1920px;}
 .hero-block .jcarousel-wrapper.jcarousel-skin-tango.jcarousel-visible-1 li .article .content .az-section {padding:10vw 0;}
 
-
-
-
-
-
-
+#navbar{max-width: 1920px;margin:auto;}
