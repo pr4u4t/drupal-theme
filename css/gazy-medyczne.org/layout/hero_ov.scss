@@ -62,9 +62,10 @@
 .body--glazed-nav-desktop .hero-section:after{
   content: " ";
   white-space: pre;
+  margin-top:-2em;
   display:block;
   height:4.5em;
-  transform: rotate(2.65deg);
+  transform: rotate(1.95deg);
   position: relative;
   left:-0.1em;
 }
