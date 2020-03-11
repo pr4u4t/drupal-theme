@@ -1,3 +1,7 @@
+.body--glazed-nav-desktop .glazed-header--top .nav > li {display: block;}
+.body--glazed-nav-desktop .glazed-header--top .nav > li > a {display: table;height: 100%;}
+.body--glazed-nav-desktop .glazed-header--top .nav > li > a > span{display: table-cell;vertical-align: middle;}
+.body--glazed-nav-desktop .glazed-header--top .nav > li > a:after{display: table-cell;vertical-align: middle;}
 
 /*.body--glazed-nav-desktop .navbar.affix-top .block-system-menu-blockmain .menu .dropdown > .dropdown-menu {margin-top:55px!important;}
 .body--glazed-nav-desktop .navbar.affix .block-system-menu-blockmain .menu .dropdown > .dropdown-menu {margin-top:30px!important;}*/
