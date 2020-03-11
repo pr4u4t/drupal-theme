@@ -31,7 +31,7 @@
     <ul{{ attributes.addClass(menu_level == 0 ? classes : local_dropdown_classes) }}>
     {% for item in items %}
       {% set item_classes = item.url.getOption('container_attributes').class | split(" ") %}
-      {% set link_title = item.title %}
+      {% set link_title %}  <span class="title"> {{ item.title }} </span> {% endset %}
       {% set link_attributes = item.link_attributes %}
       {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}
@@ -61,7 +61,7 @@
         {% elseif  menu_level == 1 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="glazed-megamenu__heading" data-target="#"><span>{{ item.title }}</span></a>
 	{% elseif "dropdown-menu" in rendered_content|render %}
-	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#"><span class="title">{{ item.title }}</span></a>
+	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }} </a>
 	  {% set menu_level_child = menu_level + 1 %}
 	  {# {% set rendered_content = rendered_content|htmlcontent("class","dropdown-menu","menu-level-" ~ menu_level_child) %} #}
 	  
