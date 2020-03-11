@@ -57,11 +57,11 @@
 
       <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
-          <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
+          <a href="{{ item.url }}" class="dropdown-toggle" data-target="#"><span>{{ item.title }}</span></a>
         {% elseif  menu_level == 1 and item.is_expanded and item.below %}
-          <a href="{{ item.url }}" class="glazed-megamenu__heading" data-target="#">{{ item.title }}</a>
+          <a href="{{ item.url }}" class="glazed-megamenu__heading" data-target="#"><span>{{ item.title }}</span></a>
 	{% elseif "dropdown-menu" in rendered_content|render %}
-	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
+	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#"><span>{{ item.title }}</span></a>
 	  {% set menu_level_child = menu_level + 1 %}
 	  {# {% set rendered_content = rendered_content|htmlcontent("class","dropdown-menu","menu-level-" ~ menu_level_child) %} #}
 	  
