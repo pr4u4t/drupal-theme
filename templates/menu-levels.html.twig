@@ -31,18 +31,19 @@
     <ul{{ attributes.addClass(menu_level == 0 ? classes : local_dropdown_classes) }}>
     {% for item in items %}
       {% set item_classes = item.url.getOption('container_attributes').class | split(" ") %}
+      {% set link_title = item.title %}
+      {% set link_attributes = item.link_attributes %}
+      {% set rendered_content = item.content %}
+      {% set rendered_content = rendered_content|render %}
       {%
         set item_classes = [
           'expanded dropdown',
           item.in_active_trail ? 'active active-trail',
           loop.first ? 'first',
           loop.last ? 'last',
+	  (item.below or item.content) ? 'has-child'
         ]
       %}
-      {% set link_title = item.title %}
-      {% set link_attributes = item.link_attributes %}
-      {% set rendered_content = item.content %}
-      {% set rendered_content = rendered_content|render %}
       {% if item.below %}    
       	{% set item_tail = _self.menu_links(item.below, attributes.removeClass(classes).removeClass(local_dropdown_classes), menu_level + 1, classes, dropdown_classes) %}
       	{% if menu_level == 0 and "megamenu__heading" in item_tail %}
@@ -62,7 +63,8 @@
 	{% elseif "dropdown-menu" in rendered_content|render %}
 	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }}</a>
 	  {% set menu_level_child = menu_level + 1 %}
-	  {% set rendered_content = rendered_content|htmlcontent("class","dropdown-menu","menu-level-" ~ menu_level_child) %}
+	  {# {% set rendered_content = rendered_content|htmlcontent("class","dropdown-menu","menu-level-" ~ menu_level_child) %} #}
+	  
 	{% else %}
           {{ link(link_title, item.url) }}
         {% endif %}
