@@ -41,7 +41,7 @@
           item.in_active_trail ? 'active active-trail',
           loop.first ? 'first',
           loop.last ? 'last',
-	  (item.below or item.content) ? 'has-child'
+	  (item.below or rendered_content|length) ? 'has-child'
         ]
       %}
       {% if item.below %}    
@@ -57,11 +57,11 @@
 
       <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
-          <a href="{{ item.url }}" class="dropdown-toggle" data-target="#"><span>{{ item.title }}</span></a>
+          <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ link_title }}</a>
         {% elseif  menu_level == 1 and item.is_expanded and item.below %}
-          <a href="{{ item.url }}" class="glazed-megamenu__heading" data-target="#"><span>{{ item.title }}</span></a>
+          <a href="{{ item.url }}" class="glazed-megamenu__heading" data-target="#">{{ link_title }}</a>
 	{% elseif "dropdown-menu" in rendered_content|render %}
-	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ item.title }} </a>
+	  <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ link_title }} </a>
 	  {% set menu_level_child = menu_level + 1 %}
 	  {# {% set rendered_content = rendered_content|htmlcontent("class","dropdown-menu","menu-level-" ~ menu_level_child) %} #}
 	  
