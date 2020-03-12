@@ -41,10 +41,10 @@
           item.in_active_trail ? 'active active-trail',
           loop.first ? 'first',
           loop.last ? 'last',
-	  (item.below or rendered_content|length) ? 'has-child'
+	  ((item.below is not empty ) or (rendered_content|length)) ? 'has-child'
         ]
       %}
-      {% if item.below %}    
+      {% if item.below is not empty %}    
       	{% set item_tail = _self.menu_links(item.below, attributes.removeClass(classes).removeClass(local_dropdown_classes), menu_level + 1, classes, dropdown_classes) %}
       	{% if menu_level == 0 and "megamenu__heading" in item_tail %}
                 {% set listyle = 'position:static;' %}
@@ -69,7 +69,7 @@
           {{ link(link_title, item.url) }}
         {% endif %}
 	
-      	{% if rendered_content|length %}
+      	{% if rendered_content|raw|length %}
         	<div class="dropdown-menu">{{ rendered_content|raw }}</div>
       	{% endif %}
 	{% if item_tail %}
