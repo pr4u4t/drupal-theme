@@ -70,7 +70,7 @@
         {% endif %}
 	
       	{% if rendered_content|length %}
-        	{{ rendered_content|raw }}
+        	<div class="dropdown-menu">{{ rendered_content|raw }}</div>
       	{% endif %}
 	{% if item_tail %}
           {{ item_tail }}
