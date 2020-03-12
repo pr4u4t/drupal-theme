@@ -35,14 +35,13 @@
       {% set link_attributes = item.link_attributes %}
       {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}
-      {% set rendered_content %} {{rendered_content|raw|trim}} {% endset %}
       {%
         set item_classes = [
           'expanded dropdown',
           item.in_active_trail ? 'active active-trail',
           loop.first ? 'first',
           loop.last ? 'last',
-	  ((item.below is not empty ) or (rendered_content|length)) ? 'has-child'
+	  ((item.below is not empty ) or (rendered_content|raw|trim|length)) ? 'has-child'
         ]
       %}
       {% if item.below is not empty %}    
@@ -70,8 +69,8 @@
           {{ link(link_title, item.url) }}
         {% endif %}
 	
-      	{% if rendered_content|length %}
-        	<div class="dropdown-menu">{{ rendered_content }}</div>
+      	{% if rendered_content|raw|trim|length %}
+        	<div class="dropdown-menu">{{ rendered_content|raw }}</div>
       	{% endif %}
 	{% if item_tail %}
           {{ item_tail }}
