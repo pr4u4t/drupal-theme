@@ -35,7 +35,7 @@
       {% set link_attributes = item.link_attributes %}
       {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}
-      {% set rendered_content %} {{rendered_content|raw}} {% endset %}
+      {% set rendered_content %} {{rendered_content|raw|trim}} {% endset %}
       {%
         set item_classes = [
           'expanded dropdown',
