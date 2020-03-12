@@ -35,6 +35,7 @@
       {% set link_attributes = item.link_attributes %}
       {% set rendered_content = item.content %}
       {% set rendered_content = rendered_content|render %}
+      {% set rendered_content %} {{rendered_content|raw}} {% endset %}
       {%
         set item_classes = [
           'expanded dropdown',
@@ -69,8 +70,8 @@
           {{ link(link_title, item.url) }}
         {% endif %}
 	
-      	{% if rendered_content|raw|length %}
-        	<div class="dropdown-menu">{{ rendered_content|raw }}</div>
+      	{% if rendered_content|length %}
+        	<div class="dropdown-menu">{{ rendered_content }}</div>
       	{% endif %}
 	{% if item_tail %}
           {{ item_tail }}
