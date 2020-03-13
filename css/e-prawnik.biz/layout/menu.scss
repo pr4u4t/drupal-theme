@@ -14,6 +14,19 @@
   width:50% !important; 
 }
 
+.body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div.dropdown-menu{
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div.dropdown-menu .viewsreference--view-title{
+  display: none;
+}
+
+.body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div.dropdown-menu .menu-list .dropdown-menu{
+  position: static !important;
+}
+
 /*.body--glazed-nav-mobile .main-navigation-block { 
     -webkit-box-ordinal-group: 3; 
     -moz-box-ordinal-group: 3;
