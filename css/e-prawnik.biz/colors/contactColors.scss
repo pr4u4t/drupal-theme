@@ -13,11 +13,12 @@ $contactWebformSubmitBackHov: grey !default;
 $contactWebformSubmitBorderHov: #b19562 !default;
 $contactBlock: #fff !default;
 
-.view-contact-block .view-header { 
-    color: $contactBlock; 
+.view-contact-block .hosting-attachment-view { 
+    color: $contactBlock;
+}
+.view-contact-block .hosting-attachment-view:after { 
     border-color: $contactBorder;
 }
-
 .view-contact-block .view-header h2 a{ color: $contactHeaderLink; }
 
 .view-contact-block .view-header h2 a:hover{ color: $contactHeaderLinkHov; }
