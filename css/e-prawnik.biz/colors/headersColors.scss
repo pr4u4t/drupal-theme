@@ -1,18 +1,31 @@
+$defaultBlock: #fff !default;
+$defaultBorder: groove 2px #9d865c !default;
+$defaultHeaderLink: #fff !default;
+$defaultHeaderLinkHov: grey !default;
 $contactBlock: #fff !default;
-$contactBorder: #9d865c !default;
+$contactBorder: groove 2px #9d865c !default;
 $contactHeaderLink: #fff !default;
 $contactHeaderLinkHov: grey !default;
-$certBlockViewHeaderBorder: #9d865c !default;
+$certBlockViewHeaderBorder: groove 2px #9d865c !default;
 $certBlockViewHeaderHeaderLink: #fff !default;
 $certBlockViewHeaderHeaderLinkHov: grey !default;
 $opinionsBlockViewHeader: #fff !default;
-$opinionsBlockViewHeaderBorder: #9d865c !default;
+$opinionsBlockViewHeaderBorder: groove 2px #9d865c !default;
 $opinionsBlockViewHeaderHeadLink: #fff !default;
 $opinionsBlockViewHeaderHeadLinkHov: #808080 !default;
 $trustBlockViewHeader: #fff !default;
-$trustBlockViewHeaderBorder: #9d865c !default;
+$trustBlockViewHeaderBorder: groove 2px #9d865c !default;
 $trustBlockViewHeaderHeadLink: #fff !default;
 $trustBlockViewHeaderHeadLinkHov: grey !default;
+
+.header-attachment { 
+    color: $defaultBlock;
+}
+.header-attachment:after { 
+    border-bottom: $defaultBorder;
+}
+.header-attachment h2 a{ color: $defaultHeaderLink; }
+.header-attachment h2 a:hover{ color: $defaultHeaderLinkHov; }
 
 .view-contact-block .header-attachment { 
     color: $contactBlock;
@@ -20,8 +33,8 @@ $trustBlockViewHeaderHeadLinkHov: grey !default;
 .view-contact-block .header-attachment:after { 
     border-color: $contactBorder;
 }
-.view-contact-block .view-header h2 a{ color: $contactHeaderLink; }
-.view-contact-block .view-header h2 a:hover{ color: $contactHeaderLinkHov; }
+.view-contact-block .header-attachment h2 a{ color: $contactHeaderLink; }
+.view-contact-block .header-attachment h2 a:hover{ color: $contactHeaderLinkHov; }
 
 .certificates-block .header-attachment {
     border-color: $certBlockViewHeaderBorder;
