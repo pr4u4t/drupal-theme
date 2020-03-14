@@ -1,14 +1,18 @@
 $contactBlock: #fff !default;
 $contactBorder: #9d865c !default;
+$contactHeaderLink: #fff !default;
+$contactHeaderLinkHov: grey !default;
 $certBlockViewHeaderBorder: #9d865c !default;
 $certBlockViewHeaderHeaderLink: #fff !default;
 $certBlockViewHeaderHeaderLinkHov: grey !default;
 $opinionsBlockViewHeader: #fff !default;
 $opinionsBlockViewHeaderBorder: #9d865c !default;
 $opinionsBlockViewHeaderHeadLink: #fff !default;
+$opinionsBlockViewHeaderHeadLinkHov: #808080 !default;
 $trustBlockViewHeader: #fff !default;
 $trustBlockViewHeaderBorder: #9d865c !default;
 $trustBlockViewHeaderHeadLink: #fff !default;
+$trustBlockViewHeaderHeadLinkHov: grey !default;
 
 .view-contact-block .header-attachment { 
     color: $contactBlock;
@@ -16,6 +20,9 @@ $trustBlockViewHeaderHeadLink: #fff !default;
 .view-contact-block .header-attachment:after { 
     border-color: $contactBorder;
 }
+.view-contact-block .view-header h2 a{ color: $contactHeaderLink; }
+.view-contact-block .view-header h2 a:hover{ color: $contactHeaderLinkHov; }
+
 .certificates-block .header-attachment {
     border-color: $certBlockViewHeaderBorder;
 }
