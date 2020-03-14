@@ -1,17 +1,7 @@
-$opinionsBlockViewHeader: #fff !default;
-$opinionsBlockViewHeaderBorder: #9d865c !default;
-$opinionsBlockViewHeaderHeadLink: #fff !default;
 $opinionsBlockViewHeaderHeadLinkHov: grey !default;
 $opinionsBlockOpinionsBorder: #b89c68 !default;
 $opinionsBlockOpinionsBack: #403b33 !default;
 $opinionsBlockCarouselCtrlBack: none !default;
-
-.opinions-block .view-header {
-    color: $opinionsBlockViewHeader;
-    border-color: $opinionsBlockViewHeaderBorder;
-}
-.opinions-block .view-header h2 a{ color: $opinionsBlockViewHeaderHeadLink; }
-.opinions-block .view-header h2 a:hover{ color: $opinionsBlockViewHeaderHeadLinkHov; }
 
 .opinions-block .opinions{
     border-color: $opinionsBlockOpinionsBorder;

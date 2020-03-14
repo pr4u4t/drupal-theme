@@ -286,3 +286,16 @@
 @use "e-prawnik.biz/colors/captchaColors" with (
 	$captchaBack: transparent
 );
+@use "e-prawnik.biz/colors/headersColors" with (
+	$contactBlock: #fff,
+	$contactBorder: #9d865c,
+	$certBlockViewHeaderBorder: #9d865c,
+	$certBlockViewHeaderHeaderLink: #fff,
+	$certBlockViewHeaderHeaderLinkHov: grey,
+	$opinionsBlockViewHeader: #fff,
+	$opinionsBlockViewHeaderBorder: #9d865c,
+	$opinionsBlockViewHeaderHeadLink: #fff,
+	$trustBlockViewHeader: #fff,
+	$trustBlockViewHeaderBorder: #9d865c,
+	$trustBlockViewHeaderHeadLink: #fff
+);

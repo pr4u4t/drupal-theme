@@ -1,4 +1,3 @@
-$contactBorder: #9d865c !default;
 $contactHeaderLink: #fff !default;
 $contactHeaderLinkHov: grey !default;
 $contactTextArea: #fff !default; 
@@ -11,14 +10,7 @@ $contactWebformSubmitBorder: #b19562 !default;
 $contactWebformSubmitHov: #000 !default;
 $contactWebformSubmitBackHov: grey !default;
 $contactWebformSubmitBorderHov: #b19562 !default;
-$contactBlock: #fff !default;
 
-.view-contact-block .header-attachment { 
-    color: $contactBlock;
-}
-.view-contact-block .header-attachment:after { 
-    border-color: $contactBorder;
-}
 .view-contact-block .view-header h2 a{ color: $contactHeaderLink; }
 
 .view-contact-block .view-header h2 a:hover{ color: $contactHeaderLinkHov; }
