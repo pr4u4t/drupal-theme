@@ -33,6 +33,7 @@
 @use "e-prawnik.biz/layout/admin";
 @use "e-prawnik.biz/layout/captcha";
 @use "e-prawnik.biz/layout/contextual";
+@use "e-prawnik.biz/layout/headers";
 
 /*------------COLORS-----------*/
 
@@ -82,9 +83,7 @@
 	$langDropLangItemBack: transparent
 );
 @use "e-prawnik.biz/colors/contactColors" with (
-	$contactBorder: #9d865c,
-	$contactHeaderLink: #fff,
-	$contactHeaderLinkHov: grey,
+
 	$contactTextArea: #fff, 
 	$contactTextAreaBack: #403b33,
 	$contactTextFieldBorder: #968159,
@@ -95,7 +94,6 @@
 	$contactWebformSubmitHov: #000,
 	$contactWebformSubmitBackHov: grey,
 	$contactWebformSubmitBorderHov: #b19562,
-	$contactBlock: #fff
 );
 @use "e-prawnik.biz/colors/mainColors" with (
 	$mainWrapBack: #21252a,
@@ -209,10 +207,7 @@
 	$blogViewBlockFieldUidLink: #83775b,
 	$blogViewBlockViewHeaderLink: #bda67a
 );
-@use "e-prawnik.biz/colors/certificatesColors" with (
-	$certBlockViewHeaderBorder: #9d865c,
-	$certBlockViewHeaderHeaderLink: #fff,
-	$certBlockViewHeaderHeaderLinkHov: grey,
+@use "e-prawnik.biz/colors/certificatesColors" with (	
 	$certCarouselCtrlBack: none,
 	$certCarouselCtrlAfter: #fff
 );
@@ -232,19 +227,11 @@
 	$navDesktopBackAffix: rgba(40,40,40,1)
 );
 @use "e-prawnik.biz/colors/opinionsColors" with (
-	$opinionsBlockViewHeader: #fff,
-	$opinionsBlockViewHeaderBorder: #9d865c,
-	$opinionsBlockViewHeaderHeadLink: #fff,
-	$opinionsBlockViewHeaderHeadLinkHov: grey,
 	$opinionsBlockOpinionsBorder: #b89c68,
 	$opinionsBlockOpinionsBack: #403b33,
 	$opinionsBlockCarouselCtrlBack: transparent
 );
 @use "e-prawnik.biz/colors/trustColors" with (
-	$trustBlockViewHeader: #fff,
-	$trustBlockViewHeaderBorder: #9d865c,
-	$trustBlockViewHeaderHeadLink: #fff,
-	$trustBlockViewHeaderHeadLinkHov: grey,
 	$trustCarouselCtrl: #fff
 );
 @use "e-prawnik.biz/colors/adminColors" with (
@@ -284,4 +271,21 @@
 );
 @use "e-prawnik.biz/colors/captchaColors" with (
 	$captchaBack: transparent
+);
+@use "e-prawnik.biz/colors/headersColors" with (
+	$contactBlock: #fff,
+	$contactBorder: #9d865c,
+	$contactHeaderLink: #fff,
+	$contactHeaderLinkHov: grey,
+	$certBlockViewHeaderBorder: #9d865c,
+	$certBlockViewHeaderHeaderLink: #fff,
+	$certBlockViewHeaderHeaderLinkHov: grey,
+	$opinionsBlockViewHeader: #fff,
+	$opinionsBlockViewHeaderBorder: #9d865c,
+	$opinionsBlockViewHeaderHeadLink: #fff,
+	$opinionsBlockViewHeaderHeadLinkHov: grey,
+	$trustBlockViewHeader: #fff,
+	$trustBlockViewHeaderBorder: #9d865c,
+	$trustBlockViewHeaderHeadLink: #fff,
+	$trustBlockViewHeaderHeadLinkHov: grey,
 );
