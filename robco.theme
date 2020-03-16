@@ -53,7 +53,7 @@ function robco_processMenuLinkTree(&$items){
                         	unset($item['content']['#menu_link_content']['values']['field_additional_class']);
 		}
 
-		if(isset($item['below'])){
+		if(!empty($item['below'])){
 			robco_processMenuLinkTree($item['below']);
 		}
 
