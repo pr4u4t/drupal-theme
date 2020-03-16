@@ -45,7 +45,7 @@ function robco_processMenuLinkTree(&$items){
 	foreach($items as &$item){
 		if(isset($item['content']) && isset($item['content']['#menu_link_content']) 
 			&& property_exists($item['content']['#menu_link_content'],'values') 
-                	&& property_exists($item['content']['#menu_link_content']['values'],'field_additional_class') 
+                	&& property_exists($item['content']['#menu_link_content']->values,'field_additional_class') 
                 	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default']) 
                 	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0])
                		&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0]['value'])){
