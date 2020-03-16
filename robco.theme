@@ -8,9 +8,9 @@ function robco_form_view_edit_form_alter(&$form, \Drupal\Core\Form\FormStateInte
                         '#attributes'   => [],
                         '#links'        => $tmp
                 ];      
-        }
+	}
 
-        /* TODO: if(isset($form['displays']) && isset($form['displays']['top']) && isset($form['displays']['top']['extra_actions']) 
+	/* TODO: if(isset($form['displays']) && isset($form['displays']['top']) && isset($form['displays']['top']['extra_actions']) 
                 && isset($form['displays']['top']['extra_actions']['#links'])){
                 foreach($form['displays']['top']['extra_actions']['#links'] as &$link){
                         if(isset($link['title'])){
@@ -31,4 +31,37 @@ function robco_form_view_edit_form_alter(&$form, \Drupal\Core\Form\FormStateInte
                 }
         }
         */
+}
+
+function robco_checkBundleHasExtraFieldsThanEntity($entity_type, $bundle) {
+    $entity_manager = \Drupal::service('entity_field.manager');
+    $bundle_fields = array_keys($entity_manager->getFieldDefinitions($entity_type, $bundle));
+    $entity_type_fields = array_keys($entity_manager->getBaseFieldDefinitions($entity_type));
+    return ($bundle_fields !== $entity_type_fields) ? TRUE : FALSE;
+}
+
+function robco_processMenuLinkTree(&$items){
+	
+	foreach($items as &$item){
+		if(isset($item['content']) && isset(item['content']['#menu_link_content']) 
+			&& isset(item['content']['#menu_link_content']['values']) 
+                	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']) 
+                	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default']) 
+                	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0])
+               		&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0]['value'])){
+                		$item['additional-class'] = item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0]['value'];
+                        	unset($item['content']['#menu_link_content']['values']['field_additional_class']);
+		}
+
+		if(isset($item['below'])){
+			robco_processMenuLinkTree($item['below']);
+		}
+
+	}   
+}
+
+function robco_preprocess_menu(&$variables){
+	if(!empty($variables['menu_name']) && robco_checkBundleHasExtraFieldsThanEntity('menu_link_content', $variables['menu_name'])){
+		robco_processMenuLinkTree($variables['items']);
+	}
 }
