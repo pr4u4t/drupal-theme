@@ -43,7 +43,7 @@ function robco_checkBundleHasExtraFieldsThanEntity($entity_type, $bundle) {
 function robco_processMenuLinkTree(&$items){
 	
 	foreach($items as &$item){
-		if(isset($item['content']) && isset(item['content']['#menu_link_content']) 
+		if(isset($item['content']) && isset($item['content']['#menu_link_content']) 
 			&& isset($item['content']['#menu_link_content']['values']) 
                 	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']) 
                 	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default']) 
