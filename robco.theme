@@ -46,11 +46,11 @@ function robco_processMenuLinkTree(&$items){
 		if(isset($item['content']) && isset($item['content']['#menu_link_content']) 
 			&& property_exists($item['content']['#menu_link_content'],'values') 
                 	&& property_exists($item['content']['#menu_link_content']->values,'field_additional_class') 
-                	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default']) 
-                	&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0])
-               		&& isset($item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0]['value'])){
-                		$item['additional-class'] = item['content']['#menu_link_content']['values']['field_additional_class']['x-default'][0]['value'];
-                        	unset($item['content']['#menu_link_content']['values']['field_additional_class']);
+                	&& isset($item['content']['#menu_link_content']->values['field_additional_class']['x-default']) 
+                	&& isset($item['content']['#menu_link_content']->values['field_additional_class']['x-default'][0])
+               		&& isset($item['content']['#menu_link_content']->values['field_additional_class']['x-default'][0]['value'])){
+                		$item['additional-class'] = $item['content']['#menu_link_content']->values['field_additional_class']['x-default'][0]['value'];
+                        	unset($item['content']['#menu_link_content']->values['field_additional_class']);
 		}
 
 		if(!empty($item['below'])){
