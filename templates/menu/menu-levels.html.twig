@@ -41,7 +41,8 @@
           item.in_active_trail ? 'active active-trail',
           loop.first ? 'first',
           loop.last ? 'last',
-	  ((item.below is not empty ) or (rendered_content|raw|trim|length)) ? 'has-child'
+	  ((item.below is not empty ) or (rendered_content|raw|trim|length)) ? 'has-child',
+	  item.additional_class is not empty ? item.additional_class
         ]
       %}
       {% if item.below is not empty %}    
@@ -54,12 +55,6 @@
       	{% set listyle = false %}
 	{% set item_tail = false %}
       {% endif %}
-
-	{% if item.additional_class is not empty %}
-		<!-- YES -->
-	{% else %}
-		<!-- NO -->
-	{% endif %}
 
       <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
