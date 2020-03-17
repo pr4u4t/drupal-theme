@@ -55,6 +55,10 @@
 	{% set item_tail = false %}
       {% endif %}
 
+	{% if item.additional-class is not empty %}
+		<!-- YES -->
+	{% endif %}
+
       <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
         {% if menu_level == 0 and item.is_expanded and item.below %}
           <a href="{{ item.url }}" class="dropdown-toggle" data-target="#">{{ link_title }}</a>
