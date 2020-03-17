@@ -55,8 +55,10 @@
 	{% set item_tail = false %}
       {% endif %}
 
-	{% if item.additional-class is not empty %}
+	{% if item.additional_class is not empty %}
 		<!-- YES -->
+	{% else %}
+		<!-- NO -->
 	{% endif %}
 
       <li{{ item.attributes.addClass(item_classes).setAttribute('style',(listyle) ? listyle ) }}> 
