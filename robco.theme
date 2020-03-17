@@ -44,7 +44,7 @@ function robco_processMenuLinkTree(&$items){
 	foreach($items as &$item){
                 if(isset($item['content']) && isset($item['content']['#menu_link_content']) && isset($item['content']['#menu_link_content']->field_additional_class)
                         && ($val = $item['content']['#menu_link_content']->field_additional_class->getValue())){
-                                $item['additional_class'] = isset($val[0]) ? $val[0] : NULL;
+                                $item['additional_class'] = isset($val[0]) ? isset($val[0]['value']) ? $val[0]['value'] : NULL : NULL;
                                 unset($item['content']['#menu_link_content']->field_additional_class);
                 }
 
