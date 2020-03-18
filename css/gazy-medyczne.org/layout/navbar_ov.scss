@@ -10,7 +10,15 @@
   transition:all 500ms;
 }
 
-.body--glazed-nav-desktop .menu-level-0 > li:hover > a > span:after{
+body--glazed-nav-desktop .menu-level-0 > .dropdown .title::after{
+  display:inline-block;
   transform: rotate(-90deg);
-  display: inline-block;
+}
+
+body--glazed-nav-desktop .menu-level-0 > .dropdown .title::after{
+  transform: rotate(0deg);
+}
+
+body--glazed-nav-desktop .menu-level-0 > .dropdown:hover .title::after{
+  transform: rotate(-90deg);
 }
