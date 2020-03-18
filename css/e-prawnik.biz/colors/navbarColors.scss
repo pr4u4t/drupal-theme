@@ -14,6 +14,9 @@ $navDesktopBackAffix: rgba(40,40,40,1) !default;
 $navMobileBack: #282828 !default;
 $navMobileMainMenuBack: #20252a !default;
 $navMobileMenuLevelBack: #20252a !default;
+$navBorderBottom: 1px groove #edc780 !default;
+
+#navbar{ border-bottom: $navBorderBottom; }
 
 .body--glazed-nav-mobile #navbar{
   background: $navMobileBack;

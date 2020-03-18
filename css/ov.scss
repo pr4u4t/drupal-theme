@@ -224,7 +224,8 @@
 	$navDesktopNavbarDropdownMenuLinkNode: #646464,
 	$navDesktopNavbarLink: #9f9f9f,
 	$navDesktopBack: rgba(40,40,40,1),
-	$navDesktopBackAffix: rgba(40,40,40,1)
+	$navDesktopBackAffix: rgba(40,40,40,1),
+	$navBorderBottom: 1px groove #edc780
 );
 @use "e-prawnik.biz/colors/opinionsColors" with (
 	$opinionsBlockOpinionsBorder: #b89c68,
