@@ -3,22 +3,21 @@
   border-top-right-radius: 1em;
 }
 
-.body--glazed-nav-desktop .menu-level-0 > li > a > span:after{
+.body--glazed-nav-desktop .menu-level-0 > .has-child > a > span:after{
   content:'<';
   font-weight:bold;
   margin-left:1em;
   transition:all 500ms;
 }
-
-.body--glazed-nav-desktop .menu-level-0 > .dropdown .title::after{
+.body--glazed-nav-desktop .menu-level-0 > .has-child .title::after{
   display:inline-block;
   transform: rotate(-90deg);
 }
 
-.body--glazed-nav-desktop .menu-level-0 > .dropdown .title::after{
+.body--glazed-nav-desktop .menu-level-0 > .has-child .title::after{
   transform: rotate(0deg);
 }
 
-.body--glazed-nav-desktop .menu-level-0 > .dropdown:hover .title::after{
+.body--glazed-nav-desktop .menu-level-0 > .has-child:hover .title::after{
   transform: rotate(-90deg);
 }
