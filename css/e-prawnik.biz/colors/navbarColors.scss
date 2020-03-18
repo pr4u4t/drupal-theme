@@ -3,6 +3,7 @@ $navMobileGlazedMainMenuDropdownLink: #646464 !default;
 $navMobileMenuToggleBack: transparent !default;
 $navMobileMenuToggleSpanBack: #ffffff !default;
 $navMobileMenuListHovBack: #fff !default;
+$navDesktopNavbarLink: #e4e4e4 !default;
 $navDesktopNavbarLinkHov: #646464 !default;
 $navDesktopNavbarLinkHovBack: #181818 !default;
 $navDesktopNavbarDropdownMenuLink: #afafaf !default;
@@ -51,7 +52,9 @@ $navBorderBottom: 1px groove #edc780 !default;
 }
 
 .body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navMobileMenuListHovBack; }
-
+.body--glazed-nav-desktop #navbar  a{
+    color: $navDesktopNavbarLink !important;
+}
 .body--glazed-nav-desktop #navbar  a:hover { 
     color: $navDesktopNavbarLinkHov !important; 
     background: $navDesktopNavbarLinkHovBack !important; 
