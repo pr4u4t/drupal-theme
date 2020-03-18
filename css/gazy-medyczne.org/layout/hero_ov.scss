@@ -58,6 +58,8 @@
   transform: rotate(-1.75deg);
   height:4.5em;
   z-index:4000;
+  width:110%;
+  left:-.5em; 
 }
 .body--glazed-nav-desktop .hero-section:after{
   content: " ";
@@ -67,9 +69,10 @@
   height:4.5em;
   transform: rotate(1.95deg);
   position: relative;
-  left:-0.1em;
+  width:110%;
+  left:-.5em; 
 }
-.hero-section{max-width:1920px;margin:auto;}
+.hero-section{max-width:1920px;margin:auto;overflow:hidden;}
 .hero-section .container{padding:0;margin:0;max-width:1920px;}
 .hero-section .container .az-row{max-width:1350px!important;margin:auto;padding: 0 1em;}
 .hero-block{width:100vw;max-width:1920px;}
