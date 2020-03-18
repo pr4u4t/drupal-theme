@@ -9,7 +9,7 @@ $navDesktopNavbarLinkHovBack: #181818 !default;
 $navDesktopNavbarDropdownMenuLink: #afafaf !default;
 $navDesktopNavbarWrapBranding: transparent !default;
 $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
-$navDesktopNavbarLink: #9f9f9f !default;
+$navDesktopNavbarLinkMobile: #9f9f9f !default;
 $navDesktopBack: rgba(40,40,40,1) !default;
 $navDesktopBackAffix: rgba(40,40,40,1) !default;
 $navMobileBack: #282828 !default;
@@ -68,7 +68,7 @@ $navBorderBottom: 1px groove #edc780 !default;
     color: $navDesktopNavbarDropdownMenuLinkNode !important;
 }
 
-.body--glazed-nav-mobile #navbar a { color: $navDesktopNavbarLink !important; }
+.body--glazed-nav-mobile #navbar a { color: $navDesktopNavbarLinkMobile !important; }
 
 .body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
 
