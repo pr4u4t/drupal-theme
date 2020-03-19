@@ -159,7 +159,7 @@
 	$navDesktopMenuLinkBackHov: #181818,
 	$navDesktopMenuDropdownBackHov: transparent
 );
-@use "gazy-medyczne.org/layout/menuColors_ov" with (
+@use "gazy-medyczne.org/colors/menuColors_ov" with (
 	$menuMobileBack: #646464,
 	$menuMobileAcccountBackHov: transparent,
 	$menuMobileLangActiveBefore: #646464,
