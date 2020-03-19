@@ -6,15 +6,13 @@
 .body--glazed-nav-desktop .navbar-nav > .menu-blog .dropdown-menu .view-blog-block .menu-list > .dropdown-menu  {width:100%;margin-top:0; height: auto;min-height: 15em;}
 .body--glazed-nav-desktop .navbar-nav > .menu-blog .dropdown-menu{width:40em;left:-15em;}
 
-.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="oferta"] + .dropdown-menu,
-.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="offer"] + .dropdown-menu{
-  left:20% !important; 
-}
-
-.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="oferta"] + .dropdown-menu .dropdown,
-.body--glazed-nav-desktop #block-robco-main-menu .menu  a[href$="offer"] + .dropdown-menu .dropdown{
-  width:50% !important; 
-}
+.body--glazed-nav-desktop .navbar-nav > .menu-offer > .dropdown-menu{
+    left:20% !important;
+  }
+  
+  .body--glazed-nav-desktop .navbar-nav > .menu-offer > .dropdown-menu .dropdown{
+    width:50% !important; 
+  }
 
 .body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div.dropdown-menu{
   box-shadow: none;
