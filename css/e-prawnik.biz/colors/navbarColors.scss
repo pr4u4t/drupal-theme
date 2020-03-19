@@ -13,6 +13,8 @@ $navDesktopNavbarLinkHov: #646464 !default;
 $navDesktopNavbarLinkHovBack: #181818 !default;
 $navDesktopNavbarLinkHovBorder: none !default;
 $navDesktopNavbarDropdownMenuLink: #afafaf !default;
+$navDesktopNavbarDropdownMenuLinkHov: black !default;
+$navDesktopNavbarDropdownMenuLinkHovDec: underline !default;
 $navDesktopNavbarWrapBranding: transparent !default;
 $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
 $navDesktopNavbarLinkMobile: #9f9f9f !default;
@@ -23,6 +25,10 @@ $navMobileMainMenuBack: #20252a !default;
 $navMobileMenuLevelBack: #20252a !default;
 $navBorderBottom: 1px groove #edc780 !default;
 
+/*fix for uknown style*/
+.glazed-header .glazed-main-menu .menu a{background: none!important;}
+.body--glazed-nav-desktop #navbar a{color: inherit!important;}
+/*end of fix*/
 #navbar{ border-bottom: $navBorderBottom; }
 
 .body--glazed-nav-mobile #navbar{
@@ -78,11 +84,14 @@ $navBorderBottom: 1px groove #edc780 !default;
     background: $navDesktopNavbarLinkHovBack !important; 
     border-bottom: $navDesktopNavbarLinkHovBorder !important;
 }
-/*
+
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
     color: $navDesktopNavbarDropdownMenuLink !important; 
 }
-*/
+.body--glazed-nav-desktop #navbar .dropdown-menu a:hover { 
+  color: $navDesktopNavbarDropdownMenuLink !important; 
+  text-decoration: $navDesktopNavbarDropdownMenuLinkDec !important;
+}
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
     color: $navDesktopNavbarDropdownMenuLinkNode !important;
 }
