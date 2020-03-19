@@ -3,12 +3,15 @@ $navMobileGlazedMainMenuDropdownLink: #646464 !default;
 $navMobileMenuToggleBack: transparent !default;
 $navMobileMenuToggleSpanBack: #ffffff !default;
 $navMobileMenuListHovBack: #fff !default;
+$navDesktopNavbarChildLinkHov: #646464 !default;
+$navDesktopNavbarChildLinkDecHov: underline !default;
 $navDesktopNavbarLink: #e4e4e4 !default;
-$navDesktopNavbarLinkHovNoChild: none !default;
+$navDesktopNavbarLinkHovNoChild: #646464 !default;
 $navDesktopNavbarLinkHovBackNoChild: none !default;
 $navDesktopNavbarLinkHovBorderNoChild: 1px solid black !default;
 $navDesktopNavbarLinkHov: #646464 !default;
 $navDesktopNavbarLinkHovBack: #181818 !default;
+$navDesktopNavbarLinkHovBorder: none !default;
 $navDesktopNavbarDropdownMenuLink: #afafaf !default;
 $navDesktopNavbarWrapBranding: transparent !default;
 $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
@@ -58,14 +61,22 @@ $navBorderBottom: 1px groove #edc780 !default;
 .body--glazed-nav-desktop #navbar  a{
     color: $navDesktopNavbarLink !important;
 }
-.body--glazed-nav-desktop #navbar a:hover { 
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown a:hover{
+  color: $navDesktopNavbarChildLinkHov;
+  text-decoration: $navDesktopNavbarChildLinkDecHov;
+}
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account:hover,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover { 
   color: $navDesktopNavbarLinkHovNoChild !important; 
   background: $navDesktopNavbarLinkHovBackNoChild !important; 
   border-bottom: $navDesktopNavbarLinkHovBorderNoChild !important;
 }
-.body--glazed-nav-desktop #navbar .has-child  a:hover { 
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item > .dropdown-menu,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown > a:hover{ 
     color: $navDesktopNavbarLinkHov !important; 
     background: $navDesktopNavbarLinkHovBack !important; 
+    border-bottom: $navDesktopNavbarLinkHovBorder !important;
 }
 
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
