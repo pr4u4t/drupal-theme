@@ -34,6 +34,7 @@
 @use "e-prawnik.biz/layout/captcha";
 @use "e-prawnik.biz/layout/contextual";
 @use "e-prawnik.biz/layout/headers";
+@use "gazy-medyczne.org/layout/menu_ov";
 
 /*------------COLORS-----------*/
 
@@ -157,6 +158,15 @@
 	$navDesktopExpandedLinkBackHov: #181818,
 	$navDesktopMenuLinkBackHov: #181818,
 	$navDesktopMenuDropdownBackHov: transparent
+);
+@use "gazy-medyczne.org/layout/menuColors_ov" with (
+	$menuMobileBack: #646464,
+	$menuMobileAcccountBackHov: transparent,
+	$menuMobileLangActiveBefore: #646464,
+	$menuMobileLangActive: #edc780, 
+	$menuMobileLevelBack: #646464,
+	$navDesktopLevel0Link: #646464,
+	$navDesktopLevel0LinkHov: #edc780
 );
 @use "e-prawnik.biz/colors/companyDetailsColors" with (
 	$companyBodyDiv: #ccac6e,
