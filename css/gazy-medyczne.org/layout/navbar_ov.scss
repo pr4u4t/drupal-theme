@@ -2,7 +2,7 @@
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
 }
-
+.body--glazed-nav-desktop .navbar-nav .dropdown-menu{border-radius: 1em!important;left:-2em;}
 .body--glazed-nav-desktop .menu-level-0 > .has-child > a > span:after{
   content:'<';
   font-weight:bold;
