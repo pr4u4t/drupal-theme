@@ -61,7 +61,7 @@ $navBorderBottom: 1px groove #edc780 !default;
 .body--glazed-nav-desktop #navbar  a{
     color: $navDesktopNavbarLink !important;
 }
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown a:hover{
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown > ul > li > a:hover{
   color: $navDesktopNavbarChildLinkHov;
   text-decoration: $navDesktopNavbarChildLinkDecHov;
 }
@@ -71,18 +71,18 @@ $navBorderBottom: 1px groove #edc780 !default;
   background: $navDesktopNavbarLinkHovBackNoChild !important; 
   border-bottom: $navDesktopNavbarLinkHovBorderNoChild !important;
 }
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item,
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item > .dropdown-menu,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item:hover,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item > .dropdown-menu:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown > a:hover{ 
     color: $navDesktopNavbarLinkHov !important; 
     background: $navDesktopNavbarLinkHovBack !important; 
     border-bottom: $navDesktopNavbarLinkHovBorder !important;
 }
-
+/*
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
     color: $navDesktopNavbarDropdownMenuLink !important; 
 }
-
+*/
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
     color: $navDesktopNavbarDropdownMenuLinkNode !important;
 }
