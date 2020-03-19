@@ -89,8 +89,8 @@ $navBorderBottom: 1px groove #edc780 !default;
     color: $navDesktopNavbarDropdownMenuLink !important; 
 }
 .body--glazed-nav-desktop #navbar .dropdown-menu a:hover { 
-  color: $navDesktopNavbarDropdownMenuLink !important; 
-  text-decoration: $navDesktopNavbarDropdownMenuLinkDec !important;
+  color: $navDesktopNavbarDropdownMenuLinkHov !important; 
+  text-decoration: $navDesktopNavbarDropdownMenuLinkHovDec !important;
 }
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
     color: $navDesktopNavbarDropdownMenuLinkNode !important;
