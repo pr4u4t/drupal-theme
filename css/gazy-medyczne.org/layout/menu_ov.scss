@@ -10,4 +10,21 @@
 	padding-bottom:0;
 }
 
-.body--glazed-nav-desktop #navbar .container .container-row .navbar-header { width: 190px;}
+.body--glazed-nav-desktop .menu-level-0 > .has-child > a > span:after{
+	content:'<';
+	font-weight:bold;
+	margin-left:1em;
+	transition:all 500ms;
+  }
+  .body--glazed-nav-desktop .menu-level-0 > .has-child .title::after{
+	display:inline-block;
+	transform: rotate(-90deg);
+  }
+  
+  .body--glazed-nav-desktop .menu-level-0 > .has-child .title::after{
+	transform: rotate(0deg);
+  }
+  
+  .body--glazed-nav-desktop .menu-level-0 > .has-child:hover .title::after{
+	transform: rotate(-90deg);
+  }

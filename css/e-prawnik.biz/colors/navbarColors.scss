@@ -4,6 +4,9 @@ $navMobileMenuToggleBack: transparent !default;
 $navMobileMenuToggleSpanBack: #ffffff !default;
 $navMobileMenuListHovBack: #fff !default;
 $navDesktopNavbarLink: #e4e4e4 !default;
+$navDesktopNavbarLinkHovNoChild: none !default;
+$navDesktopNavbarLinkHovBackNoChild: none !default;
+$navDesktopNavbarLinkHovBorderNoChild: 1px solid black !default;
 $navDesktopNavbarLinkHov: #646464 !default;
 $navDesktopNavbarLinkHovBack: #181818 !default;
 $navDesktopNavbarDropdownMenuLink: #afafaf !default;
@@ -55,7 +58,12 @@ $navBorderBottom: 1px groove #edc780 !default;
 .body--glazed-nav-desktop #navbar  a{
     color: $navDesktopNavbarLink !important;
 }
-.body--glazed-nav-desktop #navbar  a:hover { 
+.body--glazed-nav-desktop #navbar a:hover { 
+  color: $navDesktopNavbarLinkHovNoChild !important; 
+  background: $navDesktopNavbarLinkHovBackNoChild !important; 
+  border-bottom: $navDesktopNavbarLinkHovBorderNoChild !important;
+}
+.body--glazed-nav-desktop #navbar .has-child  a:hover { 
     color: $navDesktopNavbarLinkHov !important; 
     background: $navDesktopNavbarLinkHovBack !important; 
 }
