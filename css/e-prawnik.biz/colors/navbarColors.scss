@@ -71,7 +71,7 @@ $navBorderBottom: 1px groove #edc780 !default;
   color: $navDesktopNavbarChildLinkHov;
   text-decoration: $navDesktopNavbarChildLinkDecHov;
 }
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account:hover,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover { 
   color: $navDesktopNavbarLinkHovNoChild !important; 
   background: $navDesktopNavbarLinkHovBackNoChild !important; 
