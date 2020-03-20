@@ -12,6 +12,7 @@ $navDesktopNavbarLinkHovBorderNoChild: 1px solid black !default;
 $navDesktopNavbarLinkHov: #646464 !default;
 $navDesktopNavbarLinkHovBack: #181818 !default;
 $navDesktopNavbarLinkHovBorder: none !default;
+$navDesktopNavbarLinkHovRoot: #181818 !default;
 $navDesktopNavbarDropdownMenuLink: #afafaf !default;
 $navDesktopNavbarDropdownMenuLinkHov: black !default;
 $navDesktopNavbarDropdownMenuLinkHovDec: underline !default;
@@ -84,6 +85,7 @@ $navBorderBottom: 1px groove #edc780 !default;
     background: $navDesktopNavbarLinkHovBack !important; 
     border-bottom: $navDesktopNavbarLinkHovBorder !important;
 }
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 >  li.has-child:hover > a > span { color:$navDesktopNavbarLinkHovRoot; }
 
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
     color: $navDesktopNavbarDropdownMenuLink !important; 
