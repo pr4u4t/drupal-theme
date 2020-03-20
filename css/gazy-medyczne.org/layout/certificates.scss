@@ -3,6 +3,25 @@
 .path-frontpage .view-certificates .jcarousel-wrapper li{
   overflow: hidden;
 }
+.path-frontpage .certificates-block .jcarousel-wrapper .jcarousel-control-next{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    right: -0.5em;
+    box-shadow: none;
+    margin-top:140px;
+    font-size: 4em;
+  }
+  
+  .path-frontpage .certificates-block .jcarousel-wrapper .jcarousel-control-prev{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    left: -0.5em;
+    box-shadow: none;
+    margin-top:140px;
+    font-size: 4em;
+  }
 .certificates-section .certificates-block .jcarousel-wrapper.jcarousel-skin-tango{width:auto;}
 @media screen and (min-width:1480px){
   .path-frontpage .certificates-block .jcarousel-wrapper ul li { width:22.6em!important; }
@@ -65,24 +84,6 @@
 
 .path-frontpage .certificates-block .jcarousel-wrapper{
 box-shadow: none;
-}
-
-.path-frontpage .certificates-block .jcarousel-wrapper .jcarousel-control-next{
-visibility: visible;
-opacity: 1;
-display: block;
-right: -1em;
-box-shadow: none;
-margin-top:140px;
-}
-
-.path-frontpage .certificates-block .jcarousel-wrapper .jcarousel-control-prev{
-visibility: visible;
-opacity: 1;
-display: block;
-left: -1em;
-box-shadow: none;
-margin-top:140px;
 }
 .certificates-block .certificates h2 { 
 display: none; 
