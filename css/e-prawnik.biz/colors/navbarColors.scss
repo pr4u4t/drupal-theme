@@ -26,20 +26,24 @@ $navMobileMainMenuBack: #20252a !default;
 $navMobileMenuLevelBack: #20252a !default;
 $navBorderBottom: 1px groove #edc780 !default;
 
+
 /*fix for uknown style*/
 .glazed-header .glazed-main-menu .menu a{background: none!important;}
 .body--glazed-nav-desktop #navbar a{color: inherit!important;}
 /*end of fix*/
+.glazed-header--side .menu__link[data-submenu]::after{ width: 2em; height: 2em; z-index: 5000;}
 #navbar{ border-bottom: $navBorderBottom; }
 
 .body--glazed-nav-mobile #navbar{
   background: $navMobileBack;
 }
 
+
+.body--glazed-nav-mobile #glazed-main-menu .region-navigation-collapsible,
 .body--glazed-nav-mobile .glazed-main-menu {
   background: $navMobileMainMenuBack;
 }
-
+.body--glazed-nav-mobile #glazed-main-menu .region-navigation-collapsible,
 .body--glazed-nav-mobile .menu__level{
   background: $navMobileMenuLevelBack;
 }
