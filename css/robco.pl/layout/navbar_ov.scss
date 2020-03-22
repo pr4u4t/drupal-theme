@@ -2,8 +2,8 @@
 #toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:160px!important;margin-left:-.5em!important;padding:0;}
 .toolbar-tray-open.toolbar-horizontal #toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:200px!important;margin-left:-.5em!important;padding:0;}
 
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown > .dropdown-menu {padding:.5em;display: flex;flex-direction: row;justify-content:space-around; }
-.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown > .dropdown-menu .menu-level-2 {display: flex;flex-direction: row;justify-content: flex-start;}
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown:hover > .dropdown-menu {padding:.5em;display: flex;flex-direction: row;justify-content:space-around; }
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown:hover > .dropdown-menu .menu-level-2 {display: flex;flex-direction: row;justify-content: flex-start;}
 
 /*--- mobile nav ---
 .body--glazed-nav-mobile .block-dropdown-language { width:100% !important; text-align:left !important; }
