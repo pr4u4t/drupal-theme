@@ -20,6 +20,7 @@ $navDesktopNavbarDropdownMenuLinkHovDec: underline !default;
 $navDesktopNavbarWrapBranding: transparent !default;
 $navDesktopNavbarDropdownMenuLinkNode: #646464 !default;
 $navDesktopNavbarLinkMobile: #9f9f9f !default;
+$navDesktopNavbarLinkMobileHov: #646464 !default;
 $navDesktopBack: rgba(40,40,40,1) !default;
 $navDesktopBackAffix: rgba(40,40,40,1) !default;
 $navMobileBack: #282828 !default;
@@ -106,6 +107,7 @@ $navBorderBottom: 1px groove #edc780 !default;
 }
 
 .body--glazed-nav-mobile #navbar a { color: $navDesktopNavbarLinkMobile !important; }
+.body--glazed-nav-mobile #navbar a:hover { color: $navDesktopNavbarLinkMobileHov !important; }
 
 .body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
 
