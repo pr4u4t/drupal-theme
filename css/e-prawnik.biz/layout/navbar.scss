@@ -51,14 +51,22 @@
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #glazed-main-menu .menu__breadcrumbs{padding-left:240px!important;}
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-horizontal #glazed-main-menu .menu__breadcrumbs{top:220px!important;}
 
-.body--glazed-nav-mobile #glazed-main-menu.glazed-main-menu .menu__breadcrumbs{top:155px!important;margin-left:-.5em!important;padding:0;}
-.body--glazed-nav-mobile.user-logged-in #glazed-main-menu.glazed-main-menu .menu__breadcrumbs{top:170px!important;margin-left:-.5em!important;padding:0;}
-.body--glazed-nav-mobile.user-logged-in #glazed-main-menu.glazed-main-menu .menu__breadcrumbs { margin-top: 120px !important;}
+.body--glazed-nav-mobile #glazed-main-menu.glazed-main-menu .menu__breadcrumbs{top:145px!important;margin-left:-.5em!important;padding:0;}
+.body--glazed-nav-mobile.user-logged-in #glazed-main-menu.glazed-main-menu .menu__breadcrumbs{top:160px!important;margin-left:-.5em!important;padding:0;}
+.body--glazed-nav-mobile.user-logged-in #glazed-main-menu.glazed-main-menu .menu__breadcrumbs { margin-top: 110px !important;}
 
-#toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:115px!important;margin-left:-.5em!important;padding:0;}
-.toolbar-tray-open.toolbar-horizontal #toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:155px!important;margin-left:-.5em!important;padding:0;}
+#toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:105px!important;margin-left:-.5em!important;padding:0;}
+.toolbar-tray-open.toolbar-horizontal #toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:145px!important;margin-left:-.5em!important;padding:0;}
 
-.glazed-header--side .glazed-main-menu{padding:0!important;}
+.body--glazed-nav-mobile .glazed-header--side .glazed-main-menu{padding:0!important;width:400px;height:100%!important;}
+.body--glazed-nav-mobile .glazed-header--side .menu__level{width:400px;position:fixed;top:0px!important;}
+.body--glazed-nav-mobile .glazed-header--side .menu__level > .has-child > .menu__level--current {position: absolute; margin:0!important;}
+
+.body--glazed-nav-mobile .main-navigation-block .menu.navbar-nav { 
+    height: 90% !important; 
+    position: static !important; 
+}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{height: 70%!important;}
 /*
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #navbar {width:calc(100% - 240px);}
 
