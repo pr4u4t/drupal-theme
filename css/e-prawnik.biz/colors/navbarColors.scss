@@ -2,6 +2,9 @@ $navbarGlazedWrapBrandLinkHov: transparent !default;
 $navMobileGlazedMainMenuDropdownLink: #646464 !default;
 $navMobileMenuToggleBack: transparent !default;
 $navMobileMenuToggleSpanBack: #ffffff !default;
+$navMobileMenuToggleSpanBackHov: #646464 !default;
+$navMobileMenuToggleSpanBackLoRes: #ffffff !default;
+$navMobileMenuToggleSpanBackLoResHov: #646464 !default;
 $navMobileMenuListHovBack: #fff !default;
 $navDesktopNavbarChildLinkHov: #646464 !default;
 $navDesktopNavbarChildLinkDecHov: underline !default;
@@ -27,7 +30,6 @@ $navMobileBack: #282828 !default;
 $navMobileMainMenuBack: #20252a !default;
 $navMobileMenuLevelBack: #20252a !default;
 $navBorderBottom: 1px groove #edc780 !default;
-
 
 /*fix for uknown style*/
 .glazed-header .glazed-main-menu .menu a{background: none!important;}
@@ -64,12 +66,30 @@ $navBorderBottom: 1px groove #edc780 !default;
     background: $navMobileMenuToggleBack !important;
 }
 
+
+@media screen and (max-width:768px){
+  .body--glazed-nav-mobile #glazed-menu-toggle span,
+  .body--glazed-nav-mobile #glazed-menu-toggle span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle span:after{
+    background: $navMobileMenuToggleSpanBackLoRes !important;
+  }
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
+    background: $navMobileMenuToggleSpanBackLoResHov !important;
+  }
+}
+
+@media screen and (min-width:768px){
 .body--glazed-nav-mobile #glazed-menu-toggle span,
 .body--glazed-nav-mobile #glazed-menu-toggle span:before,
 .body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
     background: $navMobileMenuToggleSpanBack !important;
+  }
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{ 
+    background: $navMobileMenuToggleSpanBackHov !important;
+  }
 }
-
 .body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navMobileMenuListHovBack; }
 .body--glazed-nav-desktop #navbar  a{
     color: $navDesktopNavbarLink !important;
