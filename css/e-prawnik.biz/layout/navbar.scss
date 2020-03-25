@@ -62,18 +62,10 @@
 .body--glazed-nav-mobile .glazed-header--side .glazed-main-menu .menu__breadcrumbs{width:360px;}
 .body--glazed-nav-mobile .glazed-header--side .menu__level{width:360px;position:fixed;top:0px!important;}
 .body--glazed-nav-mobile .glazed-header--side .menu__level > .has-child > .menu__level--current {position: absolute; margin:0!important;height:auto!important;}
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown > .menu-level-1,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown .menu-level-2,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown .menu-level-3{top:0px!important;}
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown > .menu-level-1,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown .menu-level-2,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown .menu-level-3{top:25px!important;}
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown + .dropdown > .menu-level-1,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown + .dropdown .menu-level-2,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown + .dropdown .menu-level-3{top:50px!important;}
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown + .dropdown + .dropdown > .menu-level-1,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown + .dropdown + .dropdown .menu-level-2,
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu > .menu-level-0 > .dropdown + .dropdown + .dropdown + .dropdown .menu-level-3{top:75px!important;}
+
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{position: relative; }
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul{position: absolute; top:0!important;}
+
 
 .body--glazed-nav-mobile .main-navigation-block .menu.navbar-nav { 
     height: 90% !important; 
@@ -235,10 +227,7 @@
     top:0px; 
 }
 
-.body--glazed-nav-mobile .body--glazed-nav-mobile .glazed-header .nav{ margin-top:1em; }
-.body--glazed-nav-mobile .navbar-nav { margin-top:1.5em !important; }
-.body--glazed-nav-mobile .navbar-nav li .dropdown-menu { margin-top:7.5em !important; }
-.body--glazed-nav-mobile .navbar-nav li .glazed-megamenu { margin-top:7.5em !important; }
+
 
 
 .body--glazed-nav-desktop .glazed-main-menu .region-navigation-collapsible { 
@@ -284,4 +273,5 @@
 .body--glazed-nav-desktop .glazed-header--top .nav > li > a {display: table;height: 100%!important;}
 .body--glazed-nav-desktop .glazed-header--top .nav > li > a > span{display: table-cell;vertical-align: middle;}
 .body--glazed-nav-desktop .glazed-header--top .nav > li > a:after{display: table-cell;vertical-align: middle;}
+
 
