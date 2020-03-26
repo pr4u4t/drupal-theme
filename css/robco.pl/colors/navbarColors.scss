@@ -3,9 +3,9 @@ $navDropBack:#fff !default;
 /* -------- NAVBAR  --------- */
 $navbarGlazedWrapBrandLinkHov: transparent !default;
 $navMobileGlazedMainMenuDropdownLink: #646464 !default;
-$navMobileMenuToggleBack: transparent !default;
+/*$navMobileMenuToggleBack: transparent !default;
 $navMobileMenuToggleSpanBack: #ffffff !default;
-$navMobileMenuToggleSpanBackActive: transparent !default;
+$navMobileMenuToggleSpanBackActive: transparent !default;*/
 $navDesktopNavbarLinkHov: #646464 !default;
 $navDesktopNavbarLinkHovBack: #fff !default;
 $navDesktopNavbarHeaderAffix: rgba(1,128,239,1) !default;
@@ -26,14 +26,14 @@ $navDesktopNavbarBlockMenuActiveLink: #fff !default;
 .body--glazed-nav-mobile .glazed-main-menu  .dropdown a:link, 
 .body--glazed-nav-mobile .glazed-main-menu  .dropdown a:visited { color:$navMobileGlazedMainMenuDropdownLink !important; }
 
-.body--glazed-nav-mobile #glazed-menu-toggle { background: $navMobileMenuToggleBack !important; }
+/*.body--glazed-nav-mobile #glazed-menu-toggle { background: $navMobileMenuToggleBack !important; }
 	
 .body--glazed-nav-mobile #glazed-menu-toggle span,
 .body--glazed-nav-mobile #glazed-menu-toggle span:before,
 .body--glazed-nav-mobile #glazed-menu-toggle span:after{ background: $navMobileMenuToggleSpanBack !important; }
 	
 
-.body--glazed-nav-mobile #navbar .navbar-toggle--active span { background: $navMobileMenuToggleSpanBackActive !important;  }
+.body--glazed-nav-mobile #navbar .navbar-toggle--active span { background: $navMobileMenuToggleSpanBackActive !important;  }*/
 	
 .body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navDesktopNavbarLinkHovBack; }
 .body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: $navDesktopNavbarHeaderAffix !important; }
