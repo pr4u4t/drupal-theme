@@ -68,23 +68,25 @@ $navBorderBottom: 1px groove #edc780 !default;
 
 
 @media screen and (max-width:768px){
-  .body--glazed-nav-mobile #glazed-menu-toggle span,
-  .body--glazed-nav-mobile #glazed-menu-toggle span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle span:after{
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle span,
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle span:before,
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle span:after{
     background: $navMobileMenuToggleSpanBackLoRes !important;
   }
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
     background: $navMobileMenuToggleSpanBackLoResHov !important;
   }
 }
 
 @media screen and (min-width:768px){
-.body--glazed-nav-mobile #glazed-menu-toggle span,
-.body--glazed-nav-mobile #glazed-menu-toggle span:before,
-.body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
-    background: $navMobileMenuToggleSpanBack !important;
-  }
+  .body--glazed-nav-mobile #glazed-menu-toggle span,
+  .body--glazed-nav-mobile #glazed-menu-toggle span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
+      background: $navMobileMenuToggleSpanBack !important;
+    }
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{ 
     background: $navMobileMenuToggleSpanBackHov !important;

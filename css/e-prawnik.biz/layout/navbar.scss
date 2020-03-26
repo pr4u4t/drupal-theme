@@ -61,17 +61,13 @@
 .body--glazed-nav-mobile .glazed-header--side .glazed-main-menu{padding:0!important;width:360px;height:100%!important;}
 .body--glazed-nav-mobile .glazed-header--side .glazed-main-menu .menu__breadcrumbs{width:360px;}
 .body--glazed-nav-mobile .glazed-header--side .menu__level{width:360px;position:fixed;top:0px!important;}
-.body--glazed-nav-mobile .glazed-header--side .menu__level > .has-child > .menu__level--current {position: absolute; margin:0!important;height:auto!important;}
 
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{position: relative; }
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul{position: absolute; top:0!important;}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{position: relative; top:50px;}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul{position: absolute; top:0!important;height: 90% !important;}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul li {position: static; top:0!important;}
 
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{height: 100%!important;}
 
-.body--glazed-nav-mobile .main-navigation-block .menu.navbar-nav { 
-    height: 90% !important; 
-    position: static !important; 
-}
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{height: 70%!important;}
 /*
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #navbar {width:calc(100% - 240px);}
 
@@ -195,7 +191,8 @@
 }
 	
 .body--glazed-nav-mobile #logo { vertical-align: middle !important;  }
-.body--glazed-nav-mobile #navbar .navbar-toggle--active span { 
+.body--glazed-nav-mobile #navbar .navbar-toggle--active span,
+.body--glazed-nav-mobile #navbar .navbar-toggle--active:hover span { 
     background: transparent !important; 
     margin-top:0 !important; 
 }
