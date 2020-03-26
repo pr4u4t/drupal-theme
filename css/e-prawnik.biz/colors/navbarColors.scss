@@ -5,6 +5,7 @@ $navMobileMenuToggleSpanBack: #ffffff !default;
 $navMobileMenuToggleSpanBackHov: #646464 !default;
 $navMobileMenuToggleSpanBackLoRes: #ffffff !default;
 $navMobileMenuToggleSpanBackLoResHov: #646464 !default;
+$navMobileMenuToggleSpanBackTopTrans: transparent !default;
 $navMobileMenuListHovBack: #fff !default;
 $navDesktopNavbarChildLinkHov: #646464 !default;
 $navDesktopNavbarChildLinkDecHov: underline !default;
@@ -78,8 +79,18 @@ $navBorderBottom: 1px groove #edc780 !default;
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
     background: $navMobileMenuToggleSpanBackLoResHov !important;
   }
-}
 
+  .body--glazed-nav-mobile #glazed-menu-toggle span,
+  .body--glazed-nav-mobile #glazed-menu-toggle span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle span:after{
+    background: $navMobileMenuToggleSpanBack !important;
+  }
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
+    background: $navMobileMenuToggleSpanBackHov !important;
+  }
+}
 @media screen and (min-width:768px){
   .body--glazed-nav-mobile #glazed-menu-toggle span,
   .body--glazed-nav-mobile #glazed-menu-toggle span:before,
@@ -91,6 +102,11 @@ $navBorderBottom: 1px groove #edc780 !default;
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{ 
     background: $navMobileMenuToggleSpanBackHov !important;
   }
+}
+
+.body--glazed-nav-mobile #navbar .navbar-toggle--active span,
+.body--glazed-nav-mobile #navbar .navbar-toggle--active:hover span { 
+    background: $navMobileMenuToggleSpanBackTopTrans !important; 
 }
 .body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navMobileMenuListHovBack; }
 .body--glazed-nav-desktop #navbar  a{
