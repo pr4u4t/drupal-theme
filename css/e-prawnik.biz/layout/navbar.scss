@@ -9,7 +9,7 @@
 }
 .body--glazed-nav-mobile .main-navigation-block .menu.navbar-nav { 
     height: auto !important; 
-    position: static !important; 
+    /*position: static !important; */
 }
 /*
 @media screen and (max-width:768px){
@@ -48,6 +48,7 @@
 #toolbar-administration + .dialog-off-canvas-main-canvas .glazed-header--side #glazed-main-menu {padding-top:99px!important;}
 .toolbar-tray-open.toolbar-horizontal #toolbar-administration + .dialog-off-canvas-main-canvas .glazed-header--side #glazed-main-menu{padding-top:139px!important;}
 
+.body--glazed-nav-mobile .glazed-header--side .menu__breadcrumbs{position: absolute!important;}
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #glazed-main-menu .menu__breadcrumbs{padding-left:240px!important;}
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-horizontal #glazed-main-menu .menu__breadcrumbs{top:220px!important;}
 
@@ -66,7 +67,8 @@
 .body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul{position: absolute; top:0!important;height: 90% !important;}
 .body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul li {position: static; top:0!important;}
 
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{height: 100%!important;}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{height: 80%!important;}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu .menu__level{margin-top:7.5px;}
 
 /*
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #navbar {width:calc(100% - 240px);}
