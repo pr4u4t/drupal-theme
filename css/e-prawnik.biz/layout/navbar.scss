@@ -48,6 +48,7 @@
 #toolbar-administration + .dialog-off-canvas-main-canvas .glazed-header--side #glazed-main-menu {padding-top:99px!important;}
 .toolbar-tray-open.toolbar-horizontal #toolbar-administration + .dialog-off-canvas-main-canvas .glazed-header--side #glazed-main-menu{padding-top:139px!important;}
 
+#glazed-main-menu .menu__breadcrumbs{z-index: 9999;}
 .body--glazed-nav-mobile .glazed-header--side .menu__breadcrumbs{position: absolute!important;}
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #glazed-main-menu .menu__breadcrumbs{padding-left:240px!important;}
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-horizontal #glazed-main-menu .menu__breadcrumbs{top:220px!important;}
