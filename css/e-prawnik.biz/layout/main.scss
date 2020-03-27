@@ -1,3 +1,10 @@
+.html, body, body .dialog-off-canvas-main-canvas{height:100%;}
+body .dialog-off-canvas-main-canvas{display:flex;flex-direction:column;}
+.wrap-containers{flex:1 0 auto;}
+
+footer{flex-shrink:0;}
+
+
 html{max-width:100vw;}
 .wrap-containers{max-width:1920px;margin:auto;}
 section #main-content + .region.region-content {padding-bottom: 2em;}
