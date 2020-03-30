@@ -1,3 +1,11 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+%}
+
 <li class="dropdown">
 	<a class="dropdown-toggle" data-target="#">
 		<span class="title"><i class="fas fa-search"></i></span>
