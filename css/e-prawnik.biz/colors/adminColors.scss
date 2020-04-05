@@ -53,7 +53,7 @@ $adminButtonColorHov: #000 !default;
     background: $adminButtonBack; color: $adminButtonColor;
 }
 .btn:hover,
-.btn .caret:hover{
+.btn:hover .caret{
     background: $adminButtonBackHov; color: $adminButtonColorHov;
 }
 
