@@ -43,6 +43,21 @@ $adminViewsPreviewSubmitGlyph: none !default;
 $adminViewsEditTopDropButtonBorder: #ccc !default;
 $adminViewsEditTopDropButtonBack: #fff !default;
 
+$adminButtonBack: #282828 !default;
+$adminButtonColor: #fff !default;
+$adminButtonBackHov: #646464 !default;
+$adminButtonColorHov: #000 !default;
+
+.btn,
+.btn .caret{
+    background: $adminButtonBack; color: $adminButtonColor;
+}
+.btn:hover,
+.btn .caret:hover{
+    background: $adminButtonBackHov; color: $adminButtonColorHov;
+}
+
+/*
 .path-is-node-edit .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupEnabledVOPButton;    
@@ -53,7 +68,7 @@ $adminViewsEditTopDropButtonBack: #fff !default;
 .path-is-node-edit .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .disabled .views-ui-view-operations .btn-group.dropdown .button {
     color: $adminFormGroupDisabledVOPButton;
-}
+}*/
 .path-is-node-edit .list-inline.local-actions a,
 .path-admin .list-inline.local-actions a{
     color: $adminInlineActionsLink;
@@ -70,22 +85,22 @@ $adminViewsEditTopDropButtonBack: #fff !default;
 .path-admin .views-listing-table tr:nth-child(2n+2){
     background: $adminViewsListingTREvenBack;
 }
-.path-is-node-edit .views-listing-table .btn .caret,
+/*.path-is-node-edit .views-listing-table .btn .caret,
 .path-admin .views-listing-table .btn .caret{
     color: $adminViewsListingCaret;
-}
+}*/
 .path-is-node-edit #block-admin-display-form .button,
 .path-is-node-edit .view-id-content .table .button,
 .path-admin #block-admin-display-form .button,
 .path-admin .view-id-content .table .button {
     color: $adminViewTableButton !important;
-}
+}/*
 .path-is-node-edit #block-admin-display-form .btn,
 .path-is-node-edit .view-id-content .table .btn .caret,
 .path-admin #block-admin-display-form .btn,
 .path-admin .view-id-content .table .btn .caret{
     color: $adminViewTableButtonCaret !important;
-}
+}*/
 .path-is-node-edit .view-id-files tr:nth-child(2n+1),
 .path-is-node-edit #block-admin-display-form tr:nth-child(2n+1)
 .path-is-node-edit .view-id-content tr:nth-child(2n+1),
@@ -109,13 +124,13 @@ $adminViewsEditTopDropButtonBack: #fff !default;
 .path-is-node-edit table tr:nth-child(2n+2),
 .path-admin table tr:nth-child(2n+2){
     background: $adminTableTREvenBack;
-}
+}/*
 .path-is-node-edit table tr .btn-group .caret,
 .path-is-node-edit table tr .btn-group .button,
 .path-admin table tr .btn-group .caret,
 .path-admin table tr .btn-group .button{
     color: $adminTableButton;
-}
+}*/
 
 /*dumb revolution sliders fix*/
 html{
@@ -176,9 +191,9 @@ html{
 .region.region-content .tabs .active a,
 .region.region-content .tabs .active a{ 
     background-color: $adminRegionTabsListBack; 
-}
+}/*
 .path-is-node-edit .views-edit-view .btn-group > .btn-default,
-.path-admin .views-edit-view .btn-group > .btn-default{ background-color: $adminRegionTabsListBack; }
+.path-admin .views-edit-view .btn-group > .btn-default{ background-color: $adminRegionTabsListBack; }*/
 .path-is-node-edit .ui-dialog-buttonpane,
 .path-admin .ui-dialog-buttonpane{ background-color: $adminViewsDialogBack; }
 .path-is-node-edit .ui-dialog .scroll,
