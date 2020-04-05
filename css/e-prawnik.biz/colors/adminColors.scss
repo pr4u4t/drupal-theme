@@ -57,6 +57,7 @@ $adminButtonColorHov: #000 !default;
     background: $adminButtonBackHov; color: $adminButtonColorHov;
 }
 
+
 /*
 .path-is-node-edit .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button,
 .path-admin .form-group .enabled .views-ui-view-operations .btn-group.dropdown .button {
@@ -89,12 +90,13 @@ $adminButtonColorHov: #000 !default;
 .path-admin .views-listing-table .btn .caret{
     color: $adminViewsListingCaret;
 }*/
-.path-is-node-edit #block-admin-display-form .button,
+/*.path-is-node-edit #block-admin-display-form .button,
 .path-is-node-edit .view-id-content .table .button,
 .path-admin #block-admin-display-form .button,
 .path-admin .view-id-content .table .button {
     color: $adminViewTableButton !important;
-}/*
+}*/
+/*
 .path-is-node-edit #block-admin-display-form .btn,
 .path-is-node-edit .view-id-content .table .btn .caret,
 .path-admin #block-admin-display-form .btn,
