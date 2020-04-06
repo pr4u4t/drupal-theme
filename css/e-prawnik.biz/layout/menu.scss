@@ -27,6 +27,31 @@
   position: static !important;
 }
 
+#glazed-main-menu .region-navigation-collapsible {display:flex;flex-direction:row;justify-content:flex-end;}
+
+#glazed-main-menu .region-navigation-collapsible #block-robco-main-menu{position:relative;order:1;flex: 2 1 24em;}
+
+#glazed-main-menu .region-navigation-collapsible #block-robco-account-menu{position:relative;order:4;right:0;}
+#glazed-main-menu .region-navigation-collapsible #block-robco-account-menu .menu--account .dropdown .dropdown-toggle .caret{display: none;}
+#glazed-main-menu .region-navigation-collapsible #block-robco-account-menu .menu--account .dropdown-menu{padding:1em;width:14em;left:-20%;}
+
+
+#glazed-main-menu .region-navigation-collapsible #block-dropdownlanguage{position:relative;order:5;}
+
+#glazed-main-menu .region-navigation-collapsible #navbar-search{display: flex;position:relative;justify-content:space-between;align-content:center;flex-direction:column;flex-basis:3em;order:3;}
+#glazed-main-menu .region-navigation-collapsible #navbar-search .dropdown-toggle{display:flex;height: 100%;}
+#glazed-main-menu .region-navigation-collapsible #navbar-search .dropdown-toggle span{margin:auto;}
+#glazed-main-menu .region-navigation-collapsible #navbar-search:hover #block-searchform {display: flex;position: absolute;top:100%;left:-200%;align-items: center;background:#fff;}
+#glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item{display: flex;align-items: center;margin:1em;}
+#glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item .input-group #edit-keys{width:15em;}
+
+
+#glazed-main-menu .region-navigation-collapsible #block-textresize{display:flex;justify-content: space-around;position:relative;order:2;flex-basis: auto;}
+#glazed-main-menu .region-navigation-collapsible #block-textresize .content{display:flex;flex-flow:row nowrap;justify-content: space-around;align-items: baseline;align-content:center;width:100%;margin:auto;}
+#glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer{margin:0.2em;}
+
+
+
 /*.body--glazed-nav-mobile .main-navigation-block { 
     -webkit-box-ordinal-group: 3; 
     -moz-box-ordinal-group: 3;
