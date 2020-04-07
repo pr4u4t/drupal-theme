@@ -131,12 +131,12 @@ $navButtonColorHov: #000 !default;
   color: $navDesktopNavbarChildLinkHov;
   text-decoration: $navDesktopNavbarChildLinkDecHov;
 }
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover { 
   color: $navDesktopNavbarLinkHovNoChild !important; 
   background: $navDesktopNavbarLinkHovBackNoChild !important; 
   border-bottom: $navDesktopNavbarLinkHovBorderNoChild !important;
 }
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover > a,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item > .dropdown-menu:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown > a:hover{ 
