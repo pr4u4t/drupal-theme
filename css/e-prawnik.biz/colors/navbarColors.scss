@@ -37,6 +37,11 @@ $navButtonColor: #696969 !default;
 $navButtonBackHov: #282828 !default;
 $navButtonColorHov: #000 !default;
 
+$navButtonBackRev: #afafaf !default;
+$navButtonColorRev: #fff !default;
+$navButtonBackHovRev: #e4e4e4 !default;
+$navButtonColorHovRev: #696969!default;
+
 /*fix for uknown style*/
 .glazed-header .glazed-main-menu .menu a{background: none!important;}
 .body--glazed-nav-desktop #navbar a{color: inherit!important;}
@@ -49,6 +54,14 @@ $navButtonColorHov: #000 !default;
 #navbar .btn:hover,
 #navbar .btn:hover .caret{
     background: $navButtonBackHov; color: $navButtonColorHov;
+}
+#navbar #navbar-search .btn,
+#navbar #navbar-search .btn .caret{
+    background: $navButtonBackRev; color: $navButtonColorRev;
+}
+#navbar #navbar-search .btn:hover,
+#navbar #navbar-search .btn:hover .caret{
+    background: $navButtonBackHovRev; color: $navButtonColorHovRev;
 }
 
 .glazed-header--side .menu__link[data-submenu]::after{ width: 2em; height: 2em; z-index: 5000;}

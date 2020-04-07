@@ -251,7 +251,16 @@
 	$navDesktopNavbarLinkMobileHov: #646464,
 	$navDesktopBack: rgba(40,40,40,1),
 	$navDesktopBackAffix: rgba(40,40,40,1),
-	$navBorderBottom: 1px groove #edc780
+	$navBorderBottom: 1px groove #edc780,
+	$navButtonBack: #282828,
+	$navButtonColor: #696969,
+	$navButtonBackHov: #282828,
+	$navButtonColorHov: #000,
+	
+	$navButtonBackRev: #afafaf,
+	$navButtonColorRev: #fff,
+	$navButtonBackHovRev: #e4e4e4,
+	$navButtonColorHovRev: #696969
 );
 @use "e-prawnik.biz/colors/opinionsColors" with (
 	$opinionsBlockOpinionsBorder: #b89c68,
