@@ -44,6 +44,7 @@
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search:hover #block-searchform {display: flex;position: absolute;top:100%;left:-200%;align-items: center;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item{display: flex;align-items: center;margin:1em;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item .input-group #edit-keys{width:15em;}
+.body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item .input-group .btn {padding:12px;}
 
 
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize{display:flex;justify-content: space-around;position:relative;order:2;flex-basis: auto;}
@@ -67,9 +68,9 @@
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search .dropdown-toggle{display:none;}
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search .dropdown-toggle span{margin:auto;}
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform {display: flex;position: relative;top:0;align-items: center;}
-.body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item{display: flex;align-items: center;margin:1em;}
+.body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item{display: flex;align-items: center;margin:1em;width:100%;}
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item .input-group #edit-keys{}
-
+.body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item .input-group .btn {padding:12px;}
 
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize{display:flex;justify-content: space-around;position:relative;order:5;flex-basis: auto;}
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content{display:flex;flex-flow:row nowrap;justify-content: center;align-items: baseline;align-content:center;width:100%;margin:auto;}
