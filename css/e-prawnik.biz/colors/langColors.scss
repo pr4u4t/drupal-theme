@@ -13,6 +13,7 @@ $langDropLangItemBack: transparent !default;
 	color: $langDropLink !important; 
 }
 .dropdown-language-item .btn/*, .btn-group > .btn-default*/ { background: $langDropButtonBackground!important; }
+.body--glazed-nav-desktop .block-dropdown-language .btn,
 .body--glazed-nav-mobile .block-dropdown-language a,
 .body--glazed-nav-mobile .block-dropdown-language .btn { color: $langDropButton !important; }
 .body--glazed-nav-desktop .block-dropdown-language .dropdown-language-item ul { background: $langDropItemBackground !important; }
