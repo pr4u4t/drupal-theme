@@ -60,16 +60,15 @@
 #toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:105px!important;margin-left:-.5em!important;padding:0;}
 .toolbar-tray-open.toolbar-horizontal #toolbar-administration + .dialog-off-canvas-main-canvas #glazed-main-menu.glazed-main-menu .menu__breadcrumbs {top:145px!important;margin-left:-.5em!important;padding:0;}
 
-.body--glazed-nav-mobile .glazed-header--side .glazed-main-menu{padding:0!important;width:360px;height:100%!important;}
+.body--glazed-nav-mobile .glazed-header--side .glazed-main-menu{padding:0!important;width:360px;height:2000em!important;}
 .body--glazed-nav-mobile .glazed-header--side .glazed-main-menu .menu__breadcrumbs{width:360px;}
 .body--glazed-nav-mobile .glazed-header--side .menu__level{width:360px;position:fixed;top:0px!important;}
 
 .body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{position: relative; top:50px;}
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul{position: absolute; top:0!important;height: 90% !important;}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul{position: absolute; top:0!important;height: 40vh!important;}
 .body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu ul li {position: static; top:0!important;}
 
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{height: 80%!important;}
-.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu .menu__level{margin-top:7.5px;}
+.body--glazed-nav-mobile .glazed-header--side #block-robco-main-menu{height: 45vh!important;}
 
 /*
 .toolbar-tray-open.body--glazed-nav-mobile.toolbar-vertical #navbar {width:calc(100% - 240px);}

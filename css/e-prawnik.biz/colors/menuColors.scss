@@ -12,6 +12,7 @@ $navDesktopMenuDropdownBackHov: transparent !default;
 
 #navbar.glazed-header--hover-text .menu a.is-active{ color: $navbarMenuActiveLink; }
 .body--glazed-nav-mobile .menu__breadcrumbs a:hover { background: $navMobileBreadBack;  }
+.body--glazed-nav-mobile .region-navigation-collapsible .dropdown .dropdown-menu,
 .body--glazed-nav-desktop .region-navigation-collapsible .dropdown .dropdown-menu { background: $navDesktopMenuBack; }
 .body--glazed-nav-mobile .block-system-menu-blockmain ul .active a { color: $navDesktopDropdown !important; }
 .body--glazed-nav-desktop #dim-overlay{
