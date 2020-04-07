@@ -105,10 +105,7 @@ $navButtonColorHovRev: #696969!default;
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:link span:after,
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:visited span,
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:visited span:before,
-  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after,
-  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:active span,
-  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:active span:before,
-  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:active span:after{
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after{
     background: $navMobileMenuToggleSpanBackLoRes !important;
   }
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
@@ -116,7 +113,11 @@ $navButtonColorHovRev: #696969!default;
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
     background: $navMobileMenuToggleSpanBackLoResHov !important;
   }
-
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:active span,
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:active span:before,
+  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:active span:after{
+    background: $navMobileMenuToggleSpanBackLoRes !important;
+  }
   .body--glazed-nav-mobile #glazed-menu-toggle span,
   .body--glazed-nav-mobile #glazed-menu-toggle span:before,
   .body--glazed-nav-mobile #glazed-menu-toggle span:after,
@@ -125,16 +126,18 @@ $navButtonColorHovRev: #696969!default;
   .body--glazed-nav-mobile #glazed-menu-toggle:link span:after,
   .body--glazed-nav-mobile #glazed-menu-toggle:visited span,
   .body--glazed-nav-mobile #glazed-menu-toggle:visited span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after,
-  .body--glazed-nav-mobile #glazed-menu-toggle:active span,
-  .body--glazed-nav-mobile #glazed-menu-toggle:active span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle:active span:after{
+  .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after{
     background: $navMobileMenuToggleSpanBack !important;
   }
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
     background: $navMobileMenuToggleSpanBackHov !important;
+  }
+  .body--glazed-nav-mobile #glazed-menu-toggle:active span,
+  .body--glazed-nav-mobile #glazed-menu-toggle:active span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle:active span:after{
+    background: $navMobileMenuToggleSpanBack !important;
   }
 }
 @media screen and (min-width:768px){
@@ -146,10 +149,7 @@ $navButtonColorHovRev: #696969!default;
   .body--glazed-nav-mobile #glazed-menu-toggle:link span:after,
   .body--glazed-nav-mobile #glazed-menu-toggle:visited span,
   .body--glazed-nav-mobile #glazed-menu-toggle:visited span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after,
-  .body--glazed-nav-mobile #glazed-menu-toggle:active span,
-  .body--glazed-nav-mobile #glazed-menu-toggle:active span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle:active span:after{ 
+  .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after{ 
       background: $navMobileMenuToggleSpanBack !important;
     }
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
@@ -157,6 +157,11 @@ $navButtonColorHovRev: #696969!default;
   .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{ 
     background: $navMobileMenuToggleSpanBackHov !important;
   }
+  .body--glazed-nav-mobile #glazed-menu-toggle:active span,
+  .body--glazed-nav-mobile #glazed-menu-toggle:active span:before,
+  .body--glazed-nav-mobile #glazed-menu-toggle:active span:after{ 
+      background: $navMobileMenuToggleSpanBack !important;
+    }
 }
 
 .body--glazed-nav-mobile #navbar .navbar-toggle--active span,
