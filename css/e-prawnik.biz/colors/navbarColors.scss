@@ -108,9 +108,9 @@ $navButtonColorHovRev: #696969!default;
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after{
     background: $navMobileMenuToggleSpanBackLoRes !important;
   }
-  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
-  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
-  .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
+  .no-touchevents .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
+  .no-touchevents .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
+  .no-touchevents .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
     background: $navMobileMenuToggleSpanBackLoResHov !important;
   }
   .html--glazed-nav-mobile--open .body--glazed-nav-mobile #glazed-menu-toggle:active span,
@@ -129,9 +129,9 @@ $navButtonColorHovRev: #696969!default;
   .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after{
     background: $navMobileMenuToggleSpanBack !important;
   }
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
+  .no-touchevents .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
+  .no-touchevents .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
+  .no-touchevents .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{
     background: $navMobileMenuToggleSpanBackHov !important;
   }
   .body--glazed-nav-mobile #glazed-menu-toggle:active span,
@@ -152,9 +152,9 @@ $navButtonColorHovRev: #696969!default;
   .body--glazed-nav-mobile #glazed-menu-toggle:visited span:after{ 
       background: $navMobileMenuToggleSpanBack !important;
     }
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
-  .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{ 
+  .no-touchevents .body--glazed-nav-mobile #glazed-menu-toggle:hover span,
+  .no-touchevents .body--glazed-nav-mobile #glazed-menu-toggle:hover span:before,
+  .no-touchevents .body--glazed-nav-mobile #glazed-menu-toggle:hover span:after{ 
     background: $navMobileMenuToggleSpanBackHov !important;
   }
   .body--glazed-nav-mobile #glazed-menu-toggle:active span,
