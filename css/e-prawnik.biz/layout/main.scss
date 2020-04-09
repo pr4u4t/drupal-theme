@@ -1,7 +1,7 @@
 .html, body, body .dialog-off-canvas-main-canvas{height:100%;}
 body .dialog-off-canvas-main-canvas{display:flex;flex-direction:column;align-items: center;}
 .wrap-containers{flex:1 0 auto;}
-body{overflow:hidden;}
+body{overflow-x:hidden!important;}
 footer{flex-shrink:0;}
 
 
