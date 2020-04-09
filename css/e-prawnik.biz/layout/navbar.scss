@@ -188,9 +188,9 @@
 .body--glazed-nav-mobile #glazed-menu-toggle span:before,
 .body--glazed-nav-mobile #glazed-menu-toggle span:after{ 
     content:" ";  
-    margin-top:75%; 
-}
-	
+    margin-top:45%;
+    top:-5%;
+}	
 .body--glazed-nav-mobile #logo { vertical-align: middle !important;  }
 .body--glazed-nav-mobile #navbar .navbar-toggle--active span,
 .body--glazed-nav-mobile #navbar .navbar-toggle--active:hover span { 
@@ -275,7 +275,7 @@
 @media screen and (max-width:768px){
     .body--glazed-nav-mobile #navbar .container .container-row .navbar-header .wrap-branding {left:-12px;width:calc(100vw - 44px);}
     .body--glazed-nav-mobile #navbar .container .container-row .navbar-header .wrap-branding .logo{padding-left:12px;}
-    .body--glazed-nav-mobile #navbar .container .container-row .navbar-header #glazed-menu-toggle {right:-12px;}
-    .body--glazed-nav-mobile #navbar .container .container-row .navbar-header #glazed-menu-toggle span {right:12px;}
+    .body--glazed-nav-mobile #navbar .container .container-row .navbar-header #glazed-menu-toggle {right:-15px;width:56px;}
+    .body--glazed-nav-mobile #navbar .container .container-row .navbar-header #glazed-menu-toggle span {right:12px;width:36px;}
     }
     

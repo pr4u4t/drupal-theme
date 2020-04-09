@@ -70,9 +70,15 @@ $navButtonColorHovRev: #696969!default;
 .body--glazed-nav-mobile #navbar{
   background: $navMobileBack;
 }
+
+@media screen and (min-width:769px) and (max-width:1280px){
+  .html--glazed-nav-mobile--open #navbar .container .container-row .navbar-header .wrap-branding{
+    background: $navMobileMainMenuBack;
+  }
+}
 @media screen and (max-width:768px){
-  .body--glazed-nav-mobile #navbar .container .container-row .navbar-header .wrap-branding,
-  .body--glazed-nav-mobile #navbar .container .container-row .navbar-header #glazed-menu-toggle{
+  .html--glazed-nav-mobile--open #navbar .container .container-row .navbar-header .wrap-branding,
+  .html--glazed-nav-mobile--open #navbar .container .container-row .navbar-header #glazed-menu-toggle{
     background: $navMobileMainMenuBack;
   }
 }
