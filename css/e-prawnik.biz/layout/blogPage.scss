@@ -78,7 +78,9 @@
 .path-blog .blog-page-view .views-row:first-child{
   margin-right:3em;
 }
-
+.path-blog .blog-page-view .views-row .views-col{
+  position: relative;
+}
 .path-blog .blog-page-view .views-field-created{
   position: absolute;
   padding-top: .5em;
