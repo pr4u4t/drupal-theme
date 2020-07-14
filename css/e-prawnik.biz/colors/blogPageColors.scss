@@ -9,6 +9,7 @@ $blogPageSection: #fff !default;
 $blogPageViewArticleLink: grey !default;
 $blogPageViewFieldBody: #fff !default;
 $blogPageViewFieldTitleLink: #fff !default;
+$blogPageViewFieldTitleLinkHov: grey !default;
 $blogPageViewFieldCreate: #fff !default;
 $blogPageViewFieldCreateBack: #83775b !default;
 $blogPageViewFieldUidLink: #83775b !default;
@@ -45,12 +46,14 @@ $blogPageTitleHeader: #bda67a !default;
 .path-blog .blog-page-view .views-field-body{
     color: $blogPageViewFieldBody;
 }
-.path-blog .blog-page-view .views-field-title a,
+.path-blog .blog-page-view .views-field-title a{
+    color: $blogPageViewFieldTitleLink;
+}
 .path-blog .blog-page-view .views-field-title a:active,
 .path-blog .blog-page-view .views-field-title a:hover,
 .path-blog .blog-page-view .views-field-title a:link,
 .path-blog .blog-page-view .views-field-title a:visited{
-    color: $blogPageViewFieldTitleLink;
+    color: $blogPageViewFieldTitleLinkHov;
 }
 .blog-page-view .view-content .views-col .article a:hover { 
     color: $blogPageViewArticleLink; 

@@ -9,12 +9,25 @@
 .body--glazed-nav-desktop .navbar-nav > .menu-offer > .dropdown-menu .dropdown{
   width:50% !important; 
 }
-
 .body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div.dropdown-menu{
-  box-shadow: none;
-  border-radius: 0;
+    -moz-box-shadow: 2px 6px 12px rgba(0,0,0,.175), -2px 6px 12px rgba(0,0,0,.175)!important;
+    -webkit-box-shadow:  2px 6px 12px rgba(0,0,0,.175), -2px 6px 12px rgba(0,0,0,.175)!important;
+    box-shadow:  6px 6px 12px rgba(0,0,0,.175),  -6px 6px 12px rgba(0,0,0,.175)!important;
+    z-index: 4000;
+    overflow:hidden;
+    border-radius: 0;
 }
 
+.body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child .dropdown-toggle{
+  z-index: 4025;
+}
+
+// .body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div.dropdown-menu{
+//   box-shadow: none;
+//   border-radius: 0;
+// }
+
+.body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div .dropdown-menu .field--name-menu-item-override-children,
 .body--glazed-nav-desktop #block-robco-main-menu .expanded.dropdown.has-child div.dropdown-menu .viewsreference--view-title{
   display: none;
 }
