@@ -1,25 +1,26 @@
 #block-sitemap .menu--main-menu li a {display: inline-block;}
 .sitemap-block{ margin-bottom:2em; }
 
-.sitemap-block ul,
-.sitemap-block ul li ul { 
+.sitemap-block .menu--main-menu ul,
+.sitemap-block .menu--main-menu ul li ul { 
     display: block !important; 
     position: static !important; 
     clear: both !important; 
     float: none !important; 
 }
-.sitemap-block ul li,.sitemap-block ul li ul li { 
+.sitemap-block .menu--main-menu ul li, 
+.sitemap-block .menu--main-menu ul li ul li { 
     display: block !important; 
     position: static !important; 
     clear: both !important; 
     float: none !important;
 }
-.sitemap-block ul  { 
+.sitemap-block .menu--main-menu ul  { 
     border: none; 
     box-shadow: none; 
     position: static;
 }
 
-.sitemap-block li li { margin-left: 1em; }
-.sitemap-block .caret { display: none; } 
+.sitemap-block .menu--main-menu li li { margin-left: 1em; }
+.sitemap-block .menu--main-menu .caret { display: none; } 
 
