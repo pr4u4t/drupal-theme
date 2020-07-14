@@ -46,13 +46,14 @@ $blogPageTitleHeader: #bda67a !default;
 .path-blog .blog-page-view .views-field-body{
     color: $blogPageViewFieldBody;
 }
-.path-blog .blog-page-view .views-field-title a{
+.path-blog .blog-page-view .views-field-title a,
+.path-blog .blog-page-view .views-field-title a:visited{
     color: $blogPageViewFieldTitleLink;
 }
 .path-blog .blog-page-view .views-field-title a:active,
 .path-blog .blog-page-view .views-field-title a:hover,
-.path-blog .blog-page-view .views-field-title a:link,
-.path-blog .blog-page-view .views-field-title a:visited{
+.path-blog .blog-page-view .views-field-title a:link
+{
     color: $blogPageViewFieldTitleLinkHov;
 }
 .blog-page-view .view-content .views-col .article a:hover { 

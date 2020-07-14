@@ -187,11 +187,7 @@ $navButtonColorHovRev: #696969!default;
   color: $navDesktopNavbarChildLinkHov;
   text-decoration: $navDesktopNavbarChildLinkDecHov;
 }
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover { 
-  color: $navDesktopNavbarLinkHovNoChild !important; 
-  background: $navDesktopNavbarLinkHovBackNoChild !important; 
-  border-bottom: $navDesktopNavbarLinkHovBorderNoChild !important;
-}
+
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item > .language-link:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #navbar-search > .dropdown-toggle:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover > a,
@@ -208,6 +204,11 @@ $navButtonColorHovRev: #696969!default;
   color:$navDesktopNavbarLinkHovRoot;
   background: $navDesktopNavbarLinkHovRootBack !important; }
 
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover { 
+  color: $navDesktopNavbarLinkHovNoChild !important; 
+  background: $navDesktopNavbarLinkHovBackNoChild !important; 
+  border-bottom: $navDesktopNavbarLinkHovBorderNoChild !important;
+}
 .body--glazed-nav-desktop #navbar .dropdown-menu a { 
     color: $navDesktopNavbarDropdownMenuLink !important; 
 }
