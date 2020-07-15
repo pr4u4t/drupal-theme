@@ -9,7 +9,8 @@ $navDesktopMegaHeaderBack: transparent !default;
 $navDesktopExpandedLinkBackHov: #181818 !default;
 $navDesktopMenuLinkBackHov: #181818 !default;
 $navDesktopMenuDropdownBackHov: transparent !default;
-
+$navDesktopMenuTextResize: #000 !default;
+$navMobileMenuTextResize: #000 !default;
 #navbar.glazed-header--hover-text .menu a.is-active{ color: $navbarMenuActiveLink; }
 .body--glazed-nav-mobile .menu__breadcrumbs a:hover { background: $navMobileBreadBack;  }
 // .body--glazed-nav-mobile .region-navigation-collapsible .dropdown .dropdown-menu,
@@ -42,3 +43,11 @@ $navDesktopMenuDropdownBackHov: transparent !default;
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu > .dropdown-menu a:hover{
     background: $navDesktopMenuDropdownBackHov !important;
 }*/
+
+.body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer:hover{
+    color: $navDesktopMenuTextResize !important;
+}
+
+.body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer:hover{
+    color: $navMobileMenuTextResize !important;
+}

@@ -59,7 +59,24 @@
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize{display:flex;justify-content: space-around;position:relative;order:2;flex-basis: auto;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content{display:flex;flex-flow:row nowrap;justify-content: space-around;align-items: baseline;align-content:center;width:100%;margin:auto;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer{margin:0.2em;}
+.body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible 
 
+#block-textresize .content  .changer#text_resize_decrease{
+    background: none;
+    text-indent: 0;
+    font-size: 1rem;
+  }
+  .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content .changer#text_resize_increase{
+    background: none;
+    text-indent: 0;
+    font-size: 1.5rem;
+  }
+  .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content .changer#text_resize_reset{
+    background: none;
+    text-indent: 0;
+    font-size:1.25rem;
+  }
+  
 
 /*MOBILE FLEX*/
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible {display:flex;flex-direction:column;justify-content:flex-start;}
@@ -84,6 +101,21 @@
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize{display:flex;justify-content: space-around;position:relative;order:5;flex-basis: auto;}
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content{display:flex;flex-flow:row nowrap;justify-content: center;align-items: baseline;align-content:center;width:100%;margin:auto;}
 .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer{margin:0.2em;}
+.body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer#text_resize_decrease{
+    background: none;
+    text-indent: 0;
+    font-size: 1rem;
+  }
+  .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer#text_resize_increase{
+    background: none;
+    text-indent: 0;
+    font-size: 1.5rem;
+  }
+  .body--glazed-nav-mobile #navbar #glazed-main-menu .region-navigation-collapsible #block-textresize .content  .changer#text_resize_reset{
+    background: none;
+    text-indent: 0;
+    font-size:1.25rem;
+  }
 
 
 /*.body--glazed-nav-mobile .main-navigation-block { 
