@@ -1,0 +1,5 @@
+##########
+Change to hover and add to scss.
+$navDesktopMenuTextResize: #000 !default;
+$navMobileMenuTextResize: #000 !default;
+##########
