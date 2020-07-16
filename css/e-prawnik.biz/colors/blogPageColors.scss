@@ -47,12 +47,12 @@ $blogPageTitleHeader: #bda67a !default;
     color: $blogPageViewFieldBody;
 }
 .path-blog .blog-page-view .views-field-title a,
+.path-blog .blog-page-view .views-field-title a:link,
 .path-blog .blog-page-view .views-field-title a:visited{
     color: $blogPageViewFieldTitleLink;
 }
-.path-blog .blog-page-view .views-field-title a:active,
 .path-blog .blog-page-view .views-field-title a:hover,
-.path-blog .blog-page-view .views-field-title a:link
+.path-blog .blog-page-view .views-field-title a:active
 {
     color: $blogPageViewFieldTitleLinkHov;
 }
