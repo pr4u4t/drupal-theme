@@ -188,17 +188,18 @@ $navButtonColorHovRev: #696969!default;
   text-decoration: $navDesktopNavbarChildLinkDecHov;
 }
 
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item > .language-link:hover,
+
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #navbar-search:hover > .dropdown-toggle,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover > a,
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item:hover,
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage > .dropdown-language-item > .dropdown-menu:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown > a:hover{ 
     color: $navDesktopNavbarLinkHov !important; 
     background: $navDesktopNavbarLinkHovBack !important; 
     border-bottom: $navDesktopNavbarLinkHovBorder !important;
 }
 
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage:hover > .dropdown-language-item,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage:hover > .dropdown-language-item > .dropdown-menu,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-dropdownlanguage:hover > .dropdown-language-item > .language-link,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 >  li.has-child:hover,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 >  li.has-child:hover > a,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 >  li.has-child:hover > a > span,
