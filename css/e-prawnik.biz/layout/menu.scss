@@ -50,6 +50,7 @@
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search{display: flex;position:relative;justify-content:space-between;align-content:center;flex-direction:column;flex-basis:3em;order:3;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search .dropdown-toggle{display:flex;height: 100%;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search .dropdown-toggle span{margin:auto;}
+.body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search.search-focus #block-searchform,
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search:hover #block-searchform {display: flex;position: absolute;top:100%;left:-200%;align-items: center;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item{display: flex;align-items: center;margin:1em;}
 .body--glazed-nav-desktop #navbar #glazed-main-menu .region-navigation-collapsible #navbar-search #block-searchform .form-item .input-group #edit-keys{width:15em;}
