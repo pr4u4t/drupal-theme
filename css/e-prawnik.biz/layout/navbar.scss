@@ -279,3 +279,8 @@
     .body--glazed-nav-mobile #navbar .container .container-row .navbar-header #glazed-menu-toggle span {right:12px;width:36px;}
     }
     
+
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover > span{
+  position: relative;
+  bottom: -1px!important;
+}
