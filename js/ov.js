@@ -27,14 +27,14 @@
 				});
 			});
 			
-			$('#edit-keys').onfocus(
-				function(){
-					$('#navbar-search').addClass('search-focus');
-				},
-				function(){
-					$('#navbar-search').removeClass('search-focus');
-				}
-			);
+			// $('#edit-keys').onfocus(
+			// 	function(){
+			// 		$('#navbar-search').addClass('search-focus');
+			// 	},
+			// 	function(){
+			// 		$('#navbar-search').removeClass('search-focus');
+			// 	}
+			// );
   	}
   };
 })(jQuery, Drupal);
