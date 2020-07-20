@@ -29,4 +29,4 @@ $navDesktopLevel0LinkHov: red !default;
 .body--glazed-nav-desktop .block-dropdown-language .btn:after{ color:$navDesktopLevel0Link; }
 .body--glazed-nav-desktop .menu-level-0 > li:hover > a > span:after,
 .body--glazed-nav-desktop .glazed-header--top .nav > li:hover > a > span:after,
-.body--glazed-nav-desktop .block-dropdown-language .btn:hover:after{ color:$navDesktopLevel0LinkHov; }
+.body--glazed-nav-desktop .block-dropdown-language:hover .btn:after{ color:$navDesktopLevel0LinkHov; }
