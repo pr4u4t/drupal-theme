@@ -38,7 +38,7 @@ $navDesktopNavbarBlockMenuActiveLink: #fff !default;
 .body--glazed-nav-mobile .glazed-main-menu ul li:hover { background: $navDesktopNavbarLinkHovBack; }
 .body--glazed-nav-desktop .body--glazed-nav-desktop #navbar.glazed-header--top.affix { background: $navDesktopNavbarHeaderAffix !important; }
 	/*#navbar  a, #navbar  a:link, #navbar  a:visited { color:#fff !important; }*/
-.body--glazed-nav-desktop #navbar  a:hover { color:$navDesktopNavbarLinkHov !important; background: $navDesktopNavbarLinkHovBack !important; }
+// .body--glazed-nav-desktop #navbar  a:hover { color:$navDesktopNavbarLinkHov !important; background: $navDesktopNavbarLinkHovBack !important; }
 .body--glazed-nav-desktop #navbar .dropdown-menu a { color: $navDesktopNavbarDropdownMenuLink !important; }
 .body--glazed-nav-desktop #navbar .wrap-branding a { background: $navDesktopNavbarWrapBranding !important; }
 .body--glazed-nav-desktop #navbar .dropdown-menu a[data-drupal-link-system-path^="node"] { 
