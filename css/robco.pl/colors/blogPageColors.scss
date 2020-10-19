@@ -1,5 +1,5 @@
 $blogPageRowArticleLink: #000 !default;
 $blogPageRowArticleLinkHov: grey !default;
 
-.blog-page-view .views-row article a { color: $blogPageRowArticleLink;}
-.blog-page-view .views-row article a:hover{color:$blogPageRowArticleLinkHov;}
+.blog-page-view .views-row > article > h2 > a > span { color: $blogPageRowArticleLink;}
+.blog-page-view .views-row > article > h2 > a:hover > span {color:$blogPageRowArticleLinkHov;}

@@ -46,3 +46,5 @@ $navDesktopNavbarBlockMenuActiveLink: #fff !default;
 }
 
 .body--glazed-nav-desktop #navbar .main-navigation-block > .menu li.active a { color:$navDesktopNavbarBlockMenuActiveLink; }
+
+.body--glazed-nav-desktop #navbar .dropdown-menu .dropdown-menu{box-shadow: none!important;}

@@ -5,3 +5,6 @@ $mainTabsBack:#fff !default;
 body { background: $mainBodyBack!important; }
 .wrap-containers { background:$mainWrapContainersBack; }
 .region.region-content .tabs[aria-label=Tabs] { background:$mainTabsBack; }
+
+h2 > a > span { color: $blogPageRowArticleLink;}
+h2 > a:hover > span {color:$blogPageRowArticleLinkHov;}
