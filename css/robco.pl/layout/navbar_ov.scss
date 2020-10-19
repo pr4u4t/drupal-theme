@@ -6,6 +6,19 @@
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown:hover > .dropdown-menu {padding:.5em;display: flex;flex-direction: row;justify-content:space-around; }
 .body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown > .dropdown-menu .menu-level-2 {display: flex;flex-direction: row;justify-content: flex-start;}
 
+.body--glazed-nav-desktop .block-system-menu-blockmain ul > li > ul{
+  min-width: 0!important;
+}
+.body--glazed-nav-desktop .block-system-menu-blockmain ul > li > ul > li{
+  width: auto!important;  
+}
+.body--glazed-nav-desktop .block-system-menu-blockmain ul li ul li ul li ul li{
+  float:none;  
+}
+.body--glazed-nav-desktop .block-system-menu-blockmain .menu .dropdown > .dropdown-menu{
+  width: auto!important;
+  max-width: 70vw;
+}
 /*--- mobile nav ---
 .body--glazed-nav-mobile .block-dropdown-language { width:100% !important; text-align:left !important; }
 .body--glazed-nav-mobile .block-dropdown-language .dropdown-language-item .dropdown-toggle .caret { display:none !important; }

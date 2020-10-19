@@ -190,7 +190,7 @@ $navButtonColorHovRev: #696969!default;
 
 
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #navbar-search:hover > .dropdown-toggle,
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover > a,
+// .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover > a,
 .body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .has-child.dropdown > a:hover{ 
     color: $navDesktopNavbarLinkHov !important; 
     background: $navDesktopNavbarLinkHovBack !important; 
@@ -209,7 +209,8 @@ $navButtonColorHovRev: #696969!default;
   color:$navDesktopNavbarLinkHovRoot;
   background: $navDesktopNavbarLinkHovRootBack !important; }
 
-.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover { 
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-main-menu > .menu-level-0 > .dropdown > a:hover,
+.body--glazed-nav-desktop #navbar .region-navigation-collapsible > #block-robco-account-menu > .menu--account > li:hover > a { 
   color: $navDesktopNavbarLinkHovNoChild !important; 
   background: $navDesktopNavbarLinkHovBackNoChild !important; 
   border-bottom: $navDesktopNavbarLinkHovBorderNoChild !important;
