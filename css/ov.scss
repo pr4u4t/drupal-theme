@@ -107,7 +107,8 @@
 	$mainNodePageTitleHeader: #fff,
 	$mainBlogPageTitleHeader: #fff,
 	$mainViewsGridLink: #000,
-	$mainViewsGridLinkHov: grey
+	$mainViewsGridLinkHov: grey,
+	$contentListInlineAHov: #000
 );
 @use "e-prawnik.biz/colors/breadcrumbsColors" with (
 	$breadLink: #000,
