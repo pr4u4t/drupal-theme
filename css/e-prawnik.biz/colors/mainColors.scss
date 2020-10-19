@@ -11,6 +11,7 @@ $mainBlogPageTitleHeader: #fff !default;
 $mainViewsGridLink: #000 !default;
 $mainViewsGridLinkHov: grey !default;
 $titlePageTitle: grey !default;
+$contentListInlineAHov: #000 !default;
 
 #block-glazedmain { background-color: $mainGlazedBack; }   
 .wrap-containers { background-color: $mainWrapBack; }
@@ -28,3 +29,5 @@ h2 a span{ color: $mainTitleLink; }
     color: $mainViewsGridLink;
 }
 .title-page-title h2 {color:$titlePageTitle;}
+
+.content .list-inline a:hover{color: $contentListInlineAHov;}
