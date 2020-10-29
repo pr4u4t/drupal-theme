@@ -3,12 +3,12 @@ $aboutFBHeadLinkHov: grey !default;
 $aboutFBArticle: #fff !default;
 @media screen and (max-width: 1049px){
     .view-about-us-block h2 a span { color: $aboutFBHeadLink; }
-    .view-about-us-block h2 a:hover span { color: $aboutFBHeadLinkHov; }
+    .view-about-us-block h2 a span:hover { color: $aboutFBHeadLinkHov; }
     .view-about-us-block article { color: $aboutFBArticle; }
 }
 
 @media screen and (min-width: 1050px){    
     .view-about-us-block h2 a span { color: $aboutFBHeadLink;  }
-    .view-about-us-block h2 a:hover span { color: $aboutFBHeadLinkHov; }
+    .view-about-us-block h2 a span:hover { color: $aboutFBHeadLinkHov; }
     .view-about-us-block article { color: $aboutFBArticle; }
 }
