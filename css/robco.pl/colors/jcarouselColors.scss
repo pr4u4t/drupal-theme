@@ -15,8 +15,9 @@ $jcarouselHeaderHov: #646464 !default;
 .jcarousel-view .jcarousel-skin-tango  { border-color:$jcarouselSkinBorder; background: $jcarouselSkinBack; }
 .jcarousel-view .input-group .input-group-addon {background-color: $jcarouselInputGroupBack;}
 .jcarousel-view .input-group input { background-color: $jcarouselInputBack!important;}
-.jcarousel-view h2 a span {color:$jcarouselHeader;}
-.jcarousel-view h2 a span:hover {color:$jcarouselHeaderHov;}
+.jcarousel-view h2 a span {color:$jcarouselHeader; text-decoration: none;}
+.jcarousel-view h2 a span:hover {color:$jcarouselHeaderHov; text-decoration: underline;}
+
 
 /*
 @media screen and (min-width:1200px){

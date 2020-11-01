@@ -242,3 +242,7 @@ $navButtonColorHovRev: #696969!default;
 .body--glazed-nav-desktop #navbar.glazed-header--top.affix{
 	background-color: $navDesktopBackAffix;
 }
+
+.menu-level-2.dropdown-menu,
+.menu-level-3.dropdown-menu,
+.menu-level-4.dropdown-menu{box-shadow: none}
