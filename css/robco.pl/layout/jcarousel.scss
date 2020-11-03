@@ -28,10 +28,10 @@
 
 .jcarousel-view.view-configure-services .jcarousel input[type=number]::-webkit-inner-spin-button,
 .jcarousel-view.view-configure-services .jcarousel input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0; }
-.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-12% !important; font-size: 1.5em;}
 .jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 @media screen and (min-width:1200px){
-	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em}
+	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-12% !important; font-size: 1.5em}
 	.jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 	.jcarousel-view .view-content {margin-left: -33em;}
 /*	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: right; margin-bottom: -1em;}
@@ -42,7 +42,7 @@
 */
 }
 @media screen and (min-width:769px) and (max-width: 1199px){
-	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-12% !important; font-size: 1.5em;}
 	.jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 /*	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: center; margin-bottom: -1em;}
 	.jcarousel-view .jcarousel .js-form-item-price {padding-left: 20%; margin-left: 70%; }
@@ -51,7 +51,7 @@
 */
 }
 @media screen and (max-width: 768px){
-	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-15% !important; font-size: 1.5em;}
+	.jcarousel-view.view-configure-services .jcarousel [type=number] {width:3.5em !important; margin-top:-12% !important; font-size: 1.5em;}
 	.jcarousel-view.view-configure-services .jcarousel input[type=number] {-moz-appearance: textfield;appearance: textfield;margin: 0;}
 /*	.jcarousel-view .jcarousel-skin-tango li { padding: 1em; padding-right: 4em; width:21em !important;}
 	.jcarousel-view .jcarousel-skin-tango .webform-readonly .control-label {text-align: center; margin-bottom: -1em;}
@@ -63,3 +63,12 @@
 }
 
 .main-background-image{background-position: left center; height:100%!important;}
+
+.view-configure-services .webform-submission-add-form .form-item,
+.view-configure-services .webform-submission-add-form .form-item *{
+font-size: 1.3rem !important;
+}
+
+.view-configure-services .webform-submission-add-form .form-item label{
+font-size: 1.3rem !important; /* osobny styl dla labela */
+}
