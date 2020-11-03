@@ -2,6 +2,8 @@ $mainBodyBack:#21252a !default;
 $mainWrapContainersBack:#fff !default;
 $mainTabsBack:#fff !default;
 $contentListInlineAHov: #000 !default;
+$mainHeader: #000 !default;
+$mainHeaderHov: #646464 !default;
 
 body { background: $mainBodyBack!important; }
 .wrap-containers { background:$mainWrapContainersBack; }
@@ -9,3 +11,7 @@ body { background: $mainBodyBack!important; }
 
 
 .content .list-inline a:hover{color: $contentListInlineAHov;}
+
+h2 a span {color:$jcarouselHeader; text-decoration: none;}
+h2 a span:hover {color:$jcarouselHeaderHov; text-decoration: underline;}
+

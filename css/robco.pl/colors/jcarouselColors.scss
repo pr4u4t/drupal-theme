@@ -6,8 +6,7 @@ $jcarouselSkinBorder: #CCC !default;
 $jcarouselSkinBack:whitesmoke !default;
 $jcarouselInputGroupBack:transparent !default;
 $jcarouselInputBack:transparent !default;
-$jcarouselHeader: #000 !default;
-$jcarouselHeaderHov: #646464 !default;
+
 .jcarousel-view .jcarousel-control-next,
 .jcarousel-view .jcarousel-control-prev{ color: $jcarouselSwitch!important; background-color: $jcarouselSwitchBack!important; border-color: $jcarouselSwitchBorder!important; }
 .jcarousel-view .jcarousel-control-prev:after,
@@ -15,9 +14,6 @@ $jcarouselHeaderHov: #646464 !default;
 .jcarousel-view .jcarousel-skin-tango  { border-color:$jcarouselSkinBorder; background: $jcarouselSkinBack; }
 .jcarousel-view .input-group .input-group-addon {background-color: $jcarouselInputGroupBack;}
 .jcarousel-view .input-group input { background-color: $jcarouselInputBack!important;}
-.jcarousel-view h2 a span {color:$jcarouselHeader; text-decoration: none;}
-.jcarousel-view h2 a span:hover {color:$jcarouselHeaderHov; text-decoration: underline;}
-
 
 /*
 @media screen and (min-width:1200px){
