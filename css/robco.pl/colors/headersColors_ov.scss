@@ -12,6 +12,17 @@ $mainHeaderHov: #646464 !default;
 
 // .content .list-inline a:hover{color: $contentListInlineAHov;}
 
+
+
+h1 a {color:$mainHeader ; text-decoration: none !important;}
+h1 a:hover {color: $mainHeader; text-decoration: underline !important;}
+
 h2 a span {color:$mainHeader; text-decoration: none;}
+h2 a span:hover,
+h2 a span:focus,
 h2 a span:hover {color:$mainHeader; text-decoration: underline;}
 
+.views-field-title a  {color:$mainHeader; text-decoration: none !important;}
+.views-field-title a:hover,
+.views-field-title a:focus,
+.views-field-title a:active{color: $mainHeader; text-decoration: underline !important;}
