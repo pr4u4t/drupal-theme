@@ -12,6 +12,6 @@ $mainHeaderHov: #646464 !default;
 
 // .content .list-inline a:hover{color: $contentListInlineAHov;}
 
-h2 a span {color:$jcarouselHeader; text-decoration: none;}
-h2 a span:hover {color:$jcarouselHeaderHov; text-decoration: underline;}
+h2 a span {color:$mainHeader; text-decoration: none;}
+h2 a span:hover {color:$mainHeader; text-decoration: underline;}
 
